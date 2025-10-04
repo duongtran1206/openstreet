@@ -15,7 +15,18 @@
     
     {% block extra_css %}{% endblock %}
     
+    <!-- CSS Variables -->
+    {% block css_variables %}
     <style>
+        :root {
+            --map-height: 500px;
+            --mobile-map-height: 400px;
+        }
+    </style>
+    {% endblock %}
+    
+    <style>
+        
         body { 
             margin: 0; 
             padding: 0; 
@@ -24,7 +35,7 @@
         
         .map-container {
             position: relative;
-            height: {% block map_height %}500px{% endblock %};
+            height: var(--map-height, 500px);
             width: 100%;
         }
         
@@ -164,7 +175,7 @@
             }
             
             .map-container {
-                height: {% block mobile_map_height %}400px{% endblock %};
+                height: var(--mobile-map-height, 400px);
             }
         }
     </style>

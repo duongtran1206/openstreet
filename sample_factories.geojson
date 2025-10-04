@@ -1,0 +1,113 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature", 
+      "geometry": {
+        "type": "Point",
+        "coordinates": [105.8542, 21.0285]
+      },
+      "properties": {
+        "name": "Nhà máy Samsung Hà Nội",
+        "address": "Khu Công nghệ cao Hòa Lạc, Thạch Thất",
+        "city": "Hà Nội",
+        "country": "Vietnam",
+        "phone": "+84 24 3366 7777",
+        "email": "samsung-hanoi@company.com",
+        "description": "Nhà máy sản xuất điện tử lớn nhất miền Bắc",
+        "opening_hours": "24/7",
+        "featured": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [106.7009, 10.7769]
+      },
+      "properties": {
+        "name": "Nhà máy Intel TP.HCM",
+        "address": "Khu Công nghệ cao TP.HCM, Quận 9",
+        "city": "TP. Hồ Chí Minh",
+        "country": "Vietnam", 
+        "phone": "+84 28 3715 8888",
+        "email": "intel-hcm@company.com",
+        "description": "Trung tâm sản xuất chip bán dẫn",
+        "opening_hours": "Mon-Fri: 8:00-17:00",
+        "featured": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [108.2022, 16.0544]
+      },
+      "properties": {
+        "name": "Nhà máy Canon Đà Nẵng", 
+        "address": "Khu Công nghiệp Liên Chiểu, Đà Nẵng",
+        "city": "Đà Nẵng",
+        "country": "Vietnam",
+        "phone": "+84 236 3989 999",
+        "email": "canon-danang@company.com", 
+        "description": "Sản xuất máy ảnh và máy in",
+        "opening_hours": "Mon-Sat: 7:30-16:30",
+        "featured": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.6807, 20.8525]
+      },
+      "properties": {
+        "name": "Nhà máy Hyundai Hải Phòng",
+        "address": "Khu Kinh tế Đình Vũ - Cát Hải",
+        "city": "Hải Phòng", 
+        "country": "Vietnam",
+        "phone": "+84 225 3123 456",
+        "email": "hyundai-haiphong@company.com",
+        "description": "Lắp ráp ô tô và linh kiện",
+        "opening_hours": "24/7",
+        "featured": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [105.7938, 21.0285]
+      },
+      "properties": {
+        "name": "Nhà máy Coca Cola Hà Nội",
+        "address": "456 Xuân Thủy, Cầu Giấy",
+        "city": "Hà Nội",
+        "country": "Vietnam", 
+        "phone": "+84 24 3754 2222",
+        "email": "cocacola-hanoi@company.com",
+        "description": "Sản xuất nước giải khát",
+        "opening_hours": "Mon-Fri: 8:00-17:00",
+        "featured": false
+      }
+    },
+    {
+      "type": "Feature", 
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.7196, 10.7379]
+      },
+      "properties": {
+        "name": "Nhà máy Vinamilk Quận 7",
+        "address": "789 Nguyễn Thị Thập, Quận 7",
+        "city": "TP. Hồ Chí Minh",
+        "country": "Vietnam",
+        "phone": "+84 28 5412 3333", 
+        "email": "vinamilk-q7@company.com",
+        "description": "Sản xuất sữa và các sản phẩm từ sữa",
+        "opening_hours": "24/7",
+        "featured": true
+      }
+    }
+  ]
+}

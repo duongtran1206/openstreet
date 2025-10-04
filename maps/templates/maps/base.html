@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}Business Map{% endblock %}</title>
+    
+    <!-- Leaflet CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" 
+          integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin=""/>
+    
+    <!-- Custom CSS -->
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'css/map.css' %}">
+    
+    {% block extra_css %}{% endblock %}
+    
+    <style>
+        body { 
+            margin: 0; 
+            padding: 0; 
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        .map-container {
+            position: relative;
+            height: {% block map_height %}500px{% endblock %};
+            width: 100%;
+        }
+        
+        #map { 
+            height: 100%; 
+            width: 100%; 
+        }
+        
+        .map-controls {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            background: white;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+            z-index: 1000;
+            max-width: 250px;
+        }
+        
+        .control-group {
+            margin-bottom: 15px;
+        }
+        
+        .control-group:last-child {
+            margin-bottom: 0;
+        }
+        
+        .control-group h4 {
+            margin: 0 0 10px 0;
+            color: #333;
+            font-size: 14px;
+            font-weight: 600;
+        }
+        
+        .layer-toggle {
+            display: flex;
+            align-items: center;
+            margin-bottom: 8px;
+            padding: 5px;
+            border-radius: 4px;
+            transition: background-color 0.2s;
+        }
+        
+        .layer-toggle:hover {
+            background-color: #f5f5f5;
+        }
+        
+        .layer-toggle input[type="checkbox"] {
+            margin-right: 8px;
+        }
+        
+        .layer-color {
+            width: 16px;
+            height: 16px;
+            border-radius: 50%;
+            margin-right: 8px;
+            border: 2px solid #fff;
+            box-shadow: 0 0 3px rgba(0,0,0,0.3);
+        }
+        
+        .layer-label {
+            flex: 1;
+            font-size: 13px;
+            color: #555;
+        }
+        
+        .layer-count {
+            font-size: 11px;
+            color: #888;
+            background: #f0f0f0;
+            padding: 2px 6px;
+            border-radius: 10px;
+        }
+        
+        .loading {
+            text-align: center;
+            padding: 20px;
+            color: #666;
+        }
+        
+        .error {
+            color: #d32f2f;
+            padding: 10px;
+            background: #ffebee;
+            border-radius: 4px;
+            margin: 10px 0;
+        }
+        
+        /* Custom marker styles */
+        .custom-marker {
+            border-radius: 50%;
+            border: 2px solid white;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+        }
+        
+        /* Popup styles */
+        .leaflet-popup-content {
+            margin: 12px 16px;
+            line-height: 1.4;
+        }
+        
+        .popup-title {
+            font-weight: 600;
+            color: #333;
+            margin-bottom: 5px;
+        }
+        
+        .popup-address {
+            color: #666;
+            font-size: 13px;
+            margin-bottom: 8px;
+        }
+        
+        .popup-description {
+            color: #555;
+            font-size: 12px;
+        }
+        
+        .popup-contact {
+            margin-top: 8px;
+            padding-top: 8px;
+            border-top: 1px solid #eee;
+        }
+        
+        .popup-contact a {
+            color: #1976d2;
+            text-decoration: none;
+            font-size: 12px;
+        }
+        
+        @media (max-width: 768px) {
+            .map-controls {
+                position: static;
+                margin: 10px;
+                max-width: none;
+            }
+            
+            .map-container {
+                height: {% block mobile_map_height %}400px{% endblock %};
+            }
+        }
+    </style>
+</head>
+<body>
+    {% block header %}
+    <header style="background: #2c3e50; color: white; padding: 1rem;">
+        <h1 style="margin: 0;">{% block header_title %}Business Locations Map{% endblock %}</h1>
+        <p style="margin: 0.5rem 0 0 0; opacity: 0.8;">{% block header_subtitle %}Interactive map showing our business locations{% endblock %}</p>
+    </header>
+    {% endblock %}
+    
+    <main>
+        {% block content %}
+        <div class="map-container">
+            {% block map_controls %}
+            <div class="map-controls">
+                <div class="control-group">
+                    <h4>Map Layers</h4>
+                    <div id="layer-controls">
+                        <div class="loading">Loading...</div>
+                    </div>
+                </div>
+                
+                <div class="control-group">
+                    <label>
+                        <input type="checkbox" id="featured-only"> 
+                        Featured locations only
+                    </label>
+                </div>
+            </div>
+            {% endblock %}
+            
+            <div id="map"></div>
+        </div>
+        {% endblock %}
+    </main>
+    
+    {% block footer %}
+    <footer style="background: #34495e; color: white; text-align: center; padding: 1rem;">
+        <p>&copy; 2025 Business Map. Powered by OpenStreetMap.</p>
+    </footer>
+    {% endblock %}
+    
+    <!-- Leaflet JS -->
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" 
+            integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+    
+    <!-- Custom JS -->
+    <script src="{% static 'js/map.js' %}"></script>
+    
+    {% block extra_js %}{% endblock %}
+</body>
+</html>

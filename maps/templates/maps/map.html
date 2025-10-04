@@ -1,0 +1,20 @@
+{% extends 'maps/base.html' %}
+
+{% block title %}Business Map - Interactive Location Viewer{% endblock %}
+
+{% block extra_js %}
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    // Initialize map
+    const mapConfig = {
+        apiEndpoint: '/api/map-data/',
+        configEndpoint: '/api/map-config/',
+        enableClustering: true,
+        showControls: true
+    };
+    
+    // Initialize the business map
+    window.businessMap = new BusinessMapViewer('map', mapConfig);
+});
+</script>
+{% endblock %}

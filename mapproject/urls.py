@@ -16,8 +16,12 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path, include
+from simple_views import health_check, simple_test, create_sample_data
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('health/', health_check, name='health_check'),
+    path('test/', simple_test, name='simple_test'),
+    path('create-data/', create_sample_data, name='create_sample_data'),
     path('', include('maps.urls')),
 ]

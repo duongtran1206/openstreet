@@ -8,12 +8,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = os.environ.get('SECRET_KEY', 'django-insecure-+tjnn_c6j$ch)d6sc95)$173eg&-ufqx5$(t@010k*%=hy=yqf')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = os.environ.get('DEBUG', 'False').lower() == 'true'
+DEBUG = True
 
 ALLOWED_HOSTS = ['*']
-
-# Auto-create sample data for demo
-AUTO_CREATE_SAMPLE_DATA = True
 
 # Application definition
 INSTALLED_APPS = [
@@ -90,9 +87,9 @@ USE_I18N = True
 USE_TZ = True
 
 # Static files (CSS, JavaScript, Images)
-STATIC_URL = 'static/'
+STATIC_URL = '/static/'
 STATICFILES_DIRS = [BASE_DIR / "static"]
-STATIC_ROOT = BASE_DIR / 'staticfiles_build' / 'static'
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 
 # CORS settings for embedding
 CORS_ALLOW_ALL_ORIGINS = True

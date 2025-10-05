@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Debug Select All Buttons</title>
+    <style>
+        .layer-control-buttons {
+            display: flex;
+            gap: 5px;
+            margin-bottom: 10px;
+        }
+        
+        .control-btn {
+            flex: 1;
+            padding: 6px 8px;
+            border: 1px solid #ddd;
+            background: #f8f9fa;
+            color: #333;
+            border-radius: 4px;
+            font-size: 11px;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+        
+        .control-btn:hover {
+            background: #e9ecef;
+            border-color: #adb5bd;
+        }
+    </style>
+</head>
+<body>
+    <h1>Debug Select All Buttons</h1>
+    
+    <div class="layer-control-buttons">
+        <button type="button" id="select-all-layers" class="control-btn">Select All</button>
+        <button type="button" id="deselect-all-layers" class="control-btn">Deselect All</button>
+    </div>
+    
+    <div id="layer-controls">
+        <div>
+            <input type="checkbox" id="layer-1" checked>
+            <label for="layer-1">Category 1</label>
+        </div>
+        <div>
+            <input type="checkbox" id="layer-2" checked>
+            <label for="layer-2">Category 2</label>
+        </div>
+        <div>
+            <input type="checkbox" id="layer-3" checked>
+            <label for="layer-3">Category 3</label>
+        </div>
+    </div>
+    
+    <script>
+        // Simple test
+        document.addEventListener('DOMContentLoaded', function() {
+            console.log('DOM loaded');
+            
+            const selectAllBtn = document.getElementById('select-all-layers');
+            const deselectAllBtn = document.getElementById('deselect-all-layers');
+            
+            console.log('Select All button:', selectAllBtn);
+            console.log('Deselect All button:', deselectAllBtn);
+            
+            if (selectAllBtn) {
+                selectAllBtn.addEventListener('click', () => {
+                    console.log('Select All clicked');
+                    const checkboxes = document.querySelectorAll('#layer-controls input[type="checkbox"]');
+                    checkboxes.forEach(cb => cb.checked = true);
+                });
+            }
+            
+            if (deselectAllBtn) {
+                deselectAllBtn.addEventListener('click', () => {
+                    console.log('Deselect All clicked');
+                    const checkboxes = document.querySelectorAll('#layer-controls input[type="checkbox"]');
+                    checkboxes.forEach(cb => cb.checked = false);
+                });
+            }
+        });
+    </script>
+</body>
+</html>

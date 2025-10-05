@@ -1,6 +1,11 @@
 from django.db import models
 from django.core.validators import MinValueValidator, MaxValueValidator
 
+# Import hierarchical models
+from .hierarchical_models import (
+    Domain, HierarchicalCategory, HierarchicalLocation, DataImportLog
+)
+
 class Category(models.Model):
     """Category for grouping locations (e.g., stores, warehouses, offices)"""
     name = models.CharField(max_length=100, unique=True)
@@ -10,6 +15,15 @@ class Category(models.Model):
     description = models.TextField(blank=True)
     is_active = models.BooleanField(default=True)
     created_at = models.DateTimeField(auto_now_add=True)
+    
+    # Link to hierarchical system (optional)
+    hierarchical_category = models.ForeignKey(
+        'HierarchicalCategory', 
+        on_delete=models.SET_NULL, 
+        blank=True, 
+        null=True,
+        help_text='Link to hierarchical category if applicable'
+    )
 
     class Meta:
         verbose_name = 'Category'
@@ -63,6 +77,15 @@ class Location(models.Model):
     # Timestamps
     created_at = models.DateTimeField(auto_now_add=True)
     updated_at = models.DateTimeField(auto_now=True)
+    
+    # Link to hierarchical system (optional)
+    hierarchical_location = models.ForeignKey(
+        'HierarchicalLocation',
+        on_delete=models.SET_NULL,
+        blank=True,
+        null=True,
+        help_text='Link to hierarchical location if applicable'
+    )
 
     class Meta:
         verbose_name = 'Location'

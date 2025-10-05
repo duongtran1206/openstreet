@@ -1,0 +1,451 @@
+{% extends "maps/base.html" %}
+{% load static %}
+
+{% block title %}Data Collection - Multi-Source Map{% endblock %}
+
+{% block extra_css %}
+<style>
+.data-collection-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.stats-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    margin-bottom: 30px;
+}
+
+.stat-card {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.stat-number {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #2c3e50;
+}
+
+.stat-label {
+    color: #7f8c8d;
+    margin-top: 5px;
+}
+
+.sources-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    margin-bottom: 30px;
+}
+
+.source-card {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    overflow: hidden;
+}
+
+.source-header {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    padding: 20px;
+}
+
+.source-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin: 0;
+}
+
+.source-category {
+    opacity: 0.9;
+    margin-top: 5px;
+}
+
+.source-body {
+    padding: 20px;
+}
+
+.source-description {
+    color: #555;
+    margin-bottom: 15px;
+    line-height: 1.5;
+}
+
+.source-meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.meta-tag {
+    background: #ecf0f1;
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-size: 0.8rem;
+    color: #2c3e50;
+}
+
+.collection-controls {
+    background: white;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    margin-bottom: 30px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #2c3e50;
+}
+
+.form-control {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.checkbox-group {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.btn {
+    padding: 12px 24px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.btn-primary {
+    background: #3498db;
+    color: white;
+}
+
+.btn-primary:hover {
+    background: #2980b9;
+}
+
+.btn-danger {
+    background: #e74c3c;
+    color: white;
+    margin-left: 10px;
+}
+
+.btn-danger:hover {
+    background: #c0392b;
+}
+
+.collection-output {
+    background: #2c3e50;
+    color: #ecf0f1;
+    padding: 20px;
+    border-radius: 8px;
+    font-family: 'Courier New', monospace;
+    font-size: 12px;
+    line-height: 1.4;
+    max-height: 400px;
+    overflow-y: auto;
+    margin-top: 20px;
+    display: none;
+}
+
+.progress-bar {
+    width: 100%;
+    height: 6px;
+    background: #ecf0f1;
+    border-radius: 3px;
+    overflow: hidden;
+    margin-top: 15px;
+    display: none;
+}
+
+.progress-fill {
+    height: 100%;
+    background: linear-gradient(90deg, #3498db, #2ecc71);
+    width: 0%;
+    transition: width 0.3s;
+    animation: progress-animation 2s infinite;
+}
+
+@keyframes progress-animation {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+.alert {
+    padding: 15px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+}
+
+.alert-success {
+    background: #d5edda;
+    border: 1px solid #c3e6cb;
+    color: #155724;
+}
+
+.alert-error {
+    background: #f8d7da;
+    border: 1px solid #f5c6cb;
+    color: #721c24;
+}
+
+.recent-files {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.file-list {
+    list-style: none;
+    padding: 0;
+}
+
+.file-list li {
+    padding: 8px 0;
+    border-bottom: 1px solid #eee;
+    color: #666;
+    font-size: 14px;
+}
+
+.loading {
+    opacity: 0.6;
+    pointer-events: none;
+}
+
+.spinner {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    border: 2px solid #f3f3f3;
+    border-top: 2px solid #3498db;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+    margin-right: 8px;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+</style>
+{% endblock %}
+
+{% block content %}
+<div class="data-collection-container">
+    <h1>Multi-Source Data Collection</h1>
+    <p class="lead">Collect and import location data from multiple external sources</p>
+
+    <!-- Current Stats -->
+    <div class="stats-grid">
+        <div class="stat-card">
+            <div class="stat-number" id="stat-locations">{{ current_stats.total_locations }}</div>
+            <div class="stat-label">Total Locations</div>
+        </div>
+        <div class="stat-card">
+            <div class="stat-number" id="stat-categories">{{ current_stats.categories }}</div>
+            <div class="stat-label">Categories</div>
+        </div>
+        <div class="stat-card">
+            <div class="stat-number" id="stat-sources">{{ current_stats.sources }}</div>
+            <div class="stat-label">Data Sources</div>
+        </div>
+    </div>
+
+    <!-- Available Data Sources -->
+    <h2>Available Data Sources</h2>
+    <div class="sources-grid">
+        {% for source_key, source_info in interface_data.available_sources.items %}
+        <div class="source-card">
+            <div class="source-header">
+                <div class="source-title">{{ source_info.name }}</div>
+                <div class="source-category">{{ source_info.category }} • {{ source_info.country }}</div>
+            </div>
+            <div class="source-body">
+                <div class="source-description">{{ source_info.description }}</div>
+                
+                <div class="source-meta">
+                    {% for data_type in source_info.data_types %}
+                    <span class="meta-tag">{{ data_type }}</span>
+                    {% endfor %}
+                </div>
+
+                {% if source_info.subcategories %}
+                <div class="source-meta">
+                    <strong>Subcategories:</strong>
+                    {% for subcat in source_info.subcategories %}
+                    <span class="meta-tag">{{ subcat }}</span>
+                    {% endfor %}
+                </div>
+                {% endif %}
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+
+    <!-- Collection Controls -->
+    <h2>Data Collection</h2>
+    <div class="collection-controls">
+        <form id="collection-form">
+            <div class="form-group">
+                <label for="source-select">Select Data Source:</label>
+                <select id="source-select" name="source" class="form-control">
+                    <option value="all">All Sources</option>
+                    {% for source_key, source_info in interface_data.available_sources.items %}
+                    <option value="{{ source_key }}">{{ source_info.name }}</option>
+                    {% endfor %}
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="max-pages">Maximum Pages (for paginated sources):</label>
+                <input type="number" id="max-pages" name="max_pages" value="3" min="1" max="20" class="form-control">
+                <small>Caritas has 52+ pages with ~50 items each. Use lower numbers for testing.</small>
+            </div>
+
+            <div class="form-group">
+                <div class="checkbox-group">
+                    <input type="checkbox" id="clear-existing" name="clear_existing">
+                    <label for="clear-existing">Clear existing data before importing</label>
+                </div>
+                <small>⚠️ This will delete all current locations and categories from selected sources.</small>
+            </div>
+
+            <div class="form-group">
+                <button type="submit" class="btn btn-primary" id="collect-btn">
+                    <span class="btn-text">Start Collection</span>
+                </button>
+                <a href="{% url 'map_view' %}" class="btn btn-danger">
+                    Back to Map
+                </a>
+            </div>
+        </form>
+
+        <div class="progress-bar" id="progress-bar">
+            <div class="progress-fill" id="progress-fill"></div>
+        </div>
+
+        <div id="collection-output" class="collection-output"></div>
+    </div>
+
+    <!-- Recent Files -->
+    {% if recent_files %}
+    <div class="recent-files">
+        <h3>Recent Collection Files</h3>
+        <ul class="file-list">
+            {% for file in recent_files %}
+            <li>{{ file }}</li>
+            {% endfor %}
+        </ul>
+    </div>
+    {% endif %}
+</div>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const form = document.getElementById('collection-form');
+    const collectBtn = document.getElementById('collect-btn');
+    const progressBar = document.getElementById('progress-bar');
+    const progressFill = document.getElementById('progress-fill');
+    const output = document.getElementById('collection-output');
+
+    form.addEventListener('submit', function(e) {
+        e.preventDefault();
+        collectData();
+    });
+
+    async function collectData() {
+        const formData = new FormData(form);
+        const data = {
+            source: formData.get('source'),
+            max_pages: parseInt(formData.get('max_pages')),
+            clear_existing: formData.has('clear_existing')
+        };
+
+        // Show loading state
+        collectBtn.classList.add('loading');
+        collectBtn.innerHTML = '<span class="spinner"></span>Collecting...';
+        progressBar.style.display = 'block';
+        output.style.display = 'none';
+        
+        // Animate progress bar
+        let progress = 0;
+        const progressInterval = setInterval(() => {
+            progress += Math.random() * 10;
+            if (progress > 90) progress = 90;
+            progressFill.style.width = progress + '%';
+        }, 500);
+
+        try {
+            const response = await fetch('/api/collect-data/', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                    'X-CSRFToken': '{{ csrf_token }}'
+                },
+                body: JSON.stringify(data)
+            });
+
+            const result = await response.json();
+
+            // Clear progress animation
+            clearInterval(progressInterval);
+            progressFill.style.width = '100%';
+
+            // Show output
+            output.style.display = 'block';
+            
+            if (result.success) {
+                output.innerHTML = '<div class="alert alert-success">✅ ' + result.message + '</div>' +
+                                 '<pre>' + result.output + '</pre>';
+                
+                // Update stats if provided
+                if (result.stats) {
+                    document.getElementById('stat-locations').textContent = result.stats.total_locations;
+                    document.getElementById('stat-categories').textContent = result.stats.categories;
+                    document.getElementById('stat-sources').textContent = result.stats.sources;
+                }
+            } else {
+                output.innerHTML = '<div class="alert alert-error">❌ ' + result.error + '</div>' +
+                                 '<pre>' + (result.output || '') + '</pre>';
+            }
+
+        } catch (error) {
+            clearInterval(progressInterval);
+            output.style.display = 'block';
+            output.innerHTML = '<div class="alert alert-error">❌ Network error: ' + error.message + '</div>';
+        }
+
+        // Reset UI
+        setTimeout(() => {
+            collectBtn.classList.remove('loading');
+            collectBtn.innerHTML = '<span class="btn-text">Start Collection</span>';
+            progressBar.style.display = 'none';
+            progressFill.style.width = '0%';
+        }, 1000);
+    }
+});
+</script>
+{% endblock %}

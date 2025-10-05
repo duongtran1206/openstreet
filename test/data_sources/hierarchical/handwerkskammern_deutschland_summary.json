@@ -1,0 +1,476 @@
+{
+  "domain_summary": {
+    "domain_id": "handwerkskammern_deutschland",
+    "domain_name": "Deutschlandkarte der Handwerkskammern",
+    "total_categories": 93,
+    "total_locations": 1029,
+    "created_at": "2025-10-05T11:41:02.955679"
+  },
+  "category_statistics": [
+    {
+      "category_id": "handwerk_20",
+      "category_name": "Kraftfahrzeugtechniker",
+      "location_count": 53
+    },
+    {
+      "category_id": "handwerk_13",
+      "category_name": "Metallbauer",
+      "location_count": 53
+    },
+    {
+      "category_id": "handwerk_27",
+      "category_name": "Tischler",
+      "location_count": 53
+    },
+    {
+      "category_id": "handwerk_25",
+      "category_name": "Elektrotechniker",
+      "location_count": 52
+    },
+    {
+      "category_id": "handwerk_38",
+      "category_name": "Friseure",
+      "location_count": 52
+    },
+    {
+      "category_id": "handwerk_24",
+      "category_name": "Installateur und Heizungsbauer",
+      "location_count": 52
+    },
+    {
+      "category_id": "handwerk_10",
+      "category_name": "Maler und Lackierer",
+      "location_count": 52
+    },
+    {
+      "category_id": "handwerk_1",
+      "category_name": "Maurer und Betonbauer",
+      "location_count": 51
+    },
+    {
+      "category_id": "handwerk_3",
+      "category_name": "Zimmerer",
+      "location_count": 45
+    },
+    {
+      "category_id": "handwerk_16",
+      "category_name": "Feinwerkmechaniker",
+      "location_count": 43
+    },
+    {
+      "category_id": "handwerk_42",
+      "category_name": "Fliesen-, Platten- und Mosaikleger",
+      "location_count": 33
+    },
+    {
+      "category_id": "handwerk_4",
+      "category_name": "Dachdecker",
+      "location_count": 29
+    },
+    {
+      "category_id": "handwerk_30",
+      "category_name": "Bäcker",
+      "location_count": 28
+    },
+    {
+      "category_id": "handwerk_21",
+      "category_name": "Land- und Baumaschinenmechatroniker",
+      "location_count": 22
+    },
+    {
+      "category_id": "handwerk_31",
+      "category_name": "Konditoren",
+      "location_count": 20
+    },
+    {
+      "category_id": "handwerk_5",
+      "category_name": "Straßenbauer",
+      "location_count": 20
+    },
+    {
+      "category_id": "handwerk_15",
+      "category_name": "Karosserie- und Fahrzeugbauer",
+      "location_count": 18
+    },
+    {
+      "category_id": "handwerk_12",
+      "category_name": "Schornsteinfeger",
+      "location_count": 17
+    },
+    {
+      "category_id": "handwerk_37",
+      "category_name": "Zahntechniker",
+      "location_count": 17
+    },
+    {
+      "category_id": "handwerk_32",
+      "category_name": "Fleischer",
+      "location_count": 16
+    },
+    {
+      "category_id": "handwerk_23",
+      "category_name": "Klempner",
+      "location_count": 15
+    },
+    {
+      "category_id": "handwerk_97",
+      "category_name": "Kosmetiker",
+      "location_count": 15
+    },
+    {
+      "category_id": "handwerk_9",
+      "category_name": "Stuckateure",
+      "location_count": 14
+    },
+    {
+      "category_id": "handwerk_33",
+      "category_name": "Augenoptiker",
+      "location_count": 12
+    },
+    {
+      "category_id": "handwerk_73",
+      "category_name": "Gebäudereiniger",
+      "location_count": 12
+    },
+    {
+      "category_id": "handwerk_19",
+      "category_name": "Informationstechniker",
+      "location_count": 11
+    },
+    {
+      "category_id": "handwerk_18",
+      "category_name": "Kälteanlagenbauer",
+      "location_count": 10
+    },
+    {
+      "category_id": "handwerk_60",
+      "category_name": "Maßschneider",
+      "location_count": 10
+    },
+    {
+      "category_id": "handwerk_67",
+      "category_name": "Raumausstatter",
+      "location_count": 10
+    },
+    {
+      "category_id": "handwerk_8",
+      "category_name": "Steinmetzen und Steinbildhauer",
+      "location_count": 10
+    },
+    {
+      "category_id": "handwerk_52",
+      "category_name": "Gold- und Silberschmiede",
+      "location_count": 9
+    },
+    {
+      "category_id": "handwerk_35",
+      "category_name": "Orthopädietechniker",
+      "location_count": 9
+    },
+    {
+      "category_id": "handwerk_39",
+      "category_name": "Glaser",
+      "location_count": 8
+    },
+    {
+      "category_id": "handwerk_17",
+      "category_name": "Zweiradmechaniker",
+      "location_count": 8
+    },
+    {
+      "category_id": "handwerk_93",
+      "category_name": "Schilder- und Lichtreklamehersteller",
+      "location_count": 7
+    },
+    {
+      "category_id": "handwerk_11",
+      "category_name": "Gerüstbauer",
+      "location_count": 6
+    },
+    {
+      "category_id": "handwerk_2",
+      "category_name": "Ofen- und Luftheizungsbauer",
+      "location_count": 6
+    },
+    {
+      "category_id": "handwerk_36",
+      "category_name": "Orthopädieschuhmacher",
+      "location_count": 6
+    },
+    {
+      "category_id": "handwerk_78",
+      "category_name": "Fotografen",
+      "location_count": 5
+    },
+    {
+      "category_id": "handwerk_34",
+      "category_name": "Hörakustiker",
+      "location_count": 5
+    },
+    {
+      "category_id": "handwerk_53",
+      "category_name": "Parkettleger",
+      "location_count": 5
+    },
+    {
+      "category_id": "handwerk_54",
+      "category_name": "Rollladen- und Sonnenschutztechniker",
+      "location_count": 5
+    },
+    {
+      "category_id": "handwerk_46",
+      "category_name": "Uhrmacher",
+      "location_count": 5
+    },
+    {
+      "category_id": "handwerk_96",
+      "category_name": "Bestatter",
+      "location_count": 4
+    },
+    {
+      "category_id": "handwerk_28",
+      "category_name": "Boots- und Schiffbauer",
+      "location_count": 4
+    },
+    {
+      "category_id": "handwerk_69",
+      "category_name": "Brauer und Mälzer",
+      "location_count": 4
+    },
+    {
+      "category_id": "handwerk_56",
+      "category_name": "Drechsler (Elfenbeinschnitzer) und Holzspielzeugmacher",
+      "location_count": 4
+    },
+    {
+      "category_id": "handwerk_26",
+      "category_name": "Elektromaschinenbauer",
+      "location_count": 4
+    },
+    {
+      "category_id": "handwerk_49",
+      "category_name": "Galvaniseure",
+      "location_count": 4
+    },
+    {
+      "category_id": "handwerk_79",
+      "category_name": "Buchbinder",
+      "location_count": 3
+    },
+    {
+      "category_id": "handwerk_22",
+      "category_name": "Büchsenmacher",
+      "location_count": 3
+    },
+    {
+      "category_id": "handwerk_47",
+      "category_name": "Graveure",
+      "location_count": 3
+    },
+    {
+      "category_id": "handwerk_90",
+      "category_name": "Holzblasinstrumentenmacher",
+      "location_count": 3
+    },
+    {
+      "category_id": "handwerk_85",
+      "category_name": "Klavier- und Cembalobauer",
+      "location_count": 3
+    },
+    {
+      "category_id": "handwerk_89",
+      "category_name": "Metallblasinstrumentenmacher",
+      "location_count": 3
+    },
+    {
+      "category_id": "handwerk_84",
+      "category_name": "Orgel- und Harmoniumbauer",
+      "location_count": 3
+    },
+    {
+      "category_id": "handwerk_66",
+      "category_name": "Sattler und Feintäschner",
+      "location_count": 3
+    },
+    {
+      "category_id": "handwerk_6",
+      "category_name": "Wärme-, Kälte- und Schallschutzisolierer",
+      "location_count": 3
+    },
+    {
+      "category_id": "handwerk_87",
+      "category_name": "Geigenbauer",
+      "location_count": 2
+    },
+    {
+      "category_id": "handwerk_40",
+      "category_name": "Glasbläser und Glasapparatebauer",
+      "location_count": 2
+    },
+    {
+      "category_id": "handwerk_74",
+      "category_name": "Glasveredler",
+      "location_count": 2
+    },
+    {
+      "category_id": "handwerk_86",
+      "category_name": "Handzuginstrumentenmacher",
+      "location_count": 2
+    },
+    {
+      "category_id": "handwerk_57",
+      "category_name": "Holzbildhauer",
+      "location_count": 2
+    },
+    {
+      "category_id": "handwerk_83",
+      "category_name": "Keramiker",
+      "location_count": 2
+    },
+    {
+      "category_id": "handwerk_50",
+      "category_name": "Metall- und Glockengießer",
+      "location_count": 2
+    },
+    {
+      "category_id": "handwerk_48",
+      "category_name": "Metallbildner",
+      "location_count": 2
+    },
+    {
+      "category_id": "handwerk_68",
+      "category_name": "Müller",
+      "location_count": 2
+    },
+    {
+      "category_id": "handwerk_80",
+      "category_name": "Print- und Medientechnologen (Drucker, Siebdrucker, Flexografen)",
+      "location_count": 2
+    },
+    {
+      "category_id": "handwerk_65",
+      "category_name": "Schuhmacher",
+      "location_count": 2
+    },
+    {
+      "category_id": "handwerk_71",
+      "category_name": "Textilreiniger",
+      "location_count": 2
+    },
+    {
+      "category_id": "handwerk_70",
+      "category_name": "Weinküfer",
+      "location_count": 2
+    },
+    {
+      "category_id": "handwerk_91",
+      "category_name": "Zupfinstrumentenmacher",
+      "location_count": 2
+    },
+    {
+      "category_id": "handwerk_45",
+      "category_name": "Behälter- und Apparatebauer",
+      "location_count": 1
+    },
+    {
+      "category_id": "handwerk_88",
+      "category_name": "Bogenmacher",
+      "location_count": 1
+    },
+    {
+      "category_id": "handwerk_7",
+      "category_name": "Brunnenbauer",
+      "location_count": 1
+    },
+    {
+      "category_id": "handwerk_58",
+      "category_name": "Böttcher",
+      "location_count": 1
+    },
+    {
+      "category_id": "handwerk_95",
+      "category_name": "Bürsten- und Pinselmacher",
+      "location_count": 1
+    },
+    {
+      "category_id": "handwerk_14",
+      "category_name": "Chirurgiemechaniker",
+      "location_count": 1
+    },
+    {
+      "category_id": "handwerk_77",
+      "category_name": "Edelsteinschleifer und -graveure",
+      "location_count": 1
+    },
+    {
+      "category_id": "handwerk_44",
+      "category_name": "Estrichleger",
+      "location_count": 1
+    },
+    {
+      "category_id": "handwerk_94",
+      "category_name": "Holz- und Bautenschützer",
+      "location_count": 1
+    },
+    {
+      "category_id": "handwerk_59",
+      "category_name": "Korb- und Flechtwerkgestalter",
+      "location_count": 1
+    },
+    {
+      "category_id": "handwerk_64",
+      "category_name": "Kürschner",
+      "location_count": 1
+    },
+    {
+      "category_id": "handwerk_41",
+      "category_name": "Mechaniker für Reifen- und Vulkanisationstechnik",
+      "location_count": 1
+    },
+    {
+      "category_id": "handwerk_55",
+      "category_name": "Modellbauer",
+      "location_count": 1
+    },
+    {
+      "category_id": "handwerk_62",
+      "category_name": "Modisten",
+      "location_count": 1
+    },
+    {
+      "category_id": "handwerk_51",
+      "category_name": "Präzisionswerkzeugmechaniker",
+      "location_count": 1
+    },
+    {
+      "category_id": "handwerk_63",
+      "category_name": "Segelmacher",
+      "location_count": 1
+    },
+    {
+      "category_id": "handwerk_29",
+      "category_name": "Seiler",
+      "location_count": 1
+    },
+    {
+      "category_id": "handwerk_61",
+      "category_name": "Textilgestalter (Sticker, Weber, Klöppler, Posamentierer, Stricker)",
+      "location_count": 1
+    },
+    {
+      "category_id": "handwerk_92",
+      "category_name": "Vergolder",
+      "location_count": 1
+    },
+    {
+      "category_id": "handwerk_72",
+      "category_name": "Wachszieher",
+      "location_count": 1
+    },
+    {
+      "category_id": "handwerk_43",
+      "category_name": "Werkstein- und Terrazzohersteller",
+      "location_count": 1
+    }
+  ]
+}

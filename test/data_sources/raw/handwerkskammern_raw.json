@@ -1,0 +1,3765 @@
+{
+  "lists": {
+    "locations": {
+      "filter": {
+        "handwerkid": {
+          "$type": "Select",
+          "title": "Handwerk",
+          "targetProperty": "handwerkid",
+          "$value": "",
+          "selected": [],
+          "values": [
+            {
+              "title": "Alle",
+              "$value": ""
+            },
+            {
+              "title": "Augenoptiker",
+              "$value": 33
+            },
+            {
+              "title": "Behälter- und Apparatebauer",
+              "$value": 45
+            },
+            {
+              "title": "Bestatter",
+              "$value": 96
+            },
+            {
+              "title": "Bogenmacher",
+              "$value": 88
+            },
+            {
+              "title": "Boots- und Schiffbauer",
+              "$value": 28
+            },
+            {
+              "title": "Brauer und Mälzer",
+              "$value": 69
+            },
+            {
+              "title": "Brunnenbauer",
+              "$value": 7
+            },
+            {
+              "title": "Buchbinder",
+              "$value": 79
+            },
+            {
+              "title": "Bäcker",
+              "$value": 30
+            },
+            {
+              "title": "Böttcher",
+              "$value": 58
+            },
+            {
+              "title": "Büchsenmacher",
+              "$value": 22
+            },
+            {
+              "title": "Bürsten- und Pinselmacher",
+              "$value": 95
+            },
+            {
+              "title": "Chirurgiemechaniker",
+              "$value": 14
+            },
+            {
+              "title": "Dachdecker",
+              "$value": 4
+            },
+            {
+              "title": "Drechsler (Elfenbeinschnitzer) und Holzspielzeugmacher",
+              "$value": 56
+            },
+            {
+              "title": "Edelsteinschleifer und -graveure",
+              "$value": 77
+            },
+            {
+              "title": "Elektromaschinenbauer",
+              "$value": 26
+            },
+            {
+              "title": "Elektrotechniker",
+              "$value": 25
+            },
+            {
+              "title": "Estrichleger",
+              "$value": 44
+            },
+            {
+              "title": "Feinoptiker",
+              "$value": 75
+            },
+            {
+              "title": "Feinwerkmechaniker",
+              "$value": 16
+            },
+            {
+              "title": "Fleischer",
+              "$value": 32
+            },
+            {
+              "title": "Fliesen-, Platten- und Mosaikleger",
+              "$value": 42
+            },
+            {
+              "title": "Fotografen",
+              "$value": 78
+            },
+            {
+              "title": "Friseure",
+              "$value": 38
+            },
+            {
+              "title": "Galvaniseure",
+              "$value": 49
+            },
+            {
+              "title": "Gebäudereiniger",
+              "$value": 73
+            },
+            {
+              "title": "Geigenbauer",
+              "$value": 87
+            },
+            {
+              "title": "Gerüstbauer",
+              "$value": 11
+            },
+            {
+              "title": "Glas- und Porzellanmaler",
+              "$value": 76
+            },
+            {
+              "title": "Glasbläser und Glasapparatebauer",
+              "$value": 40
+            },
+            {
+              "title": "Glaser",
+              "$value": 39
+            },
+            {
+              "title": "Glasveredler",
+              "$value": 74
+            },
+            {
+              "title": "Gold- und Silberschmiede",
+              "$value": 52
+            },
+            {
+              "title": "Graveure",
+              "$value": 47
+            },
+            {
+              "title": "Handzuginstrumentenmacher",
+              "$value": 86
+            },
+            {
+              "title": "Holz- und Bautenschützer",
+              "$value": 94
+            },
+            {
+              "title": "Holzbildhauer",
+              "$value": 57
+            },
+            {
+              "title": "Holzblasinstrumentenmacher",
+              "$value": 90
+            },
+            {
+              "title": "Hörakustiker",
+              "$value": 34
+            },
+            {
+              "title": "Informationstechniker",
+              "$value": 19
+            },
+            {
+              "title": "Installateur und Heizungsbauer",
+              "$value": 24
+            },
+            {
+              "title": "Karosserie- und Fahrzeugbauer",
+              "$value": 15
+            },
+            {
+              "title": "Keramiker",
+              "$value": 83
+            },
+            {
+              "title": "Klavier- und Cembalobauer",
+              "$value": 85
+            },
+            {
+              "title": "Klempner",
+              "$value": 23
+            },
+            {
+              "title": "Konditoren",
+              "$value": 31
+            },
+            {
+              "title": "Korb- und Flechtwerkgestalter",
+              "$value": 59
+            },
+            {
+              "title": "Kosmetiker",
+              "$value": 97
+            },
+            {
+              "title": "Kraftfahrzeugtechniker",
+              "$value": 20
+            },
+            {
+              "title": "Kälteanlagenbauer",
+              "$value": 18
+            },
+            {
+              "title": "Kürschner",
+              "$value": 64
+            },
+            {
+              "title": "Land- und Baumaschinenmechatroniker",
+              "$value": 21
+            },
+            {
+              "title": "Maler und Lackierer",
+              "$value": 10
+            },
+            {
+              "title": "Maurer und Betonbauer",
+              "$value": 1
+            },
+            {
+              "title": "Maßschneider",
+              "$value": 60
+            },
+            {
+              "title": "Mechaniker für Reifen- und Vulkanisationstechnik",
+              "$value": 41
+            },
+            {
+              "title": "Metall- und Glockengießer",
+              "$value": 50
+            },
+            {
+              "title": "Metallbauer",
+              "$value": 13
+            },
+            {
+              "title": "Metallbildner",
+              "$value": 48
+            },
+            {
+              "title": "Metallblasinstrumentenmacher",
+              "$value": 89
+            },
+            {
+              "title": "Modellbauer",
+              "$value": 55
+            },
+            {
+              "title": "Modisten",
+              "$value": 62
+            },
+            {
+              "title": "Müller",
+              "$value": 68
+            },
+            {
+              "title": "Ofen- und Luftheizungsbauer",
+              "$value": 2
+            },
+            {
+              "title": "Orgel- und Harmoniumbauer",
+              "$value": 84
+            },
+            {
+              "title": "Orthopädieschuhmacher",
+              "$value": 36
+            },
+            {
+              "title": "Orthopädietechniker",
+              "$value": 35
+            },
+            {
+              "title": "Parkettleger",
+              "$value": 53
+            },
+            {
+              "title": "Print- und Medientechnologen (Drucker, Siebdrucker, Flexografen)",
+              "$value": 80
+            },
+            {
+              "title": "Präzisionswerkzeugmechaniker",
+              "$value": 51
+            },
+            {
+              "title": "Raumausstatter",
+              "$value": 67
+            },
+            {
+              "title": "Rollladen- und Sonnenschutztechniker",
+              "$value": 54
+            },
+            {
+              "title": "Sattler und Feintäschner",
+              "$value": 66
+            },
+            {
+              "title": "Schilder- und Lichtreklamehersteller",
+              "$value": 93
+            },
+            {
+              "title": "Schornsteinfeger",
+              "$value": 12
+            },
+            {
+              "title": "Schuhmacher",
+              "$value": 65
+            },
+            {
+              "title": "Segelmacher",
+              "$value": 63
+            },
+            {
+              "title": "Seiler",
+              "$value": 29
+            },
+            {
+              "title": "Steinmetzen und Steinbildhauer",
+              "$value": 8
+            },
+            {
+              "title": "Straßenbauer",
+              "$value": 5
+            },
+            {
+              "title": "Stuckateure",
+              "$value": 9
+            },
+            {
+              "title": "Textilgestalter (Sticker, Weber, Klöppler, Posamentierer, Stricker)",
+              "$value": 61
+            },
+            {
+              "title": "Textilreiniger",
+              "$value": 71
+            },
+            {
+              "title": "Tischler",
+              "$value": 27
+            },
+            {
+              "title": "Uhrmacher",
+              "$value": 46
+            },
+            {
+              "title": "Vergolder",
+              "$value": 92
+            },
+            {
+              "title": "Wachszieher",
+              "$value": 72
+            },
+            {
+              "title": "Weinküfer",
+              "$value": 70
+            },
+            {
+              "title": "Werkstein- und Terrazzohersteller",
+              "$value": 43
+            },
+            {
+              "title": "Wärme-, Kälte- und Schallschutzisolierer",
+              "$value": 6
+            },
+            {
+              "title": "Zahntechniker",
+              "$value": 37
+            },
+            {
+              "title": "Zimmerer",
+              "$value": 3
+            },
+            {
+              "title": "Zupfinstrumentenmacher",
+              "$value": 91
+            },
+            {
+              "title": "Zweiradmechaniker",
+              "$value": 17
+            }
+          ]
+        }
+      },
+      "$items": [
+        {
+          "uid": 60,
+          "pid": 1469,
+          "title": "Handwerkskammer Aachen",
+          "sortTitle": "Aachen",
+          "idExtern": 1,
+          "urlLehrstellenboerse": "https://www.hwk-aachen.de/artikel/lehrstellenvermittlung-33,0,171.html",
+          "urlWeiterbildungsdatenbank": "https://www.hwk-aachen.de/artikel/meisterschulen-kurse-33,42,244.html",
+          "urlZahlendatenfakten": "https://www.hwk-aachen.de/artikel/daten-zahlen-fakten-33,84,37.html",
+          "urlOrgane": "https://www.hwk-aachen.de/artikel/organe-ehrenamt-33,85,38.html",
+          "urlRechtsgrundlagen": "https://www.hwk-aachen.de/artikel/rechtsgrundlagen-33,86,43.html",
+          "urlProjekte": "https://www.hwk-aachen.de/artikel/ausbildungsberufe-lehrstellenvermittlung-33,32,625.html",
+          "urlVideo": "",
+          "urlInklusionsberatung": "https://www.hwk-aachen.de/artikel/inklusionsberatung-33,0,177.html",
+          "adresse": {
+            "address": "Sandkaulbach 21",
+            "phone": "+49 241 471-0",
+            "www": "https://www.hwk-aachen.de",
+            "city": "Aachen",
+            "zip": "52062",
+            "email_link": "<a href=\"#\" data-mailto-token=\"iwehpk6ejbkWdsg9wwydaj:za\" data-mailto-vector=\"-4\" tabindex=\"0\" role=\"link\" class=\"masked-link address__email\">info@hwk-aachen.de</a>"
+          },
+          "mpa": {},
+          "latitude": "50.77865620",
+          "longitude": "6.08805380",
+          "handwerkid": [
+            30,
+            28,
+            25,
+            16,
+            32,
+            38,
+            24,
+            20,
+            10,
+            1,
+            13,
+            62,
+            5,
+            27,
+            3
+          ],
+          "icon": {
+            "size": [
+              16,
+              24
+            ],
+            "anchor": [
+              8,
+              0
+            ],
+            "file": "hwk.png"
+          },
+          "detailUrl": "https://www.zdh.de/ueber-uns/organisationen-des-handwerks/handwerkskammern/deutschlandkarte-der-handwerkskammern/wwt3listmapdetail.html?contentUid=19735&uid=60&cHash=624cddd4f2688b98ae54778cf056cc3d",
+          "views": {
+            "bubble": "    <b>Handwerkskammer Aachen</b><br/>\n    Sandkaulbach 21<br/> 52062 Aachen<br/><br/>\n            <a href=\"https://www.hwk-aachen.de\" target=\"_blank\">https://www.hwk-aachen.de</a><br/>\n                <a href=\"https://www.hwk-aachen.de/artikel/meisterschulen-kurse-33,42,244.html\" target=\"_blank\">Weiterbildungsangebote</a><br/>\n                <a href=\"https://www.hwk-aachen.de/artikel/lehrstellenvermittlung-33,0,171.html\" target=\"_blank\">Lehrstellenangebote</a>\n    ",
+            "teaser": "    <b>Handwerkskammer Aachen</b><br/>\n    Sandkaulbach 21<br/> 52062 Aachen\n"
+          }
+        },
+        {
+          "uid": 109,
+          "pid": 1469,
+          "title": "Handwerkskammer Berlin",
+          "sortTitle": "Berlin",
+          "idExtern": 3,
+          "urlLehrstellenboerse": "https://www.hwk-berlin.de/91,0,jpguestsearch.html",
+          "urlWeiterbildungsdatenbank": "https://www.bildung4u.de",
+          "urlZahlendatenfakten": "https://www.hwk-berlin.de/ueber-uns/zahlen-daten-fakten",
+          "urlOrgane": "https://www.hwk-berlin.de/ueber-uns/organe-ehrenamt",
+          "urlRechtsgrundlagen": "https://www.hwk-berlin.de/ueber-uns/die-handwerkskammer",
+          "urlProjekte": "https://www.hwk-berlin.de/artikel/vor-der-ausbildung-91,108,276.html",
+          "urlVideo": "",
+          "urlInklusionsberatung": "https://www.hwk-berlin.de/artikel/inklusionsberatung-91,0,336.html",
+          "adresse": {
+            "address": "Blücherstraße 68",
+            "phone": "+49 30 25903-01",
+            "www": "https://www.hwk-berlin.de",
+            "city": "Berlin",
+            "zip": "10961",
+            "email_link": "<a href=\"#\" data-mailto-token=\"iwehpk6ejbkWdsg9xanhej:za\" data-mailto-vector=\"-4\" tabindex=\"0\" role=\"link\" class=\"masked-link address__email\">info@hwk-berlin.de</a>"
+          },
+          "mpa": {},
+          "latitude": "52.49623000",
+          "longitude": "13.38985000",
+          "handwerkid": [
+            30,
+            69,
+            4,
+            25,
+            16,
+            42,
+            78,
+            38,
+            73,
+            24,
+            15,
+            23,
+            31,
+            20,
+            10,
+            1,
+            13,
+            35,
+            53,
+            93,
+            65,
+            5,
+            9,
+            27,
+            37,
+            3,
+            17
+          ],
+          "icon": {
+            "size": [
+              16,
+              24
+            ],
+            "anchor": [
+              8,
+              0
+            ],
+            "file": "hwk.png"
+          },
+          "detailUrl": "https://www.zdh.de/ueber-uns/organisationen-des-handwerks/handwerkskammern/deutschlandkarte-der-handwerkskammern/wwt3listmapdetail.html?contentUid=19735&uid=109&cHash=6f654ac2eb08d845974b4d777ff230c4",
+          "views": {
+            "bubble": "    <b>Handwerkskammer Berlin</b><br/>\n    Blücherstraße 68<br/> 10961 Berlin<br/><br/>\n            <a href=\"https://www.hwk-berlin.de\" target=\"_blank\">https://www.hwk-berlin.de</a><br/>\n                <a href=\"https://www.bildung4u.de\" target=\"_blank\">Weiterbildungsangebote</a><br/>\n                <a href=\"https://www.hwk-berlin.de/91,0,jpguestsearch.html\" target=\"_blank\">Lehrstellenangebote</a>\n    ",
+            "teaser": "    <b>Handwerkskammer Berlin</b><br/>\n    Blücherstraße 68<br/> 10961 Berlin\n"
+          }
+        },
+        {
+          "uid": 83,
+          "pid": 1469,
+          "title": "Handwerkskammer Braunschweig-Lüneburg-Stade",
+          "sortTitle": "Braunschweig-Lüneburg-Stade",
+          "idExtern": 4,
+          "urlLehrstellenboerse": "https://www.hwk-bls.de/lehrstellenboerse ",
+          "urlWeiterbildungsdatenbank": "https://www.hwk-bls.de/seminare ",
+          "urlZahlendatenfakten": "https://www.hwk-bls.de/daten ",
+          "urlOrgane": "https://www.hwk-bls.de/ehrenamt ",
+          "urlRechtsgrundlagen": "https://www.hwk-bls.de/rechtsgrundlagen ",
+          "urlProjekte": "https://www.hwk-bls.de/artikel/ausbildung-im-handwerk-22,39,190.html",
+          "urlVideo": "",
+          "urlInklusionsberatung": "",
+          "adresse": {
+            "address": "Friedenstraße 6",
+            "phone": "+49 4131 712-0",
+            "www": "https://www.hwk-bls.de",
+            "city": "Lüneburg",
+            "zip": "21335",
+            "email_link": "<a href=\"#\" data-mailto-token=\"iwehpk6ejbkWdsg9xho:za\" data-mailto-vector=\"-4\" tabindex=\"0\" role=\"link\" class=\"masked-link address__email\">info@hwk-bls.de</a>"
+          },
+          "mpa": {},
+          "latitude": "52.26476330",
+          "longitude": "10.52361537",
+          "handwerkid": [
+            33,
+            30,
+            96,
+            4,
+            25,
+            16,
+            42,
+            38,
+            34,
+            19,
+            24,
+            20,
+            21,
+            10,
+            1,
+            13,
+            68,
+            8,
+            27,
+            3
+          ],
+          "icon": {
+            "size": [
+              16,
+              24
+            ],
+            "anchor": [
+              8,
+              0
+            ],
+            "file": "hwk.png"
+          },
+          "detailUrl": "https://www.zdh.de/ueber-uns/organisationen-des-handwerks/handwerkskammern/deutschlandkarte-der-handwerkskammern/wwt3listmapdetail.html?contentUid=19735&uid=83&cHash=aa9f418e23578cf5f20b5d4073910a6a",
+          "views": {
+            "bubble": "    <b>Handwerkskammer Braunschweig-Lüneburg-Stade</b><br/>\n    Friedenstraße 6<br/> 21335 Lüneburg<br/><br/>\n            <a href=\"https://www.hwk-bls.de\" target=\"_blank\">https://www.hwk-bls.de</a><br/>\n                <a href=\"https://www.hwk-bls.de/seminare \" target=\"_blank\">Weiterbildungsangebote</a><br/>\n                <a href=\"https://www.hwk-bls.de/lehrstellenboerse \" target=\"_blank\">Lehrstellenangebote</a>\n    ",
+            "teaser": "    <b>Handwerkskammer Braunschweig-Lüneburg-Stade</b><br/>\n    Friedenstraße 6<br/> 21335 Lüneburg\n"
+          }
+        },
+        {
+          "uid": 106,
+          "pid": 1469,
+          "title": "Handwerkskammer Bremen",
+          "sortTitle": "Bremen",
+          "idExtern": 5,
+          "urlLehrstellenboerse": "https://www.es-ist-deine-staerke.de",
+          "urlWeiterbildungsdatenbank": "https://www.handwerkbremen.de",
+          "urlZahlendatenfakten": "https://www.hwk-bremen.de/uber-uns/zahlen-daten-fakten",
+          "urlOrgane": "https://www.hwk-bremen.de/uber-uns/organe-ehrenamt-geschaeftsfuehrung",
+          "urlRechtsgrundlagen": "https://www.hwk-bremen.de/uber-uns/rechtsgrundlagen",
+          "urlProjekte": "https://www.hwk-bremen.de/ausbildung/ausbildungsplaetze-finden-passgenaue-besetzung",
+          "urlVideo": "",
+          "urlInklusionsberatung": "",
+          "adresse": {
+            "address": "Ansgaritorstr. 24",
+            "phone": "+49 421 30500-0",
+            "www": "https://www.hwk-bremen.de",
+            "city": "Bremen",
+            "zip": "28195",
+            "email_link": "<a href=\"#\" data-mailto-token=\"iwehpk6oanreyaWdsg9xnaiaj:za\" data-mailto-vector=\"-4\" tabindex=\"0\" role=\"link\" class=\"masked-link address__email\">service@hwk-bremen.de</a>"
+          },
+          "mpa": {},
+          "latitude": "53.07873890",
+          "longitude": "8.80285360",
+          "handwerkid": [
+            4,
+            25,
+            16,
+            38,
+            24,
+            20,
+            10,
+            1,
+            13,
+            27,
+            3
+          ],
+          "icon": {
+            "size": [
+              16,
+              24
+            ],
+            "anchor": [
+              8,
+              0
+            ],
+            "file": "hwk.png"
+          },
+          "detailUrl": "https://www.zdh.de/ueber-uns/organisationen-des-handwerks/handwerkskammern/deutschlandkarte-der-handwerkskammern/wwt3listmapdetail.html?contentUid=19735&uid=106&cHash=a06637bfa9e7e45358249386f29dcbc1",
+          "views": {
+            "bubble": "    <b>Handwerkskammer Bremen</b><br/>\n    Ansgaritorstr. 24<br/> 28195 Bremen<br/><br/>\n            <a href=\"https://www.hwk-bremen.de\" target=\"_blank\">https://www.hwk-bremen.de</a><br/>\n                <a href=\"https://www.handwerkbremen.de\" target=\"_blank\">Weiterbildungsangebote</a><br/>\n                <a href=\"https://www.es-ist-deine-staerke.de\" target=\"_blank\">Lehrstellenangebote</a>\n    ",
+            "teaser": "    <b>Handwerkskammer Bremen</b><br/>\n    Ansgaritorstr. 24<br/> 28195 Bremen\n"
+          }
+        },
+        {
+          "uid": 105,
+          "pid": 1469,
+          "title": "Handwerkskammer Chemnitz",
+          "sortTitle": "Chemnitz",
+          "idExtern": 6,
+          "urlLehrstellenboerse": "https://www.hwk-chemnitz.de/boersen/lehrstellenboerse",
+          "urlWeiterbildungsdatenbank": "https://www.hwk-chemnitz.de/weiterbildung/meine-karriere-im-handwerk",
+          "urlZahlendatenfakten": "https://www.hwk-chemnitz.de/ueber-uns/zahlen-daten-fakten",
+          "urlOrgane": "https://www.hwk-chemnitz.de/ueber-uns/organe-der-vollversammlung",
+          "urlRechtsgrundlagen": "https://www.hwk-chemnitz.de/ueber-uns/rechtsgrundlagen",
+          "urlProjekte": "https://www.hwk-chemnitz.de/ausbildung/vor-der-ausbildung/",
+          "urlVideo": "",
+          "urlInklusionsberatung": "https://www.hwk-chemnitz.de/betriebsfuehrung/personal-und-fachkraeftesicherung/inklusionsberatung/",
+          "adresse": {
+            "address": "Limbacher Straße 195",
+            "phone": "+49 371 5364-0",
+            "www": "https://www.hwk-chemnitz.de",
+            "city": "Chemnitz",
+            "zip": "09116",
+            "email_link": "<a href=\"#\" data-mailto-token=\"iwehpk6ejbkWdsg9ydaijepv:za\" data-mailto-vector=\"-4\" tabindex=\"0\" role=\"link\" class=\"masked-link address__email\">info@hwk-chemnitz.de</a>"
+          },
+          "mpa": {},
+          "latitude": "50.83127000",
+          "longitude": "12.87228000",
+          "handwerkid": [
+            30,
+            88,
+            4,
+            56,
+            25,
+            16,
+            42,
+            38,
+            87,
+            39,
+            86,
+            90,
+            19,
+            24,
+            18,
+            31,
+            97,
+            20,
+            21,
+            10,
+            1,
+            13,
+            89,
+            5,
+            27,
+            3,
+            91
+          ],
+          "icon": {
+            "size": [
+              16,
+              24
+            ],
+            "anchor": [
+              8,
+              0
+            ],
+            "file": "hwk.png"
+          },
+          "detailUrl": "https://www.zdh.de/ueber-uns/organisationen-des-handwerks/handwerkskammern/deutschlandkarte-der-handwerkskammern/wwt3listmapdetail.html?contentUid=19735&uid=105&cHash=9e12ec953a80a3a78f47c1ec501a7fcc",
+          "views": {
+            "bubble": "    <b>Handwerkskammer Chemnitz</b><br/>\n    Limbacher Straße 195<br/> 09116 Chemnitz<br/><br/>\n            <a href=\"https://www.hwk-chemnitz.de\" target=\"_blank\">https://www.hwk-chemnitz.de</a><br/>\n                <a href=\"https://www.hwk-chemnitz.de/weiterbildung/meine-karriere-im-handwerk\" target=\"_blank\">Weiterbildungsangebote</a><br/>\n                <a href=\"https://www.hwk-chemnitz.de/boersen/lehrstellenboerse\" target=\"_blank\">Lehrstellenangebote</a>\n    ",
+            "teaser": "    <b>Handwerkskammer Chemnitz</b><br/>\n    Limbacher Straße 195<br/> 09116 Chemnitz\n"
+          }
+        },
+        {
+          "uid": 104,
+          "pid": 1469,
+          "title": "Handwerkskammer Cottbus",
+          "sortTitle": "Cottbus",
+          "idExtern": 7,
+          "urlLehrstellenboerse": "https://www.hwk-cottbus.de/lehrstellen",
+          "urlWeiterbildungsdatenbank": "https://www.hwk-cottbus.de/7,829,coursesearch.html",
+          "urlZahlendatenfakten": "https://www.hwk-cottbus.de/artikel/zahlen-daten-fakten-7,717,707.html",
+          "urlOrgane": "https://www.hwk-cottbus.de/artikel/vorstand-7,718,166.html",
+          "urlRechtsgrundlagen": "https://www.hwk-cottbus.de/artikel/rechtsgrundlagen-7,719,154.html",
+          "urlProjekte": "https://www.hwk-cottbus.de/artikel/dein-weg-ins-handwerk-7,790,5280.html",
+          "urlVideo": "",
+          "urlInklusionsberatung": "https://www.hwk-cottbus.de/artikel/inklusion-und-handwerk-7,418,1054.html",
+          "adresse": {
+            "address": "Altmarkt 17",
+            "phone": "+49 355 7835-444",
+            "www": "https://www.hwk-cottbus.de",
+            "city": "Cottbus",
+            "zip": "03046",
+            "email_link": "<a href=\"#\" data-mailto-token=\"iwehpk6dsgWdsg9ykppxqo:za\" data-mailto-vector=\"-4\" tabindex=\"0\" role=\"link\" class=\"masked-link address__email\">hwk@hwk-cottbus.de</a>"
+          },
+          "mpa": {},
+          "latitude": "51.76101230",
+          "longitude": "14.33529260",
+          "handwerkid": [
+            4,
+            25,
+            32,
+            42,
+            38,
+            73,
+            24,
+            15,
+            23,
+            20,
+            10,
+            1,
+            13,
+            35,
+            5,
+            9,
+            27,
+            3
+          ],
+          "icon": {
+            "size": [
+              16,
+              24
+            ],
+            "anchor": [
+              8,
+              0
+            ],
+            "file": "hwk.png"
+          },
+          "detailUrl": "https://www.zdh.de/ueber-uns/organisationen-des-handwerks/handwerkskammern/deutschlandkarte-der-handwerkskammern/wwt3listmapdetail.html?contentUid=19735&uid=104&cHash=c3bd70bd0fafdfc9f8f125794dd2e289",
+          "views": {
+            "bubble": "    <b>Handwerkskammer Cottbus</b><br/>\n    Altmarkt 17<br/> 03046 Cottbus<br/><br/>\n            <a href=\"https://www.hwk-cottbus.de\" target=\"_blank\">https://www.hwk-cottbus.de</a><br/>\n                <a href=\"https://www.hwk-cottbus.de/7,829,coursesearch.html\" target=\"_blank\">Weiterbildungsangebote</a><br/>\n                <a href=\"https://www.hwk-cottbus.de/lehrstellen\" target=\"_blank\">Lehrstellenangebote</a>\n    ",
+            "teaser": "    <b>Handwerkskammer Cottbus</b><br/>\n    Altmarkt 17<br/> 03046 Cottbus\n"
+          }
+        },
+        {
+          "uid": 90,
+          "pid": 1469,
+          "title": "Handwerkskammer der Pfalz",
+          "sortTitle": "Kaiserslautern",
+          "idExtern": 43,
+          "urlLehrstellenboerse": "https://www.hwk-pfalz.de/artikel/lehrstellenboerse-und-lehrstellenradar-51,1448,2516.html",
+          "urlWeiterbildungsdatenbank": "https://www.hwk-pfalz.de/artikel/kurse-und-seminare-finden-51,0,3017.html",
+          "urlZahlendatenfakten": "https://www.hwk-pfalz.de/artikel/zahlen-daten-fakten-51,1366,113.html",
+          "urlOrgane": "https://www.hwk-pfalz.de/artikel/ehrenamt-und-geschaeftsfuehrung-51,1363,2324.html",
+          "urlRechtsgrundlagen": "https://www.hwk-pfalz.de/51,613,284.html",
+          "urlProjekte": "https://www.hwk-pfalz.de/artikel/ausbildung-fertig-los-51,0,3270.html",
+          "urlVideo": "",
+          "urlInklusionsberatung": "",
+          "adresse": {
+            "address": "Im Stadtwald 15",
+            "phone": "+49 631 3677-0",
+            "www": "https://www.hwk-pfalz.de",
+            "city": "Kaiserslautern",
+            "zip": "67663",
+            "email_link": "<a href=\"#\" data-mailto-token=\"iwehpk6ejbkWdsg9lbwhv:za\" data-mailto-vector=\"-4\" tabindex=\"0\" role=\"link\" class=\"masked-link address__email\">info@hwk-pfalz.de</a>"
+          },
+          "mpa": {},
+          "latitude": "49.44413000",
+          "longitude": "7.76862000",
+          "handwerkid": [
+            4,
+            25,
+            16,
+            42,
+            38,
+            19,
+            24,
+            15,
+            20,
+            21,
+            10,
+            1,
+            13,
+            12,
+            8,
+            5,
+            27,
+            3
+          ],
+          "icon": {
+            "size": [
+              16,
+              24
+            ],
+            "anchor": [
+              8,
+              0
+            ],
+            "file": "hwk.png"
+          },
+          "detailUrl": "https://www.zdh.de/ueber-uns/organisationen-des-handwerks/handwerkskammern/deutschlandkarte-der-handwerkskammern/wwt3listmapdetail.html?contentUid=19735&uid=90&cHash=43d2906d6abafce40ba33d53351fb7ee",
+          "views": {
+            "bubble": "    <b>Handwerkskammer der Pfalz</b><br/>\n    Im Stadtwald 15<br/> 67663 Kaiserslautern<br/><br/>\n            <a href=\"https://www.hwk-pfalz.de\" target=\"_blank\">https://www.hwk-pfalz.de</a><br/>\n                <a href=\"https://www.hwk-pfalz.de/artikel/kurse-und-seminare-finden-51,0,3017.html\" target=\"_blank\">Weiterbildungsangebote</a><br/>\n                <a href=\"https://www.hwk-pfalz.de/artikel/lehrstellenboerse-und-lehrstellenradar-51,1448,2516.html\" target=\"_blank\">Lehrstellenangebote</a>\n    ",
+            "teaser": "    <b>Handwerkskammer der Pfalz</b><br/>\n    Im Stadtwald 15<br/> 67663 Kaiserslautern\n"
+          }
+        },
+        {
+          "uid": 69,
+          "pid": 1469,
+          "title": "Handwerkskammer des Saarlandes",
+          "sortTitle": "Saarbrücken",
+          "idExtern": 44,
+          "urlLehrstellenboerse": "https://www.hwk-saarland.de/de/ausbildung/lehrstellen-und-praktikumsboerse",
+          "urlWeiterbildungsdatenbank": "https://www.kursfinder.de/anbieter/handwerkskammer-des-saarlandes/",
+          "urlZahlendatenfakten": "https://www.hwk-saarland.de/de/uber-uns/zahlen-daten-fakten",
+          "urlOrgane": "https://www.hwk-saarland.de/de/uber-uns/organe-und-ehrenamt",
+          "urlRechtsgrundlagen": "https://www.hwk-saarland.de/de/uber-uns/rechtsgrundlagen",
+          "urlProjekte": "https://www.hwk-saarland.de/de/ausbildung/schueler",
+          "urlVideo": "",
+          "urlInklusionsberatung": "",
+          "adresse": {
+            "address": "Hohenzollernstraße 47 - 49",
+            "phone": "+49 681 5809-0",
+            "www": "https://www.hwk-saarland.de",
+            "city": "Saarbrücken",
+            "zip": "66117",
+            "email_link": "<a href=\"#\" data-mailto-token=\"iwehpk6ejbkWdsg9owwnhwjz:za\" data-mailto-vector=\"-4\" tabindex=\"0\" role=\"link\" class=\"masked-link address__email\">info@hwk-saarland.de</a>"
+          },
+          "mpa": {},
+          "latitude": "49.23487130",
+          "longitude": "6.98383700",
+          "handwerkid": [
+            30,
+            4,
+            25,
+            16,
+            42,
+            38,
+            24,
+            31,
+            20,
+            10,
+            1,
+            13,
+            12,
+            5,
+            9,
+            27
+          ],
+          "icon": {
+            "size": [
+              16,
+              24
+            ],
+            "anchor": [
+              8,
+              0
+            ],
+            "file": "hwk.png"
+          },
+          "detailUrl": "https://www.zdh.de/ueber-uns/organisationen-des-handwerks/handwerkskammern/deutschlandkarte-der-handwerkskammern/wwt3listmapdetail.html?contentUid=19735&uid=69&cHash=33b4c47fc688aa83e458ee6d4bc8d721",
+          "views": {
+            "bubble": "    <b>Handwerkskammer des Saarlandes</b><br/>\n    Hohenzollernstraße 47 - 49<br/> 66117 Saarbrücken<br/><br/>\n            <a href=\"https://www.hwk-saarland.de\" target=\"_blank\">https://www.hwk-saarland.de</a><br/>\n                <a href=\"https://www.kursfinder.de/anbieter/handwerkskammer-des-saarlandes/\" target=\"_blank\">Weiterbildungsangebote</a><br/>\n                <a href=\"https://www.hwk-saarland.de/de/ausbildung/lehrstellen-und-praktikumsboerse\" target=\"_blank\">Lehrstellenangebote</a>\n    ",
+            "teaser": "    <b>Handwerkskammer des Saarlandes</b><br/>\n    Hohenzollernstraße 47 - 49<br/> 66117 Saarbrücken\n"
+          }
+        },
+        {
+          "uid": 103,
+          "pid": 1469,
+          "title": "Handwerkskammer Dortmund",
+          "sortTitle": "Dortmund",
+          "idExtern": 8,
+          "urlLehrstellenboerse": "https://www.hwk-do.de/artikel/ausbildungsplaetze-praktika-finden-37,62,18.html",
+          "urlWeiterbildungsdatenbank": "https://bz.hwk-do.de/de/weiterbildung/kurse-fuer-auszubildende-und-ausbilder",
+          "urlZahlendatenfakten": "https://www.hwk-do.de/de/uber-uns/zahlen-daten-fakten",
+          "urlOrgane": "https://www.hwk-do.de/de/uber-uns/organe-ehrenamt",
+          "urlRechtsgrundlagen": "https://www.hwk-do.de/de/uber-uns/rechtsgrundlagen",
+          "urlProjekte": "https://www.hwk-do.de/artikel/berufsorientierung-unser-team-steht-dir-zur-seite-37,158,1468.html",
+          "urlVideo": "",
+          "urlInklusionsberatung": "https://www.hwk-do.de/artikel/inklusion-37,0,97.html",
+          "adresse": {
+            "address": "Ardeystrasse 93",
+            "phone": "+49 231 5493-0",
+            "www": "https://www.hwk-do.de",
+            "city": "Dortmund",
+            "zip": "44139",
+            "email_link": "<a href=\"#\" data-mailto-token=\"iwehpk6ejbkWdsg9zk:za\" data-mailto-vector=\"-4\" tabindex=\"0\" role=\"link\" class=\"masked-link address__email\">info@hwk-do.de</a>"
+          },
+          "mpa": {},
+          "latitude": "51.48804350",
+          "longitude": "7.45788639",
+          "handwerkid": [
+            33,
+            4,
+            25,
+            16,
+            42,
+            78,
+            38,
+            73,
+            11,
+            24,
+            18,
+            20,
+            10,
+            60,
+            1,
+            13,
+            35,
+            93,
+            8,
+            5,
+            9,
+            27,
+            37,
+            3,
+            17
+          ],
+          "icon": {
+            "size": [
+              16,
+              24
+            ],
+            "anchor": [
+              8,
+              0
+            ],
+            "file": "hwk.png"
+          },
+          "detailUrl": "https://www.zdh.de/ueber-uns/organisationen-des-handwerks/handwerkskammern/deutschlandkarte-der-handwerkskammern/wwt3listmapdetail.html?contentUid=19735&uid=103&cHash=d87077d26011f274820be46d8e35639d",
+          "views": {
+            "bubble": "    <b>Handwerkskammer Dortmund</b><br/>\n    Ardeystrasse 93<br/> 44139 Dortmund<br/><br/>\n            <a href=\"https://www.hwk-do.de\" target=\"_blank\">https://www.hwk-do.de</a><br/>\n                <a href=\"https://bz.hwk-do.de/de/weiterbildung/kurse-fuer-auszubildende-und-ausbilder\" target=\"_blank\">Weiterbildungsangebote</a><br/>\n                <a href=\"https://www.hwk-do.de/artikel/ausbildungsplaetze-praktika-finden-37,62,18.html\" target=\"_blank\">Lehrstellenangebote</a>\n    ",
+            "teaser": "    <b>Handwerkskammer Dortmund</b><br/>\n    Ardeystrasse 93<br/> 44139 Dortmund\n"
+          }
+        },
+        {
+          "uid": 102,
+          "pid": 1469,
+          "title": "Handwerkskammer Dresden",
+          "sortTitle": "Dresden",
+          "idExtern": 9,
+          "urlLehrstellenboerse": "https://www.hwk-dresden.de/Service/Lehrstellen-finden",
+          "urlWeiterbildungsdatenbank": "https://www.hwk-dresden.de/Weiterbildung/Angebote-Kurse-und-Seminare",
+          "urlZahlendatenfakten": "https://www.hwk-dresden.de/Menu/%C3%9Cber-uns/Zahlen-Daten-Fakten",
+          "urlOrgane": "https://www.hwk-dresden.de/Menu/%C3%9Cber-uns/Die-Handwerkskammer/Organe-und-Ehrenamt",
+          "urlRechtsgrundlagen": "https://www.hwk-dresden.de/Menu/%C3%9Cber-uns/Rechtsgrundlagen",
+          "urlProjekte": "https://www.hwk-dresden.de/Ausbildung/Wege-zur-Ausbildung",
+          "urlVideo": "",
+          "urlInklusionsberatung": "https://www.hwk-dresden.de/Ausbildung/Duale-Ausbildung/Inklusion",
+          "adresse": {
+            "address": "Am Lagerplatz 8",
+            "phone": "+49 351 4640-30",
+            "www": "https://www.hwk-dresden.de",
+            "city": "Dresden",
+            "zip": "01099",
+            "email_link": "<a href=\"#\" data-mailto-token=\"iwehpk6ejbkWdsg9znaozaj:za\" data-mailto-vector=\"-4\" tabindex=\"0\" role=\"link\" class=\"masked-link address__email\">info@hwk-dresden.de</a>"
+          },
+          "mpa": {},
+          "latitude": "51.08363530",
+          "longitude": "13.76876150",
+          "handwerkid": [
+            30,
+            4,
+            25,
+            16,
+            42,
+            38,
+            73,
+            11,
+            52,
+            19,
+            24,
+            23,
+            97,
+            20,
+            21,
+            10,
+            60,
+            1,
+            13,
+            2,
+            36,
+            67,
+            54,
+            93,
+            8,
+            27,
+            46,
+            37,
+            3
+          ],
+          "icon": {
+            "size": [
+              16,
+              24
+            ],
+            "anchor": [
+              8,
+              0
+            ],
+            "file": "hwk.png"
+          },
+          "detailUrl": "https://www.zdh.de/ueber-uns/organisationen-des-handwerks/handwerkskammern/deutschlandkarte-der-handwerkskammern/wwt3listmapdetail.html?contentUid=19735&uid=102&cHash=b3b6ee1e432437b64642bda503ce6878",
+          "views": {
+            "bubble": "    <b>Handwerkskammer Dresden</b><br/>\n    Am Lagerplatz 8<br/> 01099 Dresden<br/><br/>\n            <a href=\"https://www.hwk-dresden.de\" target=\"_blank\">https://www.hwk-dresden.de</a><br/>\n                <a href=\"https://www.hwk-dresden.de/Weiterbildung/Angebote-Kurse-und-Seminare\" target=\"_blank\">Weiterbildungsangebote</a><br/>\n                <a href=\"https://www.hwk-dresden.de/Service/Lehrstellen-finden\" target=\"_blank\">Lehrstellenangebote</a>\n    ",
+            "teaser": "    <b>Handwerkskammer Dresden</b><br/>\n    Am Lagerplatz 8<br/> 01099 Dresden\n"
+          }
+        },
+        {
+          "uid": 101,
+          "pid": 1469,
+          "title": "Handwerkskammer Düsseldorf",
+          "sortTitle": "Düsseldorf",
+          "idExtern": 10,
+          "urlLehrstellenboerse": "https://www.hwk-duesseldorf.de/31,0,jobboardoffersearch.html",
+          "urlWeiterbildungsdatenbank": "https://www.hwk-duesseldorf.de/31,1569,coursesearch.html",
+          "urlZahlendatenfakten": "https://www.hwk-duesseldorf.de/artikel/zahlen-daten-fakten-31,1546,1055.html",
+          "urlOrgane": "https://www.hwk-duesseldorf.de/artikel/organe-ehrenamt-31,1750,43.html",
+          "urlRechtsgrundlagen": "https://www.hwk-duesseldorf.de/artikel/rechtsgrundlagen-31,1539,1870.html",
+          "urlProjekte": "https://www.hwk-duesseldorf.de/artikel/vor-der-ausbildung-31,1495,257.html",
+          "urlVideo": "",
+          "urlInklusionsberatung": "https://www.hwk-duesseldorf.de/artikel/integrationsberatung-menschen-mit-behinderungen-im-handwerk-31,0,7.html",
+          "adresse": {
+            "address": "Georg-Schulhoff-Platz 1",
+            "phone": "+49 211 8795-0",
+            "www": "https://www.hwk-duesseldorf.de",
+            "city": "Düsseldorf",
+            "zip": "40221",
+            "email_link": "<a href=\"#\" data-mailto-token=\"iwehpk6ejbkWdsg9zqaooahzknb:za\" data-mailto-vector=\"-4\" tabindex=\"0\" role=\"link\" class=\"masked-link address__email\">info@hwk-duesseldorf.de</a>"
+          },
+          "mpa": {},
+          "latitude": "51.20675050",
+          "longitude": "6.75971730",
+          "handwerkid": [
+            33,
+            30,
+            96,
+            4,
+            25,
+            16,
+            32,
+            42,
+            38,
+            49,
+            73,
+            47,
+            94,
+            24,
+            18,
+            15,
+            20,
+            21,
+            10,
+            60,
+            1,
+            41,
+            50,
+            13,
+            48,
+            36,
+            35,
+            66,
+            5,
+            27,
+            37
+          ],
+          "icon": {
+            "size": [
+              16,
+              24
+            ],
+            "anchor": [
+              8,
+              0
+            ],
+            "file": "hwk.png"
+          },
+          "detailUrl": "https://www.zdh.de/ueber-uns/organisationen-des-handwerks/handwerkskammern/deutschlandkarte-der-handwerkskammern/wwt3listmapdetail.html?contentUid=19735&uid=101&cHash=ecc78ab595a07c41004f2c8e2731086d",
+          "views": {
+            "bubble": "    <b>Handwerkskammer Düsseldorf</b><br/>\n    Georg-Schulhoff-Platz 1<br/> 40221 Düsseldorf<br/><br/>\n            <a href=\"https://www.hwk-duesseldorf.de\" target=\"_blank\">https://www.hwk-duesseldorf.de</a><br/>\n                <a href=\"https://www.hwk-duesseldorf.de/31,1569,coursesearch.html\" target=\"_blank\">Weiterbildungsangebote</a><br/>\n                <a href=\"https://www.hwk-duesseldorf.de/31,0,jobboardoffersearch.html\" target=\"_blank\">Lehrstellenangebote</a>\n    ",
+            "teaser": "    <b>Handwerkskammer Düsseldorf</b><br/>\n    Georg-Schulhoff-Platz 1<br/> 40221 Düsseldorf\n"
+          }
+        },
+        {
+          "uid": 100,
+          "pid": 1469,
+          "title": "Handwerkskammer Erfurt",
+          "sortTitle": "Erfurt",
+          "idExtern": 11,
+          "urlLehrstellenboerse": "https://www.hwk-erfurt.de/lehrstellenboerse",
+          "urlWeiterbildungsdatenbank": "https://www.hwk-erfurt.de/artikel/kurse-seminare-finden-und-buchen-4,395,1087.html",
+          "urlZahlendatenfakten": "https://www.hwk-erfurt.de/artikel/zahlen-daten-fakten-4,443,1336.html",
+          "urlOrgane": "https://www.hwk-erfurt.de/artikel/organe-und-ehrenamt-4,426,119.html",
+          "urlRechtsgrundlagen": "https://www.hwk-erfurt.de/artikel/rechtsgrundlagen-4,434,1373.html",
+          "urlProjekte": "https://www.hwk-erfurt.de/artikel/berufsorientierung-und-vorbereitung-4,362,162.html",
+          "urlVideo": "",
+          "urlInklusionsberatung": "https://www.hwk-erfurt.de/4,272,342.html",
+          "adresse": {
+            "address": "Fischmarkt 13",
+            "phone": "+49 361 6707-0",
+            "www": "https://www.hwk-erfurt.de",
+            "city": "Erfurt",
+            "zip": "99096",
+            "email_link": "<a href=\"#\" data-mailto-token=\"iwehpk6ejbkWdsg9anbqnp:za\" data-mailto-vector=\"-4\" tabindex=\"0\" role=\"link\" class=\"masked-link address__email\">info@hwk-erfurt.de</a>"
+          },
+          "mpa": {},
+          "latitude": "50.97824420",
+          "longitude": "11.02859340",
+          "handwerkid": [
+            30,
+            25,
+            38,
+            19,
+            24,
+            18,
+            31,
+            20,
+            10,
+            1,
+            13,
+            12,
+            27,
+            37,
+            3
+          ],
+          "icon": {
+            "size": [
+              16,
+              24
+            ],
+            "anchor": [
+              8,
+              0
+            ],
+            "file": "hwk.png"
+          },
+          "detailUrl": "https://www.zdh.de/ueber-uns/organisationen-des-handwerks/handwerkskammern/deutschlandkarte-der-handwerkskammern/wwt3listmapdetail.html?contentUid=19735&uid=100&cHash=c1394d8167a8abe7b29d55b54186f2fe",
+          "views": {
+            "bubble": "    <b>Handwerkskammer Erfurt</b><br/>\n    Fischmarkt 13<br/> 99096 Erfurt<br/><br/>\n            <a href=\"https://www.hwk-erfurt.de\" target=\"_blank\">https://www.hwk-erfurt.de</a><br/>\n                <a href=\"https://www.hwk-erfurt.de/artikel/kurse-seminare-finden-und-buchen-4,395,1087.html\" target=\"_blank\">Weiterbildungsangebote</a><br/>\n                <a href=\"https://www.hwk-erfurt.de/lehrstellenboerse\" target=\"_blank\">Lehrstellenangebote</a>\n    ",
+            "teaser": "    <b>Handwerkskammer Erfurt</b><br/>\n    Fischmarkt 13<br/> 99096 Erfurt\n"
+          }
+        },
+        {
+          "uid": 99,
+          "pid": 1469,
+          "title": "Handwerkskammer Flensburg",
+          "sortTitle": "Flensburg",
+          "idExtern": 12,
+          "urlLehrstellenboerse": "https://www.hwk-flensburg.de/11,0,jpguestsearch.html",
+          "urlWeiterbildungsdatenbank": "https://www.hwk-flensburg.de/11,0,coursesearch.html",
+          "urlZahlendatenfakten": "https://www.hwk-flensburg.de/artikel/das-handwerk-eine-ganz-schoen-grosse-nummer-11,120,99.html",
+          "urlOrgane": "https://www.hwk-flensburg.de/artikel/die-arbeit-der-handwerksorganisation-lebt-durch-das-ehrenamt-11,117,90.html",
+          "urlRechtsgrundlagen": "https://www.hwk-flensburg.de/artikel/rechtliche-grundlagen-11,119,78.html",
+          "urlProjekte": "https://www.hwk-flensburg.de/artikel/handwerk-fuer-einsteiger-und-aufsteiger-11,81,39.html",
+          "urlVideo": "",
+          "urlInklusionsberatung": "",
+          "adresse": {
+            "address": "Johanniskirchhof 1",
+            "phone": "+49 461 866-0",
+            "www": "https://www.hwk-flensburg.de",
+            "city": "Flensburg",
+            "zip": "24937",
+            "email_link": "<a href=\"#\" data-mailto-token=\"iwehpk6ejbkWdsg9bhajoxqnc:za\" data-mailto-vector=\"-4\" tabindex=\"0\" role=\"link\" class=\"masked-link address__email\">info@hwk-flensburg.de</a>"
+          },
+          "mpa": {},
+          "latitude": "54.78424000",
+          "longitude": "9.44015000",
+          "handwerkid": [
+            25,
+            16,
+            78,
+            38,
+            19,
+            24,
+            20,
+            21,
+            10,
+            1,
+            13,
+            12,
+            27,
+            3
+          ],
+          "icon": {
+            "size": [
+              16,
+              24
+            ],
+            "anchor": [
+              8,
+              0
+            ],
+            "file": "hwk.png"
+          },
+          "detailUrl": "https://www.zdh.de/ueber-uns/organisationen-des-handwerks/handwerkskammern/deutschlandkarte-der-handwerkskammern/wwt3listmapdetail.html?contentUid=19735&uid=99&cHash=c46052c116b4f8fa67ced3b355f92a58",
+          "views": {
+            "bubble": "    <b>Handwerkskammer Flensburg</b><br/>\n    Johanniskirchhof 1<br/> 24937 Flensburg<br/><br/>\n            <a href=\"https://www.hwk-flensburg.de\" target=\"_blank\">https://www.hwk-flensburg.de</a><br/>\n                <a href=\"https://www.hwk-flensburg.de/11,0,coursesearch.html\" target=\"_blank\">Weiterbildungsangebote</a><br/>\n                <a href=\"https://www.hwk-flensburg.de/11,0,jpguestsearch.html\" target=\"_blank\">Lehrstellenangebote</a>\n    ",
+            "teaser": "    <b>Handwerkskammer Flensburg</b><br/>\n    Johanniskirchhof 1<br/> 24937 Flensburg\n"
+          }
+        },
+        {
+          "uid": 70,
+          "pid": 1469,
+          "title": "Handwerkskammer Frankfurt-Rhein-Main",
+          "sortTitle": "Frankfurt-Rhein-Main",
+          "idExtern": 13,
+          "urlLehrstellenboerse": "https://www.rhein-main-campus.de/de",
+          "urlWeiterbildungsdatenbank": "https://www.rhein-main-campus.de/de",
+          "urlZahlendatenfakten": "https://www.hwk-rhein-main.de/de/uber-uns/die-handwerkskammer-frankfurt-rhein-main",
+          "urlOrgane": "https://www.hwk-rhein-main.de/de/uber-uns/die-ehrenamtlichen-gremien",
+          "urlRechtsgrundlagen": "https://www.hwk-rhein-main.de/de/uber-uns/rechtsgrundlagen",
+          "urlProjekte": "https://www.hwk-rhein-main.de/de/ausbildung-2",
+          "urlVideo": "",
+          "urlInklusionsberatung": "",
+          "adresse": {
+            "address": "Schönstraße 21",
+            "phone": "+49 69 97172-818",
+            "www": "https://www.hwk-rhein-main.de",
+            "city": "Frankfurt",
+            "zip": "60327",
+            "email_link": "<a href=\"#\" data-mailto-token=\"iwehpk6oanreyaWdsg9ndaej9iwej:za\" data-mailto-vector=\"-4\" tabindex=\"0\" role=\"link\" class=\"masked-link address__email\">service@hwk-rhein-main.de</a>"
+          },
+          "mpa": {},
+          "latitude": "50.11601590",
+          "longitude": "8.66842550",
+          "handwerkid": [
+            30,
+            4,
+            56,
+            25,
+            16,
+            32,
+            38,
+            73,
+            11,
+            24,
+            18,
+            15,
+            20,
+            21,
+            10,
+            60,
+            1,
+            13,
+            36,
+            53,
+            80,
+            67,
+            93,
+            12,
+            65,
+            71,
+            27,
+            46,
+            6,
+            37,
+            3,
+            17
+          ],
+          "icon": {
+            "size": [
+              16,
+              24
+            ],
+            "anchor": [
+              8,
+              0
+            ],
+            "file": "hwk.png"
+          },
+          "detailUrl": "https://www.zdh.de/ueber-uns/organisationen-des-handwerks/handwerkskammern/deutschlandkarte-der-handwerkskammern/wwt3listmapdetail.html?contentUid=19735&uid=70&cHash=49deee98cbe9717225584e55afdbdbd6",
+          "views": {
+            "bubble": "    <b>Handwerkskammer Frankfurt-Rhein-Main</b><br/>\n    Schönstraße 21<br/> 60327 Frankfurt<br/><br/>\n            <a href=\"https://www.hwk-rhein-main.de\" target=\"_blank\">https://www.hwk-rhein-main.de</a><br/>\n                <a href=\"https://www.rhein-main-campus.de/de\" target=\"_blank\">Weiterbildungsangebote</a><br/>\n                <a href=\"https://www.rhein-main-campus.de/de\" target=\"_blank\">Lehrstellenangebote</a>\n    ",
+            "teaser": "    <b>Handwerkskammer Frankfurt-Rhein-Main</b><br/>\n    Schönstraße 21<br/> 60327 Frankfurt\n"
+          }
+        },
+        {
+          "uid": 98,
+          "pid": 1469,
+          "title": "Handwerkskammer Frankfurt/Oder - Region Ostbrandenburg",
+          "sortTitle": "Frankfurt/Oder - Region Ostbrandenburg",
+          "idExtern": 14,
+          "urlLehrstellenboerse": "https://www.azubi-ostbrandenburg.de/",
+          "urlWeiterbildungsdatenbank": "https://www.weiterbildung-ostbrandenburg.de/",
+          "urlZahlendatenfakten": "https://www.hwk-ff.de/ueber-uns/die-handwerkskammer/daten-zahlen-und-fakten",
+          "urlOrgane": "https://www.hwk-ff.de/ueber-uns/organe-und-ehrenamt",
+          "urlRechtsgrundlagen": "https://www.hwk-ff.de/ueber-uns/rechtsgrundlagen",
+          "urlProjekte": "https://www.azubi-ostbrandenburg.de/sommer-der-berufsausbildung/",
+          "urlVideo": "",
+          "urlInklusionsberatung": "https://www.azubi-ostbrandenburg.de/inklusionsberater/",
+          "adresse": {
+            "address": "Bahnhofstraße 12",
+            "phone": "+49 335 5619-0",
+            "www": "https://www.hwk-ff.de",
+            "city": "Frankfurt (Oder)",
+            "zip": "15230",
+            "email_link": "<a href=\"#\" data-mailto-token=\"iwehpk6ejbkWdsg9bb:za\" data-mailto-vector=\"-4\" tabindex=\"0\" role=\"link\" class=\"masked-link address__email\">info@hwk-ff.de</a>"
+          },
+          "mpa": {},
+          "latitude": "52.33870570",
+          "longitude": "14.54607570",
+          "handwerkid": [
+            25,
+            38,
+            24,
+            97,
+            20,
+            10,
+            1,
+            13,
+            5,
+            27,
+            3
+          ],
+          "icon": {
+            "size": [
+              16,
+              24
+            ],
+            "anchor": [
+              8,
+              0
+            ],
+            "file": "hwk.png"
+          },
+          "detailUrl": "https://www.zdh.de/ueber-uns/organisationen-des-handwerks/handwerkskammern/deutschlandkarte-der-handwerkskammern/wwt3listmapdetail.html?contentUid=19735&uid=98&cHash=86904d5ee3a263c98867725e203cbb79",
+          "views": {
+            "bubble": "    <b>Handwerkskammer Frankfurt/Oder - Region Ostbrandenburg</b><br/>\n    Bahnhofstraße 12<br/> 15230 Frankfurt (Oder)<br/><br/>\n            <a href=\"https://www.hwk-ff.de\" target=\"_blank\">https://www.hwk-ff.de</a><br/>\n                <a href=\"https://www.weiterbildung-ostbrandenburg.de/\" target=\"_blank\">Weiterbildungsangebote</a><br/>\n                <a href=\"https://www.azubi-ostbrandenburg.de/\" target=\"_blank\">Lehrstellenangebote</a>\n    ",
+            "teaser": "    <b>Handwerkskammer Frankfurt/Oder - Region Ostbrandenburg</b><br/>\n    Bahnhofstraße 12<br/> 15230 Frankfurt (Oder)\n"
+          }
+        },
+        {
+          "uid": 97,
+          "pid": 1469,
+          "title": "Handwerkskammer Freiburg",
+          "sortTitle": "Freiburg",
+          "idExtern": 15,
+          "urlLehrstellenboerse": "https://www.hwk-freiburg.de/de/service-center/lehrstellenboerse",
+          "urlWeiterbildungsdatenbank": "https://www.gewerbeakademie.de",
+          "urlZahlendatenfakten": "https://www.hwk-freiburg.de/de/uber-uns/zahlen-daten-fakten",
+          "urlOrgane": "https://www.hwk-freiburg.de/de/uber-uns/uber-die-handwerkskammer/organe-ehrenamt",
+          "urlRechtsgrundlagen": "https://www.hwk-freiburg.de/de/uber-uns/rechtsgrundlagen",
+          "urlProjekte": "https://www.hwk-freiburg.de/de/ausbildung/fuer-bewerber",
+          "urlVideo": "",
+          "urlInklusionsberatung": "https://www.hwk-freiburg.de/de/betriebsfuehrung/fachkraefte/inklusionsberatung",
+          "adresse": {
+            "address": "Bismarckallee 6",
+            "phone": "+49 761 21800-0",
+            "www": "https://www.hwk-freiburg.de",
+            "city": "Freiburg",
+            "zip": "79098",
+            "email_link": "<a href=\"#\" data-mailto-token=\"iwehpk6ejbkWdsg9bnaexqnc:za\" data-mailto-vector=\"-4\" tabindex=\"0\" role=\"link\" class=\"masked-link address__email\">info@hwk-freiburg.de</a>"
+          },
+          "mpa": {},
+          "latitude": "47.99702210",
+          "longitude": "7.84257940",
+          "handwerkid": [
+            30,
+            25,
+            16,
+            32,
+            24,
+            31,
+            20,
+            21,
+            10,
+            1,
+            13,
+            93,
+            8,
+            27,
+            37,
+            3,
+            17
+          ],
+          "icon": {
+            "size": [
+              16,
+              24
+            ],
+            "anchor": [
+              8,
+              0
+            ],
+            "file": "hwk.png"
+          },
+          "detailUrl": "https://www.zdh.de/ueber-uns/organisationen-des-handwerks/handwerkskammern/deutschlandkarte-der-handwerkskammern/wwt3listmapdetail.html?contentUid=19735&uid=97&cHash=5ff283d397d2f381fd04737de469d0e3",
+          "views": {
+            "bubble": "    <b>Handwerkskammer Freiburg</b><br/>\n    Bismarckallee 6<br/> 79098 Freiburg<br/><br/>\n            <a href=\"https://www.hwk-freiburg.de\" target=\"_blank\">https://www.hwk-freiburg.de</a><br/>\n                <a href=\"https://www.gewerbeakademie.de\" target=\"_blank\">Weiterbildungsangebote</a><br/>\n                <a href=\"https://www.hwk-freiburg.de/de/service-center/lehrstellenboerse\" target=\"_blank\">Lehrstellenangebote</a>\n    ",
+            "teaser": "    <b>Handwerkskammer Freiburg</b><br/>\n    Bismarckallee 6<br/> 79098 Freiburg\n"
+          }
+        },
+        {
+          "uid": 77,
+          "pid": 1469,
+          "title": "Handwerkskammer für Mittelfranken",
+          "sortTitle": "Nürnberg",
+          "idExtern": 45,
+          "urlLehrstellenboerse": "https://www.hwk-mittelfranken.de/75,1106,jobboardoffersearch.html",
+          "urlWeiterbildungsdatenbank": "https://www.hwk-mittelfranken.de/artikel/machen-sie-einen-karrieresprung-mit-der-akademie-der-handwerkskammer-fuer-mittelfranken-75,1317,4378.html",
+          "urlZahlendatenfakten": "https://www.hwk-mittelfranken.de/artikel/daten-fakten-zahlen-75,1533,114.html",
+          "urlOrgane": "https://www.hwk-mittelfranken.de/artikel/ehrenamt-im-handwerk-75,1584,4027.html",
+          "urlRechtsgrundlagen": "https://www.hwk-mittelfranken.de/artikel/rechtsgrundlagen-75,1122,2872.html",
+          "urlProjekte": "https://www.hwk-mittelfranken.de/artikel/machhandwerk-weil-du-mehr-kannst-75,1164,2719.html",
+          "urlVideo": "",
+          "urlInklusionsberatung": "",
+          "adresse": {
+            "address": "Sulzbacher Straße 11-15",
+            "phone": "+49 911 5309-0",
+            "www": "https://www.hwk-mittelfranken.de",
+            "city": "Nürnberg",
+            "zip": "90489",
+            "email_link": "<a href=\"#\" data-mailto-token=\"iwehpk6ejbkWdsg9ieppahbnwjgaj:za\" data-mailto-vector=\"-4\" tabindex=\"0\" role=\"link\" class=\"masked-link address__email\">info@hwk-mittelfranken.de</a>"
+          },
+          "mpa": {},
+          "latitude": "49.45791720",
+          "longitude": "11.09081650",
+          "handwerkid": [
+            30,
+            95,
+            25,
+            44,
+            16,
+            42,
+            38,
+            49,
+            73,
+            24,
+            18,
+            31,
+            20,
+            64,
+            10,
+            1,
+            13,
+            53,
+            12,
+            9,
+            27,
+            6,
+            37
+          ],
+          "icon": {
+            "size": [
+              16,
+              24
+            ],
+            "anchor": [
+              8,
+              0
+            ],
+            "file": "hwk.png"
+          },
+          "detailUrl": "https://www.zdh.de/ueber-uns/organisationen-des-handwerks/handwerkskammern/deutschlandkarte-der-handwerkskammern/wwt3listmapdetail.html?contentUid=19735&uid=77&cHash=2f82d715e2e7faf86c594d689ba24026",
+          "views": {
+            "bubble": "    <b>Handwerkskammer für Mittelfranken</b><br/>\n    Sulzbacher Straße 11-15<br/> 90489 Nürnberg<br/><br/>\n            <a href=\"https://www.hwk-mittelfranken.de\" target=\"_blank\">https://www.hwk-mittelfranken.de</a><br/>\n                <a href=\"https://www.hwk-mittelfranken.de/artikel/machen-sie-einen-karrieresprung-mit-der-akademie-der-handwerkskammer-fuer-mittelfranken-75,1317,4378.html\" target=\"_blank\">Weiterbildungsangebote</a><br/>\n                <a href=\"https://www.hwk-mittelfranken.de/75,1106,jobboardoffersearch.html\" target=\"_blank\">Lehrstellenangebote</a>\n    ",
+            "teaser": "    <b>Handwerkskammer für Mittelfranken</b><br/>\n    Sulzbacher Straße 11-15<br/> 90489 Nürnberg\n"
+          }
+        },
+        {
+          "uid": 80,
+          "pid": 1469,
+          "title": "Handwerkskammer für München und Oberbayern",
+          "sortTitle": "München und Oberbayern",
+          "idExtern": 46,
+          "urlLehrstellenboerse": "https://www.hwk-muenchen.de/74,2541,237.html",
+          "urlWeiterbildungsdatenbank": "https://www.hwk-muenchen.de/74,1974,396.html",
+          "urlZahlendatenfakten": "https://www.hwk-muenchen.de/artikel/daten-zur-wirtschaftlichen-entwicklung-des-handwerks-74,4002,7283.html",
+          "urlOrgane": "https://www.hwk-muenchen.de/artikel/vorstand-74,4004,429.html",
+          "urlRechtsgrundlagen": "https://www.hwk-muenchen.de/artikel/handwerksordnung-satzung-74,4005,7340.html",
+          "urlProjekte": "https://www.hwk-muenchen.de/artikel/vor-der-ausbildung-74,4571,7678.html",
+          "urlVideo": "",
+          "urlInklusionsberatung": "https://www.hwk-muenchen.de/artikel/behinderte-menschen-im-handwerk-am-berufsleben-teilhaben-74,0,5660.html",
+          "adresse": {
+            "address": "Max-Joseph-Straße 4",
+            "phone": "+49 89 5119-0",
+            "www": "https://www.hwk-muenchen.de",
+            "city": "München",
+            "zip": "80333",
+            "email_link": "<a href=\"#\" data-mailto-token=\"iwehpk6ejbkWdsg9iqajydaj:za\" data-mailto-vector=\"-4\" tabindex=\"0\" role=\"link\" class=\"masked-link address__email\">info@hwk-muenchen.de</a>"
+          },
+          "mpa": {},
+          "latitude": "48.14327100",
+          "longitude": "11.57047080",
+          "handwerkid": [
+            33,
+            30,
+            58,
+            69,
+            79,
+            22,
+            26,
+            25,
+            16,
+            42,
+            78,
+            38,
+            73,
+            87,
+            52,
+            86,
+            57,
+            90,
+            19,
+            24,
+            18,
+            15,
+            85,
+            23,
+            31,
+            97,
+            20,
+            21,
+            10,
+            60,
+            1,
+            50,
+            13,
+            89,
+            2,
+            84,
+            35,
+            93,
+            12,
+            29,
+            8,
+            5,
+            9,
+            27,
+            92,
+            37,
+            3,
+            91,
+            17
+          ],
+          "icon": {
+            "size": [
+              16,
+              24
+            ],
+            "anchor": [
+              8,
+              0
+            ],
+            "file": "hwk.png"
+          },
+          "detailUrl": "https://www.zdh.de/ueber-uns/organisationen-des-handwerks/handwerkskammern/deutschlandkarte-der-handwerkskammern/wwt3listmapdetail.html?contentUid=19735&uid=80&cHash=46389d0aa8338f575b4d5a5c3c04eaf5",
+          "views": {
+            "bubble": "    <b>Handwerkskammer für München und Oberbayern</b><br/>\n    Max-Joseph-Straße 4<br/> 80333 München<br/><br/>\n            <a href=\"https://www.hwk-muenchen.de\" target=\"_blank\">https://www.hwk-muenchen.de</a><br/>\n                <a href=\"https://www.hwk-muenchen.de/74,1974,396.html\" target=\"_blank\">Weiterbildungsangebote</a><br/>\n                <a href=\"https://www.hwk-muenchen.de/74,2541,237.html\" target=\"_blank\">Lehrstellenangebote</a>\n    ",
+            "teaser": "    <b>Handwerkskammer für München und Oberbayern</b><br/>\n    Max-Joseph-Straße 4<br/> 80333 München\n"
+          }
+        },
+        {
+          "uid": 58,
+          "pid": 1469,
+          "title": "Handwerkskammer für Oberfranken",
+          "sortTitle": "Bayreuth",
+          "idExtern": 47,
+          "urlLehrstellenboerse": "https://www.hwk-oberfranken.de/72,1124,jobboardoffersearch.html",
+          "urlWeiterbildungsdatenbank": "https://www.hwk-oberfranken.de/artikel/weiterbildungskurse-72,1115,1932.html",
+          "urlZahlendatenfakten": "https://www.hwk-oberfranken.de/artikel/zahlen-daten-fakten-72,1073,43.html",
+          "urlOrgane": "https://www.hwk-oberfranken.de/artikel/organe-und-ehrenamt-72,1082,1378.html",
+          "urlRechtsgrundlagen": "https://www.hwk-oberfranken.de/artikel/rechtsgrundlagen-72,1086,867.html",
+          "urlProjekte": "https://www.hwk-oberfranken.de/artikel/vor-der-ausbildung-72,1046,1931.html",
+          "urlVideo": "",
+          "urlInklusionsberatung": "https://www.hwk-oberfranken.de/artikel/inklusion-72,0,2324.html",
+          "adresse": {
+            "address": "Kerschensteinerstraße 7",
+            "phone": "+49 921 910-0",
+            "www": "https://www.hwk-oberfranken.de",
+            "city": "Bayreuth",
+            "zip": "95448",
+            "email_link": "<a href=\"#\" data-mailto-token=\"iwehpk6ejbkWdsg9kxanbnwjgaj:za\" data-mailto-vector=\"-4\" tabindex=\"0\" role=\"link\" class=\"masked-link address__email\">info@hwk-oberfranken.de</a>"
+          },
+          "mpa": {},
+          "latitude": "49.94151410",
+          "longitude": "11.59782900",
+          "handwerkid": [
+            30,
+            69,
+            25,
+            16,
+            32,
+            42,
+            38,
+            11,
+            24,
+            23,
+            31,
+            59,
+            97,
+            20,
+            21,
+            10,
+            1,
+            13,
+            67,
+            12,
+            27,
+            3
+          ],
+          "icon": {
+            "size": [
+              16,
+              24
+            ],
+            "anchor": [
+              8,
+              0
+            ],
+            "file": "hwk.png"
+          },
+          "detailUrl": "https://www.zdh.de/ueber-uns/organisationen-des-handwerks/handwerkskammern/deutschlandkarte-der-handwerkskammern/wwt3listmapdetail.html?contentUid=19735&uid=58&cHash=350288a548c23b7fb4a97cae7d576a1b",
+          "views": {
+            "bubble": "    <b>Handwerkskammer für Oberfranken</b><br/>\n    Kerschensteinerstraße 7<br/> 95448 Bayreuth<br/><br/>\n            <a href=\"https://www.hwk-oberfranken.de\" target=\"_blank\">https://www.hwk-oberfranken.de</a><br/>\n                <a href=\"https://www.hwk-oberfranken.de/artikel/weiterbildungskurse-72,1115,1932.html\" target=\"_blank\">Weiterbildungsangebote</a><br/>\n                <a href=\"https://www.hwk-oberfranken.de/72,1124,jobboardoffersearch.html\" target=\"_blank\">Lehrstellenangebote</a>\n    ",
+            "teaser": "    <b>Handwerkskammer für Oberfranken</b><br/>\n    Kerschensteinerstraße 7<br/> 95448 Bayreuth\n"
+          }
+        },
+        {
+          "uid": 110,
+          "pid": 1469,
+          "title": "Handwerkskammer für Ostfriesland",
+          "sortTitle": "Aurich",
+          "idExtern": 48,
+          "urlLehrstellenboerse": "https://www.hwk-aurich.de/ausbildung/ausbildungsplatze-finden#/suche/berufsbezeichnung?angebotArt=ALL&jahr=2020&berufBezeichnung=&radius=15",
+          "urlWeiterbildungsdatenbank": "https://www.hwk-aurich.de/weiterbildung/kurse-and-seminare-finden#/",
+          "urlZahlendatenfakten": "https://www.hwk-aurich.de/uber-uns/zahlen-daten-fakten",
+          "urlOrgane": "https://www.hwk-aurich.de/uber-uns/organe-and-ehrenamt",
+          "urlRechtsgrundlagen": "https://www.hwk-aurich.de/uber-uns/rechtsgrundlagen",
+          "urlProjekte": "https://www.hwk-aurich.de/ausbildung/ausbildung-im-handwerk",
+          "urlVideo": "",
+          "urlInklusionsberatung": "",
+          "adresse": {
+            "address": "Straße des Handwerks 2",
+            "phone": "+49 4941 1797-0",
+            "www": "https://www.hwk-aurich.de",
+            "city": "Aurich",
+            "zip": "26603",
+            "email_link": "<a href=\"#\" data-mailto-token=\"iwehpk6ejbkWdsg9wqneyd:za\" data-mailto-vector=\"-4\" tabindex=\"0\" role=\"link\" class=\"masked-link address__email\">info@hwk-aurich.de</a>"
+          },
+          "mpa": {},
+          "latitude": "53.47790580",
+          "longitude": "7.48571610",
+          "handwerkid": [
+            25,
+            16,
+            38,
+            24,
+            20,
+            10,
+            1,
+            13,
+            27
+          ],
+          "icon": {
+            "size": [
+              16,
+              24
+            ],
+            "anchor": [
+              8,
+              0
+            ],
+            "file": "hwk.png"
+          },
+          "detailUrl": "https://www.zdh.de/ueber-uns/organisationen-des-handwerks/handwerkskammern/deutschlandkarte-der-handwerkskammern/wwt3listmapdetail.html?contentUid=19735&uid=110&cHash=a0cfc0a8641b8115f7d529a2c339230c",
+          "views": {
+            "bubble": "    <b>Handwerkskammer für Ostfriesland</b><br/>\n    Straße des Handwerks 2<br/> 26603 Aurich<br/><br/>\n            <a href=\"https://www.hwk-aurich.de\" target=\"_blank\">https://www.hwk-aurich.de</a><br/>\n                <a href=\"https://www.hwk-aurich.de/weiterbildung/kurse-and-seminare-finden#/\" target=\"_blank\">Weiterbildungsangebote</a><br/>\n                <a href=\"https://www.hwk-aurich.de/ausbildung/ausbildungsplatze-finden#/suche/berufsbezeichnung?angebotArt=ALL&amp;jahr=2020&amp;berufBezeichnung=&amp;radius=15\" target=\"_blank\">Lehrstellenangebote</a>\n    ",
+            "teaser": "    <b>Handwerkskammer für Ostfriesland</b><br/>\n    Straße des Handwerks 2<br/> 26603 Aurich\n"
+          }
+        },
+        {
+          "uid": 96,
+          "pid": 1469,
+          "title": "Handwerkskammer für Ostthüringen",
+          "sortTitle": "Gera",
+          "idExtern": 49,
+          "urlLehrstellenboerse": "https://www.hwk-gera.de/5,0,jobboardoffersearch.html",
+          "urlWeiterbildungsdatenbank": "https://www.hwk-gera.de/artikel/kurse-seminare-5,17,107.html",
+          "urlZahlendatenfakten": "https://www.hwk-gera.de/artikel/daten-zahlen-fakten-5,43,114.html",
+          "urlOrgane": "https://www.hwk-gera.de/artikel/organe-und-ehrenamt-5,41,115.html",
+          "urlRechtsgrundlagen": "https://www.hwk-gera.de/artikel/rechtsgrundlagen-5,42,116.html",
+          "urlProjekte": "https://www.hwk-gera.de/artikel/projekte-5,173,787.html",
+          "urlVideo": "",
+          "urlInklusionsberatung": "",
+          "adresse": {
+            "address": "Handwerkstraße 5",
+            "phone": "+49 365 8225-0",
+            "www": "https://www.hwk-gera.de",
+            "city": "Gera",
+            "zip": "07545",
+            "email_link": "<a href=\"#\" data-mailto-token=\"iwehpk6ejbkWdsg9canw:za\" data-mailto-vector=\"-4\" tabindex=\"0\" role=\"link\" class=\"masked-link address__email\">info@hwk-gera.de</a>"
+          },
+          "mpa": {},
+          "latitude": "50.88132370",
+          "longitude": "12.07862160",
+          "handwerkid": [
+            33,
+            4,
+            25,
+            42,
+            38,
+            24,
+            20,
+            10,
+            1,
+            13,
+            27,
+            3
+          ],
+          "icon": {
+            "size": [
+              16,
+              24
+            ],
+            "anchor": [
+              8,
+              0
+            ],
+            "file": "hwk.png"
+          },
+          "detailUrl": "https://www.zdh.de/ueber-uns/organisationen-des-handwerks/handwerkskammern/deutschlandkarte-der-handwerkskammern/wwt3listmapdetail.html?contentUid=19735&uid=96&cHash=f519e3c32278445d8732e9474025c8c9",
+          "views": {
+            "bubble": "    <b>Handwerkskammer für Ostthüringen</b><br/>\n    Handwerkstraße 5<br/> 07545 Gera<br/><br/>\n            <a href=\"https://www.hwk-gera.de\" target=\"_blank\">https://www.hwk-gera.de</a><br/>\n                <a href=\"https://www.hwk-gera.de/artikel/kurse-seminare-5,17,107.html\" target=\"_blank\">Weiterbildungsangebote</a><br/>\n                <a href=\"https://www.hwk-gera.de/5,0,jobboardoffersearch.html\" target=\"_blank\">Lehrstellenangebote</a>\n    ",
+            "teaser": "    <b>Handwerkskammer für Ostthüringen</b><br/>\n    Handwerkstraße 5<br/> 07545 Gera\n"
+          }
+        },
+        {
+          "uid": 111,
+          "pid": 1469,
+          "title": "Handwerkskammer für Schwaben",
+          "sortTitle": "Augsburg",
+          "idExtern": 50,
+          "urlLehrstellenboerse": "https://www.hwk-schwaben.de/71,1144,jobboardoffersearch.html",
+          "urlWeiterbildungsdatenbank": "https://www.bildungschwaben.de",
+          "urlZahlendatenfakten": "https://www.hwk-schwaben.de/webview71/71,878,2305.html",
+          "urlOrgane": "https://www.hwk-schwaben.de/webview71/71,573,195.html",
+          "urlRechtsgrundlagen": "https://www.hwk-schwaben.de/artikel/rechtsgrundlagen-71,1135,3362.html",
+          "urlProjekte": "https://www.hwk-schwaben.de/artikel/fuer-schuelerinnen-und-ausbildungsinteressierte-71,910,4460.html",
+          "urlVideo": "",
+          "urlInklusionsberatung": "",
+          "adresse": {
+            "address": "Siebentischstraße 52-58",
+            "phone": "+49 821 3259-0",
+            "www": "https://www.hwk-schwaben.de",
+            "city": "Augsburg",
+            "zip": "86161",
+            "email_link": "<a href=\"#\" data-mailto-token=\"iwehpk6ejbkWdsg9oydswxaj:za\" data-mailto-vector=\"-4\" tabindex=\"0\" role=\"link\" class=\"masked-link address__email\">info@hwk-schwaben.de</a>"
+          },
+          "mpa": {},
+          "latitude": "48.34925000",
+          "longitude": "10.91752000",
+          "handwerkid": [
+            25,
+            16,
+            32,
+            38,
+            24,
+            23,
+            20,
+            21,
+            10,
+            1,
+            13,
+            12,
+            27,
+            72,
+            3
+          ],
+          "icon": {
+            "size": [
+              16,
+              24
+            ],
+            "anchor": [
+              8,
+              0
+            ],
+            "file": "hwk.png"
+          },
+          "detailUrl": "https://www.zdh.de/ueber-uns/organisationen-des-handwerks/handwerkskammern/deutschlandkarte-der-handwerkskammern/wwt3listmapdetail.html?contentUid=19735&uid=111&cHash=cf0facc1d277f9a42692add66eaf10be",
+          "views": {
+            "bubble": "    <b>Handwerkskammer für Schwaben</b><br/>\n    Siebentischstraße 52-58<br/> 86161 Augsburg<br/><br/>\n            <a href=\"https://www.hwk-schwaben.de\" target=\"_blank\">https://www.hwk-schwaben.de</a><br/>\n                <a href=\"https://www.bildungschwaben.de\" target=\"_blank\">Weiterbildungsangebote</a><br/>\n                <a href=\"https://www.hwk-schwaben.de/71,1144,jobboardoffersearch.html\" target=\"_blank\">Lehrstellenangebote</a>\n    ",
+            "teaser": "    <b>Handwerkskammer für Schwaben</b><br/>\n    Siebentischstraße 52-58<br/> 86161 Augsburg\n"
+          }
+        },
+        {
+          "uid": 62,
+          "pid": 1469,
+          "title": "Handwerkskammer für Unterfranken",
+          "sortTitle": "Würzburg",
+          "idExtern": 51,
+          "urlLehrstellenboerse": "https://www.hwk-ufr.de/78,1729,801.html",
+          "urlWeiterbildungsdatenbank": "https://www.hwk-ufr.de/78,1672,1062.html",
+          "urlZahlendatenfakten": "https://www.hwk-ufr.de/78,2121,3335.html",
+          "urlOrgane": "https://www.hwk-ufr.de/78,1847,46.html",
+          "urlRechtsgrundlagen": "https://www.hwk-ufr.de/78,1370,321.html",
+          "urlProjekte": "https://www.hwk-ufr.de/artikel/spannende-berufe-und-tolle-karrierechancen-78,0,3036.html",
+          "urlVideo": "",
+          "urlInklusionsberatung": "https://www.hwk-unterfranken.de/artikel/ausbildung-von-behinderten-menschen-nach-42m-hwo-78,0,2991.html ",
+          "adresse": {
+            "address": "Rennweger Ring 3",
+            "phone": "+49 931 30908-0",
+            "www": "https://www.hwk-ufr.de",
+            "city": "Würzburg",
+            "zip": "97070",
+            "email_link": "<a href=\"#\" data-mailto-token=\"iwehpk6ejbkWdsg9qbn:za\" data-mailto-vector=\"-4\" tabindex=\"0\" role=\"link\" class=\"masked-link address__email\">info@hwk-ufr.de</a>"
+          },
+          "mpa": {},
+          "latitude": "49.79549380",
+          "longitude": "9.94261730",
+          "handwerkid": [
+            30,
+            96,
+            56,
+            25,
+            16,
+            38,
+            52,
+            24,
+            15,
+            23,
+            20,
+            21,
+            10,
+            1,
+            13,
+            51,
+            12,
+            8,
+            5,
+            27,
+            46,
+            3
+          ],
+          "icon": {
+            "size": [
+              16,
+              24
+            ],
+            "anchor": [
+              8,
+              0
+            ],
+            "file": "hwk.png"
+          },
+          "detailUrl": "https://www.zdh.de/ueber-uns/organisationen-des-handwerks/handwerkskammern/deutschlandkarte-der-handwerkskammern/wwt3listmapdetail.html?contentUid=19735&uid=62&cHash=90250ef0c55c22ef7aa9568f79ca54c3",
+          "views": {
+            "bubble": "    <b>Handwerkskammer für Unterfranken</b><br/>\n    Rennweger Ring 3<br/> 97070 Würzburg<br/><br/>\n            <a href=\"https://www.hwk-ufr.de\" target=\"_blank\">https://www.hwk-ufr.de</a><br/>\n                <a href=\"https://www.hwk-ufr.de/78,1672,1062.html\" target=\"_blank\">Weiterbildungsangebote</a><br/>\n                <a href=\"https://www.hwk-ufr.de/78,1729,801.html\" target=\"_blank\">Lehrstellenangebote</a>\n    ",
+            "teaser": "    <b>Handwerkskammer für Unterfranken</b><br/>\n    Rennweger Ring 3<br/> 97070 Würzburg\n"
+          }
+        },
+        {
+          "uid": 95,
+          "pid": 1469,
+          "title": "Handwerkskammer Halle (Saale)",
+          "sortTitle": "Halle (Saale)",
+          "idExtern": 16,
+          "urlLehrstellenboerse": "https://hwkhalle.de/lehrstellenangebote",
+          "urlWeiterbildungsdatenbank": "https://hwkhalle.de/seminare/suche",
+          "urlZahlendatenfakten": "https://hwkhalle.de/informationen-zur-handwerkskammer",
+          "urlOrgane": "https://hwkhalle.de/organe-ehrenamt",
+          "urlRechtsgrundlagen": "https://hwkhalle.de/rechtsgrundlagen",
+          "urlProjekte": "https://hwkhalle.de/thema/schnelleinstieg-ausbildung/",
+          "urlVideo": "",
+          "urlInklusionsberatung": "",
+          "adresse": {
+            "address": "Gräfestr. 24",
+            "phone": "+49 345 2999-0",
+            "www": "https://www.hwkhalle.de",
+            "city": "Halle (Saale)",
+            "zip": "06110",
+            "email_link": "<a href=\"#\" data-mailto-token=\"iwehpk6ejbkWdsgdwhha:za\" data-mailto-vector=\"-4\" tabindex=\"0\" role=\"link\" class=\"masked-link address__email\">info@hwkhalle.de</a>"
+          },
+          "mpa": {},
+          "latitude": "51.47332820",
+          "longitude": "11.97127520",
+          "handwerkid": [
+            4,
+            25,
+            42,
+            38,
+            73,
+            34,
+            24,
+            20,
+            10,
+            1,
+            13,
+            27,
+            3
+          ],
+          "icon": {
+            "size": [
+              16,
+              24
+            ],
+            "anchor": [
+              8,
+              0
+            ],
+            "file": "hwk.png"
+          },
+          "detailUrl": "https://www.zdh.de/ueber-uns/organisationen-des-handwerks/handwerkskammern/deutschlandkarte-der-handwerkskammern/wwt3listmapdetail.html?contentUid=19735&uid=95&cHash=77e0291388f03f4b8f10c98d63ca667d",
+          "views": {
+            "bubble": "    <b>Handwerkskammer Halle (Saale)</b><br/>\n    Gräfestr. 24<br/> 06110 Halle (Saale)<br/><br/>\n            <a href=\"https://www.hwkhalle.de\" target=\"_blank\">https://www.hwkhalle.de</a><br/>\n                <a href=\"https://hwkhalle.de/seminare/suche\" target=\"_blank\">Weiterbildungsangebote</a><br/>\n                <a href=\"https://hwkhalle.de/lehrstellenangebote\" target=\"_blank\">Lehrstellenangebote</a>\n    ",
+            "teaser": "    <b>Handwerkskammer Halle (Saale)</b><br/>\n    Gräfestr. 24<br/> 06110 Halle (Saale)\n"
+          }
+        },
+        {
+          "uid": 94,
+          "pid": 1469,
+          "title": "Handwerkskammer Hamburg",
+          "sortTitle": "Hamburg",
+          "idExtern": 17,
+          "urlLehrstellenboerse": "https://www.hwk-hamburg.de/ausbildung/lehrstellenboerse.html?no_cache=1",
+          "urlWeiterbildungsdatenbank": "https://www.hwk-hamburg.de/weiterbildung/kurse-und-seminare-finden.html",
+          "urlZahlendatenfakten": "https://www.hwk-hamburg.de/ueber-uns/die-handwerkskammer.html",
+          "urlOrgane": "https://www.hwk-hamburg.de/ueber-uns/organe-ehrenamt.html",
+          "urlRechtsgrundlagen": "https://www.hwk-hamburg.de/ueber-uns/rechtsgrundlagen.html",
+          "urlProjekte": "https://www.ausbildung-hamburg.de/",
+          "urlVideo": "",
+          "urlInklusionsberatung": "",
+          "adresse": {
+            "address": "Holstenwall 12",
+            "phone": "+49 40 35905-0",
+            "www": "https://www.hwk-hamburg.de",
+            "city": "Hamburg",
+            "zip": "20355",
+            "email_link": "<a href=\"#\" data-mailto-token=\"iwehpk6ejbkWdsg9dwixqnc:za\" data-mailto-vector=\"-4\" tabindex=\"0\" role=\"link\" class=\"masked-link address__email\">info@hwk-hamburg.de</a>"
+          },
+          "mpa": {},
+          "latitude": "53.55304000",
+          "longitude": "9.97707000",
+          "handwerkid": [
+            28,
+            16,
+            32,
+            42,
+            38,
+            73,
+            39,
+            15,
+            23,
+            97,
+            20,
+            10,
+            1,
+            13,
+            35,
+            54,
+            5,
+            27,
+            37,
+            3
+          ],
+          "icon": {
+            "size": [
+              16,
+              24
+            ],
+            "anchor": [
+              8,
+              0
+            ],
+            "file": "hwk.png"
+          },
+          "detailUrl": "https://www.zdh.de/ueber-uns/organisationen-des-handwerks/handwerkskammern/deutschlandkarte-der-handwerkskammern/wwt3listmapdetail.html?contentUid=19735&uid=94&cHash=af68c3fe36738d8bc9dab7a29c5f6157",
+          "views": {
+            "bubble": "    <b>Handwerkskammer Hamburg</b><br/>\n    Holstenwall 12<br/> 20355 Hamburg<br/><br/>\n            <a href=\"https://www.hwk-hamburg.de\" target=\"_blank\">https://www.hwk-hamburg.de</a><br/>\n                <a href=\"https://www.hwk-hamburg.de/weiterbildung/kurse-und-seminare-finden.html\" target=\"_blank\">Weiterbildungsangebote</a><br/>\n                <a href=\"https://www.hwk-hamburg.de/ausbildung/lehrstellenboerse.html?no_cache=1\" target=\"_blank\">Lehrstellenangebote</a>\n    ",
+            "teaser": "    <b>Handwerkskammer Hamburg</b><br/>\n    Holstenwall 12<br/> 20355 Hamburg\n"
+          }
+        },
+        {
+          "uid": 93,
+          "pid": 1469,
+          "title": "Handwerkskammer Hannover",
+          "sortTitle": "Hannover",
+          "idExtern": 18,
+          "urlLehrstellenboerse": "https://www.hwk-hannover.de/23,402,211.html",
+          "urlWeiterbildungsdatenbank": "https://www.hwk-hannover.de/23,400,208.html",
+          "urlZahlendatenfakten": "https://www.hwk-hannover.de/artikel/zahlen-daten-fakten-23,606,246.html",
+          "urlOrgane": "https://www.hwk-hannover.de/artikel/ehrenamt-im-handwerk-23,702,5374.html",
+          "urlRechtsgrundlagen": "https://www.hwk-hannover.de/artikel/wer-gehoert-zum-handwerk-23,607,2308.html",
+          "urlProjekte": "https://www.hwk-hannover.de/artikel/handwerk-deine-chance-23,563,3382.html",
+          "urlVideo": "",
+          "urlInklusionsberatung": "https://www.hwk-hannover.de/artikel/inklusion-chancengleichheit-in-einer-barrierefreien-gesellschaft-23,0,4268.html",
+          "adresse": {
+            "address": "Berliner Allee 17",
+            "phone": "+49 511 34859-0",
+            "www": "https://www.hwk-hannover.de",
+            "city": "Hannover",
+            "zip": "30175",
+            "email_link": "<a href=\"#\" data-mailto-token=\"iwehpk6ejbkWdsg9dwjjkran:za\" data-mailto-vector=\"-4\" tabindex=\"0\" role=\"link\" class=\"masked-link address__email\">info@hwk-hannover.de</a>"
+          },
+          "mpa": {},
+          "latitude": "52.37722600",
+          "longitude": "9.74973650",
+          "handwerkid": [
+            33,
+            30,
+            56,
+            25,
+            16,
+            42,
+            38,
+            73,
+            39,
+            34,
+            24,
+            18,
+            20,
+            10,
+            60,
+            1,
+            13,
+            36,
+            35,
+            12,
+            61,
+            27,
+            37,
+            3
+          ],
+          "icon": {
+            "size": [
+              16,
+              24
+            ],
+            "anchor": [
+              8,
+              0
+            ],
+            "file": "hwk.png"
+          },
+          "detailUrl": "https://www.zdh.de/ueber-uns/organisationen-des-handwerks/handwerkskammern/deutschlandkarte-der-handwerkskammern/wwt3listmapdetail.html?contentUid=19735&uid=93&cHash=0efa368c0818731fa0ea8cb4670d8dc4",
+          "views": {
+            "bubble": "    <b>Handwerkskammer Hannover</b><br/>\n    Berliner Allee 17<br/> 30175 Hannover<br/><br/>\n            <a href=\"https://www.hwk-hannover.de\" target=\"_blank\">https://www.hwk-hannover.de</a><br/>\n                <a href=\"https://www.hwk-hannover.de/23,400,208.html\" target=\"_blank\">Weiterbildungsangebote</a><br/>\n                <a href=\"https://www.hwk-hannover.de/23,402,211.html\" target=\"_blank\">Lehrstellenangebote</a>\n    ",
+            "teaser": "    <b>Handwerkskammer Hannover</b><br/>\n    Berliner Allee 17<br/> 30175 Hannover\n"
+          }
+        },
+        {
+          "uid": 92,
+          "pid": 1469,
+          "title": "Handwerkskammer Heilbronn-Franken",
+          "sortTitle": "Heilbronn-Franken",
+          "idExtern": 19,
+          "urlLehrstellenboerse": "https://hwk-heilbronn-service.de/apps/services/modules/lbo/index.php",
+          "urlWeiterbildungsdatenbank": "https://hwk-heilbronn-service.de/apps/services/modules/sem/index.php",
+          "urlZahlendatenfakten": "https://www.hwk-heilbronn.de/artikel/zahlen-daten-fakten-62,842,5658.html",
+          "urlOrgane": "https://www.hwk-heilbronn.de/artikel/gremien-ehrenamt-62,843,5668.html",
+          "urlRechtsgrundlagen": "https://www.hwk-heilbronn.de/artikel/rechtsgrundlagen-62,853,5477.html",
+          "urlProjekte": "https://www.hwk-heilbronn.de/artikel/wege-ins-handwerk-62,782,5479.html",
+          "urlVideo": "",
+          "urlInklusionsberatung": "",
+          "adresse": {
+            "address": "Allee 76",
+            "phone": "+49 7131 791-0",
+            "www": "https://www.hwk-heilbronn.de",
+            "city": "Heilbronn",
+            "zip": "74072",
+            "email_link": "<a href=\"#\" data-mailto-token=\"iwehpk6ejbkWdsg9daehxnkjj:za\" data-mailto-vector=\"-4\" tabindex=\"0\" role=\"link\" class=\"masked-link address__email\">info@hwk-heilbronn.de</a>"
+          },
+          "mpa": {},
+          "latitude": "49.14531520",
+          "longitude": "9.22388330",
+          "handwerkid": [
+            25,
+            16,
+            38,
+            24,
+            15,
+            20,
+            21,
+            13,
+            9,
+            27,
+            70,
+            3
+          ],
+          "icon": {
+            "size": [
+              16,
+              24
+            ],
+            "anchor": [
+              8,
+              0
+            ],
+            "file": "hwk.png"
+          },
+          "detailUrl": "https://www.zdh.de/ueber-uns/organisationen-des-handwerks/handwerkskammern/deutschlandkarte-der-handwerkskammern/wwt3listmapdetail.html?contentUid=19735&uid=92&cHash=7edef7281be14859cc22cb5a8a1b1553",
+          "views": {
+            "bubble": "    <b>Handwerkskammer Heilbronn-Franken</b><br/>\n    Allee 76<br/> 74072 Heilbronn<br/><br/>\n            <a href=\"https://www.hwk-heilbronn.de\" target=\"_blank\">https://www.hwk-heilbronn.de</a><br/>\n                <a href=\"https://hwk-heilbronn-service.de/apps/services/modules/sem/index.php\" target=\"_blank\">Weiterbildungsangebote</a><br/>\n                <a href=\"https://hwk-heilbronn-service.de/apps/services/modules/lbo/index.php\" target=\"_blank\">Lehrstellenangebote</a>\n    ",
+            "teaser": "    <b>Handwerkskammer Heilbronn-Franken</b><br/>\n    Allee 76<br/> 74072 Heilbronn\n"
+          }
+        },
+        {
+          "uid": 91,
+          "pid": 1469,
+          "title": "Handwerkskammer Hildesheim-Südniedersachsen",
+          "sortTitle": "Hildesheim-Südniedersachsen",
+          "idExtern": 20,
+          "urlLehrstellenboerse": "https://www.hwk-hildesheim.de/24,0,jpguestsearch.html",
+          "urlWeiterbildungsdatenbank": "https://www.hwk-hildesheim.de/artikel/kurse-und-seminare-24,669,92.html",
+          "urlZahlendatenfakten": "https://www.hwk-hildesheim.de/artikel/zahlen-daten-fakten-24,654,97.html",
+          "urlOrgane": "https://www.hwk-hildesheim.de/artikel/organe-funktionstraeger-24,655,66.html",
+          "urlRechtsgrundlagen": "https://www.hwk-hildesheim.de/artikel/rechtliche-grundlagen-24,656,1621.html",
+          "urlProjekte": "https://www.hwk-hildesheim.de/artikel/handwerk-ist-vielseitig-24,629,1615.html",
+          "urlVideo": "",
+          "urlInklusionsberatung": "https://www.hwk-hildesheim.de/artikel/demografie-barrierefreiheit-inklusion-24,0,1323.html#Menschen-mit-Behinderung",
+          "adresse": {
+            "address": "Braunschweiger Straße 53",
+            "phone": "+49 5121 162-0",
+            "www": "https://www.hwk-hildesheim.de",
+            "city": "Hildesheim",
+            "zip": "31134",
+            "email_link": "<a href=\"#\" data-mailto-token=\"iwehpk6dcbWdsg9dehzaodaei:za\" data-mailto-vector=\"-4\" tabindex=\"0\" role=\"link\" class=\"masked-link address__email\">hgf@hwk-hildesheim.de</a>"
+          },
+          "mpa": {},
+          "latitude": "52.14834950",
+          "longitude": "9.95875830",
+          "handwerkid": [
+            25,
+            38,
+            24,
+            20,
+            10,
+            1,
+            13,
+            27
+          ],
+          "icon": {
+            "size": [
+              16,
+              24
+            ],
+            "anchor": [
+              8,
+              0
+            ],
+            "file": "hwk.png"
+          },
+          "detailUrl": "https://www.zdh.de/ueber-uns/organisationen-des-handwerks/handwerkskammern/deutschlandkarte-der-handwerkskammern/wwt3listmapdetail.html?contentUid=19735&uid=91&cHash=0fee1e915375f17b9b7ea16d0620d024",
+          "views": {
+            "bubble": "    <b>Handwerkskammer Hildesheim-Südniedersachsen</b><br/>\n    Braunschweiger Straße 53<br/> 31134 Hildesheim<br/><br/>\n            <a href=\"https://www.hwk-hildesheim.de\" target=\"_blank\">https://www.hwk-hildesheim.de</a><br/>\n                <a href=\"https://www.hwk-hildesheim.de/artikel/kurse-und-seminare-24,669,92.html\" target=\"_blank\">Weiterbildungsangebote</a><br/>\n                <a href=\"https://www.hwk-hildesheim.de/24,0,jpguestsearch.html\" target=\"_blank\">Lehrstellenangebote</a>\n    ",
+            "teaser": "    <b>Handwerkskammer Hildesheim-Südniedersachsen</b><br/>\n    Braunschweiger Straße 53<br/> 31134 Hildesheim\n"
+          }
+        },
+        {
+          "uid": 89,
+          "pid": 1469,
+          "title": "Handwerkskammer Karlsruhe",
+          "sortTitle": "Karlsruhe",
+          "idExtern": 21,
+          "urlLehrstellenboerse": "https://www.hwk-karlsruhe.de/artikel/lehrstellenboerse-xxl-63,0,149.html",
+          "urlWeiterbildungsdatenbank": "https://www.bia-karlsruhe.de/artikel/kurse-und-seminare-3631,104,94.html",
+          "urlZahlendatenfakten": "https://www.hwk-karlsruhe.de/artikel/alle-zahlen-auf-einen-blick-63,82,33.html",
+          "urlOrgane": "https://www.hwk-karlsruhe.de/artikel/gut-aufgestellt-mit-haupt-und-ehrenamt-63,84,35.html",
+          "urlRechtsgrundlagen": "https://www.hwk-karlsruhe.de/artikel/die-handwerksordnung-auf-einen-blick-63,86,46.html",
+          "urlProjekte": "https://www.hwk-karlsruhe.de/artikel/karrierechancen-im-handwerk-63,42,11.html",
+          "urlVideo": "",
+          "urlInklusionsberatung": "",
+          "adresse": {
+            "address": "Friedrichsplatz 4-5",
+            "phone": "+49 721 1600-0",
+            "www": "https://www.hwk-karlsruhe.de",
+            "city": "Karlsruhe",
+            "zip": "76133",
+            "email_link": "<a href=\"#\" data-mailto-token=\"iwehpk6ejbkWdsg9gwnhonqda:za\" data-mailto-vector=\"-4\" tabindex=\"0\" role=\"link\" class=\"masked-link address__email\">info@hwk-karlsruhe.de</a>"
+          },
+          "mpa": {},
+          "latitude": "49.00858480",
+          "longitude": "8.40121040",
+          "handwerkid": [
+            33,
+            30,
+            4,
+            25,
+            16,
+            32,
+            38,
+            49,
+            39,
+            52,
+            24,
+            15,
+            31,
+            20,
+            10,
+            1,
+            13,
+            27,
+            37,
+            3
+          ],
+          "icon": {
+            "size": [
+              16,
+              24
+            ],
+            "anchor": [
+              8,
+              0
+            ],
+            "file": "hwk.png"
+          },
+          "detailUrl": "https://www.zdh.de/ueber-uns/organisationen-des-handwerks/handwerkskammern/deutschlandkarte-der-handwerkskammern/wwt3listmapdetail.html?contentUid=19735&uid=89&cHash=be32fe9cef4506ca7a71934c4a4a8d4e",
+          "views": {
+            "bubble": "    <b>Handwerkskammer Karlsruhe</b><br/>\n    Friedrichsplatz 4-5<br/> 76133 Karlsruhe<br/><br/>\n            <a href=\"https://www.hwk-karlsruhe.de\" target=\"_blank\">https://www.hwk-karlsruhe.de</a><br/>\n                <a href=\"https://www.bia-karlsruhe.de/artikel/kurse-und-seminare-3631,104,94.html\" target=\"_blank\">Weiterbildungsangebote</a><br/>\n                <a href=\"https://www.hwk-karlsruhe.de/artikel/lehrstellenboerse-xxl-63,0,149.html\" target=\"_blank\">Lehrstellenangebote</a>\n    ",
+            "teaser": "    <b>Handwerkskammer Karlsruhe</b><br/>\n    Friedrichsplatz 4-5<br/> 76133 Karlsruhe\n"
+          }
+        },
+        {
+          "uid": 88,
+          "pid": 1469,
+          "title": "Handwerkskammer Kassel",
+          "sortTitle": "Kassel",
+          "idExtern": 22,
+          "urlLehrstellenboerse": "https://hwk-kassel.odav.de/43,50,jobboardoffersearch.html",
+          "urlWeiterbildungsdatenbank": "https://www.hwk-kassel.de/weiterbildung/bildungszentren-kurse/",
+          "urlZahlendatenfakten": "https://www.hwk-kassel.de/ueber-uns/daten-zahlen-fakten/",
+          "urlOrgane": "https://www.hwk-kassel.de/ueber-uns/organe-ehrenamt/",
+          "urlRechtsgrundlagen": "https://www.hwk-kassel.de/ueber-uns/rechtsgrundlagen/",
+          "urlProjekte": "https://www.hwk-kassel.de/ausbildung/fuer-schueler-lehrer-und-studienaussteiger",
+          "urlVideo": "",
+          "urlInklusionsberatung": "",
+          "adresse": {
+            "address": "Scheidemannplatz 2",
+            "phone": "+49 561 7888-0",
+            "www": "https://www.hwk-kassel.de",
+            "city": "Kassel",
+            "zip": "34117",
+            "email_link": "<a href=\"#\" data-mailto-token=\"iwehpk6dwjzsangogwiianWdsg9gwooah:za\" data-mailto-vector=\"-4\" tabindex=\"0\" role=\"link\" class=\"masked-link address__email\">handwerkskammer@hwk-kassel.de</a>"
+          },
+          "mpa": {},
+          "latitude": "51.31617160",
+          "longitude": "9.49299060",
+          "handwerkid": [
+            33,
+            30,
+            4,
+            25,
+            16,
+            32,
+            42,
+            38,
+            90,
+            24,
+            85,
+            20,
+            21,
+            10,
+            60,
+            1,
+            13,
+            55,
+            84,
+            67,
+            5,
+            27,
+            3
+          ],
+          "icon": {
+            "size": [
+              16,
+              24
+            ],
+            "anchor": [
+              8,
+              0
+            ],
+            "file": "hwk.png"
+          },
+          "detailUrl": "https://www.zdh.de/ueber-uns/organisationen-des-handwerks/handwerkskammern/deutschlandkarte-der-handwerkskammern/wwt3listmapdetail.html?contentUid=19735&uid=88&cHash=a7b2bc81d07afa27a4cee200b0c80c71",
+          "views": {
+            "bubble": "    <b>Handwerkskammer Kassel</b><br/>\n    Scheidemannplatz 2<br/> 34117 Kassel<br/><br/>\n            <a href=\"https://www.hwk-kassel.de\" target=\"_blank\">https://www.hwk-kassel.de</a><br/>\n                <a href=\"https://www.hwk-kassel.de/weiterbildung/bildungszentren-kurse/\" target=\"_blank\">Weiterbildungsangebote</a><br/>\n                <a href=\"https://hwk-kassel.odav.de/43,50,jobboardoffersearch.html\" target=\"_blank\">Lehrstellenangebote</a>\n    ",
+            "teaser": "    <b>Handwerkskammer Kassel</b><br/>\n    Scheidemannplatz 2<br/> 34117 Kassel\n"
+          }
+        },
+        {
+          "uid": 87,
+          "pid": 1469,
+          "title": "Handwerkskammer Koblenz",
+          "sortTitle": "Koblenz",
+          "idExtern": 23,
+          "urlLehrstellenboerse": "https://www.hwk-koblenz.de/52,263,jpguestsearch.html",
+          "urlWeiterbildungsdatenbank": "https://hwk-koblenz.de/52,188,coursesearch.html",
+          "urlZahlendatenfakten": "https://www.hwk-koblenz.de/artikel/zahlen-daten-fakten-52,219,163.html",
+          "urlOrgane": "https://www.hwk-koblenz.de/artikel/ehrenamt-52,85,171.html",
+          "urlRechtsgrundlagen": "https://www.hwk-koblenz.de/artikel/rechtsgrundlagen-52,86,199.html",
+          "urlProjekte": "https://www.hwk-koblenz.de/artikel/berufsorientierung-52,178,276.html",
+          "urlVideo": "",
+          "urlInklusionsberatung": "",
+          "adresse": {
+            "address": "Friedrich-Ebert-Ring 33",
+            "phone": "+49 261 398-0",
+            "www": "https://www.hwk-koblenz.de",
+            "city": "Koblenz",
+            "zip": "56068",
+            "email_link": "<a href=\"#\" data-mailto-token=\"iwehpk6dsgWdsg9gkxhajv:za\" data-mailto-vector=\"-4\" tabindex=\"0\" role=\"link\" class=\"masked-link address__email\">hwk@hwk-koblenz.de</a>"
+          },
+          "mpa": {},
+          "latitude": "50.35471570",
+          "longitude": "7.59445830",
+          "handwerkid": [
+            33,
+            30,
+            4,
+            77,
+            25,
+            16,
+            32,
+            42,
+            38,
+            11,
+            52,
+            19,
+            24,
+            18,
+            15,
+            83,
+            23,
+            31,
+            20,
+            21,
+            10,
+            60,
+            1,
+            13,
+            8,
+            5,
+            9,
+            27,
+            3
+          ],
+          "icon": {
+            "size": [
+              16,
+              24
+            ],
+            "anchor": [
+              8,
+              0
+            ],
+            "file": "hwk.png"
+          },
+          "detailUrl": "https://www.zdh.de/ueber-uns/organisationen-des-handwerks/handwerkskammern/deutschlandkarte-der-handwerkskammern/wwt3listmapdetail.html?contentUid=19735&uid=87&cHash=ce5ac7bf81df56c64042254528728ba7",
+          "views": {
+            "bubble": "    <b>Handwerkskammer Koblenz</b><br/>\n    Friedrich-Ebert-Ring 33<br/> 56068 Koblenz<br/><br/>\n            <a href=\"https://www.hwk-koblenz.de\" target=\"_blank\">https://www.hwk-koblenz.de</a><br/>\n                <a href=\"https://hwk-koblenz.de/52,188,coursesearch.html\" target=\"_blank\">Weiterbildungsangebote</a><br/>\n                <a href=\"https://www.hwk-koblenz.de/52,263,jpguestsearch.html\" target=\"_blank\">Lehrstellenangebote</a>\n    ",
+            "teaser": "    <b>Handwerkskammer Koblenz</b><br/>\n    Friedrich-Ebert-Ring 33<br/> 56068 Koblenz\n"
+          }
+        },
+        {
+          "uid": 85,
+          "pid": 1469,
+          "title": "Handwerkskammer Konstanz",
+          "sortTitle": "Konstanz",
+          "idExtern": 24,
+          "urlLehrstellenboerse": "https://www.hwk-konstanz.de/artikel/lehrstellen-und-praktikumsboerse-64,735,14.html",
+          "urlWeiterbildungsdatenbank": "https://www.hwk-konstanz.de/artikel/fuer-jeden-das-passende-64,52,44.html",
+          "urlZahlendatenfakten": "https://www.hwk-konstanz.de/artikel/die-handwerkskammer-konstanz-eine-fuer-alle-64,665,2188.html#Zahlen",
+          "urlOrgane": "https://www.hwk-konstanz.de/artikel/organe-und-ehrenamt-64,879,2217.html",
+          "urlRechtsgrundlagen": "https://www.hwk-konstanz.de/artikel/die-handwerkskammer-konstanz-eine-fuer-alle-64,665,2188.html#Rechtsgrundlagen",
+          "urlProjekte": "https://www.hwk-konstanz.de/artikel/die-ausbildung-im-handwerk-64,626,2197.html",
+          "urlVideo": "",
+          "urlInklusionsberatung": "https://www.hwk-konstanz.de/artikel/inklusion-geht-uns-alle-an-wir-sind-fuer-sie-da-64,0,414.html",
+          "adresse": {
+            "address": "Webersteig 3",
+            "phone": "+49 7531 205-0",
+            "www": "https://www.hwk-konstanz.de",
+            "city": "Konstanz",
+            "zip": "78462",
+            "email_link": "<a href=\"#\" data-mailto-token=\"iwehpk6ejbkWdsg9gkjopwjv:za\" data-mailto-vector=\"-4\" tabindex=\"0\" role=\"link\" class=\"masked-link address__email\">info@hwk-konstanz.de</a>"
+          },
+          "mpa": {},
+          "latitude": "47.66717530",
+          "longitude": "9.17406720",
+          "handwerkid": [
+            30,
+            14,
+            4,
+            25,
+            16,
+            42,
+            38,
+            47,
+            24,
+            23,
+            31,
+            20,
+            10,
+            1,
+            13,
+            48,
+            9,
+            27,
+            46,
+            3
+          ],
+          "icon": {
+            "size": [
+              16,
+              24
+            ],
+            "anchor": [
+              8,
+              0
+            ],
+            "file": "hwk.png"
+          },
+          "detailUrl": "https://www.zdh.de/ueber-uns/organisationen-des-handwerks/handwerkskammern/deutschlandkarte-der-handwerkskammern/wwt3listmapdetail.html?contentUid=19735&uid=85&cHash=c9c6e3fbb7c3cda27ea27b9b196fd03d",
+          "views": {
+            "bubble": "    <b>Handwerkskammer Konstanz</b><br/>\n    Webersteig 3<br/> 78462 Konstanz<br/><br/>\n            <a href=\"https://www.hwk-konstanz.de\" target=\"_blank\">https://www.hwk-konstanz.de</a><br/>\n                <a href=\"https://www.hwk-konstanz.de/artikel/fuer-jeden-das-passende-64,52,44.html\" target=\"_blank\">Weiterbildungsangebote</a><br/>\n                <a href=\"https://www.hwk-konstanz.de/artikel/lehrstellen-und-praktikumsboerse-64,735,14.html\" target=\"_blank\">Lehrstellenangebote</a>\n    ",
+            "teaser": "    <b>Handwerkskammer Konstanz</b><br/>\n    Webersteig 3<br/> 78462 Konstanz\n"
+          }
+        },
+        {
+          "uid": 57,
+          "pid": 1469,
+          "title": "Handwerkskammer Lübeck",
+          "sortTitle": "Lübeck",
+          "idExtern": 25,
+          "urlLehrstellenboerse": "https://www.hwk-luebeck.de/service-center/lehrstellenboerse.html",
+          "urlWeiterbildungsdatenbank": "https://www.hwk-luebeck.de/service-center/kurse-seminare.html",
+          "urlZahlendatenfakten": "https://www.hwk-luebeck.de/ueber-uns/zahlen-daten-fakten.html",
+          "urlOrgane": "https://www.hwk-luebeck.de/ueber-uns/organe-ehrenamt.html",
+          "urlRechtsgrundlagen": "https://www.hwk-luebeck.de/ueber-uns/rechtsgrundlagen.html",
+          "urlProjekte": "http://www.hwk-luebeck.de/sommer-berufsausbildung",
+          "urlVideo": "",
+          "urlInklusionsberatung": "",
+          "adresse": {
+            "address": "Breite Straße 10/12",
+            "phone": "+49 451 1506-0",
+            "www": "https://www.hwk-luebeck.de",
+            "city": "Lübeck",
+            "zip": "23552",
+            "email_link": "<a href=\"#\" data-mailto-token=\"iwehpk6ejbkWdsg9hqaxayg:za\" data-mailto-vector=\"-4\" tabindex=\"0\" role=\"link\" class=\"masked-link address__email\">info@hwk-luebeck.de</a>"
+          },
+          "mpa": {},
+          "latitude": "53.87068830",
+          "longitude": "10.68775370",
+          "handwerkid": [
+            33,
+            30,
+            28,
+            4,
+            25,
+            16,
+            42,
+            38,
+            39,
+            24,
+            15,
+            31,
+            20,
+            10,
+            1,
+            13,
+            12,
+            63,
+            27,
+            37,
+            3
+          ],
+          "icon": {
+            "size": [
+              16,
+              24
+            ],
+            "anchor": [
+              8,
+              0
+            ],
+            "file": "hwk.png"
+          },
+          "detailUrl": "https://www.zdh.de/ueber-uns/organisationen-des-handwerks/handwerkskammern/deutschlandkarte-der-handwerkskammern/wwt3listmapdetail.html?contentUid=19735&uid=57&cHash=b1a4e956ad0312d9169e7520254b6bc4",
+          "views": {
+            "bubble": "    <b>Handwerkskammer Lübeck</b><br/>\n    Breite Straße 10/12<br/> 23552 Lübeck<br/><br/>\n            <a href=\"https://www.hwk-luebeck.de\" target=\"_blank\">https://www.hwk-luebeck.de</a><br/>\n                <a href=\"https://www.hwk-luebeck.de/service-center/kurse-seminare.html\" target=\"_blank\">Weiterbildungsangebote</a><br/>\n                <a href=\"https://www.hwk-luebeck.de/service-center/lehrstellenboerse.html\" target=\"_blank\">Lehrstellenangebote</a>\n    ",
+            "teaser": "    <b>Handwerkskammer Lübeck</b><br/>\n    Breite Straße 10/12<br/> 23552 Lübeck\n"
+          }
+        },
+        {
+          "uid": 82,
+          "pid": 1469,
+          "title": "Handwerkskammer Magdeburg",
+          "sortTitle": "Magdeburg",
+          "idExtern": 26,
+          "urlLehrstellenboerse": "https://www.hwk-magdeburg.de/artikel/lehrstellen-und-praktikumsboerse-16,1145,2291.html",
+          "urlWeiterbildungsdatenbank": "https://www.bbz-bildung.de",
+          "urlZahlendatenfakten": "https://www.hwk-magdeburg.de/artikel/zahlen-daten-fakten-16,1089,3442.html",
+          "urlOrgane": "https://www.hwk-magdeburg.de/artikel/organe-ehrenamt-16,1092,295.html",
+          "urlRechtsgrundlagen": "https://www.hwk-magdeburg.de/artikel/rechtsgrundlagen-16,1090,1771.html",
+          "urlProjekte": "https://www.hwk-magdeburg.de/artikel/uebersicht-zu-bildungsmessen-im-kammerbezirk-16,1260,6577.html",
+          "urlVideo": "",
+          "urlInklusionsberatung": "https://www.hwk-magdeburg.de/artikel/inklusionsberatung-16,0,3045.html",
+          "adresse": {
+            "address": "Gareisstraße 10",
+            "phone": "+49 391 6268-0",
+            "www": "https://www.hwk-magdeburg.de",
+            "city": "Magdeburg",
+            "zip": "39106",
+            "email_link": "<a href=\"#\" data-mailto-token=\"iwehpk6ejbkWdsg9iwczaxqnc:za\" data-mailto-vector=\"-4\" tabindex=\"0\" role=\"link\" class=\"masked-link address__email\">info@hwk-magdeburg.de</a>"
+          },
+          "mpa": {},
+          "latitude": "52.14110075",
+          "longitude": "11.63956200",
+          "handwerkid": [
+            25,
+            38,
+            11,
+            24,
+            20,
+            10,
+            1,
+            13,
+            27
+          ],
+          "icon": {
+            "size": [
+              16,
+              24
+            ],
+            "anchor": [
+              8,
+              0
+            ],
+            "file": "hwk.png"
+          },
+          "detailUrl": "https://www.zdh.de/ueber-uns/organisationen-des-handwerks/handwerkskammern/deutschlandkarte-der-handwerkskammern/wwt3listmapdetail.html?contentUid=19735&uid=82&cHash=e69d908059ab22f7f2a7f019b6ae9270",
+          "views": {
+            "bubble": "    <b>Handwerkskammer Magdeburg</b><br/>\n    Gareisstraße 10<br/> 39106 Magdeburg<br/><br/>\n            <a href=\"https://www.hwk-magdeburg.de\" target=\"_blank\">https://www.hwk-magdeburg.de</a><br/>\n                <a href=\"https://www.bbz-bildung.de\" target=\"_blank\">Weiterbildungsangebote</a><br/>\n                <a href=\"https://www.hwk-magdeburg.de/artikel/lehrstellen-und-praktikumsboerse-16,1145,2291.html\" target=\"_blank\">Lehrstellenangebote</a>\n    ",
+            "teaser": "    <b>Handwerkskammer Magdeburg</b><br/>\n    Gareisstraße 10<br/> 39106 Magdeburg\n"
+          }
+        },
+        {
+          "uid": 81,
+          "pid": 1469,
+          "title": "Handwerkskammer Mannheim - Rhein-Neckar-Odenwald",
+          "sortTitle": "Mannheim - Rhein-Neckar-Odenwald",
+          "idExtern": 27,
+          "urlLehrstellenboerse": "https://www.hwk-mannheim.de/65,0,jobboardoffersearch.html",
+          "urlWeiterbildungsdatenbank": "https://www.hwk-mannheim.de/65,0,coursesearch.html",
+          "urlZahlendatenfakten": "https://www.hwk-mannheim.de/artikel/zahlen-daten-fakten-65,741,4303.html",
+          "urlOrgane": "https://www.hwk-mannheim.de/artikel/organe-und-funktionstraeger-65,742,4336.html",
+          "urlRechtsgrundlagen": "https://www.hwk-mannheim.de/artikel/rechtsgrundlagen-65,743,4353.html",
+          "urlProjekte": "https://www.hwk-mannheim.de/artikel/veranstaltungskalender-ausbildung-65,694,4179.html",
+          "urlVideo": "",
+          "urlInklusionsberatung": "",
+          "adresse": {
+            "address": "B 1 1-2",
+            "phone": "+49 621 18002-0",
+            "www": "https://www.hwk-mannheim.de",
+            "city": "Mannheim",
+            "zip": "68159",
+            "email_link": "<a href=\"#\" data-mailto-token=\"iwehpk6ejbkWdsg9iwjjdaei:za\" data-mailto-vector=\"-4\" tabindex=\"0\" role=\"link\" class=\"masked-link address__email\">info@hwk-mannheim.de</a>"
+          },
+          "mpa": {},
+          "latitude": "49.48571950",
+          "longitude": "8.46330380",
+          "handwerkid": [
+            30,
+            25,
+            16,
+            32,
+            42,
+            78,
+            38,
+            34,
+            24,
+            31,
+            20,
+            10,
+            1,
+            13,
+            35,
+            67,
+            9,
+            27
+          ],
+          "icon": {
+            "size": [
+              16,
+              24
+            ],
+            "anchor": [
+              8,
+              0
+            ],
+            "file": "hwk.png"
+          },
+          "detailUrl": "https://www.zdh.de/ueber-uns/organisationen-des-handwerks/handwerkskammern/deutschlandkarte-der-handwerkskammern/wwt3listmapdetail.html?contentUid=19735&uid=81&cHash=9a05841b734f9d40298ac248d60773ed",
+          "views": {
+            "bubble": "    <b>Handwerkskammer Mannheim - Rhein-Neckar-Odenwald</b><br/>\n    B 1 1-2<br/> 68159 Mannheim<br/><br/>\n            <a href=\"https://www.hwk-mannheim.de\" target=\"_blank\">https://www.hwk-mannheim.de</a><br/>\n                <a href=\"https://www.hwk-mannheim.de/65,0,coursesearch.html\" target=\"_blank\">Weiterbildungsangebote</a><br/>\n                <a href=\"https://www.hwk-mannheim.de/65,0,jobboardoffersearch.html\" target=\"_blank\">Lehrstellenangebote</a>\n    ",
+            "teaser": "    <b>Handwerkskammer Mannheim - Rhein-Neckar-Odenwald</b><br/>\n    B 1 1-2<br/> 68159 Mannheim\n"
+          }
+        },
+        {
+          "uid": 63,
+          "pid": 1469,
+          "title": "Handwerkskammer Münster",
+          "sortTitle": "Münster",
+          "idExtern": 28,
+          "urlLehrstellenboerse": "https://www.hwk-muenster.de/de/ausbildung/ausbildungsbetriebe/lehrstellenangebote",
+          "urlWeiterbildungsdatenbank": "https://www.hbz-bildung.de/de",
+          "urlZahlendatenfakten": "https://www.hwk-muenster.de/de/uber-uns/zahlen-daten-fakten",
+          "urlOrgane": "https://www.hwk-muenster.de/de/uber-uns/gremien-und-ehrenamt",
+          "urlRechtsgrundlagen": "https://www.hwk-muenster.de/de/uber-uns/rechtsgrundlagen",
+          "urlProjekte": "https://www.hwk-muenster.de/de/ausbildung/berufsorientierung",
+          "urlVideo": "",
+          "urlInklusionsberatung": "https://www.hwk-muenster.de/de/betriebsfuehrung/personal/inklusion",
+          "adresse": {
+            "address": "Echelmeyerstraße 1-2",
+            "phone": "+49 251 5203-0",
+            "www": "https://www.hwk-muenster.de",
+            "city": "Münster",
+            "zip": "48163",
+            "email_link": "<a href=\"#\" data-mailto-token=\"iwehpk6ejbkWdsg9iqajopan:za\" data-mailto-vector=\"-4\" tabindex=\"0\" role=\"link\" class=\"masked-link address__email\">info@hwk-muenster.de</a>"
+          },
+          "mpa": {},
+          "latitude": "51.95619000",
+          "longitude": "7.61929000",
+          "handwerkid": [
+            79,
+            22,
+            4,
+            25,
+            16,
+            32,
+            42,
+            38,
+            52,
+            24,
+            18,
+            15,
+            23,
+            97,
+            20,
+            21,
+            10,
+            1,
+            13,
+            2,
+            80,
+            67,
+            12,
+            8,
+            5,
+            9,
+            71,
+            27,
+            46,
+            37,
+            3,
+            17
+          ],
+          "icon": {
+            "size": [
+              16,
+              24
+            ],
+            "anchor": [
+              8,
+              0
+            ],
+            "file": "hwk.png"
+          },
+          "detailUrl": "https://www.zdh.de/ueber-uns/organisationen-des-handwerks/handwerkskammern/deutschlandkarte-der-handwerkskammern/wwt3listmapdetail.html?contentUid=19735&uid=63&cHash=e2c7888af67acc60ed6bb4c864f48883",
+          "views": {
+            "bubble": "    <b>Handwerkskammer Münster</b><br/>\n    Echelmeyerstraße 1-2<br/> 48163 Münster<br/><br/>\n            <a href=\"https://www.hwk-muenster.de\" target=\"_blank\">https://www.hwk-muenster.de</a><br/>\n                <a href=\"https://www.hbz-bildung.de/de\" target=\"_blank\">Weiterbildungsangebote</a><br/>\n                <a href=\"https://www.hwk-muenster.de/de/ausbildung/ausbildungsbetriebe/lehrstellenangebote\" target=\"_blank\">Lehrstellenangebote</a>\n    ",
+            "teaser": "    <b>Handwerkskammer Münster</b><br/>\n    Echelmeyerstraße 1-2<br/> 48163 Münster\n"
+          }
+        },
+        {
+          "uid": 79,
+          "pid": 1469,
+          "title": "Handwerkskammer Niederbayern-Oberpfalz",
+          "sortTitle": "Passau",
+          "idExtern": 29,
+          "urlLehrstellenboerse": "https://www.hwkno.de/artikel/praktikumsplaetze-und-lehrstellen-finden-76,0,3026.html",
+          "urlWeiterbildungsdatenbank": "https://www.hwkno.de/76,3391,coursesearch.html",
+          "urlZahlendatenfakten": "https://www.hwkno.de/artikel/statistiken-76,3425,380.html",
+          "urlOrgane": "https://www.hwkno.de/artikel/uebersicht-ueber-organe-ehrenamt-der-handwerkskammer-76,3414,4017.html",
+          "urlRechtsgrundlagen": "https://www.hwkno.de/artikel/rechtsgrundlagen-76,3415,2598.html",
+          "urlProjekte": "https://www.hwkno.de/artikel/wege-ins-handwerk-76,3266,7645.html",
+          "urlVideo": "",
+          "urlInklusionsberatung": "https://www.hwkno.de/artikel/fachkraefte-76,0,9650.html",
+          "adresse": {
+            "address": "Ditthornstr. 10",
+            "phone": "+ 49 941 7965-0",
+            "www": "https://www.hwkno.de",
+            "city": "Regensburg",
+            "zip": "93055",
+            "email_link": "<a href=\"#\" data-mailto-token=\"iwehpk6ejbkWdsgjk:za\" data-mailto-vector=\"-4\" tabindex=\"0\" role=\"link\" class=\"masked-link address__email\">info@hwkno.de</a>"
+          },
+          "mpa": {},
+          "latitude": "49.01413000",
+          "longitude": "12.13751000",
+          "handwerkid": [
+            30,
+            4,
+            25,
+            16,
+            32,
+            42,
+            38,
+            40,
+            39,
+            74,
+            24,
+            15,
+            83,
+            23,
+            31,
+            97,
+            20,
+            21,
+            10,
+            1,
+            13,
+            2,
+            36,
+            35,
+            67,
+            54,
+            66,
+            12,
+            27,
+            3
+          ],
+          "icon": {
+            "size": [
+              16,
+              24
+            ],
+            "anchor": [
+              8,
+              0
+            ],
+            "file": "hwk.png"
+          },
+          "detailUrl": "https://www.zdh.de/ueber-uns/organisationen-des-handwerks/handwerkskammern/deutschlandkarte-der-handwerkskammern/wwt3listmapdetail.html?contentUid=19735&uid=79&cHash=cac9bb391d29da3b7b41d8968a4f84e0",
+          "views": {
+            "bubble": "    <b>Handwerkskammer Niederbayern-Oberpfalz</b><br/>\n    Ditthornstr. 10<br/> 93055 Regensburg<br/><br/>\n            <a href=\"https://www.hwkno.de\" target=\"_blank\">https://www.hwkno.de</a><br/>\n                <a href=\"https://www.hwkno.de/76,3391,coursesearch.html\" target=\"_blank\">Weiterbildungsangebote</a><br/>\n                <a href=\"https://www.hwkno.de/artikel/praktikumsplaetze-und-lehrstellen-finden-76,0,3026.html\" target=\"_blank\">Lehrstellenangebote</a>\n    ",
+            "teaser": "    <b>Handwerkskammer Niederbayern-Oberpfalz</b><br/>\n    Ditthornstr. 10<br/> 93055 Regensburg\n"
+          }
+        },
+        {
+          "uid": 76,
+          "pid": 1469,
+          "title": "Handwerkskammer Oldenburg",
+          "sortTitle": "Oldenburg",
+          "idExtern": 30,
+          "urlLehrstellenboerse": "https://www.hwk-oldenburg.de/ausbildung/ausbildungsplatze-finden/lehrstellenborse#/suche/berufsbezeichnung?angebotArt=ALL&jahr=2017&berufBezeichnung=&radius=15",
+          "urlWeiterbildungsdatenbank": "https://www.hwk-oldenburg.de/weiterbildung/kurse-und-seminare/#/",
+          "urlZahlendatenfakten": "https://www.hwk-oldenburg.de/ueber-uns/zahlen-daten-fakten",
+          "urlOrgane": "https://www.hwk-oldenburg.de/ueber-uns/organe-und-ehrenamt",
+          "urlRechtsgrundlagen": "https://www.hwk-oldenburg.de/ueber-uns/rechtsgrundlagen-1",
+          "urlProjekte": "https://www.hwk-oldenburg.de/ausbildung/einfachmachen-berufsorientierung-digital",
+          "urlVideo": "",
+          "urlInklusionsberatung": "",
+          "adresse": {
+            "address": "Theaterwall 32",
+            "phone": "+49 441 232-0",
+            "www": "https://www.hwk-oldenburg.de",
+            "city": "Oldenburg",
+            "zip": "26122",
+            "email_link": "<a href=\"#\" data-mailto-token=\"iwehpk6ejbkWdsg9khzajxqnc:za\" data-mailto-vector=\"-4\" tabindex=\"0\" role=\"link\" class=\"masked-link address__email\">info@hwk-oldenburg.de</a>"
+          },
+          "mpa": {},
+          "latitude": "53.14005000",
+          "longitude": "8.20959980",
+          "handwerkid": [
+            30,
+            7,
+            26,
+            25,
+            16,
+            42,
+            38,
+            19,
+            24,
+            31,
+            97,
+            20,
+            10,
+            1,
+            13,
+            67,
+            27,
+            3
+          ],
+          "icon": {
+            "size": [
+              16,
+              24
+            ],
+            "anchor": [
+              8,
+              0
+            ],
+            "file": "hwk.png"
+          },
+          "detailUrl": "https://www.zdh.de/ueber-uns/organisationen-des-handwerks/handwerkskammern/deutschlandkarte-der-handwerkskammern/wwt3listmapdetail.html?contentUid=19735&uid=76&cHash=a51cdf04c7965b4fc09b7873d80ab467",
+          "views": {
+            "bubble": "    <b>Handwerkskammer Oldenburg</b><br/>\n    Theaterwall 32<br/> 26122 Oldenburg<br/><br/>\n            <a href=\"https://www.hwk-oldenburg.de\" target=\"_blank\">https://www.hwk-oldenburg.de</a><br/>\n                <a href=\"https://www.hwk-oldenburg.de/weiterbildung/kurse-und-seminare/#/\" target=\"_blank\">Weiterbildungsangebote</a><br/>\n                <a href=\"https://www.hwk-oldenburg.de/ausbildung/ausbildungsplatze-finden/lehrstellenborse#/suche/berufsbezeichnung?angebotArt=ALL&amp;jahr=2017&amp;berufBezeichnung=&amp;radius=15\" target=\"_blank\">Lehrstellenangebote</a>\n    ",
+            "teaser": "    <b>Handwerkskammer Oldenburg</b><br/>\n    Theaterwall 32<br/> 26122 Oldenburg\n"
+          }
+        },
+        {
+          "uid": 75,
+          "pid": 1469,
+          "title": "Handwerkskammer Osnabrück-Emsland-Grafschaft Bentheim",
+          "sortTitle": "Osnabrück-Emsland-Grafschaft Bentheim",
+          "idExtern": 31,
+          "urlLehrstellenboerse": "https://hwk-osnabrueck.de/lehrstellenangebotssuche",
+          "urlWeiterbildungsdatenbank": "https://www.btz-osnabrueck.de/weiterbildung/kurse",
+          "urlZahlendatenfakten": "https://hwk-osnabrueck.de/zahlen-daten-fakten",
+          "urlOrgane": "https://hwk-osnabrueck.de/ehrenamt",
+          "urlRechtsgrundlagen": "https://hwk-osnabrueck.de/rechtsgrundlagen",
+          "urlProjekte": "https://www.hwk-osnabrueck.de/thema/fuer-jugendliche/",
+          "urlVideo": "",
+          "urlInklusionsberatung": "",
+          "adresse": {
+            "address": "Bramscher Straße 134 - 136",
+            "phone": "+49 541 6929-0",
+            "www": "https://hwk-osnabrueck.de",
+            "city": "Osnabrück",
+            "zip": "49088",
+            "email_link": "<a href=\"#\" data-mailto-token=\"iwehpk6ejbkWdsg9kojwxnqayg:za\" data-mailto-vector=\"-4\" tabindex=\"0\" role=\"link\" class=\"masked-link address__email\">info@hwk-osnabrueck.de</a>"
+          },
+          "mpa": {},
+          "latitude": "52.29084410",
+          "longitude": "8.03942770",
+          "handwerkid": [
+            4,
+            25,
+            16,
+            42,
+            38,
+            24,
+            15,
+            20,
+            21,
+            10,
+            1,
+            13,
+            27,
+            3
+          ],
+          "icon": {
+            "size": [
+              16,
+              24
+            ],
+            "anchor": [
+              8,
+              0
+            ],
+            "file": "hwk.png"
+          },
+          "detailUrl": "https://www.zdh.de/ueber-uns/organisationen-des-handwerks/handwerkskammern/deutschlandkarte-der-handwerkskammern/wwt3listmapdetail.html?contentUid=19735&uid=75&cHash=a4b4b9baf54ae18c9983a50f28a81b03",
+          "views": {
+            "bubble": "    <b>Handwerkskammer Osnabrück-Emsland-Grafschaft Bentheim</b><br/>\n    Bramscher Straße 134 - 136<br/> 49088 Osnabrück<br/><br/>\n            <a href=\"https://hwk-osnabrueck.de\" target=\"_blank\">https://hwk-osnabrueck.de</a><br/>\n                <a href=\"https://www.btz-osnabrueck.de/weiterbildung/kurse\" target=\"_blank\">Weiterbildungsangebote</a><br/>\n                <a href=\"https://hwk-osnabrueck.de/lehrstellenangebotssuche\" target=\"_blank\">Lehrstellenangebote</a>\n    ",
+            "teaser": "    <b>Handwerkskammer Osnabrück-Emsland-Grafschaft Bentheim</b><br/>\n    Bramscher Straße 134 - 136<br/> 49088 Osnabrück\n"
+          }
+        },
+        {
+          "uid": 61,
+          "pid": 1469,
+          "title": "Handwerkskammer Ostmecklenburg-Vorpommern",
+          "sortTitle": "Rostock",
+          "idExtern": 32,
+          "urlLehrstellenboerse": "https://www.hwk-omv.de/18,852,jobboardoffersearch.html",
+          "urlWeiterbildungsdatenbank": "https://www.hwk-omv.de/artikel/kursangebote-18,721,754.html",
+          "urlZahlendatenfakten": "https://www.hwk-omv.de/artikel/zahlen-daten-fakten-18,764,1097.html",
+          "urlOrgane": "https://www.hwk-omv.de/artikel/ehrenamt-im-handwerk-18,760,1269.html",
+          "urlRechtsgrundlagen": "https://www.hwk-omv.de/artikel/rechtsgrundlagen-18,762,228.html",
+          "urlProjekte": "https://www.hwk-omv.de/artikel/fuer-schueler-und-interessierte-18,849,1541.html",
+          "urlVideo": "",
+          "urlInklusionsberatung": "https://www.hwk-omv.de/18,666,1287.html",
+          "adresse": {
+            "address": "Schwaaner Landstr. 8",
+            "phone": "+49 381 4549-0",
+            "www": "https://www.hwk-omv.de",
+            "city": "Rostock",
+            "zip": "18055",
+            "email_link": "<a href=\"#\" data-mailto-token=\"iwehpk6ejbkWdsg9kir:za\" data-mailto-vector=\"-4\" tabindex=\"0\" role=\"link\" class=\"masked-link address__email\">info@hwk-omv.de</a>"
+          },
+          "mpa": {},
+          "latitude": "54.07581000",
+          "longitude": "12.14113000",
+          "handwerkid": [
+            28,
+            4,
+            25,
+            16,
+            38,
+            24,
+            20,
+            21,
+            10,
+            1,
+            13,
+            27,
+            3
+          ],
+          "icon": {
+            "size": [
+              16,
+              24
+            ],
+            "anchor": [
+              8,
+              0
+            ],
+            "file": "hwk.png"
+          },
+          "detailUrl": "https://www.zdh.de/ueber-uns/organisationen-des-handwerks/handwerkskammern/deutschlandkarte-der-handwerkskammern/wwt3listmapdetail.html?contentUid=19735&uid=61&cHash=1cd6be5c1184268f8a80721475555655",
+          "views": {
+            "bubble": "    <b>Handwerkskammer Ostmecklenburg-Vorpommern</b><br/>\n    Schwaaner Landstr. 8<br/> 18055 Rostock<br/><br/>\n            <a href=\"https://www.hwk-omv.de\" target=\"_blank\">https://www.hwk-omv.de</a><br/>\n                <a href=\"https://www.hwk-omv.de/artikel/kursangebote-18,721,754.html\" target=\"_blank\">Weiterbildungsangebote</a><br/>\n                <a href=\"https://www.hwk-omv.de/18,852,jobboardoffersearch.html\" target=\"_blank\">Lehrstellenangebote</a>\n    ",
+            "teaser": "    <b>Handwerkskammer Ostmecklenburg-Vorpommern</b><br/>\n    Schwaaner Landstr. 8<br/> 18055 Rostock\n"
+          }
+        },
+        {
+          "uid": 107,
+          "pid": 1469,
+          "title": "Handwerkskammer Ostwestfalen-Lippe zu Bielefeld",
+          "sortTitle": "Bielefeld",
+          "idExtern": 33,
+          "urlLehrstellenboerse": "https://handwerk-owl.de/de/ausbildung/ubergang-schule-beruf/lehrstellen-und-praktikumsborse_6_117.html",
+          "urlWeiterbildungsdatenbank": "https://bbz.handwerk-owl.de",
+          "urlZahlendatenfakten": "https://handwerk-owl.de/de/uber-uns/die-handwerkskammer/zahlen-daten-fakten_6_204.html",
+          "urlOrgane": "https://handwerk-owl.de/de/uber-uns/organe-der-handwerkskammer_5_35.html",
+          "urlRechtsgrundlagen": "https://handwerk-owl.de/de/uber-uns/rechtsgrundlagen_5_36.html",
+          "urlProjekte": "https://www.handwerk-owl.de/artikel/berufsorientierung-35,362,970.html",
+          "urlVideo": "",
+          "urlInklusionsberatung": "",
+          "adresse": {
+            "address": "Campus Handwerk 1",
+            "phone": "+49 521 5608-0",
+            "www": "https://www.handwerk-owl.de",
+            "city": "Bielefeld",
+            "zip": "33613",
+            "email_link": "<a href=\"#\" data-mailto-token=\"iwehpk6dsgWdsg9ksh:za\" data-mailto-vector=\"-4\" tabindex=\"0\" role=\"link\" class=\"masked-link address__email\">hwk@hwk-owl.de</a>"
+          },
+          "mpa": {},
+          "latitude": "52.03218990",
+          "longitude": "8.53538980",
+          "handwerkid": [
+            4,
+            25,
+            16,
+            38,
+            24,
+            31,
+            97,
+            20,
+            10,
+            1,
+            13,
+            5,
+            27,
+            3
+          ],
+          "icon": {
+            "size": [
+              16,
+              24
+            ],
+            "anchor": [
+              8,
+              0
+            ],
+            "file": "hwk.png"
+          },
+          "detailUrl": "https://www.zdh.de/ueber-uns/organisationen-des-handwerks/handwerkskammern/deutschlandkarte-der-handwerkskammern/wwt3listmapdetail.html?contentUid=19735&uid=107&cHash=44af09ef67aad27b40feb105e02557bb",
+          "views": {
+            "bubble": "    <b>Handwerkskammer Ostwestfalen-Lippe zu Bielefeld</b><br/>\n    Campus Handwerk 1<br/> 33613 Bielefeld<br/><br/>\n            <a href=\"https://www.handwerk-owl.de\" target=\"_blank\">https://www.handwerk-owl.de</a><br/>\n                <a href=\"https://bbz.handwerk-owl.de\" target=\"_blank\">Weiterbildungsangebote</a><br/>\n                <a href=\"https://handwerk-owl.de/de/ausbildung/ubergang-schule-beruf/lehrstellen-und-praktikumsborse_6_117.html\" target=\"_blank\">Lehrstellenangebote</a>\n    ",
+            "teaser": "    <b>Handwerkskammer Ostwestfalen-Lippe zu Bielefeld</b><br/>\n    Campus Handwerk 1<br/> 33613 Bielefeld\n"
+          }
+        },
+        {
+          "uid": 73,
+          "pid": 1469,
+          "title": "Handwerkskammer Potsdam",
+          "sortTitle": "Potsdam",
+          "idExtern": 34,
+          "urlLehrstellenboerse": "https://www.hwk-potsdam.de/artikel/lehrstellen-und-praktikumsplaetze-9,718,2289.html",
+          "urlWeiterbildungsdatenbank": "https://www.hwk-potsdam.de/artikel/kurse-seminare-finden-9,761,3180.html",
+          "urlZahlendatenfakten": "https://www.hwk-potsdam.de/artikel/statistik-9,785,3153.html",
+          "urlOrgane": "https://www.hwk-potsdam.de/artikel/ehrenamt-im-handwerk-9,782,3159.html",
+          "urlRechtsgrundlagen": "https://www.hwk-potsdam.de/9,438,352.html",
+          "urlProjekte": "https://www.hwk-potsdam.de/artikel/ab-ins-handwerk-9,831,2237.html",
+          "urlVideo": "",
+          "urlInklusionsberatung": "https://www.hwk-potsdam.de/artikel/inklusionsberatung-9,910,3764.html",
+          "adresse": {
+            "address": "Charlottenstraße 34-36",
+            "phone": "+49 331 3703-0",
+            "www": "https://www.hwk-potsdam.de",
+            "city": "Potsdam",
+            "zip": "14467",
+            "email_link": "<a href=\"#\" data-mailto-token=\"iwehpk6ejbkWdsglkpozwi:za\" data-mailto-vector=\"-4\" tabindex=\"0\" role=\"link\" class=\"masked-link address__email\">info@hwkpotsdam.de</a>"
+          },
+          "mpa": {},
+          "latitude": "52.39959140",
+          "longitude": "13.05716810",
+          "handwerkid": [
+            33,
+            30,
+            4,
+            25,
+            38,
+            24,
+            31,
+            20,
+            21,
+            10,
+            1,
+            13,
+            12,
+            27
+          ],
+          "icon": {
+            "size": [
+              16,
+              24
+            ],
+            "anchor": [
+              8,
+              0
+            ],
+            "file": "hwk.png"
+          },
+          "detailUrl": "https://www.zdh.de/ueber-uns/organisationen-des-handwerks/handwerkskammern/deutschlandkarte-der-handwerkskammern/wwt3listmapdetail.html?contentUid=19735&uid=73&cHash=da322e678efdc936373a788df185460f",
+          "views": {
+            "bubble": "    <b>Handwerkskammer Potsdam</b><br/>\n    Charlottenstraße 34-36<br/> 14467 Potsdam<br/><br/>\n            <a href=\"https://www.hwk-potsdam.de\" target=\"_blank\">https://www.hwk-potsdam.de</a><br/>\n                <a href=\"https://www.hwk-potsdam.de/artikel/kurse-seminare-finden-9,761,3180.html\" target=\"_blank\">Weiterbildungsangebote</a><br/>\n                <a href=\"https://www.hwk-potsdam.de/artikel/lehrstellen-und-praktikumsplaetze-9,718,2289.html\" target=\"_blank\">Lehrstellenangebote</a>\n    ",
+            "teaser": "    <b>Handwerkskammer Potsdam</b><br/>\n    Charlottenstraße 34-36<br/> 14467 Potsdam\n"
+          }
+        },
+        {
+          "uid": 67,
+          "pid": 1469,
+          "title": "Handwerkskammer Region Stuttgart",
+          "sortTitle": "Stuttgart",
+          "idExtern": 35,
+          "urlLehrstellenboerse": "https://www.hwk-stuttgart.de/view?onr=67&pnr=640&mnr=24",
+          "urlWeiterbildungsdatenbank": "https://www.bia-stuttgart.de",
+          "urlZahlendatenfakten": "https://www.hwk-stuttgart.de/view?onr=67&pnr=744&mnr=211",
+          "urlOrgane": "https://www.hwk-stuttgart.de/view?onr=67&pnr=729&mnr=210",
+          "urlRechtsgrundlagen": "https://www.hwk-stuttgart.de/artikel/die-handwerksordnung-auf-einen-blick-67,199,676.html",
+          "urlProjekte": "https://www.hwk-stuttgart.de/artikel/aktion-sommer-der-berufsausbildung-2023-67,0,2510.html",
+          "urlVideo": "",
+          "urlInklusionsberatung": "https://www.hwk-stuttgart.de/view?onr=67&pnr=646&mnr=106",
+          "adresse": {
+            "address": "Heilbronner Str. 43",
+            "phone": "+49 711 1657-0",
+            "www": "https://www.hwk-stuttgart.de",
+            "city": "Stuttgart",
+            "zip": "70191",
+            "email_link": "<a href=\"#\" data-mailto-token=\"iwehpk6ejbkWdsg9opqppcwnp:za\" data-mailto-vector=\"-4\" tabindex=\"0\" role=\"link\" class=\"masked-link address__email\">info@hwk-stuttgart.de</a>"
+          },
+          "mpa": {},
+          "latitude": "48.79039000",
+          "longitude": "9.18009000",
+          "handwerkid": [
+            30,
+            45,
+            79,
+            26,
+            25,
+            16,
+            42,
+            38,
+            49,
+            19,
+            24,
+            85,
+            23,
+            31,
+            20,
+            21,
+            10,
+            60,
+            1,
+            13,
+            68,
+            2,
+            84,
+            36,
+            67,
+            66,
+            93,
+            9,
+            27,
+            37,
+            3
+          ],
+          "icon": {
+            "size": [
+              16,
+              24
+            ],
+            "anchor": [
+              8,
+              0
+            ],
+            "file": "hwk.png"
+          },
+          "detailUrl": "https://www.zdh.de/ueber-uns/organisationen-des-handwerks/handwerkskammern/deutschlandkarte-der-handwerkskammern/wwt3listmapdetail.html?contentUid=19735&uid=67&cHash=179d69b8ba369cac2ce76991fccf9a33",
+          "views": {
+            "bubble": "    <b>Handwerkskammer Region Stuttgart</b><br/>\n    Heilbronner Str. 43<br/> 70191 Stuttgart<br/><br/>\n            <a href=\"https://www.hwk-stuttgart.de\" target=\"_blank\">https://www.hwk-stuttgart.de</a><br/>\n                <a href=\"https://www.bia-stuttgart.de\" target=\"_blank\">Weiterbildungsangebote</a><br/>\n                <a href=\"https://www.hwk-stuttgart.de/view?onr=67&amp;pnr=640&amp;mnr=24\" target=\"_blank\">Lehrstellenangebote</a>\n    ",
+            "teaser": "    <b>Handwerkskammer Region Stuttgart</b><br/>\n    Heilbronner Str. 43<br/> 70191 Stuttgart\n"
+          }
+        },
+        {
+          "uid": 71,
+          "pid": 1469,
+          "title": "Handwerkskammer Reutlingen",
+          "sortTitle": "Reutlingen",
+          "idExtern": 36,
+          "urlLehrstellenboerse": "https://www.hwk-reutlingen.de/fileadmin/hwk/php/xlehrstellenboerse.php",
+          "urlWeiterbildungsdatenbank": "https://www.hwk-reutlingen.de/weiterbildung/kurse-seminare-finden.html",
+          "urlZahlendatenfakten": "https://www.hwk-reutlingen.de/top-menue/ueber-uns/zahlendatenfakten0.html",
+          "urlOrgane": "https://www.hwk-reutlingen.de/top-menue/ueber-uns/organe-ehrenamt.html",
+          "urlRechtsgrundlagen": "https://www.hwk-reutlingen.de/top-menue/ueber-uns/rechtsgrundlagen.html",
+          "urlProjekte": "https://www.hwk-reutlingen.de/ausbildung/lehrstellensuche0.html",
+          "urlVideo": "",
+          "urlInklusionsberatung": "",
+          "adresse": {
+            "address": "Hindenburgstraße 58",
+            "phone": "+49 7121 2412-0",
+            "www": "https://www.hwk-reutlingen.de",
+            "city": "Reutlingen",
+            "zip": "72762",
+            "email_link": "<a href=\"#\" data-mailto-token=\"iwehpk6dwjzsangWdsg9naqphejcaj:za\" data-mailto-vector=\"-4\" tabindex=\"0\" role=\"link\" class=\"masked-link address__email\">handwerk@hwk-reutlingen.de</a>"
+          },
+          "mpa": {},
+          "latitude": "48.48591000",
+          "longitude": "9.20589000",
+          "handwerkid": [
+            25,
+            16,
+            38,
+            73,
+            24,
+            20,
+            10,
+            60,
+            13,
+            89,
+            67,
+            5,
+            27,
+            3
+          ],
+          "icon": {
+            "size": [
+              16,
+              24
+            ],
+            "anchor": [
+              8,
+              0
+            ],
+            "file": "hwk.png"
+          },
+          "detailUrl": "https://www.zdh.de/ueber-uns/organisationen-des-handwerks/handwerkskammern/deutschlandkarte-der-handwerkskammern/wwt3listmapdetail.html?contentUid=19735&uid=71&cHash=ebdc56baf2e7b819944ed74a780f33ad",
+          "views": {
+            "bubble": "    <b>Handwerkskammer Reutlingen</b><br/>\n    Hindenburgstraße 58<br/> 72762 Reutlingen<br/><br/>\n            <a href=\"https://www.hwk-reutlingen.de\" target=\"_blank\">https://www.hwk-reutlingen.de</a><br/>\n                <a href=\"https://www.hwk-reutlingen.de/weiterbildung/kurse-seminare-finden.html\" target=\"_blank\">Weiterbildungsangebote</a><br/>\n                <a href=\"https://www.hwk-reutlingen.de/fileadmin/hwk/php/xlehrstellenboerse.php\" target=\"_blank\">Lehrstellenangebote</a>\n    ",
+            "teaser": "    <b>Handwerkskammer Reutlingen</b><br/>\n    Hindenburgstraße 58<br/> 72762 Reutlingen\n"
+          }
+        },
+        {
+          "uid": 72,
+          "pid": 1469,
+          "title": "Handwerkskammer Rheinhessen",
+          "sortTitle": "Mainz",
+          "idExtern": 37,
+          "urlLehrstellenboerse": "https://www.hwk.de/lehrstellensuche/",
+          "urlWeiterbildungsdatenbank": "https://www.hwk.de/seminare/suche/",
+          "urlZahlendatenfakten": "https://hwk.de/ueber-uns/zahlen-daten-fakten",
+          "urlOrgane": "https://www.hwk.de/ehrenamt/",
+          "urlRechtsgrundlagen": "https://hwk.de/ueber-uns/die-handwerkskammer",
+          "urlProjekte": "https://www.hwk.de/ausbildungsinteressierte/",
+          "urlVideo": "",
+          "urlInklusionsberatung": "",
+          "adresse": {
+            "address": "Dagobertsrtraße 2",
+            "phone": "+49 6131 9992-0",
+            "www": "https://www.hwk.de",
+            "city": "Mainz",
+            "zip": "55116",
+            "email_link": "<a href=\"#\" data-mailto-token=\"iwehpk6ejbkWdsg:za\" data-mailto-vector=\"-4\" tabindex=\"0\" role=\"link\" class=\"masked-link address__email\">info@hwk.de</a>"
+          },
+          "mpa": {},
+          "latitude": "49.99421440",
+          "longitude": "8.27834600",
+          "handwerkid": [
+            4,
+            25,
+            16,
+            42,
+            38,
+            34,
+            24,
+            20,
+            10,
+            1,
+            13,
+            27,
+            3
+          ],
+          "icon": {
+            "size": [
+              16,
+              24
+            ],
+            "anchor": [
+              8,
+              0
+            ],
+            "file": "hwk.png"
+          },
+          "detailUrl": "https://www.zdh.de/ueber-uns/organisationen-des-handwerks/handwerkskammern/deutschlandkarte-der-handwerkskammern/wwt3listmapdetail.html?contentUid=19735&uid=72&cHash=35a9cdb1be7a93ae9362512af7791de4",
+          "views": {
+            "bubble": "    <b>Handwerkskammer Rheinhessen</b><br/>\n    Dagobertsrtraße 2<br/> 55116 Mainz<br/><br/>\n            <a href=\"https://www.hwk.de\" target=\"_blank\">https://www.hwk.de</a><br/>\n                <a href=\"https://www.hwk.de/seminare/suche/\" target=\"_blank\">Weiterbildungsangebote</a><br/>\n                <a href=\"https://www.hwk.de/lehrstellensuche/\" target=\"_blank\">Lehrstellenangebote</a>\n    ",
+            "teaser": "    <b>Handwerkskammer Rheinhessen</b><br/>\n    Dagobertsrtraße 2<br/> 55116 Mainz\n"
+          }
+        },
+        {
+          "uid": 68,
+          "pid": 1469,
+          "title": "Handwerkskammer Schwerin",
+          "sortTitle": "Schwerin",
+          "idExtern": 38,
+          "urlLehrstellenboerse": "https://www.hwk-schwerin.de/artikel/lehrstellenboerse-19,169,285.html",
+          "urlWeiterbildungsdatenbank": "https://www.hwk-schwerin.de/19,171,coursesearch_BTZ.html",
+          "urlZahlendatenfakten": "https://www.hwk-schwerin.de/artikel/zahlen-daten-fakten-19,93,36.html",
+          "urlOrgane": "https://www.hwk-schwerin.de/artikel/ehrenamt-und-geschaeftsfuehrung-19,94,376.html",
+          "urlRechtsgrundlagen": "https://www.hwk-schwerin.de/artikel/rechtsgrundlagen-19,95,52.html",
+          "urlProjekte": "https://www.hwk-schwerin.de/artikel/beratung-service-schulkontakte-19,81,1072.html",
+          "urlVideo": "",
+          "urlInklusionsberatung": "",
+          "adresse": {
+            "address": "Werkstraße 600",
+            "phone": "+49 385 7417-0",
+            "www": "https://www.hwk-schwerin.de",
+            "city": "Schwerin",
+            "zip": "19061",
+            "email_link": "<a href=\"#\" data-mailto-token=\"iwehpk6ejbkWdsg9oydsanej:za\" data-mailto-vector=\"-4\" tabindex=\"0\" role=\"link\" class=\"masked-link address__email\">info@hwk-schwerin.de</a>"
+          },
+          "mpa": {},
+          "latitude": "53.62941000",
+          "longitude": "11.40348000",
+          "handwerkid": [
+            25,
+            42,
+            38,
+            24,
+            20,
+            10,
+            1,
+            13,
+            2,
+            8,
+            5,
+            27,
+            3
+          ],
+          "icon": {
+            "size": [
+              16,
+              24
+            ],
+            "anchor": [
+              8,
+              0
+            ],
+            "file": "hwk.png"
+          },
+          "detailUrl": "https://www.zdh.de/ueber-uns/organisationen-des-handwerks/handwerkskammern/deutschlandkarte-der-handwerkskammern/wwt3listmapdetail.html?contentUid=19735&uid=68&cHash=f5e14dbf02927ff70c1dc28c3a5a1949",
+          "views": {
+            "bubble": "    <b>Handwerkskammer Schwerin</b><br/>\n    Werkstraße 600<br/> 19061 Schwerin<br/><br/>\n            <a href=\"https://www.hwk-schwerin.de\" target=\"_blank\">https://www.hwk-schwerin.de</a><br/>\n                <a href=\"https://www.hwk-schwerin.de/19,171,coursesearch_BTZ.html\" target=\"_blank\">Weiterbildungsangebote</a><br/>\n                <a href=\"https://www.hwk-schwerin.de/artikel/lehrstellenboerse-19,169,285.html\" target=\"_blank\">Lehrstellenangebote</a>\n    ",
+            "teaser": "    <b>Handwerkskammer Schwerin</b><br/>\n    Werkstraße 600<br/> 19061 Schwerin\n"
+          }
+        },
+        {
+          "uid": 59,
+          "pid": 1469,
+          "title": "Handwerkskammer Südthüringen",
+          "sortTitle": "Suhl",
+          "idExtern": 39,
+          "urlLehrstellenboerse": "https://www.hwk-suedthueringen.de/6,0,jobboardoffersearch.html",
+          "urlWeiterbildungsdatenbank": "https://www.hwk-suedthueringen.de/artikel/aktuelles-kursangebot-6,147,258.html",
+          "urlZahlendatenfakten": "https://www.hwk-suedthueringen.de/artikel/zahlen-daten-fakten-6,138,86.html",
+          "urlOrgane": "https://www.hwk-suedthueringen.de/artikel/organe-und-ehrenamt-6,92,38.html",
+          "urlRechtsgrundlagen": "https://www.hwk-suedthueringen.de/artikel/rechtsgrundlagen-6,141,104.html",
+          "urlProjekte": "https://www.hwk-suedthueringen.de/artikel/deine-zukunft-im-handwerk-6,169,13.html",
+          "urlVideo": "",
+          "urlInklusionsberatung": "",
+          "adresse": {
+            "address": "Rosa-Luxemburg-Straße 7-9",
+            "phone": "+49 3681 370-0",
+            "www": "https://www.hwk-suedthueringen.de",
+            "city": "Suhl",
+            "zip": "98527",
+            "email_link": "<a href=\"#\" data-mailto-token=\"iwehpk6ejbkWdsg9oqazpdqanejcaj:za\" data-mailto-vector=\"-4\" tabindex=\"0\" role=\"link\" class=\"masked-link address__email\">info@hwk-suedthueringen.de</a>"
+          },
+          "mpa": {},
+          "latitude": "50.60528280",
+          "longitude": "10.68533840",
+          "handwerkid": [
+            25,
+            16,
+            32,
+            38,
+            40,
+            57,
+            24,
+            15,
+            20,
+            21,
+            10,
+            1,
+            13,
+            27,
+            3,
+            17
+          ],
+          "icon": {
+            "size": [
+              16,
+              24
+            ],
+            "anchor": [
+              8,
+              0
+            ],
+            "file": "hwk.png"
+          },
+          "detailUrl": "https://www.zdh.de/ueber-uns/organisationen-des-handwerks/handwerkskammern/deutschlandkarte-der-handwerkskammern/wwt3listmapdetail.html?contentUid=19735&uid=59&cHash=88fe921032cb3b9e5fbd213a879a9399",
+          "views": {
+            "bubble": "    <b>Handwerkskammer Südthüringen</b><br/>\n    Rosa-Luxemburg-Straße 7-9<br/> 98527 Suhl<br/><br/>\n            <a href=\"https://www.hwk-suedthueringen.de\" target=\"_blank\">https://www.hwk-suedthueringen.de</a><br/>\n                <a href=\"https://www.hwk-suedthueringen.de/artikel/aktuelles-kursangebot-6,147,258.html\" target=\"_blank\">Weiterbildungsangebote</a><br/>\n                <a href=\"https://www.hwk-suedthueringen.de/6,0,jobboardoffersearch.html\" target=\"_blank\">Lehrstellenangebote</a>\n    ",
+            "teaser": "    <b>Handwerkskammer Südthüringen</b><br/>\n    Rosa-Luxemburg-Straße 7-9<br/> 98527 Suhl\n"
+          }
+        },
+        {
+          "uid": 112,
+          "pid": 1469,
+          "title": "Handwerkskammer Südwestfalen",
+          "sortTitle": "Arnsberg",
+          "idExtern": 2,
+          "urlLehrstellenboerse": "https://www.hwk-swf.de/artikel/lehrstellensuche-38,95,28.html",
+          "urlWeiterbildungsdatenbank": "https://www.bbz-arnsberg.de/kurse",
+          "urlZahlendatenfakten": "https://www.hwk-swf.de/artikel/zahlen-daten-fakten-38,89,98.html",
+          "urlOrgane": "https://www.hwk-swf.de/artikel/organe-und-ehrenamt-38,89,96.html",
+          "urlRechtsgrundlagen": "https://www.hwk-swf.de/artikel/rechtsgrundlagen-38,129,100.html",
+          "urlProjekte": "https://www.hwk-swf.de/artikel/berufsorientierung-38,95,110.html",
+          "urlVideo": "",
+          "urlInklusionsberatung": "https://www.hwk-swf.de/artikel/inklusion-38,0,38.html",
+          "adresse": {
+            "address": "Brückenplatz 1",
+            "phone": "+49 2931 877-0",
+            "www": "https://www.hwk-swf.de",
+            "city": "Arnsberg",
+            "zip": "59821",
+            "email_link": "<a href=\"#\" data-mailto-token=\"iwehpk6ejbkWdsg9osb:za\" data-mailto-vector=\"-4\" tabindex=\"0\" role=\"link\" class=\"masked-link address__email\">info@hwk-swf.de</a>"
+          },
+          "mpa": {},
+          "latitude": "51.39627190",
+          "longitude": "8.06732830",
+          "handwerkid": [
+            30,
+            4,
+            25,
+            16,
+            42,
+            38,
+            24,
+            23,
+            31,
+            97,
+            20,
+            10,
+            1,
+            13,
+            5,
+            9,
+            27,
+            3
+          ],
+          "icon": {
+            "size": [
+              16,
+              24
+            ],
+            "anchor": [
+              8,
+              0
+            ],
+            "file": "hwk.png"
+          },
+          "detailUrl": "https://www.zdh.de/ueber-uns/organisationen-des-handwerks/handwerkskammern/deutschlandkarte-der-handwerkskammern/wwt3listmapdetail.html?contentUid=19735&uid=112&cHash=4368d7536beecd78db904f8a50a912d5",
+          "views": {
+            "bubble": "    <b>Handwerkskammer Südwestfalen</b><br/>\n    Brückenplatz 1<br/> 59821 Arnsberg<br/><br/>\n            <a href=\"https://www.hwk-swf.de\" target=\"_blank\">https://www.hwk-swf.de</a><br/>\n                <a href=\"https://www.bbz-arnsberg.de/kurse\" target=\"_blank\">Weiterbildungsangebote</a><br/>\n                <a href=\"https://www.hwk-swf.de/artikel/lehrstellensuche-38,95,28.html\" target=\"_blank\">Lehrstellenangebote</a>\n    ",
+            "teaser": "    <b>Handwerkskammer Südwestfalen</b><br/>\n    Brückenplatz 1<br/> 59821 Arnsberg\n"
+          }
+        },
+        {
+          "uid": 66,
+          "pid": 1469,
+          "title": "Handwerkskammer Trier",
+          "sortTitle": "Trier",
+          "idExtern": 40,
+          "urlLehrstellenboerse": "https://www.hwk-trier.de/artikel/freie-lehrstellen-im-handwerk-54,116,97.html",
+          "urlWeiterbildungsdatenbank": "https://www.hwk-trier.de/artikel/weiterbildung-bei-der-handwerkskammer-trier-54,123,141.html",
+          "urlZahlendatenfakten": "https://www.hwk-trier.de/artikel/zahlen-daten-fakten-54,172,62.html",
+          "urlOrgane": "https://www.hwk-trier.de/artikel/vollversammlung-vorstand-geschaeftsfuehrung-54,173,70.html",
+          "urlRechtsgrundlagen": "https://www.hwk-trier.de/artikel/rechtsgrundlagen-54,182,114.html",
+          "urlProjekte": "https://www.hwk-trier.de/artikel/infos-fuer-schueler-eltern-und-lehrkraefte-54,209,610.html",
+          "urlVideo": "",
+          "urlInklusionsberatung": "https://www.hwk-trier.de/artikel/ausbildung-von-behinderten-menschen-54,0,107.html",
+          "adresse": {
+            "address": "Loebstr. 18",
+            "phone": "+49 651 207-0",
+            "www": "https://www.hwk-trier.de",
+            "city": "Trier",
+            "zip": "54292",
+            "email_link": "<a href=\"#\" data-mailto-token=\"iwehpk6ejbkWdsg9pnean:za\" data-mailto-vector=\"-4\" tabindex=\"0\" role=\"link\" class=\"masked-link address__email\">info@hwk-trier.de</a>"
+          },
+          "mpa": {},
+          "latitude": "49.77548000",
+          "longitude": "6.68096000",
+          "handwerkid": [
+            26,
+            25,
+            16,
+            38,
+            24,
+            20,
+            10,
+            1,
+            13,
+            27,
+            37,
+            3
+          ],
+          "icon": {
+            "size": [
+              16,
+              24
+            ],
+            "anchor": [
+              8,
+              0
+            ],
+            "file": "hwk.png"
+          },
+          "detailUrl": "https://www.zdh.de/ueber-uns/organisationen-des-handwerks/handwerkskammern/deutschlandkarte-der-handwerkskammern/wwt3listmapdetail.html?contentUid=19735&uid=66&cHash=220d029a2f1e93041aa4dcdfddbb99ae",
+          "views": {
+            "bubble": "    <b>Handwerkskammer Trier</b><br/>\n    Loebstr. 18<br/> 54292 Trier<br/><br/>\n            <a href=\"https://www.hwk-trier.de\" target=\"_blank\">https://www.hwk-trier.de</a><br/>\n                <a href=\"https://www.hwk-trier.de/artikel/weiterbildung-bei-der-handwerkskammer-trier-54,123,141.html\" target=\"_blank\">Weiterbildungsangebote</a><br/>\n                <a href=\"https://www.hwk-trier.de/artikel/freie-lehrstellen-im-handwerk-54,116,97.html\" target=\"_blank\">Lehrstellenangebote</a>\n    ",
+            "teaser": "    <b>Handwerkskammer Trier</b><br/>\n    Loebstr. 18<br/> 54292 Trier\n"
+          }
+        },
+        {
+          "uid": 65,
+          "pid": 1469,
+          "title": "Handwerkskammer Ulm",
+          "sortTitle": "Ulm",
+          "idExtern": 41,
+          "urlLehrstellenboerse": "https://www.hwk-ulm.de/ausbildungsboerse",
+          "urlWeiterbildungsdatenbank": "https://www.hwk-ulm.de/seminare/suche",
+          "urlZahlendatenfakten": "https://www.hwk-ulm.de/klartext",
+          "urlOrgane": "https://www.hwk-ulm.de/uber-die-handwerkskammer-ulm",
+          "urlRechtsgrundlagen": "https://www.hwk-ulm.de/satzung-rechtsgrundlagen",
+          "urlProjekte": "https://www.hwk-ulm.de/ausbildungsmessen/",
+          "urlVideo": "",
+          "urlInklusionsberatung": "",
+          "adresse": {
+            "address": "Olgastraße 72",
+            "phone": "+49 731 1425-0",
+            "www": "https://www.hwk-ulm.de",
+            "city": "Ulm",
+            "zip": "89073",
+            "email_link": "<a href=\"#\" data-mailto-token=\"iwehpk6ejbkWdsg9qhi:za\" data-mailto-vector=\"-4\" tabindex=\"0\" role=\"link\" class=\"masked-link address__email\">info@hwk-ulm.de</a>"
+          },
+          "mpa": {},
+          "latitude": "48.40034870",
+          "longitude": "9.98617450",
+          "handwerkid": [
+            30,
+            69,
+            22,
+            25,
+            16,
+            42,
+            38,
+            52,
+            24,
+            23,
+            97,
+            20,
+            10,
+            1,
+            13,
+            53,
+            54,
+            12,
+            27,
+            43,
+            3
+          ],
+          "icon": {
+            "size": [
+              16,
+              24
+            ],
+            "anchor": [
+              8,
+              0
+            ],
+            "file": "hwk.png"
+          },
+          "detailUrl": "https://www.zdh.de/ueber-uns/organisationen-des-handwerks/handwerkskammern/deutschlandkarte-der-handwerkskammern/wwt3listmapdetail.html?contentUid=19735&uid=65&cHash=2857c9b1de4fe9edeccff61f6ceadbc0",
+          "views": {
+            "bubble": "    <b>Handwerkskammer Ulm</b><br/>\n    Olgastraße 72<br/> 89073 Ulm<br/><br/>\n            <a href=\"https://www.hwk-ulm.de\" target=\"_blank\">https://www.hwk-ulm.de</a><br/>\n                <a href=\"https://www.hwk-ulm.de/seminare/suche\" target=\"_blank\">Weiterbildungsangebote</a><br/>\n                <a href=\"https://www.hwk-ulm.de/ausbildungsboerse\" target=\"_blank\">Lehrstellenangebote</a>\n    ",
+            "teaser": "    <b>Handwerkskammer Ulm</b><br/>\n    Olgastraße 72<br/> 89073 Ulm\n"
+          }
+        },
+        {
+          "uid": 64,
+          "pid": 1469,
+          "title": "Handwerkskammer Wiesbaden",
+          "sortTitle": "Wiesbaden",
+          "idExtern": 42,
+          "urlLehrstellenboerse": "https://www.hwk-wiesbaden.de/44,0,jobboardoffersearch.html",
+          "urlWeiterbildungsdatenbank": "https://www.weiterbildung-hwk.de/seminare/?uni_page=sem",
+          "urlZahlendatenfakten": "https://www.hwk-wiesbaden.de/artikel/zahlen-daten-fakten-44,803,1963.html",
+          "urlOrgane": "https://www.hwk-wiesbaden.de/artikel/das-ehrenamt-44,804,1920.html",
+          "urlRechtsgrundlagen": "https://www.hwk-wiesbaden.de/artikel/rechtsgrundlagen-44,805,229.html",
+          "urlProjekte": "https://www.hwk-wiesbaden.de/artikel/ausbildungsplaetze-fertig-los-44,725,2488.html",
+          "urlVideo": "",
+          "urlInklusionsberatung": "https://www.hwk-wiesbaden.de/artikel/inklusionsberatung-nutzen-44,0,2178.html",
+          "adresse": {
+            "address": "Bierstadter Straße 45",
+            "phone": "+49 611 136-0",
+            "www": "https://www.hwk-wiesbaden.de",
+            "city": "Wiesbaden",
+            "zip": "65189",
+            "email_link": "<a href=\"#\" data-mailto-token=\"iwehpk6ejbkWdsg9seaoxwzaj:za\" data-mailto-vector=\"-4\" tabindex=\"0\" role=\"link\" class=\"masked-link address__email\">info@hwk-wiesbaden.de</a>"
+          },
+          "mpa": {},
+          "latitude": "50.08222420",
+          "longitude": "8.25589220",
+          "handwerkid": [
+            96,
+            4,
+            25,
+            16,
+            42,
+            38,
+            39,
+            52,
+            47,
+            24,
+            97,
+            20,
+            10,
+            1,
+            13,
+            54,
+            27,
+            70,
+            3
+          ],
+          "icon": {
+            "size": [
+              16,
+              24
+            ],
+            "anchor": [
+              8,
+              0
+            ],
+            "file": "hwk.png"
+          },
+          "detailUrl": "https://www.zdh.de/ueber-uns/organisationen-des-handwerks/handwerkskammern/deutschlandkarte-der-handwerkskammern/wwt3listmapdetail.html?contentUid=19735&uid=64&cHash=cb016dd8512b2ab6236268861284c7d8",
+          "views": {
+            "bubble": "    <b>Handwerkskammer Wiesbaden</b><br/>\n    Bierstadter Straße 45<br/> 65189 Wiesbaden<br/><br/>\n            <a href=\"https://www.hwk-wiesbaden.de\" target=\"_blank\">https://www.hwk-wiesbaden.de</a><br/>\n                <a href=\"https://www.weiterbildung-hwk.de/seminare/?uni_page=sem\" target=\"_blank\">Weiterbildungsangebote</a><br/>\n                <a href=\"https://www.hwk-wiesbaden.de/44,0,jobboardoffersearch.html\" target=\"_blank\">Lehrstellenangebote</a>\n    ",
+            "teaser": "    <b>Handwerkskammer Wiesbaden</b><br/>\n    Bierstadter Straße 45<br/> 65189 Wiesbaden\n"
+          }
+        },
+        {
+          "uid": 86,
+          "pid": 1469,
+          "title": "Handwerkskammer zu Köln",
+          "sortTitle": "Köln",
+          "idExtern": 52,
+          "urlLehrstellenboerse": "https://www.berufsinfo.org/datenbank/ausbildungsplaetze",
+          "urlWeiterbildungsdatenbank": "https://www.hwk-koeln.de/artikel/unser-weiterbildungsangebot-32,887,1480.html",
+          "urlZahlendatenfakten": "https://www.hwk-koeln.de/artikel/zahlen-daten-fakten-32,936,26.html",
+          "urlOrgane": "https://www.hwk-koeln.de/artikel/organe-ehrenamt-32,819,61.html",
+          "urlRechtsgrundlagen": "https://www.hwk-koeln.de/artikel/rechtsgrundlagen-beitrag-bekanntmachungen-32,820,63.html",
+          "urlProjekte": "https://www.hwk-koeln.de/artikel/aktuelles-32,1005,96.html",
+          "urlVideo": "",
+          "urlInklusionsberatung": "https://www.hwk-koeln.de/32,189,304.html",
+          "adresse": {
+            "address": "Köhlstrasse 8",
+            "phone": "+49 221 2022-0",
+            "www": "https://www.hwk-koeln.de",
+            "city": "Köln",
+            "zip": "50827",
+            "email_link": "<a href=\"#\" data-mailto-token=\"iwehpk6ejbkWdsg9gkahj:za\" data-mailto-vector=\"-4\" tabindex=\"0\" role=\"link\" class=\"masked-link address__email\">info@hwk-koeln.de</a>"
+          },
+          "mpa": {},
+          "latitude": "50.93474270",
+          "longitude": "6.96095810",
+          "handwerkid": [
+            33,
+            30,
+            4,
+            25,
+            16,
+            42,
+            38,
+            39,
+            74,
+            52,
+            19,
+            24,
+            15,
+            31,
+            97,
+            20,
+            10,
+            1,
+            13,
+            53,
+            5,
+            9,
+            27,
+            37,
+            3,
+            17
+          ],
+          "icon": {
+            "size": [
+              16,
+              24
+            ],
+            "anchor": [
+              8,
+              0
+            ],
+            "file": "hwk.png"
+          },
+          "detailUrl": "https://www.zdh.de/ueber-uns/organisationen-des-handwerks/handwerkskammern/deutschlandkarte-der-handwerkskammern/wwt3listmapdetail.html?contentUid=19735&uid=86&cHash=256fe67f1006c6e4b73c683faeb4e122",
+          "views": {
+            "bubble": "    <b>Handwerkskammer zu Köln</b><br/>\n    Köhlstrasse 8<br/> 50827 Köln<br/><br/>\n            <a href=\"https://www.hwk-koeln.de\" target=\"_blank\">https://www.hwk-koeln.de</a><br/>\n                <a href=\"https://www.hwk-koeln.de/artikel/unser-weiterbildungsangebot-32,887,1480.html\" target=\"_blank\">Weiterbildungsangebote</a><br/>\n                <a href=\"https://www.berufsinfo.org/datenbank/ausbildungsplaetze\" target=\"_blank\">Lehrstellenangebote</a>\n    ",
+            "teaser": "    <b>Handwerkskammer zu Köln</b><br/>\n    Köhlstrasse 8<br/> 50827 Köln\n"
+          }
+        },
+        {
+          "uid": 84,
+          "pid": 1469,
+          "title": "Handwerkskammer zu Leipzig",
+          "sortTitle": "Leipzig",
+          "idExtern": 53,
+          "urlLehrstellenboerse": "https://www.hwk-leipzig.de/3,0,jobboardoffersearch.html",
+          "urlWeiterbildungsdatenbank": "https://www.hwk-leipzig.de/artikel/kurse-und-seminare-der-handwerkskammer-zu-leipzig-3,905,635.html",
+          "urlZahlendatenfakten": "https://www.hwk-leipzig.de/3,439,52.html",
+          "urlOrgane": "https://www.hwk-leipzig.de/3,431,61.html",
+          "urlRechtsgrundlagen": "https://www.hwk-leipzig.de/3,434,102.html",
+          "urlProjekte": "https://www.hwk-leipzig.de/artikel/handwerk-bringt-dich-ueberall-hin-wege-ins-handwerk-3,915,3945.html",
+          "urlVideo": "",
+          "urlInklusionsberatung": "https://www.hwk-leipzig.de/artikel/der-inklusion-den-weg-ebnen-3,0,7786.html",
+          "adresse": {
+            "address": "Dresdner Straße 11/13",
+            "phone": "+49 341 2188-0",
+            "www": "https://www.hwk-leipzig.de",
+            "city": "Leipzig",
+            "zip": "04103",
+            "email_link": "<a href=\"#\" data-mailto-token=\"iwehpk6ejbkWdsg9haelvec:za\" data-mailto-vector=\"-4\" tabindex=\"0\" role=\"link\" class=\"masked-link address__email\">info@hwk-leipzig.de</a>"
+          },
+          "mpa": {},
+          "latitude": "51.34063210",
+          "longitude": "12.37473290",
+          "handwerkid": [
+            4,
+            25,
+            32,
+            42,
+            38,
+            24,
+            15,
+            97,
+            20,
+            10,
+            1,
+            13,
+            12,
+            27,
+            6,
+            3
+          ],
+          "icon": {
+            "size": [
+              16,
+              24
+            ],
+            "anchor": [
+              8,
+              0
+            ],
+            "file": "hwk.png"
+          },
+          "detailUrl": "https://www.zdh.de/ueber-uns/organisationen-des-handwerks/handwerkskammern/deutschlandkarte-der-handwerkskammern/wwt3listmapdetail.html?contentUid=19735&uid=84&cHash=af3573276a8d22bb85e3248028babbe9",
+          "views": {
+            "bubble": "    <b>Handwerkskammer zu Leipzig</b><br/>\n    Dresdner Straße 11/13<br/> 04103 Leipzig<br/><br/>\n            <a href=\"https://www.hwk-leipzig.de\" target=\"_blank\">https://www.hwk-leipzig.de</a><br/>\n                <a href=\"https://www.hwk-leipzig.de/artikel/kurse-und-seminare-der-handwerkskammer-zu-leipzig-3,905,635.html\" target=\"_blank\">Weiterbildungsangebote</a><br/>\n                <a href=\"https://www.hwk-leipzig.de/3,0,jobboardoffersearch.html\" target=\"_blank\">Lehrstellenangebote</a>\n    ",
+            "teaser": "    <b>Handwerkskammer zu Leipzig</b><br/>\n    Dresdner Straße 11/13<br/> 04103 Leipzig\n"
+          }
+        }
+      ]
+    }
+  },
+  "defaultlist": "locations"
+}

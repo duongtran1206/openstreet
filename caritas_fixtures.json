@@ -1,0 +1,1741 @@
+[
+  {
+    "model": "maps.domain",
+    "pk": "caritas_deutschland",
+    "fields": {
+      "name": "Caritas Deutschland",
+      "description": "Caritas Deutschland - Soziale Dienste und Migrationsberatung",
+      "country": "Germany",
+      "language": "de",
+      "color_scheme": "caritas_red",
+      "icon": "Caritas",
+      "is_active": true,
+      "featured": true,
+      "source_url": "https://www.caritas.de"
+    }
+  },
+  {
+    "model": "maps.hierarchicalcategory",
+    "pk": "caritas_allgemein",
+    "fields": {
+      "name": "Allgemein",
+      "domain_id": "caritas_deutschland",
+      "color": "#3388ff",
+      "icon": "Caritas",
+      "description": "Caritas Allgemein Dienste",
+      "is_active": true,
+      "source_identifier": "allgemein"
+    }
+  },
+  {
+    "model": "maps.hierarchicalcategory",
+    "pk": "caritas_jugendmigrationsdienst",
+    "fields": {
+      "name": "Jugendmigrationsdienst",
+      "domain_id": "caritas_deutschland",
+      "color": "#FF6B6B",
+      "icon": "Jugend",
+      "description": "Caritas Jugendmigrationsdienst Dienste",
+      "is_active": true,
+      "source_identifier": "jugendmigrationsdienst"
+    }
+  },
+  {
+    "model": "maps.hierarchicalcategory",
+    "pk": "caritas_migrationsberatung_fuer_erwachsene",
+    "fields": {
+      "name": "Migrationsberatung",
+      "domain_id": "caritas_deutschland",
+      "color": "#45B7D1",
+      "icon": "Beratung",
+      "description": "Caritas Migrationsberatung Dienste",
+      "is_active": true,
+      "source_identifier": "migrationsberatung_fuer_erwachsene"
+    }
+  },
+  {
+    "model": "maps.hierarchicalcategory",
+    "pk": "caritas_gemeinwesenorientierte_arbeit",
+    "fields": {
+      "name": "Gemeinwesenorientierte Arbeit",
+      "domain_id": "caritas_deutschland",
+      "color": "#96CEB4",
+      "icon": "Gemeinwesen",
+      "description": "Caritas Gemeinwesenorientierte Arbeit Dienste",
+      "is_active": true,
+      "source_identifier": "gemeinwesenorientierte_arbeit"
+    }
+  },
+  {
+    "model": "maps.hierarchicalcategory",
+    "pk": "caritas_migrationsberatung",
+    "fields": {
+      "name": "Migrationsberatung",
+      "domain_id": "caritas_deutschland",
+      "color": "#45B7D1",
+      "icon": "Beratung",
+      "description": "Caritas Migrationsberatung Dienste",
+      "is_active": true,
+      "source_identifier": "migrationsberatung"
+    }
+  },
+  {
+    "model": "maps.hierarchicalcategory",
+    "pk": "caritas_iq_faire_integration",
+    "fields": {
+      "name": "Iq Faire Integration",
+      "domain_id": "caritas_deutschland",
+      "color": "#3388ff",
+      "icon": "Caritas",
+      "description": "Caritas Iq Faire Integration Dienste",
+      "is_active": true,
+      "source_identifier": "iq_faire_integration"
+    }
+  },
+  {
+    "model": "maps.hierarchicalcategory",
+    "pk": "caritas_migrationsberatung_für_erwachsene",
+    "fields": {
+      "name": "Migrationsberatung für Erwachsene",
+      "domain_id": "caritas_deutschland",
+      "color": "#4ECDC4",
+      "icon": "Erwachsene",
+      "description": "Caritas Migrationsberatung für Erwachsene Dienste",
+      "is_active": true,
+      "source_identifier": "migrationsberatung_für_erwachsene"
+    }
+  },
+  {
+    "model": "maps.hierarchicalcategory",
+    "pk": "caritas_iq___faire_integration",
+    "fields": {
+      "name": "IQ - Faire Integration",
+      "domain_id": "caritas_deutschland",
+      "color": "#FFEAA7",
+      "icon": "Integration",
+      "description": "Caritas IQ - Faire Integration Dienste",
+      "is_active": true,
+      "source_identifier": "iq___faire_integration"
+    }
+  },
+  {
+    "model": "maps.hierarchicallocation",
+    "pk": "caritas_51ebd3bcb787455ab015ec1c110f791e",
+    "fields": {
+      "name": "Kath. Jugendmigrationsdienst Dresden, Betreuung jugendlicher Migranten",
+      "latitude": 51.04707,
+      "longitude": 13.7592301,
+      "street": "Canalettostraße 10",
+      "city": "Dresden",
+      "postal_code": "01307",
+      "country": "Germany",
+      "phone": "+49 (0351) 4984-746",
+      "fax": "+49 (0351) 4984815",
+      "email": "jmd@caritas-dresden.de",
+      "website": "http://www.caritas-dresden.de",
+      "description": "Kath. Jugendmigrationsdienst Dresden, Betreuung jugendlicher Migranten",
+      "is_active": true,
+      "verified": false,
+      "source_name": "Caritas Deutschland API",
+      "raw_data": {
+        "content_id": "51ebd3bcb787455ab015ec1c110f791e",
+        "data_source_id": "80c48846275643e0b82b83465979eb70",
+        "service_type": "jugendmigrationsdienst",
+        "original_title": "Kath. Jugendmigrationsdienst Dresden, Betreuung jugendlicher Migranten"
+      }
+    }
+  },
+  {
+    "model": "maps.hierarchicallocation",
+    "pk": "caritas_0cbd9c54180648e6a5c14a5e3bb0cd76",
+    "fields": {
+      "name": "Jugendmigrationsdienst Freital",
+      "latitude": 51.00217,
+      "longitude": 13.65205,
+      "street": "Dresdner Straße 162",
+      "city": "Freital",
+      "postal_code": "01705",
+      "country": "Germany",
+      "phone": "+49 (0176) 39255033",
+      "fax": "+49 (0351) 65265431",
+      "email": "jmd-freital@caritas-dresden.de",
+      "website": "http://www.caritas-dresden.de",
+      "description": "Jugendmigrationsdienst Freital",
+      "is_active": true,
+      "verified": false,
+      "source_name": "Caritas Deutschland API",
+      "raw_data": {
+        "content_id": "0cbd9c54180648e6a5c14a5e3bb0cd76",
+        "data_source_id": "80c48846275643e0b82b83465979eb70",
+        "service_type": null,
+        "original_title": "Jugendmigrationsdienst Freital"
+      }
+    }
+  },
+  {
+    "model": "maps.hierarchicallocation",
+    "pk": "caritas_b8dabf0b17f9441889e78baf1af3e09b",
+    "fields": {
+      "name": "Caritasverband Oberlausitz e.V Migrationsberatung für Erwachsene",
+      "latitude": 51.1806236,
+      "longitude": 14.4289502,
+      "street": "Kirchplatz 2",
+      "city": "Bautzen",
+      "postal_code": "02625",
+      "country": "Germany",
+      "phone": "+49 (3591) 498250",
+      "fax": "+49 (3591) 498219",
+      "email": "meb@caritas-oberlausitz.de",
+      "website": "http://www.caritas-oberlausitz.de",
+      "description": "Caritasverband Oberlausitz e.V Migrationsberatung für Erwachsene",
+      "is_active": true,
+      "verified": false,
+      "source_name": "Caritas Deutschland API",
+      "raw_data": {
+        "content_id": "b8dabf0b17f9441889e78baf1af3e09b",
+        "data_source_id": "80c48846275643e0b82b83465979eb70",
+        "service_type": "migrationsberatung für erwachsene",
+        "original_title": "Caritasverband Oberlausitz e.V Migrationsberatung für Erwachsene"
+      }
+    }
+  },
+  {
+    "model": "maps.hierarchicallocation",
+    "pk": "caritas_fd6ab1d7e5ea4d46ad85805c8b231948",
+    "fields": {
+      "name": "Caritas-Region Görlitz",
+      "latitude": 51.1500422,
+      "longitude": 14.9858229,
+      "street": "Wilhelmsplatz 2",
+      "city": "Görlitz",
+      "postal_code": "02826",
+      "country": "Germany",
+      "phone": "+49 (3581) 420028",
+      "fax": "+49 (3581) 420029",
+      "email": "migration.goerlitz@caritas-goerlitz.de",
+      "website": "http://www.caritas-goerlitz.de",
+      "description": "Caritas-Region Görlitz",
+      "is_active": true,
+      "verified": false,
+      "source_name": "Caritas Deutschland API",
+      "raw_data": {
+        "content_id": "fd6ab1d7e5ea4d46ad85805c8b231948",
+        "data_source_id": "80c48846275643e0b82b83465979eb70",
+        "service_type": "migrationsberatung",
+        "original_title": "Caritas-Region Görlitz"
+      }
+    }
+  },
+  {
+    "model": "maps.hierarchicallocation",
+    "pk": "caritas_f622cffeffd54fb6ac0a046d30fc2558",
+    "fields": {
+      "name": "Caritas-Region Cottbus",
+      "latitude": 51.7520649,
+      "longitude": 14.3334005,
+      "street": "Straße der Jugend 23",
+      "city": "Cottbus",
+      "postal_code": "03046",
+      "country": "Germany",
+      "phone": "+49 (355) 38003735",
+      "fax": "+49 (355) 38003746",
+      "email": "",
+      "website": "http://www.caritas-cottbus.de",
+      "description": "Caritas-Region Cottbus",
+      "is_active": true,
+      "verified": false,
+      "source_name": "Caritas Deutschland API",
+      "raw_data": {
+        "content_id": "f622cffeffd54fb6ac0a046d30fc2558",
+        "data_source_id": "80c48846275643e0b82b83465979eb70",
+        "service_type": "gemeinwesenorientierte arbeit cottbus",
+        "original_title": "Caritas-Region Cottbus"
+      }
+    }
+  },
+  {
+    "model": "maps.hierarchicallocation",
+    "pk": "caritas_9589d2eaadc241388408bf488dbc88eb",
+    "fields": {
+      "name": "Caritas-Region Cottbus",
+      "latitude": 51.7520315,
+      "longitude": 14.3335123,
+      "street": "Straße der Jugend 23 a",
+      "city": "Cottbus",
+      "postal_code": "03046",
+      "country": "Germany",
+      "phone": "+49 (355) 38003770",
+      "fax": "",
+      "email": "iq-faire-integration@caritas-goerlitz.de",
+      "website": "https://www.faire-integration.de/de/topic/11.beratungsstellen.html",
+      "description": "Caritas-Region Cottbus",
+      "is_active": true,
+      "verified": false,
+      "source_name": "Caritas Deutschland API",
+      "raw_data": {
+        "content_id": "9589d2eaadc241388408bf488dbc88eb",
+        "data_source_id": "80c48846275643e0b82b83465979eb70",
+        "service_type": "iq - faire integration",
+        "original_title": "Caritas-Region Cottbus"
+      }
+    }
+  },
+  {
+    "model": "maps.hierarchicallocation",
+    "pk": "caritas_b739b1a7237a455f9daaa0e5b0b6c8de",
+    "fields": {
+      "name": "Caritas-Region Cottbus",
+      "latitude": 51.6251435,
+      "longitude": 13.7152488,
+      "street": "Geschwister-Scholl-Straße 3",
+      "city": "Finsterwalde",
+      "postal_code": "03238",
+      "country": "Germany",
+      "phone": "+49 (03531) 5199630",
+      "fax": "+49 (03531) 5199639",
+      "email": "mbe.finsterwalde@caritas-goerlitz.de",
+      "website": "http://www.caritas-goerlitz.de",
+      "description": "Caritas-Region Cottbus",
+      "is_active": true,
+      "verified": false,
+      "source_name": "Caritas Deutschland API",
+      "raw_data": {
+        "content_id": "b739b1a7237a455f9daaa0e5b0b6c8de",
+        "data_source_id": "80c48846275643e0b82b83465979eb70",
+        "service_type": "migrationsberatung für erwachsene finsterwalde",
+        "original_title": "Caritas-Region Cottbus"
+      }
+    }
+  },
+  {
+    "model": "maps.hierarchicallocation",
+    "pk": "caritas_a505d97225d24d20bcc5855926c59ddb",
+    "fields": {
+      "name": "Soziale Dienste für Migranten",
+      "latitude": 51.334413,
+      "longitude": 12.3727465,
+      "street": "Ruth-Pfau-Str. 2",
+      "city": "Leipzig",
+      "postal_code": "04107",
+      "country": "Germany",
+      "phone": "+49 (341) 96361-20",
+      "fax": "+49 (341) 96361-722",
+      "email": "migrantenhilfe@caritas-leipzig.de",
+      "website": "http://www.caritas-leipzig.de",
+      "description": "Soziale Dienste für Migranten",
+      "is_active": true,
+      "verified": false,
+      "source_name": "Caritas Deutschland API",
+      "raw_data": {
+        "content_id": "a505d97225d24d20bcc5855926c59ddb",
+        "data_source_id": "80c48846275643e0b82b83465979eb70",
+        "service_type": "beratungszentrum an der propstei",
+        "original_title": "Soziale Dienste für Migranten"
+      }
+    }
+  },
+  {
+    "model": "maps.hierarchicallocation",
+    "pk": "caritas_cd23bafe96d7456e95b48a1626c6901c",
+    "fields": {
+      "name": "Flüchtlings- und Migrationsberatung Altenburg, Caritasverband für Ostthüringen e.V.",
+      "latitude": 50.9888921,
+      "longitude": 12.429075,
+      "street": "Brühl 7",
+      "city": "Altenburg",
+      "postal_code": "04600",
+      "country": "Germany",
+      "phone": "(03447) 3789983",
+      "fax": "",
+      "email": "v.liebelt@caritas-ostthueringen.de",
+      "website": "http://www.caritas-ostthüringen.de",
+      "description": "Flüchtlings- und Migrationsberatung Altenburg, Caritasverband für Ostthüringen e.V.",
+      "is_active": true,
+      "verified": false,
+      "source_name": "Caritas Deutschland API",
+      "raw_data": {
+        "content_id": "cd23bafe96d7456e95b48a1626c6901c",
+        "data_source_id": "80c48846275643e0b82b83465979eb70",
+        "service_type": null,
+        "original_title": "Flüchtlings- und Migrationsberatung Altenburg, Caritasverband für Ostthüringen e.V."
+      }
+    }
+  },
+  {
+    "model": "maps.hierarchicallocation",
+    "pk": "caritas_c20c85bc1743486f9bf13e575f158427",
+    "fields": {
+      "name": "Beratungsstelle für Migranten Halle",
+      "latitude": 51.47854,
+      "longitude": 11.96698,
+      "street": "Mauerstraße 12",
+      "city": "Halle (Saale)",
+      "postal_code": "06110",
+      "country": "Germany",
+      "phone": "+49 (0345) 44505-0",
+      "fax": "+49 (0345) 44505-151",
+      "email": "migranten@caritas-halle.de",
+      "website": "http://www.caritas-halle.de",
+      "description": "Beratungsstelle für Migranten Halle",
+      "is_active": true,
+      "verified": false,
+      "source_name": "Caritas Deutschland API",
+      "raw_data": {
+        "content_id": "c20c85bc1743486f9bf13e575f158427",
+        "data_source_id": "80c48846275643e0b82b83465979eb70",
+        "service_type": null,
+        "original_title": "Beratungsstelle für Migranten Halle"
+      }
+    }
+  },
+  {
+    "model": "maps.hierarchicallocation",
+    "pk": "caritas_53919f8759c5450c9cb7f13d5507d649",
+    "fields": {
+      "name": "Caritasverband für das Bistum Magdeburg e.V. - St. Antoniushaus",
+      "latitude": 51.4390343,
+      "longitude": 11.9623776,
+      "street": "Theodor-Weber-Str. 9",
+      "city": "Halle (Saale)",
+      "postal_code": "06132",
+      "country": "Germany",
+      "phone": "+49 (0160) 67530463",
+      "fax": "+49 (0345) 20869009",
+      "email": "umf-vormundschaften.sachsen-anhalt@caritas-refugium.de",
+      "website": "https://www.caritas-magdeburg.de/unsere-hilfe-beratung/migration-integration/vormundschaften/vormundschaften-fach-und-servicestelle-refugium-e.v",
+      "description": "Caritasverband für das Bistum Magdeburg e.V. - St. Antoniushaus",
+      "is_active": true,
+      "verified": false,
+      "source_name": "Caritas Deutschland API",
+      "raw_data": {
+        "content_id": "53919f8759c5450c9cb7f13d5507d649",
+        "data_source_id": "80c48846275643e0b82b83465979eb70",
+        "service_type": "fach- & servicestelle zur führung von pflegschaften und vormundschaften für unbegleitete minderjährige flüchtlinge",
+        "original_title": "Caritasverband für das Bistum Magdeburg e.V. - St. Antoniushaus"
+      }
+    }
+  },
+  {
+    "model": "maps.hierarchicallocation",
+    "pk": "caritas_496378ff67cc4784860fa3bb0babc9dc",
+    "fields": {
+      "name": "Beratungsstelle für Migranten Saalekreis",
+      "latitude": 51.3548323,
+      "longitude": 11.9791972,
+      "street": "Roßmarkt 2",
+      "city": "Merseburg",
+      "postal_code": "06217",
+      "country": "Germany",
+      "phone": "+49 (0171) 2219604",
+      "fax": "+49 (03461) 2496-20",
+      "email": "migranten.sk@caritas-halle.de",
+      "website": "http://www.caritas-halle.de",
+      "description": "Beratungsstelle für Migranten Saalekreis",
+      "is_active": true,
+      "verified": false,
+      "source_name": "Caritas Deutschland API",
+      "raw_data": {
+        "content_id": "496378ff67cc4784860fa3bb0babc9dc",
+        "data_source_id": "80c48846275643e0b82b83465979eb70",
+        "service_type": null,
+        "original_title": "Beratungsstelle für Migranten Saalekreis"
+      }
+    }
+  },
+  {
+    "model": "maps.hierarchicallocation",
+    "pk": "caritas_185a2254e3e74b47854cec74d6315706",
+    "fields": {
+      "name": "Caritasverband für das Bistum Magdeburg e.V. - Regionalstelle Weißenfels",
+      "latitude": 51.2092624,
+      "longitude": 11.9665849,
+      "street": "Novalisstr. 4",
+      "city": "Weißenfels",
+      "postal_code": "06667",
+      "country": "Germany",
+      "phone": "+49 (03443) 3381949",
+      "fax": "03443334986",
+      "email": "info@caritas-naumburg-zeitz.de",
+      "website": "",
+      "description": "Caritasverband für das Bistum Magdeburg e.V. - Regionalstelle Weißenfels",
+      "is_active": true,
+      "verified": false,
+      "source_name": "Caritas Deutschland API",
+      "raw_data": {
+        "content_id": "185a2254e3e74b47854cec74d6315706",
+        "data_source_id": "80c48846275643e0b82b83465979eb70",
+        "service_type": "migrationsberatung für erwachsene zuwanderer",
+        "original_title": "Caritasverband für das Bistum Magdeburg e.V. - Regionalstelle Weißenfels"
+      }
+    }
+  },
+  {
+    "model": "maps.hierarchicallocation",
+    "pk": "caritas_13e1f749498b4d36b25df88819a6c748",
+    "fields": {
+      "name": "Caritasverband für das Bistum Magdeburg e.V.",
+      "latitude": 51.8389518,
+      "longitude": 12.2465464,
+      "street": "Teichstr. 65",
+      "city": "Dessau-Roßlau",
+      "postal_code": "06844",
+      "country": "Germany",
+      "phone": "+49 (0340) 212820",
+      "fax": "",
+      "email": "larissa.karlikowski@caritas-dessau.de  ramona.heine@caritas-dessau.de",
+      "website": "http://www.caritas-magdeburg.de",
+      "description": "Caritasverband für das Bistum Magdeburg e.V.",
+      "is_active": true,
+      "verified": false,
+      "source_name": "Caritas Deutschland API",
+      "raw_data": {
+        "content_id": "13e1f749498b4d36b25df88819a6c748",
+        "data_source_id": "80c48846275643e0b82b83465979eb70",
+        "service_type": "migrationsberatung für erwachsene zugewanderte (mbe)",
+        "original_title": "Caritasverband für das Bistum Magdeburg e.V."
+      }
+    }
+  },
+  {
+    "model": "maps.hierarchicallocation",
+    "pk": "caritas_49b8eacebbc842319adaac282c2874ae",
+    "fields": {
+      "name": "Caritas Jena",
+      "latitude": 50.9306529,
+      "longitude": 11.5809551,
+      "street": "Wagnergasse 29",
+      "city": "Jena",
+      "postal_code": "07743",
+      "country": "Germany",
+      "phone": "+49 (3641)  890545",
+      "fax": "+49 (3641) 424491",
+      "email": "mbe-j@caritas-bistum-erfurt.de",
+      "website": "http://www.caritasregion-mittelthueringen.de",
+      "description": "Caritas Jena",
+      "is_active": true,
+      "verified": false,
+      "source_name": "Caritas Deutschland API",
+      "raw_data": {
+        "content_id": "49b8eacebbc842319adaac282c2874ae",
+        "data_source_id": "80c48846275643e0b82b83465979eb70",
+        "service_type": "migrationsberatung für erwachsene zugewanderte (mbe)",
+        "original_title": "Caritas Jena"
+      }
+    }
+  },
+  {
+    "model": "maps.hierarchicallocation",
+    "pk": "caritas_d4298e70f95f4f9e810a340ba90fed49",
+    "fields": {
+      "name": "Caritas Jena",
+      "latitude": 50.9299752,
+      "longitude": 11.5822522,
+      "street": "Wagnergasse 37",
+      "city": "Jena",
+      "postal_code": "07743",
+      "country": "Germany",
+      "phone": "+49 (172) 4500993",
+      "fax": "",
+      "email": "rb-j@caritas-bistum-erfurt.de",
+      "website": "",
+      "description": "Caritas Jena",
+      "is_active": true,
+      "verified": false,
+      "source_name": "Caritas Deutschland API",
+      "raw_data": {
+        "content_id": "d4298e70f95f4f9e810a340ba90fed49",
+        "data_source_id": "80c48846275643e0b82b83465979eb70",
+        "service_type": "rückkehrberatung jena",
+        "original_title": "Caritas Jena"
+      }
+    }
+  },
+  {
+    "model": "maps.hierarchicallocation",
+    "pk": "caritas_fc97625ce8044ea08fb13da8876c739d",
+    "fields": {
+      "name": "Caritasverband Vogtland e.V. Migrationsberatung für erwachsene Zuwanderer",
+      "latitude": 50.4994672,
+      "longitude": 12.1420529,
+      "street": "Bergstr. 39",
+      "city": "Plauen",
+      "postal_code": "08523",
+      "country": "Germany",
+      "phone": "+49 (03741) 22282",
+      "fax": "+49 (03741) 202834",
+      "email": "beratung@caritas-vogtland.de",
+      "website": "http://www.caritas-vogtland.de",
+      "description": "Caritasverband Vogtland e.V. Migrationsberatung für erwachsene Zuwanderer",
+      "is_active": true,
+      "verified": false,
+      "source_name": "Caritas Deutschland API",
+      "raw_data": {
+        "content_id": "fc97625ce8044ea08fb13da8876c739d",
+        "data_source_id": "80c48846275643e0b82b83465979eb70",
+        "service_type": "",
+        "original_title": "Caritasverband Vogtland e.V. Migrationsberatung für erwachsene Zuwanderer"
+      }
+    }
+  },
+  {
+    "model": "maps.hierarchicallocation",
+    "pk": "caritas_83178fa790994d92bb9f4fb579271dec",
+    "fields": {
+      "name": "Caritasverband f.Chemnitz u. Umgebung e.V.",
+      "latitude": 50.8392108,
+      "longitude": 12.952472,
+      "street": "Markusstrasse 17",
+      "city": "Chemnitz",
+      "postal_code": "09130",
+      "country": "Germany",
+      "phone": "0371-398 984 63",
+      "fax": "0371-4005961",
+      "email": "migration-mbe@caritas-chemnitz.de",
+      "website": "https://www.caritas-chemnitz.de/migration/migrationsberatung/migrationsberatung",
+      "description": "Caritasverband f.Chemnitz u. Umgebung e.V.",
+      "is_active": true,
+      "verified": false,
+      "source_name": "Caritas Deutschland API",
+      "raw_data": {
+        "content_id": "83178fa790994d92bb9f4fb579271dec",
+        "data_source_id": "80c48846275643e0b82b83465979eb70",
+        "service_type": "migrationsberatung für erwachsene zuwanderer",
+        "original_title": "Caritasverband f.Chemnitz u. Umgebung e.V."
+      }
+    }
+  },
+  {
+    "model": "maps.hierarchicallocation",
+    "pk": "caritas_1a36fdd9ec9047e7acec66bf3c253e11",
+    "fields": {
+      "name": "Caritasverband f.Chemnitz und Umgebung e.V.,Beratungsstelle f.Flüchtlinge und Asylbewerber",
+      "latitude": 50.8374,
+      "longitude": 12.93659,
+      "street": "Ludwig-Kirsch-Str.13",
+      "city": "Chemnitz",
+      "postal_code": "09130",
+      "country": "Germany",
+      "phone": "0371-4320825",
+      "fax": "0371-4320814",
+      "email": "migration@caritas-chemnitz.de",
+      "website": "http://www.caritas-chemnitz.de",
+      "description": "Caritasverband f.Chemnitz und Umgebung e.V.,Beratungsstelle f.Flüchtlinge und Asylbewerber",
+      "is_active": true,
+      "verified": false,
+      "source_name": "Caritas Deutschland API",
+      "raw_data": {
+        "content_id": "1a36fdd9ec9047e7acec66bf3c253e11",
+        "data_source_id": "80c48846275643e0b82b83465979eb70",
+        "service_type": "beratung für ausländer u. flüchtlinge",
+        "original_title": "Caritasverband f.Chemnitz und Umgebung e.V.,Beratungsstelle f.Flüchtlinge und Asylbewerber"
+      }
+    }
+  },
+  {
+    "model": "maps.hierarchicallocation",
+    "pk": "caritas_8c51798689664d288ae8f132bc3bc5fe",
+    "fields": {
+      "name": "Caritasverband f.Chemnitz und Umgebung e.V. Cafe-International",
+      "latitude": 50.8384087,
+      "longitude": 12.9361162,
+      "street": "Uhlandstr.23",
+      "city": "Chemnitz",
+      "postal_code": "09130",
+      "country": "Germany",
+      "phone": "0371-4019693",
+      "fax": "0371-4047436",
+      "email": "migration@caritas-chemnitz.de",
+      "website": "http://www.caritas-chemnitz.de",
+      "description": "Caritasverband f.Chemnitz und Umgebung e.V. Cafe-International",
+      "is_active": true,
+      "verified": false,
+      "source_name": "Caritas Deutschland API",
+      "raw_data": {
+        "content_id": "8c51798689664d288ae8f132bc3bc5fe",
+        "data_source_id": "80c48846275643e0b82b83465979eb70",
+        "service_type": "cafe international",
+        "original_title": "Caritasverband f.Chemnitz und Umgebung e.V. Cafe-International"
+      }
+    }
+  },
+  {
+    "model": "maps.hierarchicallocation",
+    "pk": "caritas_a0db5b067f82414397d9810244af09a9",
+    "fields": {
+      "name": "Jugendmigrationsdienst Lichtenberg",
+      "latitude": 52.52982,
+      "longitude": 13.47236,
+      "street": "Anton-Saefkow-Platz 3-4",
+      "city": "Berlin",
+      "postal_code": "10369",
+      "country": "Germany",
+      "phone": "+49 (030) 666340520",
+      "fax": "+49 (030) 666340505",
+      "email": "migration-fennpfuhl@caritas-berlin.de",
+      "website": "http://www.caritas-berlin.de",
+      "description": "Jugendmigrationsdienst Lichtenberg",
+      "is_active": true,
+      "verified": false,
+      "source_name": "Caritas Deutschland API",
+      "raw_data": {
+        "content_id": "a0db5b067f82414397d9810244af09a9",
+        "data_source_id": "80c48846275643e0b82b83465979eb70",
+        "service_type": "caritas erzbistum berlin im caritasberatungszentrum am fennpfuhl",
+        "original_title": "Jugendmigrationsdienst Lichtenberg"
+      }
+    }
+  },
+  {
+    "model": "maps.hierarchicallocation",
+    "pk": "caritas_b057da96b3dc45e7ae50fb0313cc740d",
+    "fields": {
+      "name": "Migrationsdienst Lichtenberg-Hohenschönhausen",
+      "latitude": 52.52982,
+      "longitude": 13.47236,
+      "street": "Anton-Saefkow-Platz 3-4",
+      "city": "Berlin",
+      "postal_code": "10369",
+      "country": "Germany",
+      "phone": "+49 (030) 66634-0520",
+      "fax": "+49 (030) 66634-0505",
+      "email": "migration-fennpfuhl@caritas-berlin.de",
+      "website": "http://www.caritas-berlin.de",
+      "description": "Migrationsdienst Lichtenberg-Hohenschönhausen",
+      "is_active": true,
+      "verified": false,
+      "source_name": "Caritas Deutschland API",
+      "raw_data": {
+        "content_id": "b057da96b3dc45e7ae50fb0313cc740d",
+        "data_source_id": "80c48846275643e0b82b83465979eb70",
+        "service_type": "caritas erzbistum berlincaritas-beratungszentrum am fennpfuhl",
+        "original_title": "Migrationsdienst Lichtenberg-Hohenschönhausen"
+      }
+    }
+  },
+  {
+    "model": "maps.hierarchicallocation",
+    "pk": "caritas_012be3b3897647fe9ff636945781840a",
+    "fields": {
+      "name": "Caritasverband Erzbistum Berlin Migrationssozialdienst Pankow",
+      "latitude": 52.55029,
+      "longitude": 13.40646,
+      "street": "Dänenstraße 19",
+      "city": "Berlin",
+      "postal_code": "10439",
+      "country": "Germany",
+      "phone": "01724249725",
+      "fax": "",
+      "email": "msd-pankow@caritas-berlin.de ",
+      "website": "http://www.caritas-berlin.de",
+      "description": "Caritasverband Erzbistum Berlin Migrationssozialdienst Pankow",
+      "is_active": true,
+      "verified": false,
+      "source_name": "Caritas Deutschland API",
+      "raw_data": {
+        "content_id": "012be3b3897647fe9ff636945781840a",
+        "data_source_id": "80c48846275643e0b82b83465979eb70",
+        "service_type": "caritasverband erzbistum berlin",
+        "original_title": "Caritasverband Erzbistum Berlin Migrationssozialdienst Pankow"
+      }
+    }
+  },
+  {
+    "model": "maps.hierarchicallocation",
+    "pk": "caritas_d57681dbf34e4f31a945eeb7358cfe61",
+    "fields": {
+      "name": "Jugendmigrationsdienst Pankow",
+      "latitude": 52.55029,
+      "longitude": 13.40646,
+      "street": "Dänenstraße 19",
+      "city": "Berlin",
+      "postal_code": "10439",
+      "country": "Germany",
+      "phone": "+49 (030) 22150761",
+      "fax": "+49 (030) 4457430",
+      "email": "jmd-pankow@caritas-berlin.de",
+      "website": "http://www.caritas-berlin.de",
+      "description": "Jugendmigrationsdienst Pankow",
+      "is_active": true,
+      "verified": false,
+      "source_name": "Caritas Deutschland API",
+      "raw_data": {
+        "content_id": "d57681dbf34e4f31a945eeb7358cfe61",
+        "data_source_id": "80c48846275643e0b82b83465979eb70",
+        "service_type": "jugendmigrationsdienst pankow, caritasverband für das erzbistum berlin e.v.",
+        "original_title": "Jugendmigrationsdienst Pankow"
+      }
+    }
+  },
+  {
+    "model": "maps.hierarchicallocation",
+    "pk": "caritas_d342beebd18448578d1a1a308efa23c7",
+    "fields": {
+      "name": "Flüchtlingsberatung",
+      "latitude": 52.5276601,
+      "longitude": 13.3355638,
+      "street": "Oldenburger Straße 45",
+      "city": "Berlin",
+      "postal_code": "10551",
+      "country": "Germany",
+      "phone": "+49 (030) 32669159",
+      "fax": "+49 (030) 24352416",
+      "email": "gefluechtetenberatung@caritas-berlin.de",
+      "website": "http://www.caritas-berlin.de/",
+      "description": "Flüchtlingsberatung",
+      "is_active": true,
+      "verified": false,
+      "source_name": "Caritas Deutschland API",
+      "raw_data": {
+        "content_id": "d342beebd18448578d1a1a308efa23c7",
+        "data_source_id": "80c48846275643e0b82b83465979eb70",
+        "service_type": "beratungszentrum oldenburger straße,\r\nrechts- und verfahrensberatung für geflüchtete\r\ncaritasverband für das erzbistum berlin e.v.",
+        "original_title": "Flüchtlingsberatung"
+      }
+    }
+  },
+  {
+    "model": "maps.hierarchicallocation",
+    "pk": "caritas_36a5dbc4adc04272bd192623243cb101",
+    "fields": {
+      "name": "Migrationsberatung für erwachsene Zugewanderte (MBE)",
+      "latitude": 52.5276601,
+      "longitude": 13.3355638,
+      "street": "Oldenburger Straße 45",
+      "city": "Berlin",
+      "postal_code": "10551",
+      "country": "Germany",
+      "phone": "+49 (030) 243524-07",
+      "fax": "+49 (030) 243524-16",
+      "email": "mbe-mitte@caritas-berlin.de",
+      "website": "https://www.caritas-berlin.de/beratungundhilfe/berlin/flucht-und-migration/beratung/fuer-erwachsene-migranten/fuer-neu-zugewanderte/fuer-neu-zugewanderte",
+      "description": "Migrationsberatung für erwachsene Zugewanderte (MBE)",
+      "is_active": true,
+      "verified": false,
+      "source_name": "Caritas Deutschland API",
+      "raw_data": {
+        "content_id": "36a5dbc4adc04272bd192623243cb101",
+        "data_source_id": "80c48846275643e0b82b83465979eb70",
+        "service_type": "beratungszentrum oldenburger straße, \r\nmigrationsberatung für erwachsene zugewanderte\r\ncaritasverband für das erzbistum berlin",
+        "original_title": "Migrationsberatung für erwachsene Zugewanderte (MBE)"
+      }
+    }
+  },
+  {
+    "model": "maps.hierarchicallocation",
+    "pk": "caritas_c52dfe46736242f1b00416575455a691",
+    "fields": {
+      "name": "IN VIA - Beratungsstelle für Frauen, die von Menschenhandel betroffen sind",
+      "latitude": 52.4947571,
+      "longitude": 13.3219666,
+      "street": "Pfalzburger Str. 18",
+      "city": "Berlin",
+      "postal_code": "10719",
+      "country": "Germany",
+      "phone": "+49 (030) 86009271",
+      "fax": "+49 (030) 66633486",
+      "email": "moe@invia-berlin.de",
+      "website": "http://www.invia-berlin.de",
+      "description": "IN VIA - Beratungsstelle für Frauen, die von Menschenhandel betroffen sind",
+      "is_active": true,
+      "verified": false,
+      "source_name": "Caritas Deutschland API",
+      "raw_data": {
+        "content_id": "c52dfe46736242f1b00416575455a691",
+        "data_source_id": "80c48846275643e0b82b83465979eb70",
+        "service_type": null,
+        "original_title": "IN VIA - Beratungsstelle für Frauen, die von Menschenhandel betroffen sind"
+      }
+    }
+  },
+  {
+    "model": "maps.hierarchicallocation",
+    "pk": "caritas_43c8a440899144d098c97932c8b0d060",
+    "fields": {
+      "name": "Migrationssozialdienst im Beratungszentrum am Mehringdamm",
+      "latitude": 52.48553,
+      "longitude": 13.38542,
+      "street": "Mehringdamm 126",
+      "city": "Berlin",
+      "postal_code": "10965",
+      "country": "Germany",
+      "phone": "+49 (030) 66633386",
+      "fax": "+49 (030) 66633394",
+      "email": "msd-am-mehringdamm@caritas-berlin.de",
+      "website": "",
+      "description": "Migrationssozialdienst im Beratungszentrum am Mehringdamm",
+      "is_active": true,
+      "verified": false,
+      "source_name": "Caritas Deutschland API",
+      "raw_data": {
+        "content_id": "43c8a440899144d098c97932c8b0d060",
+        "data_source_id": "80c48846275643e0b82b83465979eb70",
+        "service_type": "migrationssozialdienst (msd) im beratungszentrum am mehringdamm",
+        "original_title": "Migrationssozialdienst im Beratungszentrum am Mehringdamm"
+      }
+    }
+  },
+  {
+    "model": "maps.hierarchicallocation",
+    "pk": "caritas_18cd1c4f6e94480f90a2e90b8a164fc2",
+    "fields": {
+      "name": "Jugendmigrationsdienst Kreuzberg im Beratungszentrum am Mehringdamm",
+      "latitude": 52.48553,
+      "longitude": 13.38542,
+      "street": "Mehringdamm 126",
+      "city": "Berlin",
+      "postal_code": "10965",
+      "country": "Germany",
+      "phone": "+49 (030) 66633399/-91",
+      "fax": "+49 (030) 66633394",
+      "email": "jmd-am-mehringdamm@caritas-berlin.de",
+      "website": "http://www.caritas-berlin.de",
+      "description": "Jugendmigrationsdienst Kreuzberg im Beratungszentrum am Mehringdamm",
+      "is_active": true,
+      "verified": false,
+      "source_name": "Caritas Deutschland API",
+      "raw_data": {
+        "content_id": "18cd1c4f6e94480f90a2e90b8a164fc2",
+        "data_source_id": "80c48846275643e0b82b83465979eb70",
+        "service_type": "jugendmigrationsdienst kreuzberg im beratungszentrum am mehringdamm",
+        "original_title": "Jugendmigrationsdienst Kreuzberg im Beratungszentrum am Mehringdamm"
+      }
+    }
+  },
+  {
+    "model": "maps.hierarchicallocation",
+    "pk": "caritas_1ea213cac85543078036badaaf41dfbf",
+    "fields": {
+      "name": "Migrationsberatung für Erwachsene Zuwanderer (MBE)  im Beratungszentrum am Mehringdamm",
+      "latitude": 52.48553,
+      "longitude": 13.38542,
+      "street": "Mehringdamm 126",
+      "city": "Berlin",
+      "postal_code": "10965",
+      "country": "Germany",
+      "phone": "+49 (030) 666333-96/-92/-83/",
+      "fax": "+49 (030) 66633394",
+      "email": "mbe-am-Mehringdamm@caritas-berlin.de",
+      "website": "https://www.caritas-berlin.de/beratungundhilfe/berlin/flucht-und-migration/beratung/fuer-erwachsene-migranten/fuer-laenger-in-deutschland-lebende-zuge",
+      "description": "Migrationsberatung für Erwachsene Zuwanderer (MBE)  im Beratungszentrum am Mehringdamm",
+      "is_active": true,
+      "verified": false,
+      "source_name": "Caritas Deutschland API",
+      "raw_data": {
+        "content_id": "1ea213cac85543078036badaaf41dfbf",
+        "data_source_id": "80c48846275643e0b82b83465979eb70",
+        "service_type": "migrationsberatung für erwachsene zuwanderer in kreuzberg",
+        "original_title": "Migrationsberatung für Erwachsene Zuwanderer (MBE)  im Beratungszentrum am Mehringdamm"
+      }
+    }
+  },
+  {
+    "model": "maps.hierarchicallocation",
+    "pk": "caritas_cd3847e9d70b48b38fdd4698b78adc84",
+    "fields": {
+      "name": "Migrationsberatung Steglitz-Zehlendorf",
+      "latitude": 52.4631759,
+      "longitude": 13.3204022,
+      "street": "Schildhornstraße 72",
+      "city": "Berlin",
+      "postal_code": "12163",
+      "country": "Germany",
+      "phone": "+49 (030) 5859992-13/-14/-15",
+      "fax": "+49 (030) 585999210",
+      "email": "migrationsdienst-sz@caritas-berlin.de",
+      "website": "https://www.caritas-berlin.de/beratungundhilfe/berlin/flucht-und-migration/beratung/beratung",
+      "description": "Migrationsberatung Steglitz-Zehlendorf",
+      "is_active": true,
+      "verified": false,
+      "source_name": "Caritas Deutschland API",
+      "raw_data": {
+        "content_id": "cd3847e9d70b48b38fdd4698b78adc84",
+        "data_source_id": "80c48846275643e0b82b83465979eb70",
+        "service_type": "caritas-migrationsberatung  im beratungszentrum steglitz-zehlendorf",
+        "original_title": "Migrationsberatung Steglitz-Zehlendorf"
+      }
+    }
+  },
+  {
+    "model": "maps.hierarchicallocation",
+    "pk": "caritas_c2ec0142ef9a40948d6ee7832613d337",
+    "fields": {
+      "name": "Migrationssozialdienst (MSD),  Beratung für länger in Deutschland lebende Zugewanderte",
+      "latitude": 52.4631759,
+      "longitude": 13.3204022,
+      "street": "Schildhornstraße 72",
+      "city": "Berlin",
+      "postal_code": "12163",
+      "country": "Germany",
+      "phone": "+49 (030) 5859992-13",
+      "fax": "+49 (030) -5859992-16",
+      "email": "migrationsdienst-sz@caritas-berlin.de",
+      "website": "https://www.caritas-berlin.de/beratungundhilfe/berlin/flucht-und-migration/beratung/fuer-erwachsene-migranten/fuer-laenger-in-deutschland-lebende-zugewanderte/fuer-laenger-in-deutschland-lebende-zugewanderte",
+      "description": "Migrationssozialdienst (MSD),  Beratung für länger in Deutschland lebende Zugewanderte",
+      "is_active": true,
+      "verified": false,
+      "source_name": "Caritas Deutschland API",
+      "raw_data": {
+        "content_id": "c2ec0142ef9a40948d6ee7832613d337",
+        "data_source_id": "80c48846275643e0b82b83465979eb70",
+        "service_type": "migrationssozialdienst (msd), im caritas-beratungszentrum steglitz-zehlendorf",
+        "original_title": "Migrationssozialdienst (MSD),  Beratung für länger in Deutschland lebende Zugewanderte"
+      }
+    }
+  },
+  {
+    "model": "maps.hierarchicallocation",
+    "pk": "caritas_767f2e59afe64a5fa514114c0c0dae7b",
+    "fields": {
+      "name": "Jugendmigrationsdienst Steglitz- Zehlendorf",
+      "latitude": 52.4631759,
+      "longitude": 13.3204022,
+      "street": "Schildhornstraße 72",
+      "city": "Berlin",
+      "postal_code": "12163",
+      "country": "Germany",
+      "phone": "+49 (030) 585999212",
+      "fax": "+49 (030) 585999216",
+      "email": "jmd-sz@caritas-berlin.de",
+      "website": "https://www.caritas-berlin.de/beratungundhilfe/berlin/flucht-und-migration/beratung/fuer-junge-migranten-bis-27-jahre/jugendmigrationsdienst",
+      "description": "Jugendmigrationsdienst Steglitz- Zehlendorf",
+      "is_active": true,
+      "verified": false,
+      "source_name": "Caritas Deutschland API",
+      "raw_data": {
+        "content_id": "767f2e59afe64a5fa514114c0c0dae7b",
+        "data_source_id": "80c48846275643e0b82b83465979eb70",
+        "service_type": "jugendmigrationsdienst im beratungszentrum steglitz-zehlendorf",
+        "original_title": "Jugendmigrationsdienst Steglitz- Zehlendorf"
+      }
+    }
+  },
+  {
+    "model": "maps.hierarchicallocation",
+    "pk": "caritas_1ac02e3fc4c546fbb63ec0b15ad11b07",
+    "fields": {
+      "name": "Jugendmigrationsdienst Marzahn-Hellersdorf im Migrationszentrum Marzahn-Hellersdorf",
+      "latitude": 52.5274398,
+      "longitude": 13.541491,
+      "street": "Helene-Weigel-Platz 10",
+      "city": "Berlin",
+      "postal_code": "12681",
+      "country": "Germany",
+      "phone": "0172-3707518",
+      "fax": "",
+      "email": "jmd-marzahn@caritas-berlin",
+      "website": "https://www.caritas-berlin.de",
+      "description": "Jugendmigrationsdienst Marzahn-Hellersdorf im Migrationszentrum Marzahn-Hellersdorf",
+      "is_active": true,
+      "verified": false,
+      "source_name": "Caritas Deutschland API",
+      "raw_data": {
+        "content_id": "1ac02e3fc4c546fbb63ec0b15ad11b07",
+        "data_source_id": "80c48846275643e0b82b83465979eb70",
+        "service_type": "jugenmigrationsdienst im caritaszentrum am helene-weigel-platz",
+        "original_title": "Jugendmigrationsdienst Marzahn-Hellersdorf im Migrationszentrum Marzahn-Hellersdorf"
+      }
+    }
+  },
+  {
+    "model": "maps.hierarchicallocation",
+    "pk": "caritas_5e98eb2390f84f3fbd733a890178b677",
+    "fields": {
+      "name": "Migrationssozialdienst Marzahn-Hellersdorf im Migrationszentrum Marzahn-Hellersdorf",
+      "latitude": 52.5274398,
+      "longitude": 13.541491,
+      "street": "Helene-Weigel-Platz 10",
+      "city": "Berlin",
+      "postal_code": "12681",
+      "country": "Germany",
+      "phone": "01638521023",
+      "fax": "",
+      "email": "msd-marzahn@caritas-berlin.de",
+      "website": "https://www.caritas-berlin.de",
+      "description": "Migrationssozialdienst Marzahn-Hellersdorf im Migrationszentrum Marzahn-Hellersdorf",
+      "is_active": true,
+      "verified": false,
+      "source_name": "Caritas Deutschland API",
+      "raw_data": {
+        "content_id": "5e98eb2390f84f3fbd733a890178b677",
+        "data_source_id": "80c48846275643e0b82b83465979eb70",
+        "service_type": "migrationssozialdienst im caritaszentrum am helene-weigel-platz",
+        "original_title": "Migrationssozialdienst Marzahn-Hellersdorf im Migrationszentrum Marzahn-Hellersdorf"
+      }
+    }
+  },
+  {
+    "model": "maps.hierarchicallocation",
+    "pk": "caritas_31721eb26de1420e88c35dd586877806",
+    "fields": {
+      "name": "Integrationslotsinnen und -lotsen",
+      "latitude": 52.5274398,
+      "longitude": 13.541491,
+      "street": "Helene-Weigel-Platz 10",
+      "city": "Berlin",
+      "postal_code": "12681",
+      "country": "Germany",
+      "phone": "",
+      "fax": "",
+      "email": "p.patzig@caritas-berlin.de",
+      "website": "http://www.caritas-berlin.de",
+      "description": "Integrationslotsinnen und -lotsen",
+      "is_active": true,
+      "verified": false,
+      "source_name": "Caritas Deutschland API",
+      "raw_data": {
+        "content_id": "31721eb26de1420e88c35dd586877806",
+        "data_source_id": "80c48846275643e0b82b83465979eb70",
+        "service_type": "integrationslotsinnen und -lotsen, caritasverband berlin",
+        "original_title": "Integrationslotsinnen und -lotsen"
+      }
+    }
+  },
+  {
+    "model": "maps.hierarchicallocation",
+    "pk": "caritas_32a22c01ba1e43c88153f766bfbde024",
+    "fields": {
+      "name": "Migrationsberatung für erwachsene Zuwanderer MBE",
+      "latitude": 52.5274398,
+      "longitude": 13.541491,
+      "street": "Helene-Weigel-Platz 10",
+      "city": "Berlin",
+      "postal_code": "12681",
+      "country": "Germany",
+      "phone": "01727791852",
+      "fax": "",
+      "email": "mbe-marzahn@caritas.de",
+      "website": "http://mbe-marzahn@caritas.de",
+      "description": "Migrationsberatung für erwachsene Zuwanderer MBE",
+      "is_active": true,
+      "verified": false,
+      "source_name": "Caritas Deutschland API",
+      "raw_data": {
+        "content_id": "32a22c01ba1e43c88153f766bfbde024",
+        "data_source_id": "80c48846275643e0b82b83465979eb70",
+        "service_type": "migrationsberatung für erwachsene zuwanderer mbe im caritaszentrum am helene-weigel-platz",
+        "original_title": "Migrationsberatung für erwachsene Zuwanderer MBE"
+      }
+    }
+  },
+  {
+    "model": "maps.hierarchicallocation",
+    "pk": "caritas_95810df6c06648f6914991866fbf5fac",
+    "fields": {
+      "name": "IN VIA -Jugendmigrationsdienst - Cafe VIA -",
+      "latitude": 52.55456,
+      "longitude": 13.38598,
+      "street": "Bellermannstr. 92",
+      "city": "Berlin",
+      "postal_code": "13357",
+      "country": "Germany",
+      "phone": "+49 (030) 81864163",
+      "fax": "",
+      "email": "jmd@invia-berlin.de",
+      "website": "http://www.invia-berlin.de",
+      "description": "IN VIA -Jugendmigrationsdienst - Cafe VIA -",
+      "is_active": true,
+      "verified": false,
+      "source_name": "Caritas Deutschland API",
+      "raw_data": {
+        "content_id": "95810df6c06648f6914991866fbf5fac",
+        "data_source_id": "80c48846275643e0b82b83465979eb70",
+        "service_type": null,
+        "original_title": "IN VIA -Jugendmigrationsdienst - Cafe VIA -"
+      }
+    }
+  },
+  {
+    "model": "maps.hierarchicallocation",
+    "pk": "caritas_24f0f1088178440cb9229decebc71e4d",
+    "fields": {
+      "name": "Migrationserstberatung Berlin-Spandau (MBE)",
+      "latitude": 52.5295796,
+      "longitude": 13.2139084,
+      "street": "Galenstrasse 39",
+      "city": "Berlin",
+      "postal_code": "13597",
+      "country": "Germany",
+      "phone": "+49 (030) 311684-350",
+      "fax": "+49 (030) 311684-359",
+      "email": "migrationsdienste-spandau@caritas-berlin.de",
+      "website": "https://www.caritas-berlin.de/beratungundhilfe/berlin/flucht-und-migration/flucht-und-migration",
+      "description": "Migrationserstberatung Berlin-Spandau (MBE)",
+      "is_active": true,
+      "verified": false,
+      "source_name": "Caritas Deutschland API",
+      "raw_data": {
+        "content_id": "24f0f1088178440cb9229decebc71e4d",
+        "data_source_id": "80c48846275643e0b82b83465979eb70",
+        "service_type": "caritas erzbistum berlin",
+        "original_title": "Migrationserstberatung Berlin-Spandau (MBE)"
+      }
+    }
+  },
+  {
+    "model": "maps.hierarchicallocation",
+    "pk": "caritas_27198e0f5bc4499c9e3cce79fbc1b02f",
+    "fields": {
+      "name": "Jugendmigrationsdienst Spandau",
+      "latitude": 52.5295796,
+      "longitude": 13.2139084,
+      "street": "Galenstrasse 39",
+      "city": "Berlin",
+      "postal_code": "13597",
+      "country": "Germany",
+      "phone": "+49 (030) 311684-350",
+      "fax": "+49 (030) 311684-359",
+      "email": "migrationsdienst-spandau@caritas-berlin.de",
+      "website": "https://www.caritas-berlin.de/beratungundhilfe/berlin/flucht-und-migration/flucht-und-migration",
+      "description": "Jugendmigrationsdienst Spandau",
+      "is_active": true,
+      "verified": false,
+      "source_name": "Caritas Deutschland API",
+      "raw_data": {
+        "content_id": "27198e0f5bc4499c9e3cce79fbc1b02f",
+        "data_source_id": "80c48846275643e0b82b83465979eb70",
+        "service_type": "jugendmigrationsdienst",
+        "original_title": "Jugendmigrationsdienst Spandau"
+      }
+    }
+  },
+  {
+    "model": "maps.hierarchicallocation",
+    "pk": "caritas_b71d00b58f1f4355a48f508198a41476",
+    "fields": {
+      "name": "Migrationssozialdienst Spandau",
+      "latitude": 52.5295796,
+      "longitude": 13.2139084,
+      "street": "Galenstraße 39",
+      "city": "Berlin",
+      "postal_code": "13597",
+      "country": "Germany",
+      "phone": "+49 (030) 311684350",
+      "fax": "+49 (030) 311684-359",
+      "email": "migrationsdienst-spandau@caritas-berlin.de",
+      "website": "https://www.caritas-berlin.de/beratungundhilfe/berlin/flucht-und-migration/beratung/fuer-erwachsene-migranten/fuer-laenger-in-deutschland-lebende-zugewanderte/fuer-laenger-in-deutschland-lebende-zugewanderte",
+      "description": "Migrationssozialdienst Spandau",
+      "is_active": true,
+      "verified": false,
+      "source_name": "Caritas Deutschland API",
+      "raw_data": {
+        "content_id": "b71d00b58f1f4355a48f508198a41476",
+        "data_source_id": "80c48846275643e0b82b83465979eb70",
+        "service_type": "migrationssozialdienst spandau im migrationszentrum spandau, caritasverband für das erzbistum berlin e.v.",
+        "original_title": "Migrationssozialdienst Spandau"
+      }
+    }
+  },
+  {
+    "model": "maps.hierarchicallocation",
+    "pk": "caritas_2d9d6d35e929464085e7ad3de963a95c",
+    "fields": {
+      "name": "Flüchtlingshilfe in Michendorf",
+      "latitude": 52.31254,
+      "longitude": 13.03406,
+      "street": "Langerwischer Str. 27 A",
+      "city": "Michendorf",
+      "postal_code": "14552",
+      "country": "Germany",
+      "phone": "",
+      "fax": "",
+      "email": "",
+      "website": "",
+      "description": "Flüchtlingshilfe in Michendorf",
+      "is_active": true,
+      "verified": false,
+      "source_name": "Caritas Deutschland API",
+      "raw_data": {
+        "content_id": "2d9d6d35e929464085e7ad3de963a95c",
+        "data_source_id": "80c48846275643e0b82b83465979eb70",
+        "service_type": "flüchtlingshilfe in michendorf, caritasverband für das erzbistum berlin e.v.",
+        "original_title": "Flüchtlingshilfe in Michendorf"
+      }
+    }
+  },
+  {
+    "model": "maps.hierarchicallocation",
+    "pk": "caritas_c86977ec65b046ca8841f4495f131a4f",
+    "fields": {
+      "name": "Migrationsberatung für erwachsene Zuwanderer",
+      "latitude": 52.33387,
+      "longitude": 14.53418,
+      "street": "Leipziger Straße 39",
+      "city": "Frankfurt (Oder)",
+      "postal_code": "15232",
+      "country": "Germany",
+      "phone": "+49 (0335) 5654-150",
+      "fax": "+49 (0335) 5654-100",
+      "email": "migration-frankfurt-oder@caritas-brandenburg.de",
+      "website": "http://www.caritas-brandenburg.de",
+      "description": "Migrationsberatung für erwachsene Zuwanderer",
+      "is_active": true,
+      "verified": false,
+      "source_name": "Caritas Deutschland API",
+      "raw_data": {
+        "content_id": "c86977ec65b046ca8841f4495f131a4f",
+        "data_source_id": "80c48846275643e0b82b83465979eb70",
+        "service_type": "caritas erzbistum berlin",
+        "original_title": "Migrationsberatung für erwachsene Zuwanderer"
+      }
+    }
+  },
+  {
+    "model": "maps.hierarchicallocation",
+    "pk": "caritas_3902da9597a34dbda6ff0409d36ba33a",
+    "fields": {
+      "name": "Migrationsberatung für erwachsene Zuwanderer Strausberg",
+      "latitude": 52.57454,
+      "longitude": 13.87927,
+      "street": "August-Bebel -Str. 12",
+      "city": "Strausberg",
+      "postal_code": "15344",
+      "country": "Germany",
+      "phone": "",
+      "fax": "",
+      "email": "mbe-strausberg@caritas-brandenburg.de",
+      "website": "",
+      "description": "Migrationsberatung für erwachsene Zuwanderer Strausberg",
+      "is_active": true,
+      "verified": false,
+      "source_name": "Caritas Deutschland API",
+      "raw_data": {
+        "content_id": "3902da9597a34dbda6ff0409d36ba33a",
+        "data_source_id": "80c48846275643e0b82b83465979eb70",
+        "service_type": null,
+        "original_title": "Migrationsberatung für erwachsene Zuwanderer Strausberg"
+      }
+    }
+  },
+  {
+    "model": "maps.hierarchicallocation",
+    "pk": "caritas_f2bc6f16036a443bbe11450c24061724",
+    "fields": {
+      "name": "Jugendmigrationsdienst im Caritas-Beratungszentrum Strausberg",
+      "latitude": 52.57454,
+      "longitude": 13.87927,
+      "street": "August-Bebel-Straße 12",
+      "city": "Strausberg",
+      "postal_code": "15334",
+      "country": "Germany",
+      "phone": "+49 (03341) 311784",
+      "fax": "+49 (03341) 3901059",
+      "email": "jmd-strausberg@caritas-brandenburg.de",
+      "website": "https://www.caritas-brandenburg.de/beratung-hilfe/flucht-und-migration/jugendliche-zuwanderer/jmd",
+      "description": "Jugendmigrationsdienst im Caritas-Beratungszentrum Strausberg",
+      "is_active": true,
+      "verified": false,
+      "source_name": "Caritas Deutschland API",
+      "raw_data": {
+        "content_id": "f2bc6f16036a443bbe11450c24061724",
+        "data_source_id": "80c48846275643e0b82b83465979eb70",
+        "service_type": "jugendmigrationsdienst strausberg",
+        "original_title": "Jugendmigrationsdienst im Caritas-Beratungszentrum Strausberg"
+      }
+    }
+  },
+  {
+    "model": "maps.hierarchicallocation",
+    "pk": "caritas_5149477a89ad47ba9db665fa7964b6bc",
+    "fields": {
+      "name": "Jugendmigrationsdienst Fürstenwalde",
+      "latitude": 52.360504,
+      "longitude": 14.0617335,
+      "street": "Eisenbahnstr. 16",
+      "city": "Fürstenwalde",
+      "postal_code": "15517",
+      "country": "Germany",
+      "phone": "+49 (03361) 770842",
+      "fax": "+49 (03361) 770848",
+      "email": "jmd-fuerstenwalde@caritas-brandenburg.de",
+      "website": "http://www.caritas-brandenburg.de/beratung-hilfe/flucht-und-migration/jugendliche-zuwanderer/jmd",
+      "description": "Jugendmigrationsdienst Fürstenwalde",
+      "is_active": true,
+      "verified": false,
+      "source_name": "Caritas Deutschland API",
+      "raw_data": {
+        "content_id": "5149477a89ad47ba9db665fa7964b6bc",
+        "data_source_id": "80c48846275643e0b82b83465979eb70",
+        "service_type": "caritas erzbistum berlin",
+        "original_title": "Jugendmigrationsdienst Fürstenwalde"
+      }
+    }
+  },
+  {
+    "model": "maps.hierarchicallocation",
+    "pk": "caritas_da95c4d772bd4e379a3bb8462caa5aa5",
+    "fields": {
+      "name": "Migrationsberatung für erwachsene Zuwanderer Fürstenwalde",
+      "latitude": 52.360504,
+      "longitude": 14.0617335,
+      "street": "Eisenbahnstr. 16",
+      "city": "Fürstenwalde",
+      "postal_code": "15517",
+      "country": "Germany",
+      "phone": "+49 (03361) 770833",
+      "fax": "+49 (03361) 770848",
+      "email": "mbe-fuerstenwalde@caritas-brandenburg.de",
+      "website": "http://www.caritas-brandenburg.de",
+      "description": "Migrationsberatung für erwachsene Zuwanderer Fürstenwalde",
+      "is_active": true,
+      "verified": false,
+      "source_name": "Caritas Deutschland API",
+      "raw_data": {
+        "content_id": "da95c4d772bd4e379a3bb8462caa5aa5",
+        "data_source_id": "80c48846275643e0b82b83465979eb70",
+        "service_type": "caritas erzbistum berlin",
+        "original_title": "Migrationsberatung für erwachsene Zuwanderer Fürstenwalde"
+      }
+    }
+  },
+  {
+    "model": "maps.hierarchicallocation",
+    "pk": "caritas_56727fc26c6046efbb5dd070dac7e15d",
+    "fields": {
+      "name": "Migrationssozialarbeit als Fachberatungsdienst",
+      "latitude": 52.360504,
+      "longitude": 14.0617335,
+      "street": "Eisenbahnstr. 16",
+      "city": "Fürstenwalde",
+      "postal_code": "15517",
+      "country": "Germany",
+      "phone": "+49 (03361) 7708-35",
+      "fax": "+49 (03361) 7708-48",
+      "email": "fluechtlingsberatung-fuerstenwalde@caritas-brandenburg.de",
+      "website": "https://www.caritas-brandenburg.de/beratung-hilfe/flucht-und-migration/erwachsene-zuwanderer/fluechtlingsberatung",
+      "description": "Migrationssozialarbeit als Fachberatungsdienst",
+      "is_active": true,
+      "verified": false,
+      "source_name": "Caritas Deutschland API",
+      "raw_data": {
+        "content_id": "56727fc26c6046efbb5dd070dac7e15d",
+        "data_source_id": "80c48846275643e0b82b83465979eb70",
+        "service_type": "beratung für flüchtlinge und migranten im caritas beratungszentrum",
+        "original_title": "Migrationssozialarbeit als Fachberatungsdienst"
+      }
+    }
+  },
+  {
+    "model": "maps.hierarchicallocation",
+    "pk": "caritas_d618bd10056f48c69363c379b8e1541f",
+    "fields": {
+      "name": "IN VIA - Koordinations- und Beratungsstelle für Frauen, die von Menschenhandel betroffen sind",
+      "latitude": 52.29456,
+      "longitude": 13.63024,
+      "street": "Maxim-Gorki.Str. 6/7",
+      "city": "Königs Wusterhausen",
+      "postal_code": "15711",
+      "country": "Germany",
+      "phone": "+49 (0163) 6780338",
+      "fax": "",
+      "email": "kub@invia-berlin.de",
+      "website": "http://www.invia-berlin.de",
+      "description": "IN VIA - Koordinations- und Beratungsstelle für Frauen, die von Menschenhandel betroffen sind",
+      "is_active": true,
+      "verified": false,
+      "source_name": "Caritas Deutschland API",
+      "raw_data": {
+        "content_id": "d618bd10056f48c69363c379b8e1541f",
+        "data_source_id": "80c48846275643e0b82b83465979eb70",
+        "service_type": null,
+        "original_title": "IN VIA - Koordinations- und Beratungsstelle für Frauen, die von Menschenhandel betroffen sind"
+      }
+    }
+  },
+  {
+    "model": "maps.hierarchicallocation",
+    "pk": "caritas_0fb304efd9f94b0bbe4ddddbb2c5d385",
+    "fields": {
+      "name": "Migrationsberatung für erwachsene Zuwanderer Landkreis Oder-Spree (LOS)",
+      "latitude": 52.13958,
+      "longitude": 14.6281401,
+      "street": "Robert-Koch-Str. 37",
+      "city": "Eisenhüttenstadt",
+      "postal_code": "15890",
+      "country": "Germany",
+      "phone": "+49 (03361) 770833",
+      "fax": "",
+      "email": "migrationssozialarbeit-los@caritas-brandenburg.de",
+      "website": "https://www.caritas-brandenburg.de/beratung-hilfe/flucht-und-migration/erwachsene-zuwanderer/migrationsberatung-erwachsene-zuwanderer",
+      "description": "Migrationsberatung für erwachsene Zuwanderer Landkreis Oder-Spree (LOS)",
+      "is_active": true,
+      "verified": false,
+      "source_name": "Caritas Deutschland API",
+      "raw_data": {
+        "content_id": "0fb304efd9f94b0bbe4ddddbb2c5d385",
+        "data_source_id": "80c48846275643e0b82b83465979eb70",
+        "service_type": "migrationsberatung in eisenhüttenstadt - evangelische friedenskirchgemeinde/ caritasverband für das erzbistum berlin e. v.",
+        "original_title": "Migrationsberatung für erwachsene Zuwanderer Landkreis Oder-Spree (LOS)"
+      }
+    }
+  },
+  {
+    "model": "maps.hierarchicallocation",
+    "pk": "caritas_5b33ba9ab6364a98a595c0276f5c5bde",
+    "fields": {
+      "name": "Caritas-Region Cottbus",
+      "latitude": 51.9404588,
+      "longitude": 13.8907984,
+      "street": "Geschwister-Scholl-Straße 12",
+      "city": "Lübben",
+      "postal_code": "15907",
+      "country": "Germany",
+      "phone": "+49 (3546) 181980",
+      "fax": "+49 (3546) 229537",
+      "email": "migrationsarbeit.luebben@caritas-goerlitz.de",
+      "website": "http://www.caritas-goerlitz.de",
+      "description": "Caritas-Region Cottbus",
+      "is_active": true,
+      "verified": false,
+      "source_name": "Caritas Deutschland API",
+      "raw_data": {
+        "content_id": "5b33ba9ab6364a98a595c0276f5c5bde",
+        "data_source_id": "80c48846275643e0b82b83465979eb70",
+        "service_type": "migrationssozialarbeit lübben",
+        "original_title": "Caritas-Region Cottbus"
+      }
+    }
+  },
+  {
+    "model": "maps.hierarchicallocation",
+    "pk": "caritas_e0669abf0e834db19ebbe58c5bf55b7c",
+    "fields": {
+      "name": "Migrationsberatung Pasewalk",
+      "latitude": 53.5055868,
+      "longitude": 13.9948603,
+      "street": "Haußmannstraße 12",
+      "city": "Pasewalk",
+      "postal_code": "17309",
+      "country": "Germany",
+      "phone": "+49 (03973) 4494644",
+      "fax": "+49 (03973) 4494645",
+      "email": "migration.pasewalk@caritas-vorpommern.de",
+      "website": "http://www.caritas-vorpommern.de",
+      "description": "Migrationsberatung Pasewalk",
+      "is_active": true,
+      "verified": false,
+      "source_name": "Caritas Deutschland API",
+      "raw_data": {
+        "content_id": "e0669abf0e834db19ebbe58c5bf55b7c",
+        "data_source_id": "80c48846275643e0b82b83465979eb70",
+        "service_type": "migrationsberatung für erwachsene zuwanderer, caritas pasewalk",
+        "original_title": "Migrationsberatung Pasewalk"
+      }
+    }
+  },
+  {
+    "model": "maps.hierarchicallocation",
+    "pk": "caritas_7b6e0fdb464b4aa0bdc9f1a122ba45cd",
+    "fields": {
+      "name": "Jugendmigrationsdienst Pasewalk",
+      "latitude": 53.5055868,
+      "longitude": 13.9948603,
+      "street": "Haußmannstraße 12",
+      "city": "Pasewalk",
+      "postal_code": "17309",
+      "country": "Germany",
+      "phone": "+49 (03973) 4494643",
+      "fax": "+49 (03973) 4494645",
+      "email": "jmd.pasewalk@caritas-vorpommern.de",
+      "website": "http://www.caritas-vorpommern.de",
+      "description": "Jugendmigrationsdienst Pasewalk",
+      "is_active": true,
+      "verified": false,
+      "source_name": "Caritas Deutschland API",
+      "raw_data": {
+        "content_id": "7b6e0fdb464b4aa0bdc9f1a122ba45cd",
+        "data_source_id": "80c48846275643e0b82b83465979eb70",
+        "service_type": "jugendmigrationsdienst, caritas pasewalk",
+        "original_title": "Jugendmigrationsdienst Pasewalk"
+      }
+    }
+  },
+  {
+    "model": "maps.hierarchicallocation",
+    "pk": "caritas_5923f26d512344599eeb44b7c4ed3e84",
+    "fields": {
+      "name": "Migrationsberatung Anklam",
+      "latitude": 53.8541451,
+      "longitude": 13.6930123,
+      "street": "Friedländer Straße 43",
+      "city": "Anklam",
+      "postal_code": "17389",
+      "country": "Germany",
+      "phone": "+49 (03971) 2035-0",
+      "fax": "+49 (03971) 203519",
+      "email": "migrationssozialdienste.anklam@caritas-vorpommern.de",
+      "website": "http://www.caritas-vorpommern.de",
+      "description": "Migrationsberatung Anklam",
+      "is_active": true,
+      "verified": false,
+      "source_name": "Caritas Deutschland API",
+      "raw_data": {
+        "content_id": "5923f26d512344599eeb44b7c4ed3e84",
+        "data_source_id": "80c48846275643e0b82b83465979eb70",
+        "service_type": "migrationssozialdienst und -beratung,  caritas anklam",
+        "original_title": "Migrationsberatung Anklam"
+      }
+    }
+  },
+  {
+    "model": "maps.hierarchicallocation",
+    "pk": "caritas_3235f06f7fac4deb8e4a7951536a73af",
+    "fields": {
+      "name": "Migrationsberatung Greifswald",
+      "latitude": 54.0828833,
+      "longitude": 13.4157457,
+      "street": "Makarenkostr. 12",
+      "city": "Greifswald",
+      "postal_code": "17491",
+      "country": "Germany",
+      "phone": "+49 (03834) 820673",
+      "fax": "+49 (03834) 889097",
+      "email": "migrationsberatung@caritas-vorpommern.de",
+      "website": "http://www.caritas-vorpommern.de",
+      "description": "Migrationsberatung Greifswald",
+      "is_active": true,
+      "verified": false,
+      "source_name": "Caritas Deutschland API",
+      "raw_data": {
+        "content_id": "3235f06f7fac4deb8e4a7951536a73af",
+        "data_source_id": "80c48846275643e0b82b83465979eb70",
+        "service_type": "caritas erzbistum berlin",
+        "original_title": "Migrationsberatung Greifswald"
+      }
+    }
+  },
+  {
+    "model": "maps.hierarchicallocation",
+    "pk": "caritas_0fae0621823d4e8b8aae9df7c4f5d181",
+    "fields": {
+      "name": "Caritasverband für das Erzbistum Hamburg e.V.",
+      "latitude": 54.12342,
+      "longitude": 12.05193,
+      "street": "Thomas-Morus-Straße 4",
+      "city": "Rostock",
+      "postal_code": "18106",
+      "country": "Germany",
+      "phone": "+49 (0381) 4547233",
+      "fax": "+49 (0381) 4547211",
+      "email": "meb-hro@caritas-im-norden.de",
+      "website": "http://www.caritas-mecklenburg.de",
+      "description": "Caritasverband für das Erzbistum Hamburg e.V.",
+      "is_active": true,
+      "verified": false,
+      "source_name": "Caritas Deutschland API",
+      "raw_data": {
+        "content_id": "0fae0621823d4e8b8aae9df7c4f5d181",
+        "data_source_id": "80c48846275643e0b82b83465979eb70",
+        "service_type": "migrationserstberatung",
+        "original_title": "Caritasverband für das Erzbistum Hamburg e.V."
+      }
+    }
+  },
+  {
+    "model": "maps.hierarchicallocation",
+    "pk": "caritas_6c81f8cd3b8a4b928c7cc964d5f859a0",
+    "fields": {
+      "name": "IN VIA Rostock e.V.",
+      "latitude": 54.1387831,
+      "longitude": 12.04703,
+      "street": "Warnowallee 23/24",
+      "city": "Rostock",
+      "postal_code": "18107",
+      "country": "Germany",
+      "phone": "+49 (0381) 12773977",
+      "fax": "+49 (0381) 77880313",
+      "email": "huth@invia-rostock.de",
+      "website": "http://www.invia-rostock.de",
+      "description": "IN VIA Rostock e.V.",
+      "is_active": true,
+      "verified": false,
+      "source_name": "Caritas Deutschland API",
+      "raw_data": {
+        "content_id": "6c81f8cd3b8a4b928c7cc964d5f859a0",
+        "data_source_id": "80c48846275643e0b82b83465979eb70",
+        "service_type": "migrationsdienst",
+        "original_title": "IN VIA Rostock e.V."
+      }
+    }
+  },
+  {
+    "model": "maps.hierarchicallocation",
+    "pk": "caritas_0dc5d27350074e5bae73fec5ae38ea36",
+    "fields": {
+      "name": "Caritasverband für das Erzbistum Hamburg e.V.",
+      "latitude": 53.627,
+      "longitude": 11.41317,
+      "street": "Klosterstr. 24",
+      "city": "Schwerin",
+      "postal_code": "19053",
+      "country": "Germany",
+      "phone": "+49 (0176) 84900608",
+      "fax": "+49 (0385) 5916923",
+      "email": "Gunhild.nienkerk@caritas-im-norden.de",
+      "website": "http://www.caritas-mecklenburg.de",
+      "description": "Caritasverband für das Erzbistum Hamburg e.V.",
+      "is_active": true,
+      "verified": false,
+      "source_name": "Caritas Deutschland API",
+      "raw_data": {
+        "content_id": "0dc5d27350074e5bae73fec5ae38ea36",
+        "data_source_id": "80c48846275643e0b82b83465979eb70",
+        "service_type": "flüchtlingskoordination",
+        "original_title": "Caritasverband für das Erzbistum Hamburg e.V."
+      }
+    }
+  },
+  {
+    "model": "maps.hierarchicallocation",
+    "pk": "caritas_0090eeda986b4cf682008e9db9fe30c5",
+    "fields": {
+      "name": "Caritasverband für das Erzbistum Hamburg e.V.",
+      "latitude": 53.6271086,
+      "longitude": 11.4132707,
+      "street": "Klosterstraße 24",
+      "city": "Schwerin",
+      "postal_code": "19053",
+      "country": "Germany",
+      "phone": "+49 (0385) 59169-0",
+      "fax": "+49 (0385) 5916923",
+      "email": "schwerin@caritas-im-norden.de",
+      "website": "http://www.caritas-mecklenburg.de",
+      "description": "Caritasverband für das Erzbistum Hamburg e.V.",
+      "is_active": true,
+      "verified": false,
+      "source_name": "Caritas Deutschland API",
+      "raw_data": {
+        "content_id": "0090eeda986b4cf682008e9db9fe30c5",
+        "data_source_id": "80c48846275643e0b82b83465979eb70",
+        "service_type": "projekt spuk",
+        "original_title": "Caritasverband für das Erzbistum Hamburg e.V."
+      }
+    }
+  },
+  {
+    "model": "maps.hierarchicallocation",
+    "pk": "caritas_d0e95c6430384b1ea21f0212309fed6e",
+    "fields": {
+      "name": "Zentrale Information und Beratung für Flüchtlinge gGmbH",
+      "latitude": 53.5527545,
+      "longitude": 10.0128338,
+      "street": "Adenauerallee 10",
+      "city": "Hamburg",
+      "postal_code": "20097",
+      "country": "Germany",
+      "phone": "+49 (040) 284079-0",
+      "fax": "+49 (040) 284079-130",
+      "email": "info@fz-hh.de",
+      "website": "http://www.fz-hh.de",
+      "description": "Zentrale Information und Beratung für Flüchtlinge gGmbH",
+      "is_active": true,
+      "verified": false,
+      "source_name": "Caritas Deutschland API",
+      "raw_data": {
+        "content_id": "d0e95c6430384b1ea21f0212309fed6e",
+        "data_source_id": "80c48846275643e0b82b83465979eb70",
+        "service_type": "flüchtlingszentrum hamburg",
+        "original_title": "Zentrale Information und Beratung für Flüchtlinge gGmbH"
+      }
+    }
+  }
+]

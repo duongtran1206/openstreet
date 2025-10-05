@@ -1,0 +1,760 @@
+{% extends 'maps/base.html' %}
+{% load static %}
+
+{% block title %}3-Tier Hierarchical Map - {{ domain.name }}{% endblock %}
+
+{% block extra_css %}
+<style>
+/* 3-Tier Layer Panel Styles */
+.hierarchical-map-container {
+    position: relative;
+    height: 100vh;
+    display: flex;
+}
+
+.layer-panel {
+    width: 400px;
+    background: #fff;
+    border-right: 1px solid #ddd;
+    box-shadow: 2px 0 10px rgba(0,0,0,0.1);
+    z-index: 1000;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.layer-panel-header {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.layer-panel-header h2 {
+    margin: 0;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.layer-panel-header p {
+    margin: 5px 0 0;
+    opacity: 0.9;
+    font-size: 14px;
+}
+
+.layer-content {
+    flex: 1;
+    overflow-y: auto;
+    padding: 0;
+}
+
+/* Domain Selection (Tầng 1) */
+.domain-section {
+    border-bottom: 2px solid #f0f0f0;
+}
+
+.domain-selector {
+    padding: 15px 20px;
+    background: #f8f9fa;
+    border-bottom: 1px solid #e9ecef;
+}
+
+.domain-dropdown {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    font-size: 14px;
+    background: white;
+    transition: all 0.3s ease;
+}
+
+.domain-dropdown:focus {
+    border-color: #667eea;
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+}
+
+.domain-info {
+    padding: 10px 20px;
+    background: #e8f4f8;
+    font-size: 13px;
+    color: #666;
+}
+
+/* Category Tree (Tầng 2) */
+.category-section {
+    flex: 1;
+}
+
+.category-header {
+    padding: 15px 20px;
+    background: #f1f3f4;
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.category-controls {
+    display: flex;
+    gap: 10px;
+}
+
+.btn-category {
+    padding: 6px 12px;
+    border: none;
+    border-radius: 5px;
+    font-size: 12px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.btn-select-all {
+    background: #28a745;
+    color: white;
+}
+
+.btn-deselect-all {
+    background: #dc3545;
+    color: white;
+}
+
+.btn-category:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+.category-list {
+    max-height: calc(100vh - 400px);
+    overflow-y: auto;
+}
+
+.category-item {
+    border-bottom: 1px solid #f0f0f0;
+    transition: all 0.3s ease;
+}
+
+.category-item:hover {
+    background: #f8f9fa;
+}
+
+.category-checkbox {
+    display: flex;
+    align-items: center;
+    padding: 12px 20px;
+    cursor: pointer;
+    position: relative;
+}
+
+.category-checkbox input[type="checkbox"] {
+    margin-right: 12px;
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+.category-info {
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.category-name {
+    font-weight: 500;
+    color: #333;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.category-icon {
+    font-size: 16px;
+}
+
+.category-color {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    display: inline-block;
+    border: 2px solid white;
+    box-shadow: 0 0 0 1px #ddd;
+}
+
+.category-stats {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    font-size: 12px;
+    color: #666;
+}
+
+.location-count {
+    background: #e9ecef;
+    padding: 2px 8px;
+    border-radius: 10px;
+    font-weight: 600;
+}
+
+/* Location List (Tầng 3) */
+.location-section {
+    border-top: 2px solid #f0f0f0;
+    background: #fafafa;
+}
+
+.location-header {
+    padding: 15px 20px;
+    background: #f8f9fa;
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.location-summary {
+    font-size: 14px;
+    font-weight: 600;
+    color: #333;
+}
+
+.location-list {
+    max-height: 200px;
+    overflow-y: auto;
+}
+
+.location-item {
+    padding: 10px 20px;
+    border-bottom: 1px solid #f0f0f0;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.location-item:hover {
+    background: white;
+    transform: translateX(5px);
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.location-marker {
+    font-size: 12px;
+    opacity: 0.7;
+}
+
+.location-info {
+    flex: 1;
+}
+
+.location-name {
+    font-weight: 500;
+    font-size: 13px;
+    color: #333;
+    margin-bottom: 2px;
+}
+
+.location-address {
+    font-size: 11px;
+    color: #666;
+}
+
+/* Map Container */
+.map-container {
+    flex: 1;
+    position: relative;
+}
+
+#hierarchical-map {
+    width: 100%;
+    height: 100%;
+}
+
+/* Loading States */
+.loading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    color: #666;
+}
+
+.loading::after {
+    content: '';
+    width: 20px;
+    height: 20px;
+    border: 2px solid #ddd;
+    border-top: 2px solid #667eea;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+    margin-left: 10px;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .hierarchical-map-container {
+        flex-direction: column;
+    }
+    
+    .layer-panel {
+        width: 100%;
+        height: 50vh;
+        border-right: none;
+        border-bottom: 1px solid #ddd;
+    }
+    
+    .map-container {
+        height: 50vh;
+    }
+}
+
+/* Scrollbar Styling */
+.layer-content::-webkit-scrollbar,
+.category-list::-webkit-scrollbar,
+.location-list::-webkit-scrollbar {
+    width: 6px;
+}
+
+.layer-content::-webkit-scrollbar-track,
+.category-list::-webkit-scrollbar-track,
+.location-list::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+.layer-content::-webkit-scrollbar-thumb,
+.category-list::-webkit-scrollbar-thumb,
+.location-list::-webkit-scrollbar-thumb {
+    background: #c1c1c1;
+    border-radius: 3px;
+}
+
+.layer-content::-webkit-scrollbar-thumb:hover,
+.category-list::-webkit-scrollbar-thumb:hover,
+.location-list::-webkit-scrollbar-thumb:hover {
+    background: #a8a8a8;
+}
+
+/* Animation Classes */
+.fade-in {
+    animation: fadeIn 0.5s ease-in;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.slide-in {
+    animation: slideIn 0.3s ease-out;
+}
+
+@keyframes slideIn {
+    from { transform: translateX(-10px); opacity: 0; }
+    to { transform: translateX(0); opacity: 1; }
+}
+</style>
+{% endblock %}
+
+{% block content %}
+<div class="hierarchical-map-container">
+    <!-- 3-Tier Layer Panel -->
+    <div class="layer-panel">
+        <!-- Header -->
+        <div class="layer-panel-header">
+            <h2>🏗️ 3-Tier Data Layers</h2>
+            <p>Hierarchical Map Navigation</p>
+        </div>
+        
+        <div class="layer-content">
+            <!-- TẦNG 1: Domain Selection -->
+            <div class="domain-section">
+                <div class="domain-selector">
+                    <label for="domain-select" style="display: block; margin-bottom: 8px; font-weight: 600; color: #333;">
+                        📁 Lĩnh vực (Domain)
+                    </label>
+                    <select id="domain-select" class="domain-dropdown">
+                        <option value="">-- Chọn lĩnh vực --</option>
+                        {% for domain_option in domains %}
+                        <option value="{{ domain_option.domain_id }}" 
+                                {% if domain_option.domain_id == domain.domain_id %}selected{% endif %}>
+                            {{ domain_option.icon }} {{ domain_option.name }}
+                        </option>
+                        {% endfor %}
+                    </select>
+                </div>
+                
+                {% if domain %}
+                <div class="domain-info">
+                    <strong>{{ domain.name }}</strong><br>
+                    📍 {{ domain.country }} | 🗣️ {{ domain.language }}<br>
+                    📊 {{ categories.count }} danh mục | {{ domain.total_locations }} địa điểm
+                </div>
+                {% endif %}
+            </div>
+            
+            <!-- TẦNG 2: Category Tree -->
+            <div class="category-section">
+                <div class="category-header">
+                    <h3 style="margin: 0; font-size: 14px; color: #333;">
+                        📂 Danh mục ({{ categories.count }})
+                    </h3>
+                    <div class="category-controls">
+                        <button class="btn-category btn-select-all" onclick="selectAllCategories()">
+                            Chọn tất cả
+                        </button>
+                        <button class="btn-category btn-deselect-all" onclick="deselectAllCategories()">
+                            Bỏ chọn
+                        </button>
+                    </div>
+                </div>
+                
+                <div class="category-list" id="category-list">
+                    {% if categories %}
+                        {% for category in categories %}
+                        <div class="category-item slide-in" style="animation-delay: {{ forloop.counter0|floatformat:1 }}00ms;">
+                            <label class="category-checkbox">
+                                <input type="checkbox" 
+                                       class="category-filter" 
+                                       value="{{ category.category_id }}"
+                                       data-name="{{ category.name }}"
+                                       data-color="{{ category.color }}"
+                                       checked>
+                                
+                                <div class="category-info">
+                                    <div class="category-name">
+                                        <span class="category-icon">{{ category.icon }}</span>
+                                        <span class="category-color" style="background-color: {{ category.color }};"></span>
+                                        {{ category.name }}
+                                    </div>
+                                    
+                                    <div class="category-stats">
+                                        <span class="location-count">{{ category.location_count }}</span>
+                                        <small>địa điểm</small>
+                                    </div>
+                                </div>
+                            </label>
+                        </div>
+                        {% endfor %}
+                    {% else %}
+                        <div class="loading">Đang tải danh mục...</div>
+                    {% endif %}
+                </div>
+            </div>
+            
+            <!-- TẦNG 3: Location Summary -->
+            <div class="location-section">
+                <div class="location-header">
+                    <div class="location-summary" id="location-summary">
+                        📍 <span id="visible-locations">0</span> / <span id="total-locations">{{ domain.total_locations|default:0 }}</span> địa điểm hiển thị
+                    </div>
+                </div>
+                
+                <div class="location-list" id="location-preview">
+                    <!-- Locations sẽ được load động via JavaScript -->
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Map Container -->
+    <div class="map-container">
+        <div id="hierarchical-map"></div>
+    </div>
+</div>
+
+<!-- Hidden data for JavaScript -->
+<script id="domain-data" type="application/json">{{ domain|safe }}</script>
+<script id="categories-data" type="application/json">{{ categories_json|safe }}</script>
+{% endblock %}
+
+{% block extra_js %}
+<script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+<script>
+class HierarchicalMapManager {
+    constructor() {
+        this.map = null;
+        this.layerGroups = new Map();
+        this.allLocations = new Map();
+        this.visibleLocations = new Set();
+        this.selectedCategories = new Set();
+        
+        this.initializeMap();
+        this.loadInitialData();
+        this.bindEvents();
+    }
+    
+    initializeMap() {
+        // Initialize Leaflet map
+        this.map = L.map('hierarchical-map').setView([51.1657, 10.4515], 6); // Germany center
+        
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            attribution: '© OpenStreetMap contributors'
+        }).addTo(this.map);
+        
+        // Add map controls
+        this.map.addControl(new L.Control.Scale({position: 'bottomright'}));
+    }
+    
+    loadInitialData() {
+        // Load domain data
+        const domainScript = document.getElementById('domain-data');
+        if (domainScript) {
+            this.domain = JSON.parse(domainScript.textContent);
+        }
+        
+        // Load categories data
+        const categoriesScript = document.getElementById('categories-data');
+        if (categoriesScript) {
+            this.categories = JSON.parse(categoriesScript.textContent);
+            this.initializeCategories();
+        }
+        
+        // Load locations
+        this.loadLocations();
+    }
+    
+    initializeCategories() {
+        // Initialize all categories as selected
+        document.querySelectorAll('.category-filter').forEach(checkbox => {
+            this.selectedCategories.add(checkbox.value);
+            
+            // Create layer group for each category
+            const layerGroup = L.layerGroup().addTo(this.map);
+            this.layerGroups.set(checkbox.value, layerGroup);
+        });
+    }
+    
+    async loadLocations() {
+        if (!this.domain) return;
+        
+        try {
+            const response = await fetch(`/api/hierarchical/locations/?domain=${this.domain.domain_id}`);
+            const data = await response.json();
+            
+            if (data.features) {
+                this.processLocations(data.features);
+                this.updateLocationDisplay();
+            }
+        } catch (error) {
+            console.error('Error loading locations:', error);
+            this.showError('Không thể tải dữ liệu địa điểm');
+        }
+    }
+    
+    processLocations(features) {
+        features.forEach(feature => {
+            const props = feature.properties;
+            const coords = feature.geometry.coordinates;
+            
+            // Create marker
+            const marker = L.circleMarker([coords[1], coords[0]], {
+                radius: 8,
+                fillColor: props.category.color,
+                color: '#fff',
+                weight: 2,
+                opacity: 0.8,
+                fillOpacity: 0.7
+            });
+            
+            // Add popup
+            const popupContent = this.createPopupContent(props);
+            marker.bindPopup(popupContent);
+            
+            // Store location data
+            const locationData = {
+                marker: marker,
+                feature: feature,
+                categories: props.categories.map(cat => cat.id)
+            };
+            
+            this.allLocations.set(props.id, locationData);
+            
+            // Add to appropriate layer groups
+            props.categories.forEach(category => {
+                const layerGroup = this.layerGroups.get(category.id);
+                if (layerGroup) {
+                    layerGroup.addLayer(marker);
+                }
+            });
+        });
+        
+        this.updateVisibleLocations();
+    }
+    
+    createPopupContent(props) {
+        return `
+            <div style="min-width: 200px;">
+                <h4 style="margin: 0 0 8px 0; color: #333;">${props.name}</h4>
+                <div style="font-size: 13px; line-height: 1.4;">
+                    <p style="margin: 4px 0;"><strong>📍 Địa chỉ:</strong><br>${props.address}</p>
+                    ${props.phone ? `<p style="margin: 4px 0;"><strong>📞 Điện thoại:</strong> ${props.phone}</p>` : ''}
+                    ${props.email ? `<p style="margin: 4px 0;"><strong>📧 Email:</strong> ${props.email}</p>` : ''}
+                    ${props.website ? `<p style="margin: 4px 0;"><strong>🌐 Website:</strong> <a href="${props.website}" target="_blank">Truy cập</a></p>` : ''}
+                    <p style="margin: 8px 0 4px 0;"><strong>📂 Danh mục:</strong></p>
+                    <div style="display: flex; flex-wrap: wrap; gap: 4px;">
+                        ${props.categories.map(cat => `
+                            <span style="background: ${cat.color}; color: white; padding: 2px 6px; border-radius: 10px; font-size: 11px;">
+                                ${cat.name}
+                            </span>
+                        `).join('')}
+                    </div>
+                </div>
+            </div>
+        `;
+    }
+    
+    bindEvents() {
+        // Domain selector
+        document.getElementById('domain-select').addEventListener('change', (e) => {
+            if (e.target.value) {
+                window.location.href = `?domain=${e.target.value}`;
+            }
+        });
+        
+        // Category filters
+        document.addEventListener('change', (e) => {
+            if (e.target.classList.contains('category-filter')) {
+                this.handleCategoryToggle(e.target);
+            }
+        });
+        
+        // Location item clicks
+        document.addEventListener('click', (e) => {
+            if (e.target.closest('.location-item')) {
+                const locationId = e.target.closest('.location-item').dataset.locationId;
+                this.focusLocation(locationId);
+            }
+        });
+    }
+    
+    handleCategoryToggle(checkbox) {
+        const categoryId = checkbox.value;
+        const layerGroup = this.layerGroups.get(categoryId);
+        
+        if (checkbox.checked) {
+            this.selectedCategories.add(categoryId);
+            if (layerGroup) layerGroup.addTo(this.map);
+        } else {
+            this.selectedCategories.delete(categoryId);
+            if (layerGroup) this.map.removeLayer(layerGroup);
+        }
+        
+        this.updateVisibleLocations();
+        this.updateLocationDisplay();
+    }
+    
+    updateVisibleLocations() {
+        this.visibleLocations.clear();
+        
+        this.allLocations.forEach((locationData, locationId) => {
+            const hasVisibleCategory = locationData.categories.some(catId => 
+                this.selectedCategories.has(catId)
+            );
+            
+            if (hasVisibleCategory) {
+                this.visibleLocations.add(locationId);
+            }
+        });
+        
+        // Update counter
+        document.getElementById('visible-locations').textContent = this.visibleLocations.size;
+        
+        // Update location preview
+        this.updateLocationPreview();
+    }
+    
+    updateLocationDisplay() {
+        // Update summary in panel
+        const visibleCount = this.visibleLocations.size;
+        const totalCount = this.allLocations.size;
+        
+        document.getElementById('visible-locations').textContent = visibleCount;
+        document.getElementById('total-locations').textContent = totalCount;
+    }
+    
+    updateLocationPreview() {
+        const previewContainer = document.getElementById('location-preview');
+        const visibleLocationsList = Array.from(this.visibleLocations).slice(0, 10); // Show first 10
+        
+        if (visibleLocationsList.length === 0) {
+            previewContainer.innerHTML = '<div style="padding: 20px; text-align: center; color: #666;">Không có địa điểm nào được hiển thị</div>';
+            return;
+        }
+        
+        const locationItems = visibleLocationsList.map(locationId => {
+            const locationData = this.allLocations.get(locationId);
+            const props = locationData.feature.properties;
+            
+            return `
+                <div class="location-item fade-in" data-location-id="${locationId}">
+                    <span class="location-marker" style="color: ${props.category.color};">📍</span>
+                    <div class="location-info">
+                        <div class="location-name">${props.name}</div>
+                        <div class="location-address">${props.address.split(',').slice(0, 2).join(', ')}</div>
+                    </div>
+                </div>
+            `;
+        }).join('');
+        
+        previewContainer.innerHTML = locationItems;
+        
+        if (this.visibleLocations.size > 10) {
+            previewContainer.innerHTML += `
+                <div style="padding: 10px; text-align: center; color: #666; font-size: 12px;">
+                    ... và ${this.visibleLocations.size - 10} địa điểm khác
+                </div>
+            `;
+        }
+    }
+    
+    focusLocation(locationId) {
+        const locationData = this.allLocations.get(parseInt(locationId));
+        if (locationData) {
+            const coords = locationData.feature.geometry.coordinates;
+            this.map.setView([coords[1], coords[0]], 15);
+            locationData.marker.openPopup();
+        }
+    }
+    
+    showError(message) {
+        const errorDiv = document.createElement('div');
+        errorDiv.style.cssText = `
+            position: fixed; top: 20px; right: 20px; 
+            background: #dc3545; color: white; 
+            padding: 15px; border-radius: 5px; 
+            z-index: 10000; box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+        `;
+        errorDiv.textContent = message;
+        document.body.appendChild(errorDiv);
+        
+        setTimeout(() => errorDiv.remove(), 5000);
+    }
+}
+
+// Global functions for panel controls
+function selectAllCategories() {
+    document.querySelectorAll('.category-filter').forEach(checkbox => {
+        checkbox.checked = true;
+        checkbox.dispatchEvent(new Event('change'));
+    });
+}
+
+function deselectAllCategories() {
+    document.querySelectorAll('.category-filter').forEach(checkbox => {
+        checkbox.checked = false;
+        checkbox.dispatchEvent(new Event('change'));
+    });
+}
+
+// Initialize when DOM is ready
+document.addEventListener('DOMContentLoaded', function() {
+    window.hierarchicalMap = new HierarchicalMapManager();
+});
+</script>
+{% endblock %}

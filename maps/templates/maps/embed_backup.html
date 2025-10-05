@@ -1,0 +1,354 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Embedded Hierarchical Map</title>
+    
+    <!-- Leaflet CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    
+    <!-- Hierarchical Controls CSS -->
+    <link rel="stylesheet" href="{% static 'css/hierarchical-controls.css' %}?v={{ timestamp }}" />
+    
+    <style>
+        body { 
+            margin: 0; 
+            padding: 0; 
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            overflow: hidden;
+        }
+        
+        #map { 
+            height: 100vh; 
+            width: 100%; 
+        }
+        
+        /* Embed-specific adjustments - Optimized for work */
+        .hierarchical-controls {
+            position: absolute !important;
+            top: 15px !important;
+            right: 15px !important;
+            width: 320px !important;
+            max-width: 85vw !important;
+            max-height: 80vh !important;
+            z-index: 1000 !important;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.15) !important;
+            border-radius: 8px !important;
+            background: rgba(255,255,255,0.95) !important;
+            backdrop-filter: blur(10px) !important;
+        }
+        
+        .hierarchical-header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%) !important;
+            color: white !important;
+            border-radius: 8px 8px 0 0 !important;
+        }
+        
+        .hierarchical-header h4 {
+            font-size: 16px !important;
+            font-weight: 600 !important;
+            margin: 0 !important;
+            padding: 12px 15px !important;
+        }
+        
+        .tier-section {
+            margin-bottom: 12px !important;
+            padding: 0 10px !important;
+        }
+        
+        .tier-header {
+            font-weight: 600 !important;
+            color: #2c3e50 !important;
+            border-bottom: 2px solid #ecf0f1 !important;
+            padding-bottom: 5px !important;
+        }
+        
+        .category-item, .location-item {
+            padding: 6px 12px !important;
+            margin: 3px 0 !important;
+            border-radius: 6px !important;
+            transition: all 0.2s ease !important;
+        }
+        
+        .category-item:hover, .location-item:hover {
+            background-color: #f8f9fa !important;
+            transform: translateX(3px) !important;
+        }
+        
+        .category-item.active, .location-item.active {
+            background-color: #e3f2fd !important;
+            border-left: 4px solid #2196f3 !important;
+        }
+        
+        /* Scrollable content for better UX */
+        .hierarchical-content {
+            max-height: 60vh !important;
+            overflow-y: auto !important;
+            scrollbar-width: thin !important;
+        }
+        
+        .hierarchical-content::-webkit-scrollbar {
+            width: 6px !important;
+        }
+        
+        .hierarchical-content::-webkit-scrollbar-track {
+            background: #f1f1f1 !important;
+            border-radius: 3px !important;
+        }
+        
+        .hierarchical-content::-webkit-scrollbar-thumb {
+            background: #c1c1c1 !important;
+            border-radius: 3px !important;
+        }
+        
+        /* Stats section enhancement */
+        .stats-section {
+            background: #f8f9fa !important;
+            border-radius: 0 0 8px 8px !important;
+            padding: 10px 15px !important;
+            border-top: 1px solid #dee2e6 !important;
+        }
+        
+        /* Mobile optimizations */
+        @media (max-width: 768px) {
+            .hierarchical-controls {
+                width: 95vw !important;
+                right: 2.5vw !important;
+                top: 10px !important;
+            }
+        }
+        
+        @media (max-width: 480px) {
+            .hierarchical-header h4 {
+                font-size: 14px !important;
+            }
+            
+            .category-item, .location-item {
+                padding: 4px 8px !important;
+                font-size: 13px !important;
+            }
+        }
+        
+        .category-text {
+            font-size: 11px !important;
+        }
+        
+        /* Compact mode for embed */
+        .hierarchical-content {
+            font-size: 12px;
+        }
+        
+        .domain-select,
+        .category-checkbox {
+            font-size: 11px;
+        }
+        
+        /* Mobile adjustments */
+        @media (max-width: 768px) {
+            .hierarchical-controls {
+                width: 280px !important;
+                top: 5px !important;
+                right: 5px !important;
+            }
+        }
+        
+        @media (max-width: 480px) {
+            .hierarchical-controls {
+                width: 90vw !important;
+                left: 5vw !important;
+                right: 5vw !important;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Map Container -->
+    <div id="map"></div>
+
+    <!-- Leaflet JavaScript -->
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    
+    <!-- Hierarchical Controls JavaScript -->
+    <script src="{% static 'js/hierarchical-controls.js' %}?v={{ timestamp }}"></script>
+
+    <script>
+        // Initialize map
+        const map = L.map('map').setView([51.1657, 10.4515], 6); // Germany center
+        
+        // Add tile layer
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            maxZoom: 18,
+            attribution: '© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+        }).addTo(map);
+
+        // Initialize hierarchical controls
+        document.addEventListener('DOMContentLoaded', function() {
+            // Initialize hierarchical map controls with enhanced embed settings
+            const controls = new HierarchicalMapControls(map, {
+                position: 'topright',
+                apiEndpoint: '/api/hierarchical/locations/',
+                domainsEndpoint: '/api/hierarchical/domains/',
+                categoriesEndpoint: '/api/hierarchical/categories/',
+                showStats: true,
+                autoCollapse: false,
+                // Enhanced embed-specific settings
+                compactMode: true,
+                maxHeight: '70vh',
+                enableSearch: true,
+                enableFullscreen: true,
+                enableExport: true,
+                animateTransitions: true,
+                rememberState: true, // Remember selected domain/categories
+                autoRefresh: 30000   // Auto-refresh every 30 seconds
+            });
+
+            // Add controls to map
+            controls.addToMap();
+
+            // Load initial data
+            controls.loadDomains();
+
+            {% if domain and categories_json %}
+            // Pre-populate with server data if available
+            window.hierarchicalData = {
+                selectedDomain: '{{ domain.domain_id }}',
+                categories: {{ categories_json|safe }}
+            };
+            {% endif %}
+
+            // Global access for debugging
+            window.mapControls = controls;
+            window.leafletMap = map;
+            
+            console.log('Embed hierarchical map initialized');
+            
+            // Debug check after initialization
+            setTimeout(() => {
+                const locationSection = document.querySelector('.location-section');
+                const locationList = document.querySelector('.location-list');
+                
+                console.log('DEBUG CHECK:');
+                console.log('Location section found:', !!locationSection);
+                console.log('Location list found:', !!locationList);
+                console.log('Visible locations:', controls.visibleLocations.size);
+                console.log('Total locations:', controls.locations.size);
+                console.log('Selected domain:', controls.selectedDomain);
+                console.log('Selected categories:', controls.selectedCategories.size);
+                
+                if (locationSection) {
+                    console.log('Location section HTML:', locationSection.innerHTML);
+                }
+            }, 3000);
+        });
+
+        // Enhanced window resize handling
+        window.addEventListener('resize', function() {
+            map.invalidateSize();
+            // Adjust controls position on mobile
+            const controls = document.querySelector('.hierarchical-controls');
+            if (controls && window.innerWidth < 768) {
+                controls.style.width = '95vw';
+                controls.style.right = '2.5vw';
+            }
+        });
+
+        // Keyboard shortcuts for embed
+        document.addEventListener('keydown', function(e) {
+            // Ctrl/Cmd + F: Focus search (if available)
+            if ((e.ctrlKey || e.metaKey) && e.key === 'f') {
+                e.preventDefault();
+                const searchInput = document.querySelector('.hierarchy-search');
+                if (searchInput) searchInput.focus();
+            }
+            
+            // Escape: Close/collapse controls
+            if (e.key === 'Escape') {
+                const controls = document.querySelector('.hierarchical-controls');
+                if (controls) {
+                    controls.classList.toggle('collapsed');
+                }
+            }
+        });
+
+        // Auto-refresh data every 30 seconds
+        let refreshInterval = setInterval(function() {
+            if (window.mapControls && window.mapControls.loadDomains) {
+                console.log('Auto-refreshing map data...');
+                window.mapControls.loadDomains();
+            }
+        }, 30000);
+
+        // Connection status indicator
+        let isOnline = true;
+        function updateConnectionStatus() {
+            const statusEl = document.createElement('div');
+            statusEl.id = 'connection-status';
+            statusEl.style.cssText = `
+                position: absolute;
+                top: 10px;
+                left: 10px;
+                padding: 5px 10px;
+                border-radius: 4px;
+                font-size: 12px;
+                z-index: 1001;
+                transition: all 0.3s ease;
+            `;
+            
+            if (navigator.onLine && isOnline) {
+                statusEl.innerHTML = 'Online';
+                statusEl.style.background = 'rgba(40, 167, 69, 0.9)';
+                statusEl.style.color = 'white';
+            } else {
+                statusEl.innerHTML = 'Offline';
+                statusEl.style.background = 'rgba(220, 53, 69, 0.9)';
+                statusEl.style.color = 'white';
+                clearInterval(refreshInterval); // Stop auto-refresh when offline
+            }
+            
+            const existing = document.getElementById('connection-status');
+            if (existing) existing.remove();
+            document.body.appendChild(statusEl);
+            
+            // Auto-hide after 3 seconds when online
+            if (navigator.onLine && isOnline) {
+                setTimeout(() => {
+                    if (statusEl.parentNode) statusEl.style.opacity = '0';
+                    setTimeout(() => {
+                        if (statusEl.parentNode) statusEl.remove();
+                    }, 300);
+                }, 3000);
+            }
+        }
+
+        // Monitor online/offline status
+        window.addEventListener('online', function() {
+            isOnline = true;
+            updateConnectionStatus();
+            // Restart auto-refresh
+            refreshInterval = setInterval(function() {
+                if (window.mapControls && window.mapControls.loadDomains) {
+                    window.mapControls.loadDomains();
+                }
+            }, 30000);
+        });
+
+        window.addEventListener('offline', function() {
+            isOnline = false;
+            updateConnectionStatus();
+        });
+
+        // Initial connection check
+        updateConnectionStatus();
+
+        // Performance monitoring
+        console.log(`Embed map initialized in ${Date.now() - performance.timing.navigationStart}ms`);
+        
+        // Screen size optimization warning
+        if (window.innerWidth < 400 || window.innerHeight < 300) {
+            console.warn('WARNING: Screen size very small for embedded map. Consider fullscreen mode.');
+        }
+    </script>
+</body>
+</html>

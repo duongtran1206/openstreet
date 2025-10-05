@@ -1,0 +1,149 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Embedded Map - Debug</title>
+    
+    <!-- Leaflet CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    
+    <style>
+        body { 
+            margin: 0; 
+            padding: 0; 
+            font-family: Arial, sans-serif;
+            background: #f0f0f0;
+        }
+        
+        #debug-info {
+            position: fixed;
+            top: 10px;
+            left: 10px;
+            background: white;
+            padding: 10px;
+            border-radius: 5px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            z-index: 2000;
+            font-size: 12px;
+        }
+        
+        #map { 
+            height: 100vh; 
+            width: 100%; 
+            background: #e0e0e0;
+        }
+        
+        .loading {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+        }
+    </style>
+</head>
+<body>
+    <div id="debug-info">
+        <strong>Debug Info:</strong><br>
+        Status: <span id="status">Loading...</span><br>
+        Map: <span id="map-status">Not loaded</span><br>
+        Controls: <span id="controls-status">Not loaded</span>
+    </div>
+    
+    <div id="map">
+        <div class="loading">Loading map...</div>
+    </div>
+
+    <!-- Leaflet JS -->
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    
+    <!-- Hierarchical Controls -->
+    <link rel="stylesheet" href="{% static 'css/hierarchical-controls.css' %}" />
+    <script src="{% static 'js/hierarchical-controls.js' %}"></script>
+    
+    <script>
+        console.log('=== DEBUG EMBED PAGE START ===');
+        
+        function updateStatus(element, message) {
+            document.getElementById(element).textContent = message;
+            console.log(`${element}: ${message}`);
+        }
+        
+        try {
+            updateStatus('status', 'Initializing...');
+            
+            // Remove loading message
+            setTimeout(() => {
+                const loading = document.querySelector('.loading');
+                if (loading) loading.remove();
+            }, 1000);
+            
+            // Initialize map
+            updateStatus('map-status', 'Creating map...');
+            
+            const map = L.map('map').setView([51.505, -0.09], 6);
+            
+            updateStatus('map-status', 'Adding tiles...');
+            
+            L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                maxZoom: 18,
+                attribution: '© OpenStreetMap contributors'
+            }).addTo(map);
+            
+            updateStatus('map-status', 'Map loaded successfully');
+            
+            // Initialize hierarchical controls
+            setTimeout(() => {
+                try {
+                    updateStatus('controls-status', 'Creating controls...');
+                    
+                    const controls = new HierarchicalMapControls(map, {
+                        position: 'topright',
+                        apiEndpoint: '/api/hierarchical/locations/',
+                        domainsEndpoint: '/api/hierarchical/domains/',
+                        categoriesEndpoint: '/api/hierarchical/categories/',
+                        showStats: true,
+                        autoCollapse: false
+                    });
+
+                    controls.addToMap();
+                    updateStatus('controls-status', 'Controls added to map');
+                    
+                    // Load initial data
+                    controls.loadDomains();
+                    updateStatus('controls-status', 'Loading domains...');
+                    
+                    // Global access
+                    window.mapControls = controls;
+                    window.leafletMap = map;
+                    
+                    updateStatus('status', 'All components loaded successfully');
+                    
+                } catch (controlsError) {
+                    console.error('Controls Error:', controlsError);
+                    updateStatus('controls-status', `Error: ${controlsError.message}`);
+                    updateStatus('status', 'Controls failed to load');
+                }
+            }, 1000);
+            
+        } catch (error) {
+            console.error('Main Error:', error);
+            updateStatus('status', `Error: ${error.message}`);
+        }
+        
+        // Handle window resize
+        window.addEventListener('resize', function() {
+            if (window.leafletMap) {
+                window.leafletMap.invalidateSize();
+            }
+        });
+        
+        console.log('=== DEBUG EMBED PAGE SCRIPT END ===');
+    </script>
+</body>
+</html>

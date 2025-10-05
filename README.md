@@ -12,21 +12,23 @@ A Django web application for creating and embedding interactive maps using OpenS
 - 🎯 **Embeddable** - can be embedded in other websites
 - ⚡ **REST API** for system integration
 - 👨‍💼 **Admin Interface** for easy data management
-- 🆓 **Completely Free** - no Google Maps API key requiredreetMap Business Map
+- **Completely Free** - no Google Maps API key required
 
-Một ứng dụng web Django cho phép tạo và nhúng bản đồ tương tác sử dụng OpenStreetMap với khả năng quản lý nhiều danh mục địa điểm kinh doanh.
+# OpenStreetMap Business Map
 
-## ✨ Tính năng chính
+A Django web application for creating and embedding interactive maps using OpenStreetMap with multi-category business location management capabilities.
 
-- 🗺️ **Bản đồ tương tác** sử dụng Leaflet.js và OpenStreetMap
-- � **Responsive design** tối ưu cho mobile và desktop  
-- �️ **Quản lý danh mục** hỗ trợ 20+ categories
-- � **Tìm kiếm và lọc** địa điểm theo tên và danh mục
-- 📤 **Import dữ liệu** từ file GeoJSON
-- 🎯 **Embeddable** - có thể nhúng vào website khác
-- ⚡ **API REST** cho tích hợp với hệ thống khác
-- 👨‍💼 **Admin interface** quản lý dữ liệu dễ dàng
-- 🆓 **Hoàn toàn miễn phí** - không cần Google Maps API Key
+## Key Features
+
+- **Interactive Maps** using Leaflet.js and OpenStreetMap
+- **Responsive Design** optimized for mobile and desktop  
+- **Category Management** supporting 20+ categories
+- **Search and Filter** locations by name and category
+- **Data Import** from GeoJSON files
+- **Embeddable** - can be embedded in other websites
+- **REST API** for system integration
+- **Admin Interface** for easy data management
+- **Completely Free** - no Google Maps API Key required
 
 ## 🚀 Installation & Setup
 

@@ -1,0 +1,3254 @@
+{
+  "domain_info": {
+    "domain_id": "handwerkskammern_deutschland",
+    "domain_name": "Deutschlandkarte der Handwerkskammern",
+    "created_at": "2025-10-05T11:39:04.876142"
+  },
+  "category_index": {
+    "handwerk_33": {
+      "name": "Augenoptiker",
+      "handwerk_id": 33,
+      "location_count": 12,
+      "location_ids": [
+        83,
+        103,
+        101,
+        80,
+        96,
+        93,
+        89,
+        88,
+        87,
+        57,
+        73,
+        86
+      ]
+    },
+    "handwerk_45": {
+      "name": "Behälter- und Apparatebauer",
+      "handwerk_id": 45,
+      "location_count": 1,
+      "location_ids": [
+        67
+      ]
+    },
+    "handwerk_96": {
+      "name": "Bestatter",
+      "handwerk_id": 96,
+      "location_count": 4,
+      "location_ids": [
+        83,
+        101,
+        62,
+        64
+      ]
+    },
+    "handwerk_88": {
+      "name": "Bogenmacher",
+      "handwerk_id": 88,
+      "location_count": 1,
+      "location_ids": [
+        105
+      ]
+    },
+    "handwerk_28": {
+      "name": "Boots- und Schiffbauer",
+      "handwerk_id": 28,
+      "location_count": 4,
+      "location_ids": [
+        60,
+        94,
+        57,
+        61
+      ]
+    },
+    "handwerk_69": {
+      "name": "Brauer und Mälzer",
+      "handwerk_id": 69,
+      "location_count": 4,
+      "location_ids": [
+        109,
+        80,
+        58,
+        65
+      ]
+    },
+    "handwerk_7": {
+      "name": "Brunnenbauer",
+      "handwerk_id": 7,
+      "location_count": 1,
+      "location_ids": [
+        76
+      ]
+    },
+    "handwerk_79": {
+      "name": "Buchbinder",
+      "handwerk_id": 79,
+      "location_count": 3,
+      "location_ids": [
+        80,
+        63,
+        67
+      ]
+    },
+    "handwerk_30": {
+      "name": "Bäcker",
+      "handwerk_id": 30,
+      "location_count": 28,
+      "location_ids": [
+        60,
+        109,
+        83,
+        105,
+        69,
+        102,
+        101,
+        100,
+        70,
+        97,
+        77,
+        80,
+        58,
+        62,
+        93,
+        89,
+        88,
+        87,
+        85,
+        57,
+        81,
+        79,
+        76,
+        73,
+        67,
+        112,
+        65,
+        86
+      ]
+    },
+    "handwerk_58": {
+      "name": "Böttcher",
+      "handwerk_id": 58,
+      "location_count": 1,
+      "location_ids": [
+        80
+      ]
+    },
+    "handwerk_22": {
+      "name": "Büchsenmacher",
+      "handwerk_id": 22,
+      "location_count": 3,
+      "location_ids": [
+        80,
+        63,
+        65
+      ]
+    },
+    "handwerk_95": {
+      "name": "Bürsten- und Pinselmacher",
+      "handwerk_id": 95,
+      "location_count": 1,
+      "location_ids": [
+        77
+      ]
+    },
+    "handwerk_14": {
+      "name": "Chirurgiemechaniker",
+      "handwerk_id": 14,
+      "location_count": 1,
+      "location_ids": [
+        85
+      ]
+    },
+    "handwerk_4": {
+      "name": "Dachdecker",
+      "handwerk_id": 4,
+      "location_count": 29,
+      "location_ids": [
+        109,
+        83,
+        106,
+        105,
+        104,
+        90,
+        69,
+        103,
+        102,
+        101,
+        70,
+        96,
+        95,
+        89,
+        88,
+        87,
+        85,
+        57,
+        63,
+        79,
+        75,
+        61,
+        107,
+        73,
+        72,
+        112,
+        64,
+        86,
+        84
+      ]
+    },
+    "handwerk_56": {
+      "name": "Drechsler (Elfenbeinschnitzer) und Holzspielzeugmacher",
+      "handwerk_id": 56,
+      "location_count": 4,
+      "location_ids": [
+        105,
+        70,
+        62,
+        93
+      ]
+    },
+    "handwerk_77": {
+      "name": "Edelsteinschleifer und -graveure",
+      "handwerk_id": 77,
+      "location_count": 1,
+      "location_ids": [
+        87
+      ]
+    },
+    "handwerk_26": {
+      "name": "Elektromaschinenbauer",
+      "handwerk_id": 26,
+      "location_count": 4,
+      "location_ids": [
+        80,
+        76,
+        67,
+        66
+      ]
+    },
+    "handwerk_25": {
+      "name": "Elektrotechniker",
+      "handwerk_id": 25,
+      "location_count": 52,
+      "location_ids": [
+        60,
+        109,
+        83,
+        106,
+        105,
+        104,
+        90,
+        69,
+        103,
+        102,
+        101,
+        100,
+        99,
+        70,
+        98,
+        97,
+        77,
+        80,
+        58,
+        110,
+        96,
+        111,
+        62,
+        95,
+        93,
+        92,
+        91,
+        89,
+        88,
+        87,
+        85,
+        57,
+        82,
+        81,
+        63,
+        79,
+        76,
+        75,
+        61,
+        107,
+        73,
+        67,
+        71,
+        72,
+        68,
+        59,
+        112,
+        66,
+        65,
+        64,
+        86,
+        84
+      ]
+    },
+    "handwerk_44": {
+      "name": "Estrichleger",
+      "handwerk_id": 44,
+      "location_count": 1,
+      "location_ids": [
+        77
+      ]
+    },
+    "handwerk_16": {
+      "name": "Feinwerkmechaniker",
+      "handwerk_id": 16,
+      "location_count": 43,
+      "location_ids": [
+        60,
+        109,
+        83,
+        106,
+        105,
+        90,
+        69,
+        103,
+        102,
+        101,
+        99,
+        70,
+        97,
+        77,
+        80,
+        58,
+        110,
+        111,
+        62,
+        94,
+        93,
+        92,
+        89,
+        88,
+        87,
+        85,
+        57,
+        81,
+        63,
+        79,
+        76,
+        75,
+        61,
+        107,
+        67,
+        71,
+        72,
+        59,
+        112,
+        66,
+        65,
+        64,
+        86
+      ]
+    },
+    "handwerk_32": {
+      "name": "Fleischer",
+      "handwerk_id": 32,
+      "location_count": 16,
+      "location_ids": [
+        60,
+        104,
+        101,
+        70,
+        97,
+        58,
+        111,
+        94,
+        89,
+        88,
+        87,
+        81,
+        63,
+        79,
+        59,
+        84
+      ]
+    },
+    "handwerk_42": {
+      "name": "Fliesen-, Platten- und Mosaikleger",
+      "handwerk_id": 42,
+      "location_count": 33,
+      "location_ids": [
+        109,
+        83,
+        105,
+        104,
+        90,
+        69,
+        103,
+        102,
+        101,
+        77,
+        80,
+        58,
+        96,
+        95,
+        94,
+        93,
+        88,
+        87,
+        85,
+        57,
+        81,
+        63,
+        79,
+        76,
+        75,
+        67,
+        72,
+        68,
+        112,
+        65,
+        64,
+        86,
+        84
+      ]
+    },
+    "handwerk_78": {
+      "name": "Fotografen",
+      "handwerk_id": 78,
+      "location_count": 5,
+      "location_ids": [
+        109,
+        103,
+        99,
+        80,
+        81
+      ]
+    },
+    "handwerk_38": {
+      "name": "Friseure",
+      "handwerk_id": 38,
+      "location_count": 52,
+      "location_ids": [
+        60,
+        109,
+        83,
+        106,
+        105,
+        104,
+        90,
+        69,
+        103,
+        102,
+        101,
+        100,
+        99,
+        70,
+        98,
+        77,
+        80,
+        58,
+        110,
+        96,
+        111,
+        62,
+        95,
+        94,
+        93,
+        92,
+        91,
+        89,
+        88,
+        87,
+        85,
+        57,
+        82,
+        81,
+        63,
+        79,
+        76,
+        75,
+        61,
+        107,
+        73,
+        67,
+        71,
+        72,
+        68,
+        59,
+        112,
+        66,
+        65,
+        64,
+        86,
+        84
+      ]
+    },
+    "handwerk_49": {
+      "name": "Galvaniseure",
+      "handwerk_id": 49,
+      "location_count": 4,
+      "location_ids": [
+        101,
+        77,
+        89,
+        67
+      ]
+    },
+    "handwerk_73": {
+      "name": "Gebäudereiniger",
+      "handwerk_id": 73,
+      "location_count": 12,
+      "location_ids": [
+        109,
+        104,
+        103,
+        102,
+        101,
+        70,
+        77,
+        80,
+        95,
+        94,
+        93,
+        71
+      ]
+    },
+    "handwerk_87": {
+      "name": "Geigenbauer",
+      "handwerk_id": 87,
+      "location_count": 2,
+      "location_ids": [
+        105,
+        80
+      ]
+    },
+    "handwerk_11": {
+      "name": "Gerüstbauer",
+      "handwerk_id": 11,
+      "location_count": 6,
+      "location_ids": [
+        103,
+        102,
+        70,
+        58,
+        87,
+        82
+      ]
+    },
+    "handwerk_40": {
+      "name": "Glasbläser und Glasapparatebauer",
+      "handwerk_id": 40,
+      "location_count": 2,
+      "location_ids": [
+        79,
+        59
+      ]
+    },
+    "handwerk_39": {
+      "name": "Glaser",
+      "handwerk_id": 39,
+      "location_count": 8,
+      "location_ids": [
+        105,
+        94,
+        93,
+        89,
+        57,
+        79,
+        64,
+        86
+      ]
+    },
+    "handwerk_74": {
+      "name": "Glasveredler",
+      "handwerk_id": 74,
+      "location_count": 2,
+      "location_ids": [
+        79,
+        86
+      ]
+    },
+    "handwerk_52": {
+      "name": "Gold- und Silberschmiede",
+      "handwerk_id": 52,
+      "location_count": 9,
+      "location_ids": [
+        102,
+        80,
+        62,
+        89,
+        87,
+        63,
+        65,
+        64,
+        86
+      ]
+    },
+    "handwerk_47": {
+      "name": "Graveure",
+      "handwerk_id": 47,
+      "location_count": 3,
+      "location_ids": [
+        101,
+        85,
+        64
+      ]
+    },
+    "handwerk_86": {
+      "name": "Handzuginstrumentenmacher",
+      "handwerk_id": 86,
+      "location_count": 2,
+      "location_ids": [
+        105,
+        80
+      ]
+    },
+    "handwerk_94": {
+      "name": "Holz- und Bautenschützer",
+      "handwerk_id": 94,
+      "location_count": 1,
+      "location_ids": [
+        101
+      ]
+    },
+    "handwerk_57": {
+      "name": "Holzbildhauer",
+      "handwerk_id": 57,
+      "location_count": 2,
+      "location_ids": [
+        80,
+        59
+      ]
+    },
+    "handwerk_90": {
+      "name": "Holzblasinstrumentenmacher",
+      "handwerk_id": 90,
+      "location_count": 3,
+      "location_ids": [
+        105,
+        80,
+        88
+      ]
+    },
+    "handwerk_34": {
+      "name": "Hörakustiker",
+      "handwerk_id": 34,
+      "location_count": 5,
+      "location_ids": [
+        83,
+        95,
+        93,
+        81,
+        72
+      ]
+    },
+    "handwerk_19": {
+      "name": "Informationstechniker",
+      "handwerk_id": 19,
+      "location_count": 11,
+      "location_ids": [
+        83,
+        105,
+        90,
+        102,
+        100,
+        99,
+        80,
+        87,
+        76,
+        67,
+        86
+      ]
+    },
+    "handwerk_24": {
+      "name": "Installateur und Heizungsbauer",
+      "handwerk_id": 24,
+      "location_count": 52,
+      "location_ids": [
+        60,
+        109,
+        83,
+        106,
+        105,
+        104,
+        90,
+        69,
+        103,
+        102,
+        101,
+        100,
+        99,
+        70,
+        98,
+        97,
+        77,
+        80,
+        58,
+        110,
+        96,
+        111,
+        62,
+        95,
+        93,
+        92,
+        91,
+        89,
+        88,
+        87,
+        85,
+        57,
+        82,
+        81,
+        63,
+        79,
+        76,
+        75,
+        61,
+        107,
+        73,
+        67,
+        71,
+        72,
+        68,
+        59,
+        112,
+        66,
+        65,
+        64,
+        86,
+        84
+      ]
+    },
+    "handwerk_15": {
+      "name": "Karosserie- und Fahrzeugbauer",
+      "handwerk_id": 15,
+      "location_count": 18,
+      "location_ids": [
+        109,
+        104,
+        90,
+        101,
+        70,
+        80,
+        62,
+        94,
+        92,
+        89,
+        87,
+        57,
+        63,
+        79,
+        75,
+        59,
+        86,
+        84
+      ]
+    },
+    "handwerk_83": {
+      "name": "Keramiker",
+      "handwerk_id": 83,
+      "location_count": 2,
+      "location_ids": [
+        87,
+        79
+      ]
+    },
+    "handwerk_85": {
+      "name": "Klavier- und Cembalobauer",
+      "handwerk_id": 85,
+      "location_count": 3,
+      "location_ids": [
+        80,
+        88,
+        67
+      ]
+    },
+    "handwerk_23": {
+      "name": "Klempner",
+      "handwerk_id": 23,
+      "location_count": 15,
+      "location_ids": [
+        109,
+        104,
+        102,
+        80,
+        58,
+        111,
+        62,
+        94,
+        87,
+        85,
+        63,
+        79,
+        67,
+        112,
+        65
+      ]
+    },
+    "handwerk_31": {
+      "name": "Konditoren",
+      "handwerk_id": 31,
+      "location_count": 20,
+      "location_ids": [
+        109,
+        105,
+        69,
+        100,
+        97,
+        77,
+        80,
+        58,
+        89,
+        87,
+        85,
+        57,
+        81,
+        79,
+        76,
+        107,
+        73,
+        67,
+        112,
+        86
+      ]
+    },
+    "handwerk_59": {
+      "name": "Korb- und Flechtwerkgestalter",
+      "handwerk_id": 59,
+      "location_count": 1,
+      "location_ids": [
+        58
+      ]
+    },
+    "handwerk_97": {
+      "name": "Kosmetiker",
+      "handwerk_id": 97,
+      "location_count": 15,
+      "location_ids": [
+        105,
+        102,
+        98,
+        80,
+        58,
+        94,
+        63,
+        79,
+        76,
+        107,
+        112,
+        65,
+        64,
+        86,
+        84
+      ]
+    },
+    "handwerk_20": {
+      "name": "Kraftfahrzeugtechniker",
+      "handwerk_id": 20,
+      "location_count": 53,
+      "location_ids": [
+        60,
+        109,
+        83,
+        106,
+        105,
+        104,
+        90,
+        69,
+        103,
+        102,
+        101,
+        100,
+        99,
+        70,
+        98,
+        97,
+        77,
+        80,
+        58,
+        110,
+        96,
+        111,
+        62,
+        95,
+        94,
+        93,
+        92,
+        91,
+        89,
+        88,
+        87,
+        85,
+        57,
+        82,
+        81,
+        63,
+        79,
+        76,
+        75,
+        61,
+        107,
+        73,
+        67,
+        71,
+        72,
+        68,
+        59,
+        112,
+        66,
+        65,
+        64,
+        86,
+        84
+      ]
+    },
+    "handwerk_18": {
+      "name": "Kälteanlagenbauer",
+      "handwerk_id": 18,
+      "location_count": 10,
+      "location_ids": [
+        105,
+        103,
+        101,
+        100,
+        70,
+        77,
+        80,
+        93,
+        87,
+        63
+      ]
+    },
+    "handwerk_64": {
+      "name": "Kürschner",
+      "handwerk_id": 64,
+      "location_count": 1,
+      "location_ids": [
+        77
+      ]
+    },
+    "handwerk_21": {
+      "name": "Land- und Baumaschinenmechatroniker",
+      "handwerk_id": 21,
+      "location_count": 22,
+      "location_ids": [
+        83,
+        105,
+        90,
+        102,
+        101,
+        99,
+        70,
+        97,
+        80,
+        58,
+        111,
+        62,
+        92,
+        88,
+        87,
+        63,
+        79,
+        75,
+        61,
+        73,
+        67,
+        59
+      ]
+    },
+    "handwerk_10": {
+      "name": "Maler und Lackierer",
+      "handwerk_id": 10,
+      "location_count": 52,
+      "location_ids": [
+        60,
+        109,
+        83,
+        106,
+        105,
+        104,
+        90,
+        69,
+        103,
+        102,
+        101,
+        100,
+        99,
+        70,
+        98,
+        97,
+        77,
+        80,
+        58,
+        110,
+        96,
+        111,
+        62,
+        95,
+        94,
+        93,
+        91,
+        89,
+        88,
+        87,
+        85,
+        57,
+        82,
+        81,
+        63,
+        79,
+        76,
+        75,
+        61,
+        107,
+        73,
+        67,
+        71,
+        72,
+        68,
+        59,
+        112,
+        66,
+        65,
+        64,
+        86,
+        84
+      ]
+    },
+    "handwerk_1": {
+      "name": "Maurer und Betonbauer",
+      "handwerk_id": 1,
+      "location_count": 51,
+      "location_ids": [
+        60,
+        109,
+        83,
+        106,
+        105,
+        104,
+        90,
+        69,
+        103,
+        102,
+        101,
+        100,
+        99,
+        70,
+        98,
+        97,
+        77,
+        80,
+        58,
+        110,
+        96,
+        111,
+        62,
+        95,
+        94,
+        93,
+        91,
+        89,
+        88,
+        87,
+        85,
+        57,
+        82,
+        81,
+        63,
+        79,
+        76,
+        75,
+        61,
+        107,
+        73,
+        67,
+        72,
+        68,
+        59,
+        112,
+        66,
+        65,
+        64,
+        86,
+        84
+      ]
+    },
+    "handwerk_60": {
+      "name": "Maßschneider",
+      "handwerk_id": 60,
+      "location_count": 10,
+      "location_ids": [
+        103,
+        102,
+        101,
+        70,
+        80,
+        93,
+        88,
+        87,
+        67,
+        71
+      ]
+    },
+    "handwerk_41": {
+      "name": "Mechaniker für Reifen- und Vulkanisationstechnik",
+      "handwerk_id": 41,
+      "location_count": 1,
+      "location_ids": [
+        101
+      ]
+    },
+    "handwerk_50": {
+      "name": "Metall- und Glockengießer",
+      "handwerk_id": 50,
+      "location_count": 2,
+      "location_ids": [
+        101,
+        80
+      ]
+    },
+    "handwerk_13": {
+      "name": "Metallbauer",
+      "handwerk_id": 13,
+      "location_count": 53,
+      "location_ids": [
+        60,
+        109,
+        83,
+        106,
+        105,
+        104,
+        90,
+        69,
+        103,
+        102,
+        101,
+        100,
+        99,
+        70,
+        98,
+        97,
+        77,
+        80,
+        58,
+        110,
+        96,
+        111,
+        62,
+        95,
+        94,
+        93,
+        92,
+        91,
+        89,
+        88,
+        87,
+        85,
+        57,
+        82,
+        81,
+        63,
+        79,
+        76,
+        75,
+        61,
+        107,
+        73,
+        67,
+        71,
+        72,
+        68,
+        59,
+        112,
+        66,
+        65,
+        64,
+        86,
+        84
+      ]
+    },
+    "handwerk_48": {
+      "name": "Metallbildner",
+      "handwerk_id": 48,
+      "location_count": 2,
+      "location_ids": [
+        101,
+        85
+      ]
+    },
+    "handwerk_89": {
+      "name": "Metallblasinstrumentenmacher",
+      "handwerk_id": 89,
+      "location_count": 3,
+      "location_ids": [
+        105,
+        80,
+        71
+      ]
+    },
+    "handwerk_55": {
+      "name": "Modellbauer",
+      "handwerk_id": 55,
+      "location_count": 1,
+      "location_ids": [
+        88
+      ]
+    },
+    "handwerk_62": {
+      "name": "Modisten",
+      "handwerk_id": 62,
+      "location_count": 1,
+      "location_ids": [
+        60
+      ]
+    },
+    "handwerk_68": {
+      "name": "Müller",
+      "handwerk_id": 68,
+      "location_count": 2,
+      "location_ids": [
+        83,
+        67
+      ]
+    },
+    "handwerk_2": {
+      "name": "Ofen- und Luftheizungsbauer",
+      "handwerk_id": 2,
+      "location_count": 6,
+      "location_ids": [
+        102,
+        80,
+        63,
+        79,
+        67,
+        68
+      ]
+    },
+    "handwerk_84": {
+      "name": "Orgel- und Harmoniumbauer",
+      "handwerk_id": 84,
+      "location_count": 3,
+      "location_ids": [
+        80,
+        88,
+        67
+      ]
+    },
+    "handwerk_36": {
+      "name": "Orthopädieschuhmacher",
+      "handwerk_id": 36,
+      "location_count": 6,
+      "location_ids": [
+        102,
+        101,
+        70,
+        93,
+        79,
+        67
+      ]
+    },
+    "handwerk_35": {
+      "name": "Orthopädietechniker",
+      "handwerk_id": 35,
+      "location_count": 9,
+      "location_ids": [
+        109,
+        104,
+        103,
+        101,
+        80,
+        94,
+        93,
+        81,
+        79
+      ]
+    },
+    "handwerk_53": {
+      "name": "Parkettleger",
+      "handwerk_id": 53,
+      "location_count": 5,
+      "location_ids": [
+        109,
+        70,
+        77,
+        65,
+        86
+      ]
+    },
+    "handwerk_80": {
+      "name": "Print- und Medientechnologen (Drucker, Siebdrucker, Flexografen)",
+      "handwerk_id": 80,
+      "location_count": 2,
+      "location_ids": [
+        70,
+        63
+      ]
+    },
+    "handwerk_51": {
+      "name": "Präzisionswerkzeugmechaniker",
+      "handwerk_id": 51,
+      "location_count": 1,
+      "location_ids": [
+        62
+      ]
+    },
+    "handwerk_67": {
+      "name": "Raumausstatter",
+      "handwerk_id": 67,
+      "location_count": 10,
+      "location_ids": [
+        102,
+        70,
+        58,
+        88,
+        81,
+        63,
+        79,
+        76,
+        67,
+        71
+      ]
+    },
+    "handwerk_54": {
+      "name": "Rollladen- und Sonnenschutztechniker",
+      "handwerk_id": 54,
+      "location_count": 5,
+      "location_ids": [
+        102,
+        94,
+        79,
+        65,
+        64
+      ]
+    },
+    "handwerk_66": {
+      "name": "Sattler und Feintäschner",
+      "handwerk_id": 66,
+      "location_count": 3,
+      "location_ids": [
+        101,
+        79,
+        67
+      ]
+    },
+    "handwerk_93": {
+      "name": "Schilder- und Lichtreklamehersteller",
+      "handwerk_id": 93,
+      "location_count": 7,
+      "location_ids": [
+        109,
+        103,
+        102,
+        70,
+        97,
+        80,
+        67
+      ]
+    },
+    "handwerk_12": {
+      "name": "Schornsteinfeger",
+      "handwerk_id": 12,
+      "location_count": 17,
+      "location_ids": [
+        90,
+        69,
+        100,
+        99,
+        70,
+        77,
+        80,
+        58,
+        111,
+        62,
+        93,
+        57,
+        63,
+        79,
+        73,
+        65,
+        84
+      ]
+    },
+    "handwerk_65": {
+      "name": "Schuhmacher",
+      "handwerk_id": 65,
+      "location_count": 2,
+      "location_ids": [
+        109,
+        70
+      ]
+    },
+    "handwerk_63": {
+      "name": "Segelmacher",
+      "handwerk_id": 63,
+      "location_count": 1,
+      "location_ids": [
+        57
+      ]
+    },
+    "handwerk_29": {
+      "name": "Seiler",
+      "handwerk_id": 29,
+      "location_count": 1,
+      "location_ids": [
+        80
+      ]
+    },
+    "handwerk_8": {
+      "name": "Steinmetzen und Steinbildhauer",
+      "handwerk_id": 8,
+      "location_count": 10,
+      "location_ids": [
+        83,
+        90,
+        103,
+        102,
+        97,
+        80,
+        62,
+        87,
+        63,
+        68
+      ]
+    },
+    "handwerk_5": {
+      "name": "Straßenbauer",
+      "handwerk_id": 5,
+      "location_count": 20,
+      "location_ids": [
+        60,
+        109,
+        105,
+        104,
+        90,
+        69,
+        103,
+        101,
+        98,
+        80,
+        62,
+        94,
+        88,
+        87,
+        63,
+        107,
+        71,
+        68,
+        112,
+        86
+      ]
+    },
+    "handwerk_9": {
+      "name": "Stuckateure",
+      "handwerk_id": 9,
+      "location_count": 14,
+      "location_ids": [
+        109,
+        104,
+        69,
+        103,
+        77,
+        80,
+        92,
+        87,
+        85,
+        81,
+        63,
+        67,
+        112,
+        86
+      ]
+    },
+    "handwerk_61": {
+      "name": "Textilgestalter (Sticker, Weber, Klöppler, Posamentierer, Stricker)",
+      "handwerk_id": 61,
+      "location_count": 1,
+      "location_ids": [
+        93
+      ]
+    },
+    "handwerk_71": {
+      "name": "Textilreiniger",
+      "handwerk_id": 71,
+      "location_count": 2,
+      "location_ids": [
+        70,
+        63
+      ]
+    },
+    "handwerk_27": {
+      "name": "Tischler",
+      "handwerk_id": 27,
+      "location_count": 53,
+      "location_ids": [
+        60,
+        109,
+        83,
+        106,
+        105,
+        104,
+        90,
+        69,
+        103,
+        102,
+        101,
+        100,
+        99,
+        70,
+        98,
+        97,
+        77,
+        80,
+        58,
+        110,
+        96,
+        111,
+        62,
+        95,
+        94,
+        93,
+        92,
+        91,
+        89,
+        88,
+        87,
+        85,
+        57,
+        82,
+        81,
+        63,
+        79,
+        76,
+        75,
+        61,
+        107,
+        73,
+        67,
+        71,
+        72,
+        68,
+        59,
+        112,
+        66,
+        65,
+        64,
+        86,
+        84
+      ]
+    },
+    "handwerk_46": {
+      "name": "Uhrmacher",
+      "handwerk_id": 46,
+      "location_count": 5,
+      "location_ids": [
+        102,
+        70,
+        62,
+        85,
+        63
+      ]
+    },
+    "handwerk_92": {
+      "name": "Vergolder",
+      "handwerk_id": 92,
+      "location_count": 1,
+      "location_ids": [
+        80
+      ]
+    },
+    "handwerk_72": {
+      "name": "Wachszieher",
+      "handwerk_id": 72,
+      "location_count": 1,
+      "location_ids": [
+        111
+      ]
+    },
+    "handwerk_70": {
+      "name": "Weinküfer",
+      "handwerk_id": 70,
+      "location_count": 2,
+      "location_ids": [
+        92,
+        64
+      ]
+    },
+    "handwerk_43": {
+      "name": "Werkstein- und Terrazzohersteller",
+      "handwerk_id": 43,
+      "location_count": 1,
+      "location_ids": [
+        65
+      ]
+    },
+    "handwerk_6": {
+      "name": "Wärme-, Kälte- und Schallschutzisolierer",
+      "handwerk_id": 6,
+      "location_count": 3,
+      "location_ids": [
+        70,
+        77,
+        84
+      ]
+    },
+    "handwerk_37": {
+      "name": "Zahntechniker",
+      "handwerk_id": 37,
+      "location_count": 17,
+      "location_ids": [
+        109,
+        103,
+        102,
+        101,
+        100,
+        70,
+        97,
+        77,
+        80,
+        94,
+        93,
+        89,
+        57,
+        63,
+        67,
+        66,
+        86
+      ]
+    },
+    "handwerk_3": {
+      "name": "Zimmerer",
+      "handwerk_id": 3,
+      "location_count": 45,
+      "location_ids": [
+        60,
+        109,
+        83,
+        106,
+        105,
+        104,
+        90,
+        103,
+        102,
+        100,
+        99,
+        70,
+        98,
+        97,
+        80,
+        58,
+        96,
+        111,
+        62,
+        95,
+        94,
+        93,
+        92,
+        89,
+        88,
+        87,
+        85,
+        57,
+        63,
+        79,
+        76,
+        75,
+        61,
+        107,
+        67,
+        71,
+        72,
+        68,
+        59,
+        112,
+        66,
+        65,
+        64,
+        86,
+        84
+      ]
+    },
+    "handwerk_91": {
+      "name": "Zupfinstrumentenmacher",
+      "handwerk_id": 91,
+      "location_count": 2,
+      "location_ids": [
+        105,
+        80
+      ]
+    },
+    "handwerk_17": {
+      "name": "Zweiradmechaniker",
+      "handwerk_id": 17,
+      "location_count": 8,
+      "location_ids": [
+        109,
+        103,
+        70,
+        97,
+        80,
+        63,
+        59,
+        86
+      ]
+    }
+  },
+  "location_index": {
+    "83": {
+      "name": "Handwerkskammer Braunschweig-Lüneburg-Stade",
+      "city": "Lüneburg",
+      "coordinates": {
+        "latitude": 52.2647633,
+        "longitude": 10.52361537
+      },
+      "categories": [
+        "handwerk_33",
+        "handwerk_96",
+        "handwerk_30",
+        "handwerk_4",
+        "handwerk_25",
+        "handwerk_16",
+        "handwerk_42",
+        "handwerk_38",
+        "handwerk_34",
+        "handwerk_19",
+        "handwerk_24",
+        "handwerk_20",
+        "handwerk_21",
+        "handwerk_10",
+        "handwerk_1",
+        "handwerk_13",
+        "handwerk_68",
+        "handwerk_8",
+        "handwerk_27",
+        "handwerk_3"
+      ]
+    },
+    "103": {
+      "name": "Handwerkskammer Dortmund",
+      "city": "Dortmund",
+      "coordinates": {
+        "latitude": 51.4880435,
+        "longitude": 7.45788639
+      },
+      "categories": [
+        "handwerk_33",
+        "handwerk_4",
+        "handwerk_25",
+        "handwerk_16",
+        "handwerk_42",
+        "handwerk_78",
+        "handwerk_38",
+        "handwerk_73",
+        "handwerk_11",
+        "handwerk_24",
+        "handwerk_20",
+        "handwerk_18",
+        "handwerk_10",
+        "handwerk_1",
+        "handwerk_60",
+        "handwerk_13",
+        "handwerk_35",
+        "handwerk_93",
+        "handwerk_8",
+        "handwerk_5",
+        "handwerk_9",
+        "handwerk_27",
+        "handwerk_37",
+        "handwerk_3",
+        "handwerk_17"
+      ]
+    },
+    "101": {
+      "name": "Handwerkskammer Düsseldorf",
+      "city": "Düsseldorf",
+      "coordinates": {
+        "latitude": 51.2067505,
+        "longitude": 6.7597173
+      },
+      "categories": [
+        "handwerk_33",
+        "handwerk_96",
+        "handwerk_30",
+        "handwerk_4",
+        "handwerk_25",
+        "handwerk_16",
+        "handwerk_32",
+        "handwerk_42",
+        "handwerk_38",
+        "handwerk_49",
+        "handwerk_73",
+        "handwerk_47",
+        "handwerk_94",
+        "handwerk_24",
+        "handwerk_15",
+        "handwerk_20",
+        "handwerk_18",
+        "handwerk_21",
+        "handwerk_10",
+        "handwerk_1",
+        "handwerk_60",
+        "handwerk_41",
+        "handwerk_50",
+        "handwerk_13",
+        "handwerk_48",
+        "handwerk_36",
+        "handwerk_35",
+        "handwerk_66",
+        "handwerk_5",
+        "handwerk_27",
+        "handwerk_37"
+      ]
+    },
+    "80": {
+      "name": "Handwerkskammer für München und Oberbayern",
+      "city": "München",
+      "coordinates": {
+        "latitude": 48.143271,
+        "longitude": 11.5704708
+      },
+      "categories": [
+        "handwerk_33",
+        "handwerk_69",
+        "handwerk_79",
+        "handwerk_30",
+        "handwerk_58",
+        "handwerk_22",
+        "handwerk_26",
+        "handwerk_25",
+        "handwerk_16",
+        "handwerk_42",
+        "handwerk_78",
+        "handwerk_38",
+        "handwerk_73",
+        "handwerk_87",
+        "handwerk_52",
+        "handwerk_86",
+        "handwerk_57",
+        "handwerk_90",
+        "handwerk_19",
+        "handwerk_24",
+        "handwerk_15",
+        "handwerk_85",
+        "handwerk_23",
+        "handwerk_31",
+        "handwerk_97",
+        "handwerk_20",
+        "handwerk_18",
+        "handwerk_21",
+        "handwerk_10",
+        "handwerk_1",
+        "handwerk_60",
+        "handwerk_50",
+        "handwerk_13",
+        "handwerk_89",
+        "handwerk_2",
+        "handwerk_84",
+        "handwerk_35",
+        "handwerk_93",
+        "handwerk_12",
+        "handwerk_29",
+        "handwerk_8",
+        "handwerk_5",
+        "handwerk_9",
+        "handwerk_27",
+        "handwerk_92",
+        "handwerk_37",
+        "handwerk_3",
+        "handwerk_91",
+        "handwerk_17"
+      ]
+    },
+    "96": {
+      "name": "Handwerkskammer für Ostthüringen",
+      "city": "Gera",
+      "coordinates": {
+        "latitude": 50.8813237,
+        "longitude": 12.0786216
+      },
+      "categories": [
+        "handwerk_33",
+        "handwerk_4",
+        "handwerk_25",
+        "handwerk_42",
+        "handwerk_38",
+        "handwerk_24",
+        "handwerk_20",
+        "handwerk_10",
+        "handwerk_1",
+        "handwerk_13",
+        "handwerk_27",
+        "handwerk_3"
+      ]
+    },
+    "93": {
+      "name": "Handwerkskammer Hannover",
+      "city": "Hannover",
+      "coordinates": {
+        "latitude": 52.377226,
+        "longitude": 9.7497365
+      },
+      "categories": [
+        "handwerk_33",
+        "handwerk_30",
+        "handwerk_56",
+        "handwerk_25",
+        "handwerk_16",
+        "handwerk_42",
+        "handwerk_38",
+        "handwerk_73",
+        "handwerk_39",
+        "handwerk_34",
+        "handwerk_24",
+        "handwerk_20",
+        "handwerk_18",
+        "handwerk_10",
+        "handwerk_1",
+        "handwerk_60",
+        "handwerk_13",
+        "handwerk_36",
+        "handwerk_35",
+        "handwerk_12",
+        "handwerk_61",
+        "handwerk_27",
+        "handwerk_37",
+        "handwerk_3"
+      ]
+    },
+    "89": {
+      "name": "Handwerkskammer Karlsruhe",
+      "city": "Karlsruhe",
+      "coordinates": {
+        "latitude": 49.0085848,
+        "longitude": 8.4012104
+      },
+      "categories": [
+        "handwerk_33",
+        "handwerk_30",
+        "handwerk_4",
+        "handwerk_25",
+        "handwerk_16",
+        "handwerk_32",
+        "handwerk_38",
+        "handwerk_49",
+        "handwerk_39",
+        "handwerk_52",
+        "handwerk_24",
+        "handwerk_15",
+        "handwerk_31",
+        "handwerk_20",
+        "handwerk_10",
+        "handwerk_1",
+        "handwerk_13",
+        "handwerk_27",
+        "handwerk_37",
+        "handwerk_3"
+      ]
+    },
+    "88": {
+      "name": "Handwerkskammer Kassel",
+      "city": "Kassel",
+      "coordinates": {
+        "latitude": 51.3161716,
+        "longitude": 9.4929906
+      },
+      "categories": [
+        "handwerk_33",
+        "handwerk_30",
+        "handwerk_4",
+        "handwerk_25",
+        "handwerk_16",
+        "handwerk_32",
+        "handwerk_42",
+        "handwerk_38",
+        "handwerk_90",
+        "handwerk_24",
+        "handwerk_85",
+        "handwerk_20",
+        "handwerk_21",
+        "handwerk_10",
+        "handwerk_1",
+        "handwerk_60",
+        "handwerk_13",
+        "handwerk_55",
+        "handwerk_84",
+        "handwerk_67",
+        "handwerk_5",
+        "handwerk_27",
+        "handwerk_3"
+      ]
+    },
+    "87": {
+      "name": "Handwerkskammer Koblenz",
+      "city": "Koblenz",
+      "coordinates": {
+        "latitude": 50.3547157,
+        "longitude": 7.5944583
+      },
+      "categories": [
+        "handwerk_33",
+        "handwerk_30",
+        "handwerk_4",
+        "handwerk_77",
+        "handwerk_25",
+        "handwerk_16",
+        "handwerk_32",
+        "handwerk_42",
+        "handwerk_38",
+        "handwerk_11",
+        "handwerk_52",
+        "handwerk_19",
+        "handwerk_24",
+        "handwerk_15",
+        "handwerk_83",
+        "handwerk_23",
+        "handwerk_31",
+        "handwerk_20",
+        "handwerk_18",
+        "handwerk_21",
+        "handwerk_10",
+        "handwerk_1",
+        "handwerk_60",
+        "handwerk_13",
+        "handwerk_8",
+        "handwerk_5",
+        "handwerk_9",
+        "handwerk_27",
+        "handwerk_3"
+      ]
+    },
+    "57": {
+      "name": "Handwerkskammer Lübeck",
+      "city": "Lübeck",
+      "coordinates": {
+        "latitude": 53.8706883,
+        "longitude": 10.6877537
+      },
+      "categories": [
+        "handwerk_33",
+        "handwerk_28",
+        "handwerk_30",
+        "handwerk_4",
+        "handwerk_25",
+        "handwerk_16",
+        "handwerk_42",
+        "handwerk_38",
+        "handwerk_39",
+        "handwerk_24",
+        "handwerk_15",
+        "handwerk_31",
+        "handwerk_20",
+        "handwerk_10",
+        "handwerk_1",
+        "handwerk_13",
+        "handwerk_12",
+        "handwerk_63",
+        "handwerk_27",
+        "handwerk_37",
+        "handwerk_3"
+      ]
+    },
+    "73": {
+      "name": "Handwerkskammer Potsdam",
+      "city": "Potsdam",
+      "coordinates": {
+        "latitude": 52.3995914,
+        "longitude": 13.0571681
+      },
+      "categories": [
+        "handwerk_33",
+        "handwerk_30",
+        "handwerk_4",
+        "handwerk_25",
+        "handwerk_38",
+        "handwerk_24",
+        "handwerk_31",
+        "handwerk_20",
+        "handwerk_21",
+        "handwerk_10",
+        "handwerk_1",
+        "handwerk_13",
+        "handwerk_12",
+        "handwerk_27"
+      ]
+    },
+    "86": {
+      "name": "Handwerkskammer zu Köln",
+      "city": "Köln",
+      "coordinates": {
+        "latitude": 50.9347427,
+        "longitude": 6.9609581
+      },
+      "categories": [
+        "handwerk_33",
+        "handwerk_30",
+        "handwerk_4",
+        "handwerk_25",
+        "handwerk_16",
+        "handwerk_42",
+        "handwerk_38",
+        "handwerk_39",
+        "handwerk_74",
+        "handwerk_52",
+        "handwerk_19",
+        "handwerk_24",
+        "handwerk_15",
+        "handwerk_31",
+        "handwerk_97",
+        "handwerk_20",
+        "handwerk_10",
+        "handwerk_1",
+        "handwerk_13",
+        "handwerk_53",
+        "handwerk_5",
+        "handwerk_9",
+        "handwerk_27",
+        "handwerk_37",
+        "handwerk_3",
+        "handwerk_17"
+      ]
+    },
+    "67": {
+      "name": "Handwerkskammer Region Stuttgart",
+      "city": "Stuttgart",
+      "coordinates": {
+        "latitude": 48.79039,
+        "longitude": 9.18009
+      },
+      "categories": [
+        "handwerk_45",
+        "handwerk_79",
+        "handwerk_30",
+        "handwerk_26",
+        "handwerk_25",
+        "handwerk_16",
+        "handwerk_42",
+        "handwerk_38",
+        "handwerk_49",
+        "handwerk_19",
+        "handwerk_24",
+        "handwerk_85",
+        "handwerk_23",
+        "handwerk_31",
+        "handwerk_20",
+        "handwerk_21",
+        "handwerk_10",
+        "handwerk_1",
+        "handwerk_60",
+        "handwerk_13",
+        "handwerk_68",
+        "handwerk_2",
+        "handwerk_84",
+        "handwerk_36",
+        "handwerk_67",
+        "handwerk_66",
+        "handwerk_93",
+        "handwerk_9",
+        "handwerk_27",
+        "handwerk_37",
+        "handwerk_3"
+      ]
+    },
+    "62": {
+      "name": "Handwerkskammer für Unterfranken",
+      "city": "Würzburg",
+      "coordinates": {
+        "latitude": 49.7954938,
+        "longitude": 9.9426173
+      },
+      "categories": [
+        "handwerk_96",
+        "handwerk_30",
+        "handwerk_56",
+        "handwerk_25",
+        "handwerk_16",
+        "handwerk_38",
+        "handwerk_52",
+        "handwerk_24",
+        "handwerk_15",
+        "handwerk_23",
+        "handwerk_20",
+        "handwerk_21",
+        "handwerk_10",
+        "handwerk_1",
+        "handwerk_13",
+        "handwerk_51",
+        "handwerk_12",
+        "handwerk_8",
+        "handwerk_5",
+        "handwerk_27",
+        "handwerk_46",
+        "handwerk_3"
+      ]
+    },
+    "64": {
+      "name": "Handwerkskammer Wiesbaden",
+      "city": "Wiesbaden",
+      "coordinates": {
+        "latitude": 50.0822242,
+        "longitude": 8.2558922
+      },
+      "categories": [
+        "handwerk_96",
+        "handwerk_4",
+        "handwerk_25",
+        "handwerk_16",
+        "handwerk_42",
+        "handwerk_38",
+        "handwerk_39",
+        "handwerk_52",
+        "handwerk_47",
+        "handwerk_24",
+        "handwerk_97",
+        "handwerk_20",
+        "handwerk_10",
+        "handwerk_1",
+        "handwerk_13",
+        "handwerk_54",
+        "handwerk_27",
+        "handwerk_70",
+        "handwerk_3"
+      ]
+    },
+    "105": {
+      "name": "Handwerkskammer Chemnitz",
+      "city": "Chemnitz",
+      "coordinates": {
+        "latitude": 50.83127,
+        "longitude": 12.87228
+      },
+      "categories": [
+        "handwerk_88",
+        "handwerk_30",
+        "handwerk_4",
+        "handwerk_56",
+        "handwerk_25",
+        "handwerk_16",
+        "handwerk_42",
+        "handwerk_38",
+        "handwerk_87",
+        "handwerk_39",
+        "handwerk_86",
+        "handwerk_90",
+        "handwerk_19",
+        "handwerk_24",
+        "handwerk_31",
+        "handwerk_97",
+        "handwerk_20",
+        "handwerk_18",
+        "handwerk_21",
+        "handwerk_10",
+        "handwerk_1",
+        "handwerk_13",
+        "handwerk_89",
+        "handwerk_5",
+        "handwerk_27",
+        "handwerk_3",
+        "handwerk_91"
+      ]
+    },
+    "60": {
+      "name": "Handwerkskammer Aachen",
+      "city": "Aachen",
+      "coordinates": {
+        "latitude": 50.7786562,
+        "longitude": 6.0880538
+      },
+      "categories": [
+        "handwerk_28",
+        "handwerk_30",
+        "handwerk_25",
+        "handwerk_16",
+        "handwerk_32",
+        "handwerk_38",
+        "handwerk_24",
+        "handwerk_20",
+        "handwerk_10",
+        "handwerk_1",
+        "handwerk_13",
+        "handwerk_62",
+        "handwerk_5",
+        "handwerk_27",
+        "handwerk_3"
+      ]
+    },
+    "94": {
+      "name": "Handwerkskammer Hamburg",
+      "city": "Hamburg",
+      "coordinates": {
+        "latitude": 53.55304,
+        "longitude": 9.97707
+      },
+      "categories": [
+        "handwerk_28",
+        "handwerk_16",
+        "handwerk_32",
+        "handwerk_42",
+        "handwerk_38",
+        "handwerk_73",
+        "handwerk_39",
+        "handwerk_15",
+        "handwerk_23",
+        "handwerk_97",
+        "handwerk_20",
+        "handwerk_10",
+        "handwerk_1",
+        "handwerk_13",
+        "handwerk_35",
+        "handwerk_54",
+        "handwerk_5",
+        "handwerk_27",
+        "handwerk_37",
+        "handwerk_3"
+      ]
+    },
+    "61": {
+      "name": "Handwerkskammer Ostmecklenburg-Vorpommern",
+      "city": "Rostock",
+      "coordinates": {
+        "latitude": 54.07581,
+        "longitude": 12.14113
+      },
+      "categories": [
+        "handwerk_28",
+        "handwerk_4",
+        "handwerk_25",
+        "handwerk_16",
+        "handwerk_38",
+        "handwerk_24",
+        "handwerk_20",
+        "handwerk_21",
+        "handwerk_10",
+        "handwerk_1",
+        "handwerk_13",
+        "handwerk_27",
+        "handwerk_3"
+      ]
+    },
+    "109": {
+      "name": "Handwerkskammer Berlin",
+      "city": "Berlin",
+      "coordinates": {
+        "latitude": 52.49623,
+        "longitude": 13.38985
+      },
+      "categories": [
+        "handwerk_69",
+        "handwerk_30",
+        "handwerk_4",
+        "handwerk_25",
+        "handwerk_16",
+        "handwerk_42",
+        "handwerk_78",
+        "handwerk_38",
+        "handwerk_73",
+        "handwerk_24",
+        "handwerk_15",
+        "handwerk_23",
+        "handwerk_31",
+        "handwerk_20",
+        "handwerk_10",
+        "handwerk_1",
+        "handwerk_13",
+        "handwerk_35",
+        "handwerk_53",
+        "handwerk_93",
+        "handwerk_65",
+        "handwerk_5",
+        "handwerk_9",
+        "handwerk_27",
+        "handwerk_37",
+        "handwerk_3",
+        "handwerk_17"
+      ]
+    },
+    "58": {
+      "name": "Handwerkskammer für Oberfranken",
+      "city": "Bayreuth",
+      "coordinates": {
+        "latitude": 49.9415141,
+        "longitude": 11.597829
+      },
+      "categories": [
+        "handwerk_69",
+        "handwerk_30",
+        "handwerk_25",
+        "handwerk_16",
+        "handwerk_32",
+        "handwerk_42",
+        "handwerk_38",
+        "handwerk_11",
+        "handwerk_24",
+        "handwerk_23",
+        "handwerk_31",
+        "handwerk_59",
+        "handwerk_97",
+        "handwerk_20",
+        "handwerk_21",
+        "handwerk_10",
+        "handwerk_1",
+        "handwerk_13",
+        "handwerk_67",
+        "handwerk_12",
+        "handwerk_27",
+        "handwerk_3"
+      ]
+    },
+    "65": {
+      "name": "Handwerkskammer Ulm",
+      "city": "Ulm",
+      "coordinates": {
+        "latitude": 48.4003487,
+        "longitude": 9.9861745
+      },
+      "categories": [
+        "handwerk_69",
+        "handwerk_30",
+        "handwerk_22",
+        "handwerk_25",
+        "handwerk_16",
+        "handwerk_42",
+        "handwerk_38",
+        "handwerk_52",
+        "handwerk_24",
+        "handwerk_23",
+        "handwerk_97",
+        "handwerk_20",
+        "handwerk_10",
+        "handwerk_1",
+        "handwerk_13",
+        "handwerk_53",
+        "handwerk_54",
+        "handwerk_12",
+        "handwerk_27",
+        "handwerk_43",
+        "handwerk_3"
+      ]
+    },
+    "76": {
+      "name": "Handwerkskammer Oldenburg",
+      "city": "Oldenburg",
+      "coordinates": {
+        "latitude": 53.14005,
+        "longitude": 8.2095998
+      },
+      "categories": [
+        "handwerk_7",
+        "handwerk_30",
+        "handwerk_26",
+        "handwerk_25",
+        "handwerk_16",
+        "handwerk_42",
+        "handwerk_38",
+        "handwerk_19",
+        "handwerk_24",
+        "handwerk_31",
+        "handwerk_97",
+        "handwerk_20",
+        "handwerk_10",
+        "handwerk_1",
+        "handwerk_13",
+        "handwerk_67",
+        "handwerk_27",
+        "handwerk_3"
+      ]
+    },
+    "63": {
+      "name": "Handwerkskammer Münster",
+      "city": "Münster",
+      "coordinates": {
+        "latitude": 51.95619,
+        "longitude": 7.61929
+      },
+      "categories": [
+        "handwerk_79",
+        "handwerk_22",
+        "handwerk_4",
+        "handwerk_25",
+        "handwerk_16",
+        "handwerk_32",
+        "handwerk_42",
+        "handwerk_38",
+        "handwerk_52",
+        "handwerk_24",
+        "handwerk_15",
+        "handwerk_23",
+        "handwerk_97",
+        "handwerk_20",
+        "handwerk_18",
+        "handwerk_21",
+        "handwerk_10",
+        "handwerk_1",
+        "handwerk_13",
+        "handwerk_2",
+        "handwerk_80",
+        "handwerk_67",
+        "handwerk_12",
+        "handwerk_8",
+        "handwerk_5",
+        "handwerk_9",
+        "handwerk_71",
+        "handwerk_27",
+        "handwerk_46",
+        "handwerk_37",
+        "handwerk_3",
+        "handwerk_17"
+      ]
+    },
+    "69": {
+      "name": "Handwerkskammer des Saarlandes",
+      "city": "Saarbrücken",
+      "coordinates": {
+        "latitude": 49.2348713,
+        "longitude": 6.983837
+      },
+      "categories": [
+        "handwerk_30",
+        "handwerk_4",
+        "handwerk_25",
+        "handwerk_16",
+        "handwerk_42",
+        "handwerk_38",
+        "handwerk_24",
+        "handwerk_31",
+        "handwerk_20",
+        "handwerk_10",
+        "handwerk_1",
+        "handwerk_13",
+        "handwerk_12",
+        "handwerk_5",
+        "handwerk_9",
+        "handwerk_27"
+      ]
+    },
+    "102": {
+      "name": "Handwerkskammer Dresden",
+      "city": "Dresden",
+      "coordinates": {
+        "latitude": 51.0836353,
+        "longitude": 13.7687615
+      },
+      "categories": [
+        "handwerk_30",
+        "handwerk_4",
+        "handwerk_25",
+        "handwerk_16",
+        "handwerk_42",
+        "handwerk_38",
+        "handwerk_73",
+        "handwerk_11",
+        "handwerk_52",
+        "handwerk_19",
+        "handwerk_24",
+        "handwerk_23",
+        "handwerk_97",
+        "handwerk_20",
+        "handwerk_21",
+        "handwerk_10",
+        "handwerk_1",
+        "handwerk_60",
+        "handwerk_13",
+        "handwerk_2",
+        "handwerk_36",
+        "handwerk_67",
+        "handwerk_54",
+        "handwerk_93",
+        "handwerk_8",
+        "handwerk_27",
+        "handwerk_46",
+        "handwerk_37",
+        "handwerk_3"
+      ]
+    },
+    "100": {
+      "name": "Handwerkskammer Erfurt",
+      "city": "Erfurt",
+      "coordinates": {
+        "latitude": 50.9782442,
+        "longitude": 11.0285934
+      },
+      "categories": [
+        "handwerk_30",
+        "handwerk_25",
+        "handwerk_38",
+        "handwerk_19",
+        "handwerk_24",
+        "handwerk_31",
+        "handwerk_20",
+        "handwerk_18",
+        "handwerk_10",
+        "handwerk_1",
+        "handwerk_13",
+        "handwerk_12",
+        "handwerk_27",
+        "handwerk_37",
+        "handwerk_3"
+      ]
+    },
+    "70": {
+      "name": "Handwerkskammer Frankfurt-Rhein-Main",
+      "city": "Frankfurt",
+      "coordinates": {
+        "latitude": 50.1160159,
+        "longitude": 8.6684255
+      },
+      "categories": [
+        "handwerk_30",
+        "handwerk_4",
+        "handwerk_56",
+        "handwerk_25",
+        "handwerk_16",
+        "handwerk_32",
+        "handwerk_38",
+        "handwerk_73",
+        "handwerk_11",
+        "handwerk_24",
+        "handwerk_15",
+        "handwerk_20",
+        "handwerk_18",
+        "handwerk_21",
+        "handwerk_10",
+        "handwerk_1",
+        "handwerk_60",
+        "handwerk_13",
+        "handwerk_36",
+        "handwerk_53",
+        "handwerk_80",
+        "handwerk_67",
+        "handwerk_93",
+        "handwerk_12",
+        "handwerk_65",
+        "handwerk_71",
+        "handwerk_27",
+        "handwerk_46",
+        "handwerk_6",
+        "handwerk_37",
+        "handwerk_3",
+        "handwerk_17"
+      ]
+    },
+    "97": {
+      "name": "Handwerkskammer Freiburg",
+      "city": "Freiburg",
+      "coordinates": {
+        "latitude": 47.9970221,
+        "longitude": 7.8425794
+      },
+      "categories": [
+        "handwerk_30",
+        "handwerk_25",
+        "handwerk_16",
+        "handwerk_32",
+        "handwerk_24",
+        "handwerk_31",
+        "handwerk_20",
+        "handwerk_21",
+        "handwerk_10",
+        "handwerk_1",
+        "handwerk_13",
+        "handwerk_93",
+        "handwerk_8",
+        "handwerk_27",
+        "handwerk_37",
+        "handwerk_3",
+        "handwerk_17"
+      ]
+    },
+    "77": {
+      "name": "Handwerkskammer für Mittelfranken",
+      "city": "Nürnberg",
+      "coordinates": {
+        "latitude": 49.4579172,
+        "longitude": 11.0908165
+      },
+      "categories": [
+        "handwerk_30",
+        "handwerk_95",
+        "handwerk_25",
+        "handwerk_44",
+        "handwerk_16",
+        "handwerk_42",
+        "handwerk_38",
+        "handwerk_49",
+        "handwerk_73",
+        "handwerk_24",
+        "handwerk_31",
+        "handwerk_20",
+        "handwerk_18",
+        "handwerk_64",
+        "handwerk_10",
+        "handwerk_1",
+        "handwerk_13",
+        "handwerk_53",
+        "handwerk_12",
+        "handwerk_9",
+        "handwerk_27",
+        "handwerk_6",
+        "handwerk_37"
+      ]
+    },
+    "85": {
+      "name": "Handwerkskammer Konstanz",
+      "city": "Konstanz",
+      "coordinates": {
+        "latitude": 47.6671753,
+        "longitude": 9.1740672
+      },
+      "categories": [
+        "handwerk_30",
+        "handwerk_14",
+        "handwerk_4",
+        "handwerk_25",
+        "handwerk_16",
+        "handwerk_42",
+        "handwerk_38",
+        "handwerk_47",
+        "handwerk_24",
+        "handwerk_23",
+        "handwerk_31",
+        "handwerk_20",
+        "handwerk_10",
+        "handwerk_1",
+        "handwerk_13",
+        "handwerk_48",
+        "handwerk_9",
+        "handwerk_27",
+        "handwerk_46",
+        "handwerk_3"
+      ]
+    },
+    "81": {
+      "name": "Handwerkskammer Mannheim - Rhein-Neckar-Odenwald",
+      "city": "Mannheim",
+      "coordinates": {
+        "latitude": 49.4857195,
+        "longitude": 8.4633038
+      },
+      "categories": [
+        "handwerk_30",
+        "handwerk_25",
+        "handwerk_16",
+        "handwerk_32",
+        "handwerk_42",
+        "handwerk_78",
+        "handwerk_38",
+        "handwerk_34",
+        "handwerk_24",
+        "handwerk_31",
+        "handwerk_20",
+        "handwerk_10",
+        "handwerk_1",
+        "handwerk_13",
+        "handwerk_35",
+        "handwerk_67",
+        "handwerk_9",
+        "handwerk_27"
+      ]
+    },
+    "79": {
+      "name": "Handwerkskammer Niederbayern-Oberpfalz",
+      "city": "Regensburg",
+      "coordinates": {
+        "latitude": 49.01413,
+        "longitude": 12.13751
+      },
+      "categories": [
+        "handwerk_30",
+        "handwerk_4",
+        "handwerk_25",
+        "handwerk_16",
+        "handwerk_32",
+        "handwerk_42",
+        "handwerk_38",
+        "handwerk_40",
+        "handwerk_39",
+        "handwerk_74",
+        "handwerk_24",
+        "handwerk_15",
+        "handwerk_83",
+        "handwerk_23",
+        "handwerk_31",
+        "handwerk_97",
+        "handwerk_20",
+        "handwerk_21",
+        "handwerk_10",
+        "handwerk_1",
+        "handwerk_13",
+        "handwerk_2",
+        "handwerk_36",
+        "handwerk_35",
+        "handwerk_67",
+        "handwerk_54",
+        "handwerk_66",
+        "handwerk_12",
+        "handwerk_27",
+        "handwerk_3"
+      ]
+    },
+    "112": {
+      "name": "Handwerkskammer Südwestfalen",
+      "city": "Arnsberg",
+      "coordinates": {
+        "latitude": 51.3962719,
+        "longitude": 8.0673283
+      },
+      "categories": [
+        "handwerk_30",
+        "handwerk_4",
+        "handwerk_25",
+        "handwerk_16",
+        "handwerk_42",
+        "handwerk_38",
+        "handwerk_24",
+        "handwerk_23",
+        "handwerk_31",
+        "handwerk_97",
+        "handwerk_20",
+        "handwerk_10",
+        "handwerk_1",
+        "handwerk_13",
+        "handwerk_5",
+        "handwerk_9",
+        "handwerk_27",
+        "handwerk_3"
+      ]
+    },
+    "106": {
+      "name": "Handwerkskammer Bremen",
+      "city": "Bremen",
+      "coordinates": {
+        "latitude": 53.0787389,
+        "longitude": 8.8028536
+      },
+      "categories": [
+        "handwerk_4",
+        "handwerk_25",
+        "handwerk_16",
+        "handwerk_38",
+        "handwerk_24",
+        "handwerk_20",
+        "handwerk_10",
+        "handwerk_1",
+        "handwerk_13",
+        "handwerk_27",
+        "handwerk_3"
+      ]
+    },
+    "104": {
+      "name": "Handwerkskammer Cottbus",
+      "city": "Cottbus",
+      "coordinates": {
+        "latitude": 51.7610123,
+        "longitude": 14.3352926
+      },
+      "categories": [
+        "handwerk_4",
+        "handwerk_25",
+        "handwerk_32",
+        "handwerk_42",
+        "handwerk_38",
+        "handwerk_73",
+        "handwerk_24",
+        "handwerk_15",
+        "handwerk_23",
+        "handwerk_20",
+        "handwerk_10",
+        "handwerk_1",
+        "handwerk_13",
+        "handwerk_35",
+        "handwerk_5",
+        "handwerk_9",
+        "handwerk_27",
+        "handwerk_3"
+      ]
+    },
+    "90": {
+      "name": "Handwerkskammer der Pfalz",
+      "city": "Kaiserslautern",
+      "coordinates": {
+        "latitude": 49.44413,
+        "longitude": 7.76862
+      },
+      "categories": [
+        "handwerk_4",
+        "handwerk_25",
+        "handwerk_16",
+        "handwerk_42",
+        "handwerk_38",
+        "handwerk_19",
+        "handwerk_24",
+        "handwerk_15",
+        "handwerk_20",
+        "handwerk_21",
+        "handwerk_10",
+        "handwerk_1",
+        "handwerk_13",
+        "handwerk_12",
+        "handwerk_8",
+        "handwerk_5",
+        "handwerk_27",
+        "handwerk_3"
+      ]
+    },
+    "95": {
+      "name": "Handwerkskammer Halle (Saale)",
+      "city": "Halle (Saale)",
+      "coordinates": {
+        "latitude": 51.4733282,
+        "longitude": 11.9712752
+      },
+      "categories": [
+        "handwerk_4",
+        "handwerk_25",
+        "handwerk_42",
+        "handwerk_38",
+        "handwerk_73",
+        "handwerk_34",
+        "handwerk_24",
+        "handwerk_20",
+        "handwerk_10",
+        "handwerk_1",
+        "handwerk_13",
+        "handwerk_27",
+        "handwerk_3"
+      ]
+    },
+    "75": {
+      "name": "Handwerkskammer Osnabrück-Emsland-Grafschaft Bentheim",
+      "city": "Osnabrück",
+      "coordinates": {
+        "latitude": 52.2908441,
+        "longitude": 8.0394277
+      },
+      "categories": [
+        "handwerk_4",
+        "handwerk_25",
+        "handwerk_16",
+        "handwerk_42",
+        "handwerk_38",
+        "handwerk_24",
+        "handwerk_15",
+        "handwerk_20",
+        "handwerk_21",
+        "handwerk_10",
+        "handwerk_1",
+        "handwerk_13",
+        "handwerk_27",
+        "handwerk_3"
+      ]
+    },
+    "107": {
+      "name": "Handwerkskammer Ostwestfalen-Lippe zu Bielefeld",
+      "city": "Bielefeld",
+      "coordinates": {
+        "latitude": 52.0321899,
+        "longitude": 8.5353898
+      },
+      "categories": [
+        "handwerk_4",
+        "handwerk_25",
+        "handwerk_16",
+        "handwerk_38",
+        "handwerk_24",
+        "handwerk_31",
+        "handwerk_97",
+        "handwerk_20",
+        "handwerk_10",
+        "handwerk_1",
+        "handwerk_13",
+        "handwerk_5",
+        "handwerk_27",
+        "handwerk_3"
+      ]
+    },
+    "72": {
+      "name": "Handwerkskammer Rheinhessen",
+      "city": "Mainz",
+      "coordinates": {
+        "latitude": 49.9942144,
+        "longitude": 8.278346
+      },
+      "categories": [
+        "handwerk_4",
+        "handwerk_25",
+        "handwerk_16",
+        "handwerk_42",
+        "handwerk_38",
+        "handwerk_34",
+        "handwerk_24",
+        "handwerk_20",
+        "handwerk_10",
+        "handwerk_1",
+        "handwerk_13",
+        "handwerk_27",
+        "handwerk_3"
+      ]
+    },
+    "84": {
+      "name": "Handwerkskammer zu Leipzig",
+      "city": "Leipzig",
+      "coordinates": {
+        "latitude": 51.3406321,
+        "longitude": 12.3747329
+      },
+      "categories": [
+        "handwerk_4",
+        "handwerk_25",
+        "handwerk_32",
+        "handwerk_42",
+        "handwerk_38",
+        "handwerk_24",
+        "handwerk_15",
+        "handwerk_97",
+        "handwerk_20",
+        "handwerk_10",
+        "handwerk_1",
+        "handwerk_13",
+        "handwerk_12",
+        "handwerk_27",
+        "handwerk_6",
+        "handwerk_3"
+      ]
+    },
+    "66": {
+      "name": "Handwerkskammer Trier",
+      "city": "Trier",
+      "coordinates": {
+        "latitude": 49.77548,
+        "longitude": 6.68096
+      },
+      "categories": [
+        "handwerk_26",
+        "handwerk_25",
+        "handwerk_16",
+        "handwerk_38",
+        "handwerk_24",
+        "handwerk_20",
+        "handwerk_10",
+        "handwerk_1",
+        "handwerk_13",
+        "handwerk_27",
+        "handwerk_37",
+        "handwerk_3"
+      ]
+    },
+    "99": {
+      "name": "Handwerkskammer Flensburg",
+      "city": "Flensburg",
+      "coordinates": {
+        "latitude": 54.78424,
+        "longitude": 9.44015
+      },
+      "categories": [
+        "handwerk_25",
+        "handwerk_16",
+        "handwerk_78",
+        "handwerk_38",
+        "handwerk_19",
+        "handwerk_24",
+        "handwerk_20",
+        "handwerk_21",
+        "handwerk_10",
+        "handwerk_1",
+        "handwerk_13",
+        "handwerk_12",
+        "handwerk_27",
+        "handwerk_3"
+      ]
+    },
+    "98": {
+      "name": "Handwerkskammer Frankfurt/Oder - Region Ostbrandenburg",
+      "city": "Frankfurt (Oder)",
+      "coordinates": {
+        "latitude": 52.3387057,
+        "longitude": 14.5460757
+      },
+      "categories": [
+        "handwerk_25",
+        "handwerk_38",
+        "handwerk_24",
+        "handwerk_97",
+        "handwerk_20",
+        "handwerk_10",
+        "handwerk_1",
+        "handwerk_13",
+        "handwerk_5",
+        "handwerk_27",
+        "handwerk_3"
+      ]
+    },
+    "110": {
+      "name": "Handwerkskammer für Ostfriesland",
+      "city": "Aurich",
+      "coordinates": {
+        "latitude": 53.4779058,
+        "longitude": 7.4857161
+      },
+      "categories": [
+        "handwerk_25",
+        "handwerk_16",
+        "handwerk_38",
+        "handwerk_24",
+        "handwerk_20",
+        "handwerk_10",
+        "handwerk_1",
+        "handwerk_13",
+        "handwerk_27"
+      ]
+    },
+    "111": {
+      "name": "Handwerkskammer für Schwaben",
+      "city": "Augsburg",
+      "coordinates": {
+        "latitude": 48.34925,
+        "longitude": 10.91752
+      },
+      "categories": [
+        "handwerk_25",
+        "handwerk_16",
+        "handwerk_32",
+        "handwerk_38",
+        "handwerk_24",
+        "handwerk_23",
+        "handwerk_20",
+        "handwerk_21",
+        "handwerk_10",
+        "handwerk_1",
+        "handwerk_13",
+        "handwerk_12",
+        "handwerk_27",
+        "handwerk_72",
+        "handwerk_3"
+      ]
+    },
+    "92": {
+      "name": "Handwerkskammer Heilbronn-Franken",
+      "city": "Heilbronn",
+      "coordinates": {
+        "latitude": 49.1453152,
+        "longitude": 9.2238833
+      },
+      "categories": [
+        "handwerk_25",
+        "handwerk_16",
+        "handwerk_38",
+        "handwerk_24",
+        "handwerk_15",
+        "handwerk_20",
+        "handwerk_21",
+        "handwerk_13",
+        "handwerk_9",
+        "handwerk_27",
+        "handwerk_70",
+        "handwerk_3"
+      ]
+    },
+    "91": {
+      "name": "Handwerkskammer Hildesheim-Südniedersachsen",
+      "city": "Hildesheim",
+      "coordinates": {
+        "latitude": 52.1483495,
+        "longitude": 9.9587583
+      },
+      "categories": [
+        "handwerk_25",
+        "handwerk_38",
+        "handwerk_24",
+        "handwerk_20",
+        "handwerk_10",
+        "handwerk_1",
+        "handwerk_13",
+        "handwerk_27"
+      ]
+    },
+    "82": {
+      "name": "Handwerkskammer Magdeburg",
+      "city": "Magdeburg",
+      "coordinates": {
+        "latitude": 52.14110075,
+        "longitude": 11.639562
+      },
+      "categories": [
+        "handwerk_25",
+        "handwerk_38",
+        "handwerk_11",
+        "handwerk_24",
+        "handwerk_20",
+        "handwerk_10",
+        "handwerk_1",
+        "handwerk_13",
+        "handwerk_27"
+      ]
+    },
+    "71": {
+      "name": "Handwerkskammer Reutlingen",
+      "city": "Reutlingen",
+      "coordinates": {
+        "latitude": 48.48591,
+        "longitude": 9.20589
+      },
+      "categories": [
+        "handwerk_25",
+        "handwerk_16",
+        "handwerk_38",
+        "handwerk_73",
+        "handwerk_24",
+        "handwerk_20",
+        "handwerk_10",
+        "handwerk_60",
+        "handwerk_13",
+        "handwerk_89",
+        "handwerk_67",
+        "handwerk_5",
+        "handwerk_27",
+        "handwerk_3"
+      ]
+    },
+    "68": {
+      "name": "Handwerkskammer Schwerin",
+      "city": "Schwerin",
+      "coordinates": {
+        "latitude": 53.62941,
+        "longitude": 11.40348
+      },
+      "categories": [
+        "handwerk_25",
+        "handwerk_42",
+        "handwerk_38",
+        "handwerk_24",
+        "handwerk_20",
+        "handwerk_10",
+        "handwerk_1",
+        "handwerk_13",
+        "handwerk_2",
+        "handwerk_8",
+        "handwerk_5",
+        "handwerk_27",
+        "handwerk_3"
+      ]
+    },
+    "59": {
+      "name": "Handwerkskammer Südthüringen",
+      "city": "Suhl",
+      "coordinates": {
+        "latitude": 50.6052828,
+        "longitude": 10.6853384
+      },
+      "categories": [
+        "handwerk_25",
+        "handwerk_16",
+        "handwerk_32",
+        "handwerk_38",
+        "handwerk_40",
+        "handwerk_57",
+        "handwerk_24",
+        "handwerk_15",
+        "handwerk_20",
+        "handwerk_21",
+        "handwerk_10",
+        "handwerk_1",
+        "handwerk_13",
+        "handwerk_27",
+        "handwerk_3",
+        "handwerk_17"
+      ]
+    }
+  },
+  "stats": {
+    "total_categories": 93,
+    "total_locations": 53
+  }
+}

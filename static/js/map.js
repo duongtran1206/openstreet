@@ -37,11 +37,14 @@ class BusinessMapViewer {
             // Load location data
             await this.loadData();
             
-            // Setup layer controls
-            this.setupLayerControls();
+            // Setup layer controls - DISABLED (using 3-tier controls instead)
+            // this.setupLayerControls();
             
             // Setup additional controls
             this.setupAdditionalControls();
+            
+            // Initialize 3-Tier Hierarchical Controls
+            this.setup3TierControls();
             
             console.log('Map initialized successfully');
             
@@ -222,7 +225,7 @@ class BusinessMapViewer {
         
         controlsContainer.innerHTML = html;
         
-        // Add event listeners
+        // Add event listeners for layer checkboxes
         this.categories.forEach(category => {
             const checkbox = document.getElementById(`layer-${category.id}`);
             if (checkbox) {
@@ -231,6 +234,98 @@ class BusinessMapViewer {
                 });
             }
         });
+        
+        // Add event listeners for select/deselect all buttons - ensure DOM is ready
+        this.setupLayerControlButtons();
+    }
+    
+    setupLayerControlButtons() {
+        console.log('Setting up layer control buttons...');
+        
+        // Wait a bit to ensure DOM is fully loaded
+        setTimeout(() => {
+            const selectAllBtn = document.getElementById('select-all-layers');
+            const deselectAllBtn = document.getElementById('deselect-all-layers');
+            
+            console.log('Select All button:', selectAllBtn);
+            console.log('Deselect All button:', deselectAllBtn);
+            
+            if (selectAllBtn) {
+                // Remove existing onclick to avoid conflicts
+                selectAllBtn.removeAttribute('onclick');
+                
+                // Add new event listener
+                selectAllBtn.addEventListener('click', (e) => {
+                    e.preventDefault();
+                    console.log('JavaScript: Select All clicked');
+                    this.selectAllLayers(true);
+                });
+                console.log('✅ Select All button event listener added');
+            } else {
+                console.error('❌ Select All button not found!');
+            }
+            
+            if (deselectAllBtn) {
+                // Remove existing onclick to avoid conflicts
+                deselectAllBtn.removeAttribute('onclick');
+                
+                // Add new event listener  
+                deselectAllBtn.addEventListener('click', (e) => {
+                    e.preventDefault();
+                    console.log('JavaScript: Deselect All clicked');
+                    this.selectAllLayers(false);
+                });
+                console.log('✅ Deselect All button event listener added');
+            } else {
+                console.error('❌ Deselect All button not found!');
+            }
+        }, 200);
+    }
+    
+    selectAllLayers(select = true) {
+        console.log(`selectAllLayers called with select=${select}`);
+        console.log('Available categories:', this.categories);
+        
+        // Find all layer checkboxes directly
+        const allCheckboxes = document.querySelectorAll('input[id^="layer-"');
+        console.log('Found checkboxes:', allCheckboxes.length);
+        
+        allCheckboxes.forEach(checkbox => {
+            console.log(`Setting checkbox ${checkbox.id} to ${select}`);
+            checkbox.checked = select;
+            
+            // Extract category ID from checkbox ID (format: "layer-{categoryId}")
+            const categoryId = parseInt(checkbox.id.replace('layer-', ''));
+            if (!isNaN(categoryId)) {
+                this.toggleLayer(categoryId, select);
+            }
+        });
+        
+        // Alternative: use this.categories if available
+        if (this.categories && this.categories.length > 0) {
+            this.categories.forEach(category => {
+                const checkbox = document.getElementById(`layer-${category.id}`);
+                if (checkbox) {
+                    checkbox.checked = select;
+                    this.toggleLayer(category.id, select);
+                }
+            });
+        }
+        
+        // Optional: Show notification
+        const action = select ? 'selected' : 'deselected';
+        console.log(`All layers ${action}`);
+    }
+    
+    // Global test functions for console debugging
+    testSelectAll() {
+        console.log('Testing Select All...');
+        this.selectAllLayers(true);
+    }
+    
+    testDeselectAll() {
+        console.log('Testing Deselect All...');
+        this.selectAllLayers(false);
     }
     
     setupAdditionalControls() {
@@ -248,7 +343,7 @@ class BusinessMapViewer {
             const div = L.DomUtil.create('div', 'leaflet-control-custom');
             div.innerHTML = `
                 <button onclick="businessMap.fitMapToMarkers()" title="Fit to all locations">
-                    📍 Fit All
+                    Fit All
                 </button>
             `;
             div.style.backgroundColor = 'white';
@@ -363,7 +458,101 @@ class BusinessMapViewer {
             this.showCategory(category.id);
         });
     }
+    
+    setup3TierControls() {
+        // Check if HierarchicalMapControls is available
+        if (typeof HierarchicalMapControls !== 'undefined') {
+            console.log('Initializing 3-Tier Hierarchical Controls...');
+            
+            // Clear old layer groups to prevent conflicts
+            this.clearOldLayers();
+            
+            // Initialize the hierarchical controls
+            this.hierarchicalControls = new HierarchicalMapControls(this.map, {
+                position: 'topright',
+                apiEndpoint: '/api/hierarchical/locations/',
+                domainsEndpoint: '/api/hierarchical/domains/',
+                autoLoad: true,
+                collapsible: true,
+                showStats: true
+            });
+            
+            console.log('3-Tier Controls initialized successfully');
+        } else {
+            console.warn('HierarchicalMapControls not found. Make sure hierarchical-controls.js is loaded.');
+        }
+    }
+    
+    clearOldLayers() {
+        // Remove all old layer groups from the map
+        Object.values(this.layerGroups).forEach(group => {
+            if (group && this.map.hasLayer(group)) {
+                this.map.removeLayer(group);
+            }
+        });
+        
+        // Clear the layer groups object
+        this.layerGroups = {};
+        
+        console.log('Old layer groups cleared for 3-tier controls');
+    }
+    
+    // Public method to get hierarchical controls
+    getHierarchicalControls() {
+        return this.hierarchicalControls;
+    }
+    
+    // Method to toggle between regular and hierarchical mode
+    toggleHierarchicalMode(enable = true) {
+        if (!this.hierarchicalControls) {
+            console.warn('Hierarchical controls not available');
+            return;
+        }
+        
+        if (enable) {
+            // Hide regular layer controls if they exist
+            if (this.layerControl) {
+                this.map.removeControl(this.layerControl);
+            }
+            
+            console.log('Switched to Hierarchical mode');
+        } else {
+            // Destroy hierarchical controls
+            if (this.hierarchicalControls) {
+                this.hierarchicalControls.destroy();
+                this.hierarchicalControls = null;
+            }
+            
+            // Re-add regular layer controls - DISABLED (using 3-tier only)
+            // this.setupLayerControls();
+            
+            console.log('Switched to Regular mode');
+        }
+    }
 }
 
 // Global functions for external access
 window.BusinessMapViewer = BusinessMapViewer;
+
+// Initialize when DOM is ready
+document.addEventListener('DOMContentLoaded', function() {
+    const mapViewer = new BusinessMapViewer();
+    
+    // Make it globally accessible for debugging
+    window.mapViewer = mapViewer;
+    
+    // Also make the select/deselect functions globally accessible
+    window.selectAllLayers = (select = true) => {
+        console.log('Global function called:', select ? 'Select All' : 'Deselect All');
+        if (mapViewer && typeof mapViewer.selectAllLayers === 'function') {
+            mapViewer.selectAllLayers(select);
+        }
+    };
+    
+    window.testButtons = () => {
+        console.log('Testing button functionality...');
+        console.log('Map viewer:', window.mapViewer);
+        console.log('Categories:', window.mapViewer?.categories);
+        console.log('Layer groups:', window.mapViewer?.layerGroups);
+    };
+});

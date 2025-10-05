@@ -1,8 +1,14 @@
 {% extends 'maps/base.html' %}
+{% load static %}
 
 {% block title %}Business Map - Interactive Location Viewer{% endblock %}
 
+{% block extra_css %}
+<link rel="stylesheet" href="{% static 'css/hierarchical-controls.css' %}">
+{% endblock %}
+
 {% block extra_js %}
+<script src="{% static 'js/hierarchical-controls.js' %}"></script>
 <script>
 document.addEventListener('DOMContentLoaded', function() {
     // Initialize map
@@ -15,6 +21,10 @@ document.addEventListener('DOMContentLoaded', function() {
     
     // Initialize the business map
     window.businessMap = new BusinessMapViewer('map', mapConfig);
+    
+
 });
+
+
 </script>
 {% endblock %}

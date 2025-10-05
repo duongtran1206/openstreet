@@ -1,0 +1,70 @@
+{
+  "data_sources": {
+    "handwerkskammern": {
+      "name": "German Handwerkskammern",
+      "description": "Craft chambers of commerce in Germany",
+      "category": "Professional Organizations",
+      "url": "https://www.zdh.de/ueber-uns/organisationen-des-handwerks/handwerkskammern/deutschlandkarte-der-handwerkskammern/wwt3listmap.json?contentUid=19735&cHash=a097bae8dbb5bedcef25ebaea9e5bcc8",
+      "type": "json_nested",
+      "data_path": "lists.locations.$items",
+      "color": "#FF6B6B",
+      "icon": "🏭",
+      "country": "Germany",
+      "language": "de",
+      "fields_mapping": {
+        "name": "title",
+        "latitude": "latitude",
+        "longitude": "longitude",
+        "address": "adresse.address",
+        "city": "adresse.city",
+        "postal_code": "adresse.zip",
+        "phone": "adresse.phone",
+        "website": "adresse.www",
+        "detail_url": "detailUrl"
+      },
+      "enabled": true,
+      "last_updated": "2025-10-05T11:19:49.055997",
+      "total_records": 1
+    },
+    "caritas": {
+      "name": "Caritas Germany",
+      "description": "Catholic charity organization services in Germany",
+      "category": "Social Services",
+      "url": "https://www.caritas.de/Services/MappingService.svc/GetMapContents/ec7e69ee-35b9-45b9-b081-fc7a191a76c0/?datasource=80c48846275643e0b82b83465979eb70&page=0&pagesize=50",
+      "type": "paginated_api",
+      "color": "#4ECDC4",
+      "icon": "🏥",
+      "country": "Germany",
+      "language": "de",
+      "pagination": {
+        "page_param": "page",
+        "pagesize_param": "pagesize",
+        "max_per_page": 50,
+        "total_count_field": "TotalCount",
+        "page_count_field": "PageCount",
+        "content_field": "Contents"
+      },
+      "fields_mapping": {
+        "name": "Title",
+        "latitude": "Latitude",
+        "longitude": "Longitude",
+        "content_id": "ContentID",
+        "popup": "Popup",
+        "contents": "Contents"
+      },
+      "enabled": true,
+      "last_updated": "2025-10-05T11:29:36.038351",
+      "total_records": 100
+    }
+  },
+  "database_config": {
+    "clear_before_import": false,
+    "batch_size": 100,
+    "validate_coordinates": true,
+    "min_latitude": 47.0,
+    "max_latitude": 55.5,
+    "min_longitude": 5.5,
+    "max_longitude": 15.5,
+    "default_country": "Germany"
+  }
+}

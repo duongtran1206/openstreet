@@ -1,9 +1,15 @@
 from django.contrib import admin
 from django.utils.html import format_html
-from .models import Category, Location, MapConfiguration
+from .models import MapConfiguration
 
-@admin.register(Category)
-class CategoryAdmin(admin.ModelAdmin):
+# Import hierarchical admin - this will replace existing admins
+from .hierarchical_admin import *
+
+# Keep MapConfiguration admin here
+# Category and Location admins are now in hierarchical_admin.py
+
+# @admin.register(Category)  # Commented out - moved to hierarchical_admin
+class CategoryAdminLegacy(admin.ModelAdmin):
     list_display = ['name', 'slug', 'color_preview', 'icon', 'location_count', 'is_active', 'created_at']
     list_filter = ['is_active', 'created_at']
     search_fields = ['name', 'description']
@@ -21,8 +27,8 @@ class CategoryAdmin(admin.ModelAdmin):
         return obj.locations.filter(is_active=True).count()
     location_count.short_description = 'Active Locations'
 
-@admin.register(Location)
-class LocationAdmin(admin.ModelAdmin):
+# @admin.register(Location)  # Commented out - moved to hierarchical_admin
+class LocationAdminLegacy(admin.ModelAdmin):
     list_display = [
         'name', 'category', 'city', 'country', 
         'coordinates_display', 'is_active', 'featured', 'created_at'

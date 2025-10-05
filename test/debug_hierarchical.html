@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Debug Hierarchical Controls</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <link rel="stylesheet" href="/static/css/hierarchical-controls.css" />
+    <style>
+        body { margin: 20px; font-family: Arial, sans-serif; }
+        #debug { background: #f0f0f0; padding: 20px; margin-bottom: 20px; }
+        #map { height: 400px; width: 100%; border: 2px solid #ccc; }
+    </style>
+</head>
+<body>
+    <div id="debug">
+        <h3>🔍 Debug Hierarchical Controls</h3>
+        <p>Kiểm tra xem location list có hiển thị không...</p>
+        <button onclick="testLocationList()">Test Location List</button>
+        <div id="debug-output"></div>
+    </div>
+    
+    <div id="map"></div>
+
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script src="/static/js/hierarchical-controls.js"></script>
+    
+    <script>
+        // Initialize map
+        const map = L.map('map').setView([51.505, -0.09], 13);
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png').addTo(map);
+
+        // Initialize controls
+        const controls = new HierarchicalMapControls(map, {
+            position: 'topright',
+            apiEndpoint: '/api/hierarchical/locations/',
+            domainsEndpoint: '/api/hierarchical/domains/',
+            categoriesEndpoint: '/api/hierarchical/categories/',
+            showStats: true,
+            autoCollapse: false
+        });
+
+        controls.addToMap();
+        
+        // Global access
+        window.mapControls = controls;
+        window.leafletMap = map;
+
+        function testLocationList() {
+            const output = document.getElementById('debug-output');
+            
+            // Check if controls exist
+            const controlsEl = document.querySelector('.hierarchical-controls');
+            const locationSection = document.querySelector('.location-section');
+            const locationList = document.querySelector('.location-list');
+            
+            let debug = '<h4>Debug Results:</h4>';
+            debug += `<p>✅ Controls container: ${controlsEl ? 'Found' : 'NOT Found'}</p>`;
+            debug += `<p>✅ Location section: ${locationSection ? 'Found' : 'NOT Found'}</p>`;
+            debug += `<p>✅ Location list: ${locationList ? 'Found' : 'NOT Found'}</p>`;
+            
+            if (locationSection) {
+                debug += `<p>📋 Location section HTML:</p><pre>${locationSection.outerHTML}</pre>`;
+            }
+            
+            if (window.mapControls) {
+                debug += `<p>🎯 Visible locations: ${window.mapControls.visibleLocations.size}</p>`;
+                debug += `<p>🎯 Total locations: ${window.mapControls.locations.size}</p>`;
+                debug += `<p>🎯 Selected domain: ${window.mapControls.selectedDomain}</p>`;
+                debug += `<p>🎯 Selected categories: ${window.mapControls.selectedCategories.size}</p>`;
+            }
+            
+            output.innerHTML = debug;
+        }
+
+        // Auto-test after 3 seconds
+        setTimeout(() => {
+            controls.loadDomains();
+            setTimeout(testLocationList, 2000);
+        }, 1000);
+        
+        console.log('Debug page loaded');
+    </script>
+</body>
+</html>

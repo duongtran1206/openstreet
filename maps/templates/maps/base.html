@@ -44,18 +44,6 @@
             width: 100%; 
         }
         
-        .map-controls {
-            position: absolute;
-            top: 10px;
-            right: 10px;
-            background: white;
-            padding: 15px;
-            border-radius: 8px;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.2);
-            z-index: 1000;
-            max-width: 250px;
-        }
-        
         .control-group {
             margin-bottom: 15px;
         }
@@ -109,6 +97,34 @@
             background: #f0f0f0;
             padding: 2px 6px;
             border-radius: 10px;
+        }
+        
+        .layer-control-buttons {
+            display: flex;
+            gap: 5px;
+            margin-bottom: 10px;
+        }
+        
+        .control-btn {
+            flex: 1;
+            padding: 6px 8px;
+            border: 1px solid #ddd;
+            background: #f8f9fa;
+            color: #333;
+            border-radius: 4px;
+            font-size: 11px;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+        
+        .control-btn:hover {
+            background: #e9ecef;
+            border-color: #adb5bd;
+        }
+        
+        .control-btn:active {
+            background: #dee2e6;
+            transform: translateY(1px);
         }
         
         .loading {
@@ -168,12 +184,6 @@
         }
         
         @media (max-width: 768px) {
-            .map-controls {
-                position: static;
-                margin: 10px;
-                max-width: none;
-            }
-            
             .map-container {
                 height: var(--mobile-map-height, 400px);
             }
@@ -183,32 +193,26 @@
 <body>
     {% block header %}
     <header style="background: #2c3e50; color: white; padding: 1rem;">
-        <h1 style="margin: 0;">{% block header_title %}Business Locations Map{% endblock %}</h1>
-        <p style="margin: 0.5rem 0 0 0; opacity: 0.8;">{% block header_subtitle %}Interactive map showing our business locations{% endblock %}</p>
+        <div style="display: flex; justify-content: space-between; align-items: center;">
+            <div>
+                <h1 style="margin: 0;">{% block header_title %}Multi-Source Locations Map{% endblock %}</h1>
+                <p style="margin: 0.5rem 0 0 0; opacity: 0.8;">{% block header_subtitle %}Interactive map with data from multiple sources{% endblock %}</p>
+            </div>
+            <nav style="display: flex; gap: 1rem;">
+                <a href="{% url 'map_view' %}" style="color: white; text-decoration: none; padding: 0.5rem 1rem; border: 1px solid rgba(255,255,255,0.3); border-radius: 4px;">
+                    Map
+                </a>
+                <a href="{% url 'data_collection' %}" style="color: white; text-decoration: none; padding: 0.5rem 1rem; border: 1px solid rgba(255,255,255,0.3); border-radius: 4px;">
+                    Data Collection
+                </a>
+            </nav>
+        </div>
     </header>
     {% endblock %}
     
     <main>
         {% block content %}
         <div class="map-container">
-            {% block map_controls %}
-            <div class="map-controls">
-                <div class="control-group">
-                    <h4>Map Layers</h4>
-                    <div id="layer-controls">
-                        <div class="loading">Loading...</div>
-                    </div>
-                </div>
-                
-                <div class="control-group">
-                    <label>
-                        <input type="checkbox" id="featured-only"> 
-                        Featured locations only
-                    </label>
-                </div>
-            </div>
-            {% endblock %}
-            
             <div id="map"></div>
         </div>
         {% endblock %}

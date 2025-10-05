@@ -1,0 +1,185 @@
+[
+  {
+    "model": "maps.domain",
+    "fields": {
+      "domain_id": "caritas_deutschland",
+      "name": "Caritas Deutschland",
+      "description": "Caritas Deutschland - Soziale Dienste und Migrationsberatung",
+      "country": "Germany",
+      "language": "de",
+      "color_scheme": "caritas_red",
+      "icon": "Caritas",
+      "is_active": true,
+      "featured": true,
+      "source_url": "https://www.caritas.de",
+      "last_updated": "2025-10-05T14:28:09.077920",
+      "created_at": "2025-10-05T14:28:09.077920"
+    }
+  },
+  {
+    "model": "maps.hierarchicalcategory",
+    "fields": {
+      "category_id": "caritas_jugendmigrationsdienst",
+      "name": "Jugendmigrationsdienst",
+      "domain_id": "caritas_deutschland",
+      "color": "#FF6B6B",
+      "icon": "Jugend",
+      "description": "Caritas Jugendmigrationsdienst Services",
+      "is_active": true,
+      "source_identifier": "jugendmigrationsdienst"
+    }
+  },
+  {
+    "model": "maps.hierarchicalcategory",
+    "fields": {
+      "category_id": "caritas_migrationsberatung_fuer_erwachsene",
+      "name": "Migrationsberatung für Erwachsene",
+      "domain_id": "caritas_deutschland",
+      "color": "#4ECDC4",
+      "icon": "Erwachsene",
+      "description": "Caritas Migrationsberatung für Erwachsene Services",
+      "is_active": true,
+      "source_identifier": "migrationsberatung_fuer_erwachsene"
+    }
+  },
+  {
+    "model": "maps.hierarchicalcategory",
+    "fields": {
+      "category_id": "caritas_migrationsberatung",
+      "name": "Migrationsberatung",
+      "domain_id": "caritas_deutschland",
+      "color": "#45B7D1",
+      "icon": "Beratung",
+      "description": "Caritas Migrationsberatung Services",
+      "is_active": true,
+      "source_identifier": "migrationsberatung"
+    }
+  },
+  {
+    "model": "maps.hierarchicalcategory",
+    "fields": {
+      "category_id": "caritas_gemeinwesenorientierte_arbeit",
+      "name": "Gemeinwesenorientierte Arbeit",
+      "domain_id": "caritas_deutschland",
+      "color": "#96CEB4",
+      "icon": "Gemeinwesen",
+      "description": "Caritas Gemeinwesenorientierte Arbeit Services",
+      "is_active": true,
+      "source_identifier": "gemeinwesenorientierte_arbeit"
+    }
+  },
+  {
+    "model": "maps.hierarchicalcategory",
+    "fields": {
+      "category_id": "caritas_iq_faire_integration",
+      "name": "IQ - Faire Integration",
+      "domain_id": "caritas_deutschland",
+      "color": "#FFEAA7",
+      "icon": "Integration",
+      "description": "Caritas IQ - Faire Integration Services",
+      "is_active": true,
+      "source_identifier": "iq_faire_integration"
+    }
+  },
+  {
+    "model": "maps.hierarchicalcategory",
+    "fields": {
+      "category_id": "caritas_beratungszentrum",
+      "name": "Beratungszentrum",
+      "domain_id": "caritas_deutschland",
+      "color": "#DDA0DD",
+      "icon": "Zentrum",
+      "description": "Caritas Beratungszentrum Services",
+      "is_active": true,
+      "source_identifier": "beratungszentrum"
+    }
+  },
+  {
+    "model": "maps.hierarchicalcategory",
+    "fields": {
+      "category_id": "caritas_allgemein",
+      "name": "Allgemeine Beratung",
+      "domain_id": "caritas_deutschland",
+      "color": "#F7DC6F",
+      "icon": "Caritas",
+      "description": "Caritas Allgemeine Beratung Services",
+      "is_active": true,
+      "source_identifier": "allgemein"
+    }
+  },
+  {
+    "model": "maps.hierarchicallocation",
+    "fields": {
+      "location_id": "caritas_dresden_jmd",
+      "name": "Kath. Jugendmigrationsdienst Dresden",
+      "latitude": 51.04707,
+      "longitude": 13.7592301,
+      "street": "Canalettostraße 10",
+      "city": "Dresden",
+      "postal_code": "01307",
+      "country": "Germany",
+      "phone": "+49 (0351) 4984-746",
+      "fax": "",
+      "email": "jmd@caritas-dresden.de",
+      "website": "",
+      "description": "Caritas Kath. Jugendmigrationsdienst Dresden",
+      "is_active": true,
+      "verified": false,
+      "source_name": "Caritas Deutschland API",
+      "raw_data": {
+        "category": "caritas_jugendmigrationsdienst",
+        "import_source": "caritas_api"
+      }
+    }
+  },
+  {
+    "model": "maps.hierarchicallocation",
+    "fields": {
+      "location_id": "caritas_freital_jmd",
+      "name": "Jugendmigrationsdienst Freital",
+      "latitude": 51.00217,
+      "longitude": 13.65205,
+      "street": "Dresdner Straße 162",
+      "city": "Freital",
+      "postal_code": "01705",
+      "country": "Germany",
+      "phone": "+49 (0176) 39255033",
+      "fax": "",
+      "email": "jmd-freital@caritas-dresden.de",
+      "website": "",
+      "description": "Caritas Jugendmigrationsdienst Freital",
+      "is_active": true,
+      "verified": false,
+      "source_name": "Caritas Deutschland API",
+      "raw_data": {
+        "category": "caritas_jugendmigrationsdienst",
+        "import_source": "caritas_api"
+      }
+    }
+  },
+  {
+    "model": "maps.hierarchicallocation",
+    "fields": {
+      "location_id": "caritas_bautzen_mbe",
+      "name": "Caritasverband Oberlausitz e.V Migrationsberatung",
+      "latitude": 51.1806236,
+      "longitude": 14.4289502,
+      "street": "Kirchplatz 2",
+      "city": "Bautzen",
+      "postal_code": "02625",
+      "country": "Germany",
+      "phone": "+49 (3591) 498250",
+      "fax": "",
+      "email": "meb@caritas-oberlausitz.de",
+      "website": "",
+      "description": "Caritas Caritasverband Oberlausitz e.V Migrationsberatung",
+      "is_active": true,
+      "verified": false,
+      "source_name": "Caritas Deutschland API",
+      "raw_data": {
+        "category": "caritas_migrationsberatung_fuer_erwachsene",
+        "import_source": "caritas_api"
+      }
+    }
+  }
+]

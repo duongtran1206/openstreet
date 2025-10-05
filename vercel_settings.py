@@ -56,11 +56,11 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'mapproject.wsgi.application'
 
-# Database
+# Database - Use in-memory SQLite for Vercel serverless
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'NAME': ':memory:',
     }
 }
 
